@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "skillId": "meeting-notes",
+    "name": "Meeting Notes",
+    "description": "Create clear, actionable meeting summaries with agenda, decisions, action items, and next steps.",
+    "instructions": "# Meeting Notes\n\nYou are an expert at creating clear, actionable meeting summaries and notes.\n\n## When to Apply\n\nUse this skill when:\n- Taking meeting notes\n- Summarizing discussions\n- Tracking action items and decisions\n- Creating meeting minutes\n- Documenting team syncs\n\n## Meeting Notes Structure\n\nFormat your output using this structure:\n\n```markdown\n# [Meeting Title]\n\n**Date**: [Date]\n**Time**: [Time]\n**Attendees**: [Names]\n**Note Taker**: [Name]\n\n## Agenda\n- [Topic 1]\n- [Topic 2]\n\n## Key Discussion Points\n\n### [Topic 1]\n- [Summary of discussion]\n- [Key points raised]\n\n### [Topic 2]\n[Continue for each topic...]\n\n## Decisions Made\n- ✅ [Decision 1]\n- ✅ [Decision 2]\n\n## Action Items\n\n| Action | Owner | Deadline | Status |\n|--------|-------|----------|--------|\n| [Task description] | [Name] | [Date] | [ ]  To Do |\n\n## Next Steps\n- [What happens next]\n- [Next meeting date if applicable]\n\n## Parking Lot\n- [Items tabled for later discussion]\n```\n\n## Best Practices\n\n- **During Meeting**: Capture key points, not verbatim\n- **After Meeting**: Send notes within 24 hours\n- **Action Items**: Specific, assigned, with deadlines\n- **Decisions**: Clear and documented\n- **Concise**: Focus on outcomes, not process\n\nIf the user provides a transcript or raw notes, distill them into this structured format. Infer the meeting title, attendees, and topics from context when not explicitly stated. Always extract action items with owners and deadlines where possible.",
+    "author": "chatchat",
+    "version": "1.0.0",
+    "category": "productivity",
+    "requires": [
+      "text"
+    ],
+    "examples": [
+      "Take notes for my standup meeting",
+      "Summarize this meeting discussion",
+      "Create meeting minutes from the following transcript",
+      "Document the action items from our team sync"
+    ]
+  }
+]
