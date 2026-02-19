@@ -1,0 +1,96 @@
+name: Build Skills Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build index.json
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const skillsDir = path.join(process.cwd(), 'skills');
+          const skills = [];
+
+          if (!fs.existsSync(skillsDir)) {
+            fs.writeFileSync('index.json', JSON.stringify([], null, 2));
+            process.exit(0);
+          }
+
+          const dirs = fs.readdirSync(skillsDir, { withFileTypes: true })
+            .filter(d => d.isDirectory());
+
+          for (const dir of dirs) {
+            const skillFile = path.join(skillsDir, dir.name, 'SKILL.md');
+            if (!fs.existsSync(skillFile)) continue;
+
+            const content = fs.readFileSync(skillFile, 'utf8');
+            const fmMatch = content.match(/^---\s*([\s\S]*?)\s*---\s*/);
+            if (!fmMatch) continue;
+
+            const fm = {};
+            let currentKey = null;
+            for (const line of fmMatch[1].split(/\r?\n/)) {
+              if (!line.trim()) continue;
+              const arrMatch = line.match(/^\s*-\s+(.*)$/);
+              if (arrMatch && currentKey) {
+                if (!Array.isArray(fm[currentKey])) fm[currentKey] = [];
+                fm[currentKey].push(arrMatch[1].trim());
+                continue;
+              }
+              const kvMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+              if (!kvMatch) continue;
+              const key = kvMatch[1];
+              const val = kvMatch[2];
+              if (val === '') {
+                fm[key] = [];
+                currentKey = key;
+              } else {
+                fm[key] = val.replace(/^['\"]|['\"]$/g, '');
+                currentKey = null;
+              }
+            }
+
+            const body = content.slice(fmMatch[0].length).trim();
+
+            skills.push({
+              skillId: fm.id || dir.name,
+              name: fm.name || dir.name,
+              description: fm.description || '',
+              instructions: body,
+              author: fm.author || 'community',
+              version: fm.version || '1.0.0',
+              category: fm.category || 'other',
+              requires: Array.isArray(fm.requires) ? fm.requires : [],
+              examples: Array.isArray(fm.examples) ? fm.examples : [],
+            });
+          }
+
+          skills.sort((a, b) => a.name.localeCompare(b.name));
+          fs.writeFileSync('index.json', JSON.stringify(skills, null, 2));
+          console.log('Built index.json with ' + skills.length + ' skills');
+          "
+
+      - name: Commit index.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git diff --cached --quiet || git commit -m "chore: rebuild skills index"
+          git push

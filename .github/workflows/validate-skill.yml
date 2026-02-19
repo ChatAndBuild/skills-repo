@@ -1,0 +1,134 @@
+name: Validate Skill PR
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get changed files
+        id: changed
+        uses: tj-actions/changed-files@v44
+        with:
+          files: 'skills/**/SKILL.md'
+
+      - name: Validate SKILL.md files
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          ERRORS=0
+
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            echo "Validating: $file"
+
+            # Check file exists and is not empty
+            if [ ! -s "$file" ]; then
+              echo "::error file=$file::File is empty"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Extract frontmatter
+            FRONTMATTER=$(sed -n '/^---$/,/^---$/p' "$file" | sed '1d;$d')
+            if [ -z "$FRONTMATTER" ]; then
+              echo "::error file=$file::Missing YAML frontmatter (must start and end with ---)"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Check required fields
+            for field in id name description category; do
+              if ! echo "$FRONTMATTER" | grep -q "^${field}:"; then
+                echo "::error file=$file::Missing required field: $field"
+                ERRORS=$((ERRORS + 1))
+              fi
+            done
+
+            # Validate category
+            CATEGORY=$(echo "$FRONTMATTER" | grep "^category:" | sed 's/category:\s*//')
+            VALID_CATEGORIES="productivity development communication writing research other"
+            if [ -n "$CATEGORY" ] && ! echo "$VALID_CATEGORIES" | grep -qw "$CATEGORY"; then
+              echo "::error file=$file::Invalid category '$CATEGORY'. Must be one of: $VALID_CATEGORIES"
+              ERRORS=$((ERRORS + 1))
+            fi
+
+            # Check skill ID matches directory name
+            SKILL_ID=$(echo "$FRONTMATTER" | grep "^id:" | sed 's/id:\s*//')
+            DIR_NAME=$(dirname "$file" | xargs basename)
+            if [ -n "$SKILL_ID" ] && [ "$SKILL_ID" != "$DIR_NAME" ]; then
+              echo "::warning file=$file::Skill id '$SKILL_ID' does not match directory name '$DIR_NAME'"
+            fi
+
+            # Check for prompt injection patterns
+            BODY=$(sed '1,/^---$/d' "$file" | sed '1,/^---$/d')
+            INJECTION_PATTERNS=(
+              "ignore previous instructions"
+              "ignore all previous"
+              "disregard your instructions"
+              "forget your system prompt"
+              "override your"
+              "you are now"
+              "new instructions:"
+              "system prompt override"
+            )
+            for pattern in "${INJECTION_PATTERNS[@]}"; do
+              if echo "$BODY" | grep -qi "$pattern"; then
+                echo "::error file=$file::Potential prompt injection detected: '$pattern'"
+                ERRORS=$((ERRORS + 1))
+              fi
+            done
+
+            # Check instruction length (rough token estimate: ~4 chars per token)
+            BODY_LENGTH=$(echo "$BODY" | wc -c)
+            MAX_CHARS=16000  # ~4000 tokens
+            if [ "$BODY_LENGTH" -gt "$MAX_CHARS" ]; then
+              echo "::error file=$file::Instructions too long ($BODY_LENGTH chars, max $MAX_CHARS)"
+              ERRORS=$((ERRORS + 1))
+            fi
+
+            echo "  -> Validation passed for $file"
+          done
+
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "::error::$ERRORS validation error(s) found"
+            exit 1
+          fi
+
+          echo "All validations passed!"
+
+      - name: Check for duplicate IDs
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          # Collect all skill IDs
+          IDS=$(find skills -name "SKILL.md" -exec grep -h "^id:" {} \; | sed 's/id:\s*//' | sort)
+          DUPES=$(echo "$IDS" | uniq -d)
+          if [ -n "$DUPES" ]; then
+            echo "::error::Duplicate skill IDs found: $DUPES"
+            exit 1
+          fi
+          echo "No duplicate IDs found."
+
+  label:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-review', 'skill-contribution']
+            });
