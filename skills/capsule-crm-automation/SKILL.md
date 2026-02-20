@@ -2,7 +2,7 @@
 id: capsule-crm-automation
 name: Capsule Crm Automation
 description: Automate Capsule CRM operations -- manage contacts (parties), run structured filter queries, track tasks and projects, log entries, and handle organizations -- using natural language through the Compo.
-category: Development & Code Tools
+category: productivity
 source: composio
 tags: [api, cli, mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/capsule-crm-automation

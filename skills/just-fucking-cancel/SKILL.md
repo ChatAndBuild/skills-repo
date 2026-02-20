@@ -5,7 +5,7 @@ version: 1.2.0
 description: Find and cancel unwanted subscriptions by analyzing bank transactions. Detects recurring charges, calculates annual waste, and provides cancel URLs. CSV-based analysis with optional Plaid integration for ClawdBot users.
 author: ClawdBot
 attribution: Originally created by rohunvora (https://github.com/rohunvora/just-fucking-cancel)
-category: finance
+category: productivity
 tags:
   - subscriptions
   - cancel

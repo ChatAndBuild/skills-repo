@@ -2,7 +2,7 @@
 id: ramp-automation
 name: Ramp Automation
 description: "Ramp Automation: manage corporate card transactions, reimbursements, users, and expense tracking via the Ramp platform."
-category: Development & Code Tools
+category: productivity
 source: composio
 tags: [cli, mcp, automation, ai, llm]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/ramp-automation

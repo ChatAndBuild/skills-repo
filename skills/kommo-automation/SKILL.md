@@ -2,7 +2,7 @@
 id: kommo-automation
 name: Kommo Automation
 description: Automate Kommo CRM operations -- manage leads, pipelines, pipeline stages, tasks, and custom fields -- using natural language through the Composio MCP integration.
-category: Development & Code Tools
+category: productivity
 source: composio
 tags: [cli, mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/kommo-automation
