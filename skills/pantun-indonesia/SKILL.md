@@ -1,6 +1,6 @@
 ---
 id: pantun-indonesia
-name: pantun-indonesia
+name: Pantun Indonesia
 description: Generate Indonesian pantun in a traditional structure.
 category: writing
 ---

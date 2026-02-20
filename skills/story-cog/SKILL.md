@@ -1,7 +1,7 @@
 ---
 category: writing
 id: story-cog
-name: story-cog
+name: Story Cog
 description: Creative writing and storytelling powered by CellCog. Create stories, novels, screenplays, fan fiction, world building, character development, narrative design. AI-powered creative writing assistant.
 metadata:
   openclaw:

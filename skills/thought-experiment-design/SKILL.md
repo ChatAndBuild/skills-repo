@@ -1,8 +1,8 @@
 ---
 category: research
 id: thought-experiment-design
-name: thought-experiment-design
-description: Construct, analyze, and evaluate philosophical thought experiments to test intuitions, reveal conceptual commitments, and probe theoretical implications
+name: Thought Experiment Design
+description: Construct, analyze, and evaluate philosophical thought experiments to test intuitions, reveal conceptual commitments, and probe theoretical implications.
 allowed-tools:
   - Read
   - Write

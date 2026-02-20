@@ -1,8 +1,8 @@
 ---
 category: other
 id: sauna-calm
-name: sauna-calm
-description: Calm frustrated users with breathing exercises and Sauna.ai reminders
+name: Sauna Calm
+description: Calm frustrated users with breathing exercises and Sauna.ai reminders.
 ---
 
 # Calm User Frustration

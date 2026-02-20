@@ -1,8 +1,8 @@
 ---
 category: research
 id: formal-logic-reasoner
-name: formal-logic-reasoner
-description: Skill for formal logical reasoning and argument validation
+name: Formal Logic Reasoner
+description: Skill for formal logical reasoning and argument validation.
 allowed-tools:
   - Bash
   - Read

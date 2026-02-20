@@ -1,8 +1,8 @@
 ---
 category: other
 id: daily-motivation
-name: daily-motivation
-description: Get daily motivation with personalized encouragement, goal reminders, and momentum tracking
+name: Daily Motivation
+description: Get daily motivation with personalized encouragement, goal reminders, and momentum tracking.
 author: clawd-team
 version: 1.0.0
 triggers:

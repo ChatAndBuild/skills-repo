@@ -1,8 +1,8 @@
 ---
 category: development
 id: remotion-best-practices
-name: remotion-best-practices
-description: Best practices for Remotion - Video creation in React
+name: Remotion Best Practices
+description: Best practices for Remotion - Video creation in React.
 metadata:
   tags: remotion, video, react, animation, composition
 ---

@@ -1,8 +1,8 @@
 ---
 category: writing
 id: write-tbp
-name: write-tbp
-description: Writing technical blog posts about tldraw features and implementation details. Use when creating blog content about how tldraw solves interesting problems.
+name: Write Tbp
+description: Writing technical blog posts about tldraw features and implementation details.
 ---
 
 # Write technical blog post

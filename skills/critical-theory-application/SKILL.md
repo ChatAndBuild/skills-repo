@@ -1,8 +1,8 @@
 ---
 category: research
 id: critical-theory-application
-name: critical-theory-application
-description: Apply theoretical frameworks (postcolonial, feminist, Marxist, post-structuralist) to cultural texts and phenomena
+name: Critical Theory Application
+description: Apply theoretical frameworks (postcolonial, feminist, Marxist, post-structuralist) to cultural texts and phenomena.
 allowed-tools: Read, Grep, Write, Edit, Glob, WebFetch
 ---
 

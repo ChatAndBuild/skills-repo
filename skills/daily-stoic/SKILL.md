@@ -1,8 +1,8 @@
 ---
 category: other
 id: daily-stoic
-name: daily-stoic
-description: Send daily Stoic philosophy quotes from "The Daily Stoic" by Ryan Holiday. Use when setting up daily wisdom reminders via email or Telegram, or when a user wants stoic quotes for a specific date. Supports all 366 days with title, quote, and reflection.
+name: Daily Stoic
+description: Send daily Stoic philosophy quotes from "The Daily Stoic" by Ryan Holiday.
 ---
 
 # Daily Stoic

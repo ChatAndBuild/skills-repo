@@ -1,7 +1,7 @@
 ---
 category: other
-description: "What it does + when to use (activation triggers)."
-name: skill-name
+description: What it does + when to use (activation triggers).
+name: Skill Name
 id: skill-name
 नाम: क्लाउड-कौशल
 विवरण: "क्लाउड कौशल मेटा-कौशल: डोमेन सामग्री (दस्तावेज़/एपीआई/कोड/स्पेस) को एक पुन: प्रयोज्य कौशल (SKILL.md + संदर्भ/स्क्रिप्ट/संपत्ति) में निकालें, और स्पष्टता, सक्रियण विश्वसनीयता और गुणवत्ता द्वार के लिए मौजूदा कौशल को दोबारा तैयार करें।"

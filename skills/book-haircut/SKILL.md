@@ -1,8 +1,8 @@
 ---
 category: other
 id: book-haircut
-name: book-haircut
-description: Book haircut services through Lokuli MCP. Use when user needs to find and book haircut. Triggers on requests like "book a haircut", "find haircut near me", or any haircut service request.
+name: Book Haircut
+description: Book haircut services through Lokuli MCP.
 ---
 
 # uook haircut

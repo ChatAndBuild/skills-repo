@@ -2,7 +2,7 @@
 category: other
 id: council
 name: Council
-description: Multi-agent debate system. USE WHEN council, debate, perspectives, agents discuss. SkillSearch('council') for docs.
+description: Help with council tasks and questions.
 implements: Science
 science_cycle_time: meso
 ---

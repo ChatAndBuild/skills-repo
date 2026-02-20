@@ -2,7 +2,7 @@
 category: other
 id: aphorisms
 name: Aphorisms
-description: Aphorism management. USE WHEN aphorism, quote, saying. SkillSearch('aphorisms') for docs.
+description: Help with aphorisms tasks and questions.
 ---
 
 ## Customization

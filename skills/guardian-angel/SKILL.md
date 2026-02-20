@@ -1,10 +1,10 @@
 ---
 category: research
 id: guardian-angel
-name: guardian-angel
+name: Guardian Angel
 version: 3.1.2
 summary: A virtue-based moral conscience for AI agents, grounded in Thomistic virtue ethics and love (caritas). Helps agents act prudently on behalf of their principals.
-description: |
+description: Help with guardian angel tasks and questions.
   Guardian Angel gives AI agents a moral conscience rooted in Thomistic virtue ethics.
   Rather than relying solely on rule lists, it cultivates stable virtuous dispositions—
   prudence, justice, fortitude, temperance—that guide every interaction.

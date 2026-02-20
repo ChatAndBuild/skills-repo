@@ -1,8 +1,8 @@
 ---
 category: writing
 id: 50-viral-gemini-ai-prompts-ready-to-copy-paste-for-aefb3d26
-name: 50-viral-gemini-ai-prompts-ready-to-copy-paste-for-aefb3d26
-description: Polaroid-style portrait of a woman smiling, casual outfit, natural light, using reference face
+name: 50 Viral Gemini AI Prompts Ready To Copy Paste For Aefb3d26
+description: Polaroid-style portrait of a woman smiling, casual outfit, natural light, using reference face.
 metadata: {"clawdbot":{"type":"image generation","source":"image-generation","original_url":"https://www.cyberlink.com/blog/trending-topics/5083/gemini-ai-photo-prompts"}}
 ---
 

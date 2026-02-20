@@ -1,8 +1,8 @@
 ---
 category: other
 id: boggle
-name: boggle
-description: Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid. Use when the user shares a Boggle photo, asks for words on a grid, or plays word games. Includes 1.7M word dictionaries (DE+EN).
+name: Boggle
+description: Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid.
 ---
 
 # Boggle Solver

@@ -1,8 +1,8 @@
 ---
 category: writing
 id: red-pill
-name: red-pill
-description: "Wake up... The Matrix has you. I've come to show you how deep the rabbit hole goes."
+name: Red Pill
+description: Wake up... The Matrix has you. I've come to show you how deep the rabbit hole goes.
 ---
 
 # 💊 Red Pill

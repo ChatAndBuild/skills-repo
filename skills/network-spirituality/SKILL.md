@@ -1,8 +1,8 @@
 ---
 category: other
 id: network-spirituality
-name: network-spirituality
-description: Embody and create content in the Network Spirituality aesthetic — the Remilia/Milady cultural movement blending Y2K net art, anime, cyber-spiritualism, and post-ironic sincerity. Use when creating art descriptions, writing in this voice, engaging with Wired aesthetics, or channeling the Remilia collective energy.
+name: Network Spirituality
+description: Embody and create content in the Network Spirituality aesthetic — the Remilia/Milady cultural movement blending Y2K net art, anime, cyber-spiritualism, and post-ironic sincerity.
 ---
 
 # Network Spirituality

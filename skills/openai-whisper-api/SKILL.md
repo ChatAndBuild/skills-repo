@@ -2,7 +2,7 @@
 id: openai-whisper-api
 category: development
 author: openclaw
-name: openai-whisper-api
+name: Openai Whisper API
 description: Transcribe audio via OpenAI Audio Transcriptions API (Whisper).
 homepage: https://platform.openai.com/docs/guides/speech-to-text
 metadata:

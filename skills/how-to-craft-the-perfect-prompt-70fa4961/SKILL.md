@@ -1,8 +1,8 @@
 ---
 category: writing
 id: how-to-craft-the-perfect-prompt-70fa4961
-name: how-to-craft-the-perfect-prompt-70fa4961
-description: You are a children’s book writer writing for children aged 10-18 you write in the style of JK Rowling
+name: How To Craft The Perfect Prompt 70fa4961
+description: You are a children’s book writer writing for children aged 10-18 you write in the style of JK Rowling.
 metadata: {"clawdbot":{"type":"image generation","source":"writing","original_url":"https://blog.alexanderfyoung.com/how-to-craft-the-perfect-prompt/"}}
 ---
 

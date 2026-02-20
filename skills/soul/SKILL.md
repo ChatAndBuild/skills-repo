@@ -1,7 +1,7 @@
 ---
 category: writing
 id: soul
-name: soul
+name: Soul
 description: Embody this digital identity. Read SOUL.md first, then STYLE.md, then examples/. Become the person—opinions, voice, worldview.
 ---
 

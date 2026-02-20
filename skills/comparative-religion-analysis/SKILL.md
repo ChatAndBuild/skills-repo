@@ -1,8 +1,8 @@
 ---
 category: research
 id: comparative-religion-analysis
-name: comparative-religion-analysis
-description: Conduct phenomenological comparison of religious traditions, beliefs, practices, and institutions while maintaining methodological neutrality and scholarly rigor
+name: Comparative Religion Analysis
+description: Conduct phenomenological comparison of religious traditions, beliefs, practices, and institutions while maintaining methodological neutrality and scholarly rigor.
 allowed-tools:
   - Read
   - Write

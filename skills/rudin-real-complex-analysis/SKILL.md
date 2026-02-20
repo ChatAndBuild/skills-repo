@@ -1,8 +1,8 @@
 ---
 category: research
 id: rudin-real-complex-analysis
-name: rudin-real-complex-analysis
-description: Problem-solving with Rudin's Real and Complex Analysis textbook
+name: Rudin Real Complex Analysis
+description: Problem-solving with Rudin's Real and Complex Analysis textbook.
 allowed-tools: [Bash, Read]
 ---
 

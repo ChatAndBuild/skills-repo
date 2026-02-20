@@ -1,8 +1,8 @@
 ---
 category: research
 id: bioethics-deliberation
-name: bioethics-deliberation
-description: Apply bioethical principles (autonomy, beneficence, non-maleficence, justice) and case-based reasoning to healthcare decisions, research protocols, and clinical dilemmas
+name: Bioethics Deliberation
+description: Apply bioethical principles (autonomy, beneficence, non-maleficence, justice) and case-based reasoning to healthcare decisions, research protocols, and clinical dilemmas.
 allowed-tools:
   - Read
   - Write

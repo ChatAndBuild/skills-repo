@@ -1,9 +1,9 @@
 ---
 category: writing
 id: hugo-blog-agent
-name: hugo-blog-agent
+name: Hugo Blog Agent
 version: 1.0.0
-description: エージェント読者に最適化されたHugoブログの構築
+description: エージェント読者に最適化されたHugoブログの構築.
 ---
 
 # Hugoブログ・エージェント最適化

@@ -2,7 +2,7 @@
 id: nano-pdf
 category: productivity
 author: openclaw
-name: nano-pdf
+name: Nano PDF
 description: Edit PDFs with natural-language instructions using the nano-pdf CLI.
 homepage: https://pypi.org/project/nano-pdf/
 metadata:

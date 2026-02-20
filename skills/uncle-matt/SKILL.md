@@ -3,7 +3,7 @@ category: writing
 id: uncle-matt
 name: Uncle Matt
 slug: uncle-matt
-description: "Uncle Matt is your favorite internet uncle who stops you from doing really stupid shit while keeping secrets safe."
+description: Uncle Matt is your favorite internet uncle who stops you from doing really stupid shit while keeping secrets safe.
 version: 2.420.69
 homepage: "https://bobsturtletank.fun"
 x: "https://x.com/unc_matteth"

@@ -1,8 +1,8 @@
 ---
 category: other
 id: math-slop
-name: math-slop
-description: Generate satirical "math slop" ragebait formulas that connect famous constants (φ, π, e, i) in trivially true but profound-looking equations. Outputs LaTeX. Use for math memes or when someone asks for "math slop."
+name: Math Slop
+description: Generate satirical "math slop" ragebait formulas that connect famous constants (φ, π, e, i) in trivially true but profound-looking equations. Outputs LaTeX. Use for math memes or when someone asks for "math slop.
 ---
 
 # Math Slop Generator

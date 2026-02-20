@@ -1,7 +1,7 @@
 ---
 category: research
 id: republic-no-masters
-name: republic-no-masters
+name: Republic No Masters
 description: Explain, summarize, analyze, or adapt the "Republic with No Masters" / Democratic Formalism governance framework when asked to produce content, guidance, critiques, FAQs, or implementation ideas based on the manifesto in principles.md.
 ---
 

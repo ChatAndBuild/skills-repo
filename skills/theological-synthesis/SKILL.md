@@ -1,8 +1,8 @@
 ---
 category: research
 id: theological-synthesis
-name: theological-synthesis
-description: Integrate scriptural, traditional, and rational sources to formulate coherent theological positions, addressing doctrinal questions within systematic frameworks
+name: Theological Synthesis
+description: Integrate scriptural, traditional, and rational sources to formulate coherent theological positions, addressing doctrinal questions within systematic frameworks.
 allowed-tools:
   - Read
   - Write

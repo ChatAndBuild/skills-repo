@@ -1,8 +1,8 @@
 ---
 category: writing
 id: beautiful-prose
-name: beautiful-prose
-description: "Hard-edged writing style contract for timeless, forceful English prose without AI tics"
+name: Beautiful Prose
+description: Hard-edged writing style contract for timeless, forceful English prose without AI tics.
 source: "https://github.com/SHADOWPR0/beautiful_prose"
 risk: safe
 ---

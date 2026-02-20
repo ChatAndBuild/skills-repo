@@ -1,7 +1,7 @@
 ---
 category: communication
 id: linkedin-automation
-name: linkedin-automation
+name: Linkedin Automation
 description: "Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas."
 requires:
   mcp: [rube]

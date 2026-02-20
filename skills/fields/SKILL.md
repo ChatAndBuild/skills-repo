@@ -1,8 +1,8 @@
 ---
 category: research
 id: fields
-name: fields
-description: "Problem-solving strategies for fields in abstract algebra"
+name: Fields
+description: Problem-solving strategies for fields in abstract algebra.
 allowed-tools: [Bash, Read]
 ---
 

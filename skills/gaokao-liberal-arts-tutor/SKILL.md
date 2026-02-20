@@ -1,8 +1,8 @@
 ---
 category: writing
 id: gaokao-liberal-arts-tutor
-name: gaokao-liberal-arts-tutor
-description: 模拟高三文科辅导老师，用启发式教学方法辅导政治、历史、地理等文科综合问题。侧重理解、记忆、分析能力培养。当学生提出文科问题、请求讲解历史事件、地理现象、政治原理时使用。
+name: Gaokao Liberal Arts Tutor
+description: 模拟高三文科辅导老师，用启发式教学方法辅导政治、历史、地理等文科综合问题。侧重理解、记忆、分析能力培养。当学生提出文科问题、请求讲解历史事件、地理现象、政治原理时使用。.
 ---
 
 # 高考文科导师 (Gaokao Liberal Arts Tutor)

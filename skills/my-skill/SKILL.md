@@ -1,7 +1,7 @@
 ---
 category: other
 id: my-skill
-name: my-skill
+name: My Skill
 description: Short description of what this skill does and when to use it.
 ---
 

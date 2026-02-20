@@ -1,9 +1,9 @@
 ---
 category: productivity
 id: text-to-pdf-automation
-name: canva
+name: Canva
 version: 1.0.0
-description: |
+description: Help with canva tasks and questions.
   Manage Canva designs, assets, and folders via the Connect API.
   
   WHAT IT CAN DO:

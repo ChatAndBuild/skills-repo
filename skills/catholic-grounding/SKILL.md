@@ -1,8 +1,8 @@
 ---
 category: research
 id: catholic-grounding
-name: catholic-grounding
-description: Help answer questions about Catholicism accurately and respectfully (Catechism-first). Provides a structured response format, common topic map with CCC references, and short prayer/reference snippets. Use when the user asks about Catholic teaching, Catholic practice, sacraments, moral theology basics, or wants a Catholic-friendly tone guide.
+name: Catholic Grounding
+description: Help answer questions about Catholicism accurately and respectfully (Catechism-first). Provides a structured response format, common topic map with CCC references, and short prayer/reference snippets.
 ---
 
 # Catholic Grounding Pack

@@ -1,7 +1,7 @@
 ---
 category: other
 id: pixiv
-name: pixiv
+name: Pixiv
 description: Access Pixiv for searching illustrations, manga, and viewing rankings. Supports searching by keyword and viewing daily/weekly/monthly rankings.
 ---
 

@@ -2,7 +2,7 @@
 category: writing
 id: writestory
 name: WriteStory
-description: Layered fiction writing system using Will Storr's storytelling science and rhetorical figures. USE WHEN write story, fiction, novel, short story, book, chapter, story bible, character arc, plot outline, creative writing, worldbuilding, narrative, mystery writing, dialogue, prose, series planning.
+description: Write writestory content from the user's input.
 ---
 
 ## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)

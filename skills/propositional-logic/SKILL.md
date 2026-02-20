@@ -1,8 +1,8 @@
 ---
 category: research
 id: propositional-logic
-name: propositional-logic
-description: "Problem-solving strategies for propositional logic in mathematical logic"
+name: Propositional Logic
+description: Problem-solving strategies for propositional logic in mathematical logic.
 allowed-tools: [Bash, Read]
 ---
 

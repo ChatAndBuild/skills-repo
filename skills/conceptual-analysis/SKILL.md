@@ -1,8 +1,8 @@
 ---
 category: research
 id: conceptual-analysis
-name: conceptual-analysis
-description: Analyze philosophical concepts through examination of necessary and sufficient conditions, identify counterexamples, clarify conceptual boundaries, and resolve ambiguities
+name: Conceptual Analysis
+description: Analyze philosophical concepts through examination of necessary and sufficient conditions, identify counterexamples, clarify conceptual boundaries, and resolve ambiguities.
 allowed-tools:
   - Read
   - Write

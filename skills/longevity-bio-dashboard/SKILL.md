@@ -1,8 +1,8 @@
 ---
 category: other
 id: longevity-bio-dashboard
-name: longevity-bio-dashboard
-description: Longevity tracker dashboard: NMN/senolytics/Yamanaka stacks, fasting/plasma reminders (cron), sats-secured family ledger. Web_search trials, canvas viz progress/BOMs. Use for: (1) Daily biohacks, (2) Trial alerts, (3) Health ledger, (4) 200yr lifespan protocols.
+name: Longevity Bio Dashboard
+description: "Longevity tracker dashboard: NMN/senolytics/Yamanaka stacks, fasting/plasma reminders (cron), sats-secured family ledger. Web_search trials, canvas viz progress/BOMs. Use for: (1) Daily biohacks, (2) Trial alerts, (3) Health ledger, (4) 200yr lifespan protocols."
 ---
 
 # Longevity Bio-Dashboard

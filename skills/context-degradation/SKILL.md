@@ -1,8 +1,8 @@
 ---
 category: writing
 id: context-degradation
-name: context-degradation
-description: "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash"
+name: Context Degradation
+description: "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash."
 source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation"
 risk: safe
 ---

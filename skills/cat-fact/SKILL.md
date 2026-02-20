@@ -2,7 +2,7 @@
 category: other
 id: cat-fact
 name: Cat Fact
-description: Random cat facts and breed information from catfact.ninja (free, no API key)
+description: Random cat facts and breed information from catfact.ninja (free, no API key).
 read_when:
   - Wanting random cat facts
   - Looking up cat breeds

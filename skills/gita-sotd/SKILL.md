@@ -1,8 +1,8 @@
 ---
 category: other
 id: gita-sotd
-name: gita-sotd
-description: >
+name: Gita Sotd
+description: Help with gita sotd tasks and questions.
   Get the Bhagavad Gita Slok of the Day (SOTD) or fetch specific verses.
   Use when the user asks for a Gita verse, slok, daily wisdom from the Gita,
   Hindu scripture quotes, or anything related to the Bhagavad Gita text.

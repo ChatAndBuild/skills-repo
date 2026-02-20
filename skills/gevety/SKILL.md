@@ -1,9 +1,9 @@
 ---
 category: other
 id: gevety
-name: gevety
+name: Gevety
 version: 1.5.0
-description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, and upcoming tests
+description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, and upcoming tests.
 homepage: https://gevety.com
 user-invocable: true
 command: gevety

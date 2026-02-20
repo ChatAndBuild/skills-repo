@@ -1,8 +1,8 @@
 ---
 category: other
 id: anki-connect-skill
-name: anki-connect-skill
-description: Interact with Anki flashcard decks via the AnkiConnect REST API. Use when the user wants to create, update, search, or manage Anki cards, decks, notes, or models.
+name: Anki Connect Skill
+description: Interact with Anki flashcard decks via the AnkiConnect REST API.
 compatibility: Requires Anki running with the AnkiConnect plugin installed.
 ---
 

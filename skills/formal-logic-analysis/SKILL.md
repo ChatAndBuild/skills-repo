@@ -1,8 +1,8 @@
 ---
 category: research
 id: formal-logic-analysis
-name: formal-logic-analysis
-description: Apply propositional, predicate, and modal logic systems to formalize arguments, construct proofs, and evaluate validity using symbolic notation and truth tables
+name: Formal Logic Analysis
+description: Apply propositional, predicate, and modal logic systems to formalize arguments, construct proofs, and evaluate validity using symbolic notation and truth tables.
 allowed-tools:
   - Read
   - Write

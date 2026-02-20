@@ -1,7 +1,7 @@
 ---
 category: other
 id: liuren
-name: liuren
+name: Liuren
 description: Traditional Chinese "Xiao Liu Ren" divination based on current lunar time.
 metadata: {"clawdbot":{"emoji":"⛩️","always":true,"requires":{"bins":["node"]}}}
 ---

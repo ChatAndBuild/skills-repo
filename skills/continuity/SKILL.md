@@ -1,8 +1,8 @@
 ---
 category: research
 id: continuity
-name: continuity
-description: "Problem-solving strategies for continuity in real analysis"
+name: Continuity
+description: Problem-solving strategies for continuity in real analysis.
 allowed-tools: [Bash, Read]
 ---
 

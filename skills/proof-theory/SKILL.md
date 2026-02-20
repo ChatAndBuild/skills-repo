@@ -1,8 +1,8 @@
 ---
 category: research
 id: proof-theory
-name: proof-theory
-description: "Problem-solving strategies for proof theory in mathematical logic"
+name: Proof Theory
+description: Problem-solving strategies for proof theory in mathematical logic.
 allowed-tools: [Bash, Read]
 ---
 

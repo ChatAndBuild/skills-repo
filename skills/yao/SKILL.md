@@ -1,8 +1,8 @@
 ---
 category: other
 id: yao
-name: yao
-description: 六爻排盘工具，随机生成六爻卦象并进行占卜
+name: Yao
+description: Help with yao tasks and questions.
 metadata:
   clawdbot:
     emoji: 🔯

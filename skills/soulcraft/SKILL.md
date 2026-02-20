@@ -1,8 +1,8 @@
 ---
 category: writing
 id: soulcraft
-name: soulcraft
-description: Create or improve SOUL.md files for OpenClaw agents through guided conversation. Use when designing agent personality, crafting a soul, or saying "help me create a soul". Supports self-improvement.
+name: Soulcraft
+description: Create or improve SOUL.md files for OpenClaw agents through guided conversation.
 metadata: {"openclaw":{"emoji":"🪞"}}
 ---
 

@@ -1,8 +1,8 @@
 ---
 category: research
 id: predicate-logic
-name: predicate-logic
-description: "Problem-solving strategies for predicate logic in mathematical logic"
+name: Predicate Logic
+description: Problem-solving strategies for predicate logic in mathematical logic.
 allowed-tools: [Bash, Read]
 ---
 

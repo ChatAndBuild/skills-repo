@@ -1,9 +1,9 @@
 ---
 category: writing
 id: nsfc-research-foundation-writer
-name: nsfc-research-foundation-writer
+name: NSFC Research Foundation Writer
 version: 0.1.1
-description: 当用户明确要求"写/改研究基础""研究基础+工作条件+风险应对编排"时使用。为 NSFC 正文"（三）研究基础"写作/重构，并同步编排"工作条件"和"研究风险应对"，用证据链证明项目可行、资源条件对位研究内容、风险预案可执行。
+description: 当用户明确要求"写/改研究基础""研究基础+工作条件+风险应对编排"时使用。为 NSFC 正文"（三）研究基础"写作/重构，并同步编排"工作条件"和"研究风险应对"，用证据链证明项目可行、资源条件对位研究内容、风险预案可执行。.
 author: Bensz Conan
 metadata:
   author: Bensz Conan

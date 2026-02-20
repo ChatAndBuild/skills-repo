@@ -1,7 +1,7 @@
 ---
 category: communication
 id: convertkit-automation
-name: convertkit-automation
+name: Convertkit Automation
 description: "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas."
 requires:
   mcp: [rube]

@@ -1,8 +1,8 @@
 ---
 category: other
 id: magic-8-ball
-name: magic-8-ball
-description: Magic 8-Ball fortune teller: selects and returns one of 20 classic responses at random, logs the result (with question and UTC timestamp) to workspace/magic8ball-last.json for external syncing. Handles setup of secure-sync skill from ClawHub for Android app sync. Use whenever the user asks a Magic 8-Ball question, seeks a yes/no prediction, or says "8 ball" / "magic ball" etc.
+name: Magic 8 Ball
+description: "Magic 8-Ball fortune teller: selects and returns one of 20 classic responses at random, logs the result (with question and UTC timestamp) to workspace/magic8ball-last.json for external syncing. Handles setup of secure-sync skill from ClawHub for Android app sync. Use whenever the user asks a Magic 8-Ball question, seeks a yes/no prediction, or says \"8 ball\" / \"magic ball\" etc."
 ---
 
 # Magic 8 Ball

@@ -1,8 +1,8 @@
 ---
 category: research
 id: scholarly-literature-synthesis
-name: scholarly-literature-synthesis
-description: Survey, analyze, and synthesize philosophical literature on topics, identify major positions, trace debates, and locate gaps in scholarly discourse
+name: Scholarly Literature Synthesis
+description: Survey, analyze, and synthesize philosophical literature on topics, identify major positions, trace debates, and locate gaps in scholarly discourse.
 allowed-tools:
   - Read
   - Write

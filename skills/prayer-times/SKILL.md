@@ -1,8 +1,8 @@
 ---
 category: other
 id: prayer-times
-name: prayer-times
-description: Get accurate Islamic prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha) for any location worldwide using official calculation methods. Use when users ask about prayer times, Salat schedules, next prayer, or need to set up automated prayer reminders. Includes automated background reminder system that alerts users 10 minutes before, at prayer time, and 5 minutes after - even during conversations. Supports 20+ country-specific calculation methods including Morocco, Saudi Arabia, Egypt, Turkey, UAE, and more.
+name: Prayer Times
+description: Get accurate Islamic prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha) for any location worldwide using official calculation methods.
 ---
 
 # Prayer Times Skill

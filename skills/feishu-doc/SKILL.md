@@ -2,8 +2,8 @@
 id: feishu-doc
 category: productivity
 author: openclaw
-name: feishu-doc
-description: |
+name: Feishu Doc
+description: Help with feishu doc tasks and questions.
   Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.
 ---
 

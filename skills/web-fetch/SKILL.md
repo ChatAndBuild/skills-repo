@@ -1,7 +1,7 @@
 ---
 category: development
 id: web-fetch
-name: web-fetch
+name: Web Fetch
 description: Fetch and extract readable content from web pages. Use for lightweight page access without browser automation.
 homepage: https://github.com/zhayujie/chatgpt-on-wechat
 metadata:

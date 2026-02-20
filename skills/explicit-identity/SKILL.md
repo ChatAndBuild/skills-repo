@@ -1,8 +1,8 @@
 ---
 category: research
 id: explicit-identity
-name: explicit-identity
-description: Explicit Identity Across Boundaries
+name: Explicit Identity
+description: Explicit Identity Across Boundaries.
 user-invocable: false
 ---
 

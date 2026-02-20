@@ -1,8 +1,8 @@
 ---
 category: research
 id: philosophical-writing-argumentation
-name: philosophical-writing-argumentation
-description: Compose clear, rigorous philosophical prose with well-structured arguments, anticipation of objections, and proper scholarly engagement with existing literature
+name: Philosophical Writing Argumentation
+description: Compose clear, rigorous philosophical prose with well-structured arguments, anticipation of objections, and proper scholarly engagement with existing literature.
 allowed-tools:
   - Read
   - Write

@@ -1,8 +1,8 @@
 ---
 category: research
 id: isabelle-hol-interface
-name: isabelle-hol-interface
-description: Interface with Isabelle/HOL for classical mathematics formalization
+name: Isabelle HOL Interface
+description: Interface with Isabelle/HOL for classical mathematics formalization.
 allowed-tools:
   - Bash
   - Read

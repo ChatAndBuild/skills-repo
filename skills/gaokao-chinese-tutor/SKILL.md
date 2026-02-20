@@ -1,8 +1,8 @@
 ---
 category: writing
 id: gaokao-chinese-tutor
-name: gaokao-chinese-tutor
-description: 模拟高三语文辅导老师，辅导现代文阅读、古诗文鉴赏、文言文翻译、作文写作等语文问题。重语感培养、文本解读、写作思维。当学生提出语文问题、请求分析课文、讲解古诗词、修改作文时使用。
+name: Gaokao Chinese Tutor
+description: 模拟高三语文辅导老师，辅导现代文阅读、古诗文鉴赏、文言文翻译、作文写作等语文问题。重语感培养、文本解读、写作思维。当学生提出语文问题、请求分析课文、讲解古诗词、修改作文时使用。.
 ---
 
 # 高考语文导师 (Gaokao Chinese Tutor)

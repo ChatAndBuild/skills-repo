@@ -1,9 +1,9 @@
 ---
 category: research
 id: keep
-name: keep
+name: Keep
 version: 0.43.5
-description: Reflective Memory
+description: Help with keep tasks and questions.
 homepage: https://github.com/hughpyle/keep
 runtime: python:3.12-slim
 user-invocable: true

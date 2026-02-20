@@ -1,7 +1,7 @@
 ---
 category: other
 id: habit-flow
-name: habit-flow
+name: Habit Flow
 description: AI-powered atomic habit tracker with natural language logging, streak tracking, smart reminders, and coaching. Use for creating habits, logging completions naturally ("I meditated today"), viewing progress, and getting personalized coaching.
 homepage: https://github.com/tralves/habit-flow-skill
 license: MIT

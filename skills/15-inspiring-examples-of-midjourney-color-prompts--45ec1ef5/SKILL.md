@@ -1,7 +1,7 @@
 ---
 category: other
 id: 15-inspiring-examples-of-midjourney-color-prompts--45ec1ef5
-name: 15-inspiring-examples-of-midjourney-color-prompts--45ec1ef5
+name: 15 Inspiring Examples Of Midjourney Color Prompts 45ec1ef5
 description: A nostalgic, vintage-inspired cityscape with a muted, sepia-toned color palette.
 metadata: {"clawdbot":{"type":"image-generation","source":"image-generation","original_url":"https://www.aiarty.com/midjourney-prompts/midjourney-color-prompts.htm","completeness_score":80}}
 ---

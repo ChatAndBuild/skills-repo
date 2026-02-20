@@ -1,8 +1,8 @@
 ---
 category: research
 id: ethical-framework-application
-name: ethical-framework-application
-description: Apply multiple ethical frameworks (deontological, consequentialist, virtue ethics, care ethics) systematically to moral problems and generate reasoned recommendations
+name: Ethical Framework Application
+description: Apply multiple ethical frameworks (deontological, consequentialist, virtue ethics, care ethics) systematically to moral problems and generate reasoned recommendations.
 allowed-tools:
   - Read
   - Write
