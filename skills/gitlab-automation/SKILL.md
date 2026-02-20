@@ -1,8 +1,8 @@
 ---
-category: productivity
+category: development
 id: gitlab-automation
-name: Gitlab Automation
-description: Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas.
+name: GitLab Automation
+description: Support gitlab automation workflows with clear steps and best practices.
 ---
 
 # GitLab CI Patterns

@@ -1,8 +1,8 @@
 ---
-category: productivity
+category: development
 id: summarize-activity
 name: Summarize Activity
-description: Summarize recent GitHub activity — discussions, PRs, issues, events, traffic — into an actionable report so you can stay on top of the project without reading everything.
+description: Support summarize activity workflows with clear steps and best practices.
 disable-model-invocation: true
 allowed-tools: Bash, Read, Task
 argument-hint: "[timeframe: 24h (default), 48h, 7d, 1w]"

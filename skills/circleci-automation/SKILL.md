@@ -1,8 +1,8 @@
 ---
-category: productivity
+category: development
 id: circleci-automation
-name: Circleci Automation
-description: Automate CircleCI pipelines, workflows, and jobs via Rube MCP.
+name: CircleCI Automation
+description: Support circleci automation workflows with clear steps and best practices.
 requires:
   mcp: [rube]
 ---
