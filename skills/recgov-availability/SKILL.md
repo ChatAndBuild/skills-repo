@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: recgov-availability
 name: Recgov Availability
 description: Check campsite availability on recreation.gov for federal campgrounds (National Parks, USFS, BLM). Requires campground ID(s) — get from ridb-search or recreation.gov URLs.

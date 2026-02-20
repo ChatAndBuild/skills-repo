@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: sauna-calm
 name: Sauna Calm
 description: Calm frustrated users with breathing exercises and Sauna.ai reminders.

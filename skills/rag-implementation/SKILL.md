@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: rag-implementation
 name: RAG Implementation
 description: Combine vector and keyword search for improved retrieval.
@@ -18,4 +18,3 @@ Combine vector and keyword search for improved retrieval.
 
 - Summary of goals and plan
 - Key tips and precautions
-

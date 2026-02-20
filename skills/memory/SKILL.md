@@ -2,7 +2,7 @@
 id: memory
 name: Memory
 description: Support memory workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Memory

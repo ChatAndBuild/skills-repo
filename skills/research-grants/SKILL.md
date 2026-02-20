@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: research-grants
 name: Research Grants
 description: Write competitive research proposals for NSF, NIH, DOE, and DARPA. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements.
@@ -19,4 +19,3 @@ Write competitive research proposals for NSF, NIH, DOE, and DARPA. Agency-specif
 
 - Summary of goals and plan
 - Key tips and precautions
-

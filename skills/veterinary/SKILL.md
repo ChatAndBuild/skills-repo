@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: veterinary
 name: Veterinary
 description: Support veterinary understanding from pet care to clinical practice and research.

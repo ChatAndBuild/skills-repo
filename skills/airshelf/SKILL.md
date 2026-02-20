@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: airshelf
 name: Airshelf
 displayName: AirShelf Agentic Commerce Platform

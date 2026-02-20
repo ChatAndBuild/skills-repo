@@ -1,6 +1,6 @@
 ---
 id: nano-pdf
-category: productivity
+category: Content & Media
 author: openclaw
 name: Nano PDF
 description: Edit PDFs with natural-language instructions using the nano-pdf CLI.

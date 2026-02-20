@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: microsoft-teams-automation
 name: Microsoft Teams Automation
 description: "Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas."

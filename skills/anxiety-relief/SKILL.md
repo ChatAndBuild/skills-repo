@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: anxiety-relief
 name: Anxiety Relief
 description: Manage anxiety with grounding exercises, breathing techniques, and thought reframing.

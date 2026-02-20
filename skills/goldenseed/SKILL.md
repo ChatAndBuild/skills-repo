@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: goldenseed
 name: Goldenseed
 description: Deterministic entropy streams for reproducible testing and procedural generation. Perfect 50/50 statistical distribution with hash verification. Not cryptographically secure - use for testing, worldgen, and scenarios where reproducibility matters more than unpredictability.

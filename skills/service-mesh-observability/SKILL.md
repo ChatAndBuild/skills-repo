@@ -2,7 +2,7 @@
 id: service-mesh-observability
 name: Service Mesh Observability
 description: Support service mesh observability workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Service Mesh Observability

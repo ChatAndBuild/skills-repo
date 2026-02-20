@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: safety-system-skill
 name: Safety System Skill
 description: System safety and control-plane skill that prevents agent deadlocks and freezes. Provides non-LLM control commands to inspect task state, flush message queues, cancel long-running work, and recover safely without restarting the container.

@@ -2,7 +2,7 @@
 id: update-docs
 name: Update Docs
 description: Support update docs workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Update Docs

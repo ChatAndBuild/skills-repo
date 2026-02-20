@@ -1,5 +1,5 @@
 ---
-category: development
+category: Content & Media
 id: remotion-best-practices
 name: Remotion Best Practices
 description: Best practices for Remotion - Video creation in React.

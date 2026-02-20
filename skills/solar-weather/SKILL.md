@@ -2,7 +2,7 @@
 id: solar-weather
 name: Solar Weather
 description: Support solar weather workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Solar Weather

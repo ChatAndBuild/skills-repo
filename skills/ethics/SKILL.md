@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: ethics
 name: Ethics
 description: Navigate moral reasoning from personal dilemmas to academic philosophy.

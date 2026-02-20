@@ -2,7 +2,7 @@
 id: cloud-penetration-testing
 name: Cloud Penetration Testing
 description: Support cloud penetration testing workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Cloud Penetration Testing

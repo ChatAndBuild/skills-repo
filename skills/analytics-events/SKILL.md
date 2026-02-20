@@ -2,7 +2,7 @@
 id: analytics-events
 name: Analytics Events
 description: Support analytics events workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Analytics Events

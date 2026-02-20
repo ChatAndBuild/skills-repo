@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: gamma-prod-checklist
 name: Gamma Prod Checklist
 description: Production readiness checklist for Gamma integration.

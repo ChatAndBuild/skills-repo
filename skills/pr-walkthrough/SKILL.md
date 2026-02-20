@@ -2,7 +2,7 @@
 id: pr-walkthrough
 name: PR Walkthrough
 description: Support pr walkthrough workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # PR Walkthrough

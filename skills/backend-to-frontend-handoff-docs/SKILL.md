@@ -2,7 +2,7 @@
 id: backend-to-frontend-handoff-docs
 name: Backend-to-Frontend Handoff Docs
 description: Support backend-to-frontend handoff docs workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Backend To Frontend Handoff Docs

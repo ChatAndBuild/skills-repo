@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: gumroad-admin
 name: Gumroad Admin
 version: 1.0.0

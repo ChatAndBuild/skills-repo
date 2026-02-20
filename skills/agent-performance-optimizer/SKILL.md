@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: agent-performance-optimizer
 name: Agent Performance Optimizer
 description: Agent skill for performance-optimizer - invoke with $agent-performance-optimizer.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: mobile-ios-design
 name: Mobile Ios Design
 description: Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: metabolomics-workbench-database
 name: Metabolomics Workbench Database
 description: Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.

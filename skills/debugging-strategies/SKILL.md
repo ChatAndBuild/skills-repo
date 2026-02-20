@@ -2,7 +2,7 @@
 id: debugging-strategies
 name: Debugging Strategies
 description: Support debugging strategies workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Debugging Strategies

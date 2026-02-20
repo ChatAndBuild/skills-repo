@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: billing-automation
 name: Billing Automation
 description: Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management.
@@ -18,4 +18,3 @@ Build automated billing systems for recurring payments, invoicing, subscription 
 
 - Brief plan or checklist
 - Key recommendations and metrics to track
-

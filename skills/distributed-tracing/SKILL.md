@@ -2,7 +2,7 @@
 id: distributed-tracing
 name: Distributed Tracing
 description: Support distributed tracing workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Distributed Tracing

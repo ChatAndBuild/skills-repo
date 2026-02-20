@@ -2,7 +2,7 @@
 id: docs-sync
 name: Docs Sync
 description: Support docs sync workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Docs Sync

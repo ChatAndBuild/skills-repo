@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: sprint-planner
 name: Sprint Planner
 description: Agile sprint planning with story estimation, capacity planning, and sprint goal setting.

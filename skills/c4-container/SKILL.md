@@ -2,7 +2,7 @@
 id: c4-container
 name: C4 Container
 description: Support c4 container workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # C4 Container

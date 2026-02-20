@@ -2,7 +2,7 @@
 id: senior-data-engineer
 name: Senior Data Engineer
 description: Support senior data engineer workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Senior Data Engineer

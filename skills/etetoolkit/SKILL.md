@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: etetoolkit
 name: ETE Toolkit
 description: Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.
@@ -18,4 +18,3 @@ Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary ev
 
 - Summary of goals and plan
 - Key tips and precautions
-

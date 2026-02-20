@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: x402
 name: X402
 description: Autonomous crypto business development patterns — multi-chain token discovery, 100-point scoring with wallet forensics, x402 micropayments, ERC-8004 on-chain identity, LLM cascade routing, and pipeline automation for CEX/DEX listing acquisition.

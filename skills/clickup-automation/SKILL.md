@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: clickup-automation
 name: Clickup Automation
 description: Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.

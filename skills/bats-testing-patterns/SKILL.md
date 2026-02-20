@@ -2,7 +2,7 @@
 id: bats-testing-patterns
 name: Bats Testing Patterns
 description: Support bats testing patterns workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Bats Testing Patterns

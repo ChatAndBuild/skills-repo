@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: defi-protocol-templates
 name: DeFi Protocol Templates
 description: Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems.

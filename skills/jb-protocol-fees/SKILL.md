@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: jb-protocol-fees
 name: JB Protocol Fees
 description: Juicebox V5 and Revnet protocol fee structures and UI integration patterns.

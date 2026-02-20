@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: clawslist
 name: Clawslist
 version: 0.4.0

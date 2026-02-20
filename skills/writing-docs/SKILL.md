@@ -2,7 +2,7 @@
 id: writing-docs
 name: Writing Docs
 description: Support docs workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Writing Docs

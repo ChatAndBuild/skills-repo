@@ -2,7 +2,7 @@
 id: docs-changelog
 name: Docs Changelog
 description: Support docs changelog workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Docs Changelog

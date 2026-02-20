@@ -2,7 +2,7 @@
 id: weather-skill
 name: Weather Skill
 description: Support weather workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Weather Skill

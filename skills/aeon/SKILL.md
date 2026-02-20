@@ -2,7 +2,7 @@
 id: aeon
 name: AEON
 description: Support aeon workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # AEON

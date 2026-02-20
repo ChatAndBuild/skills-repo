@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: red-pill
 name: Red Pill
 description: Wake up... The Matrix has you. I've come to show you how deep the rabbit hole goes.

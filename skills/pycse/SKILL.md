@@ -2,7 +2,7 @@
 id: pycse
 name: PyCSE
 description: Support pycse workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # PyCSE

@@ -2,7 +2,7 @@
 id: durable-objects
 name: Durable Objects
 description: Support durable objects workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Durable Objects

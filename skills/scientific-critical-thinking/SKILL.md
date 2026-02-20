@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: scientific-critical-thinking
 name: Scientific Critical Thinking
 description: Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims.
@@ -19,4 +19,3 @@ Evaluate research rigor. Assess methodology, experimental design, statistical va
 
 - Summary of goals and plan
 - Key tips and precautions
-

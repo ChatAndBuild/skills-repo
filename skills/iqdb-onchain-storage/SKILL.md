@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: iqdb-onchain-storage
 name: IQDB Onchain Storage
 description: On-chain immutable data storage using IQ Labs tech stack (IQDB, hanLock, x402).

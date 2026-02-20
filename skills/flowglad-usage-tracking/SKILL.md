@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: flowglad-usage-tracking
 name: Flowglad Usage Tracking
 description: Implement usage-based billing with Flowglad including recording usage events, checking balances, and displaying usage information. Use this skill when adding metered billing, tracking API calls, or implementing consumption-based pricing.
@@ -22,4 +22,3 @@ Implement usage-based billing with Flowglad including recording usage events, ch
 
 - Summary of goals and plan
 - Key tips and precautions
-

@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: email-best-practices
 name: Email Best Practices
 description: Apply deliverability and compliance best practices for email systems.

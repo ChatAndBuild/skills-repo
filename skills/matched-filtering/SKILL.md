@@ -2,7 +2,7 @@
 id: matched-filtering
 name: Matched Filtering
 description: Support matched filtering workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Matched Filtering

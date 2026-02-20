@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: clay-prod-checklist
 name: Clay Prod Checklist
 description: Execute Clay production deployment checklist and rollback procedures.

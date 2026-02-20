@@ -2,7 +2,7 @@
 id: gan-ai-automation
 name: GAN AI Automation
 description: Support gan ai automation workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # GAN AI Automation

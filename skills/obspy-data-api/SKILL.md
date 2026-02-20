@@ -2,7 +2,7 @@
 id: obspy-data-api
 name: ObsPy Data API
 description: Support obspy data api workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # ObsPy Data API

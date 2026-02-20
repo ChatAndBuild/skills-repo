@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: self-reflection
 name: Self Reflection
 description: Continuous self-improvement through structured reflection and memory.

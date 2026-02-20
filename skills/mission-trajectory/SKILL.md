@@ -2,7 +2,7 @@
 id: mission-trajectory
 name: Mission Trajectory
 description: Support mission trajectory workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Mission Trajectory

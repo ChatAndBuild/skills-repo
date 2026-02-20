@@ -1,6 +1,6 @@
 ---
 id: loom-transcript
-category: writing
+category: Content & Media
 author: n8n-io
 name: Loom Transcript
 description: Fetch and display the full transcript from a Loom video URL.

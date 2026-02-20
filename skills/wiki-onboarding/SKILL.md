@@ -2,7 +2,7 @@
 id: wiki-onboarding
 name: Wiki Onboarding
 description: Support wiki onboarding workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Wiki Onboarding

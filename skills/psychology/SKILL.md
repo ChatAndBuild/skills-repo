@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: psychology
 name: Psychology
 description: Navigate the mind from curiosity about behavior to clinical research.

@@ -2,7 +2,7 @@
 id: microsoft-docs
 name: Microsoft Docs
 description: Support microsoft docs workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Microsoft Docs

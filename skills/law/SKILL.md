@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: law
 name: Law
 description: Support legal understanding from everyday rights to professional practice and scholarship.

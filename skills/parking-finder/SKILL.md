@@ -2,7 +2,7 @@
 id: parking-finder
 name: Parking Finder
 description: Locate parking garages, lots, and street parking near your destination using Camino AI's location intelligence with AI-powered ranking.
-category: productivity
+category: Lifestyle
 metadata:
   {"clawdbot":{"emoji":"🅿️","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
 ---

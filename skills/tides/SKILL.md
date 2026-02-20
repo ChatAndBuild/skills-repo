@@ -2,7 +2,7 @@
 id: tides
 name: Tides
 description: Support tides workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Tides

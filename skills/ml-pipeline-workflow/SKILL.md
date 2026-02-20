@@ -2,7 +2,7 @@
 id: ml-pipeline-workflow
 name: ML Pipeline Workflow
 description: Support ml pipeline workflow workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # ML Pipeline Workflow

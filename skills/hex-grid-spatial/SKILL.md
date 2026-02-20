@@ -2,7 +2,7 @@
 id: hex-grid-spatial
 name: Hex Grid Spatial
 description: Support hex grid spatial workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Hex Grid Spatial

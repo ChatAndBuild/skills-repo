@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: quit-alcohol
 name: Quit Alcohol
 description: Track sobriety with alcohol-free streaks, craving management, and recovery milestones.

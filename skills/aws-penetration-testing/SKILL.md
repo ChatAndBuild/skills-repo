@@ -2,7 +2,7 @@
 id: aws-penetration-testing
 name: AWS Penetration Testing
 description: Support aws penetration testing workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # AWS Penetration Testing

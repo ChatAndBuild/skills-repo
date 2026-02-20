@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: chembl-database
 name: ChEMBL Database
 description: Help with chembl database tasks and questions.

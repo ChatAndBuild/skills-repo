@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: boggle
 name: Boggle
 description: Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid.
@@ -69,4 +69,3 @@ Dictionaries are auto-downloaded from GitHub on first run if missing.
 
 - Trie build: ~11s (first run, 1.7M words)
 - Solve: <5ms per board
-

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: webf-native-plugins
 name: WebF Native Plugins
 description: Install WebF native plugins to access platform capabilities like sharing, payment, camera, geolocation, and more.

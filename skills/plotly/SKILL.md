@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: plotly
 name: Plotly
 description: Interactive scientific and statistical data visualization library for Python.

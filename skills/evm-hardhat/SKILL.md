@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: evm-hardhat
 name: EVM Hardhat
 description: Hardhat development for EVM chains including Celo.

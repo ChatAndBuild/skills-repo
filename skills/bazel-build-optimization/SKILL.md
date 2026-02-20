@@ -2,7 +2,7 @@
 id: bazel-build-optimization
 name: Bazel Build Optimization
 description: Support bazel build optimization workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Bazel Build Optimization

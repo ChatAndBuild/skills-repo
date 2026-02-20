@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: aibtc-bitcoin-wallet
 name: AIBTC Bitcoin Wallet
 description: Bitcoin L1 wallet for agents - check balances, send BTC, manage UTXOs. Extends to Stacks L2 (STX, DeFi) and Pillar smart wallets (sBTC yield).

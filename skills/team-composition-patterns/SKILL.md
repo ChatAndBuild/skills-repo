@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: team-composition-patterns
 name: Team Composition Patterns
 description: Help with team composition patterns tasks and questions.

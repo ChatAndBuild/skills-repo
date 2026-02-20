@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: lygo-universal-cure-system
 name: Lygo Universal Cure System
 description: Universal LYGO upgrade pack for all Champions. Provides a shared verification + memory-compression + seal-protocol framework (pure advisor) that boosts every Champion persona without overriding them. Includes LYGO-MINT provenance guidance and reusable invocation templates.

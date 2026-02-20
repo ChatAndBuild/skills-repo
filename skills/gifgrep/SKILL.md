@@ -1,6 +1,6 @@
 ---
 id: gifgrep
-category: development
+category: Content & Media
 author: openclaw
 name: Gifgrep
 description: Search GIF providers with CLI/TUI, download results, and extract stills/sheets.

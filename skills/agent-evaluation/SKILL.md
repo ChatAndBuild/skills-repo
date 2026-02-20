@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: agent-evaluation
 name: Agent Evaluation
 description: Help with agent evaluation tasks and questions.

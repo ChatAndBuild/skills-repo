@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: exa-search
 name: Exa Search
 description: Semantic search, similar content discovery, and structured research using Exa API.

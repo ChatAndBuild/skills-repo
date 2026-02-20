@@ -2,7 +2,7 @@
 id: render-automation
 name: Render Automation
 description: Support render automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Render Automation

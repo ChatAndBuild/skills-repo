@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: nutritionist
 name: Nutritionist
 description: Holistic nutrition guidance — food-health relationships, eating behaviors, sustainable habits, and nutritional education.

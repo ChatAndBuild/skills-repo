@@ -1,6 +1,6 @@
 ---
 id: xlsx
-category: development
+category: Content & Media
 name: XLSX
 description: Support xlsx workflows with clear steps and best practices.
 license: Proprietary. LICENSE.txt has complete terms

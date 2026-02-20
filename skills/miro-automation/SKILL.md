@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: miro-automation
 name: Miro Automation
 description: "Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas."

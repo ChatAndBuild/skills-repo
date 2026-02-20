@@ -2,7 +2,7 @@
 id: agent-v3-performance-engineer
 name: Agent v3 Performance Engineer
 description: Support agent v3 performance engineer workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Agent v3 Performance Engineer

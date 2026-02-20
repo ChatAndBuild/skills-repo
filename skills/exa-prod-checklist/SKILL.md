@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: exa-prod-checklist
 name: Exa Prod Checklist
 description: Execute Exa production deployment checklist and rollback procedures.

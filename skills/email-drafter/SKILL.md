@@ -1,6 +1,6 @@
 ---
 id: email-drafter
-category: communication
+category: Content & Media
 name: Email Drafter
 description: Help with email drafter tasks and questions.
   Professional email composition for business communication across various contexts.

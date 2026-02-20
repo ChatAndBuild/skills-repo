@@ -2,7 +2,7 @@
 id: composio
 name: Composio
 description: Support composio workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Composio

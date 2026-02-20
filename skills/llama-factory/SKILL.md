@@ -2,7 +2,7 @@
 id: llama-factory
 name: Llama Factory
 description: Support llama factory workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Llama Factory

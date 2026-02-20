@@ -1,5 +1,5 @@
 ---
-category: development
+category: Research
 id: hypogenic
 name: Hypogenic
 description: Support hypogenic workflows with clear steps and best practices.

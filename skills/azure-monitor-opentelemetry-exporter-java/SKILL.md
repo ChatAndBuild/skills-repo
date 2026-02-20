@@ -2,7 +2,7 @@
 id: azure-monitor-opentelemetry-exporter-java
 name: Azure Monitor OpenTelemetry Exporter Java
 description: Support azure monitor opentelemetry exporter java workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Monitor OpenTelemetry Exporter Java

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: academic-researcher
 name: Academic Researcher
 description: Academic research assistant for literature reviews, paper analysis, and scholarly writing.

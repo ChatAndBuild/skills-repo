@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: smart-accounts-kit
 name: Smart Accounts Kit
 description: Web3 development using MetaMask Smart Accounts Kit.

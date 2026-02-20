@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: hungarian
 name: Hungarian
 description: Write Hungarian that sounds human. Not formal, not robotic, not AI-generated.

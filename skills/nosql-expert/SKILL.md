@@ -2,7 +2,7 @@
 id: nosql-expert
 name: NoSQL Expert
 description: Support nosql expert workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # NoSQL Expert

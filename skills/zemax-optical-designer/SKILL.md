@@ -2,7 +2,7 @@
 id: zemax-optical-designer
 name: Zemax Optical Designer
 description: Support zemax optical designer workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Zemax Optical Designer

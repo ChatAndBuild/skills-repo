@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: vincent-a-wallet-for-agents
 name: Vincent A Wallet For Agents
 description: Use this skill to create a Polymarket wallet for your agent and trade on prediction markets. Browse markets, place bets, manage positions — all without exposing private keys.

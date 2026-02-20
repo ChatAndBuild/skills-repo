@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: brainstorming
 name: Brainstorming
 description: Help with brainstorming tasks and questions.

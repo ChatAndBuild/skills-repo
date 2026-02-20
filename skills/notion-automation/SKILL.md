@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: notion-automation
 name: Notion Automation
 description: "Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas."

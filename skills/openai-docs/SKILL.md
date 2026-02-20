@@ -2,7 +2,7 @@
 id: openai-docs
 name: OpenAI Docs
 description: Support openai docs workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # OpenAI Docs

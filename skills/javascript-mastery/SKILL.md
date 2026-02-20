@@ -2,7 +2,7 @@
 id: javascript-mastery
 name: JavaScript Mastery
 description: Support javascript mastery workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # JavaScript Mastery

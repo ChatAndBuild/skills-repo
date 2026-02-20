@@ -2,7 +2,7 @@
 id: mesh-analysis
 name: Mesh Analysis
 description: Support mesh workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Mesh Analysis

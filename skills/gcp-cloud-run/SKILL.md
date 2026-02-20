@@ -2,7 +2,7 @@
 id: gcp-cloud-run
 name: GCP Cloud Run
 description: Support gcp cloud run workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GCP Cloud Run

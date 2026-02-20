@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: context-driven-development
 name: Context Driven Development
 description: Help with context driven development tasks and questions.

@@ -2,7 +2,7 @@
 id: triage-ci-flake
 name: Triage CI Flake
 description: Support triage ci flake workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Triage CI Flake

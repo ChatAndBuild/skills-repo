@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: zinc-database
 name: Zinc Database
 description: Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery.

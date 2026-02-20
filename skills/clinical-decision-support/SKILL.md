@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: clinical-decision-support
 name: Clinical Decision Support
 description: Support clinical decision support workflows with clear steps and best practices.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: dietitian
 name: Dietitian
 description: Structured meal planning — calorie targets, macro calculations, meal timing, and goal-specific diet protocols.

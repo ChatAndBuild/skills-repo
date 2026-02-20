@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: danish
 name: Danish
 description: Write Danish that sounds human. Not formal, not robotic, not AI-generated.

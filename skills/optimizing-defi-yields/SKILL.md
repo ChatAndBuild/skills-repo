@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: optimizing-defi-yields
 name: Optimizing DeFi Yields
 description: Find and compare DeFi yield opportunities across protocols with APY calculations, risk assessment, and optimization recommendations.

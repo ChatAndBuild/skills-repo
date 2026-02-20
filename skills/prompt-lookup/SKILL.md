@@ -2,7 +2,7 @@
 id: prompt-lookup
 name: Prompt Lookup
 description: Support prompt lookup workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Prompt Lookup

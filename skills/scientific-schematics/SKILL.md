@@ -2,7 +2,7 @@
 id: scientific-schematics
 name: Scientific Schematics
 description: Support scientific schematics workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Scientific Schematics

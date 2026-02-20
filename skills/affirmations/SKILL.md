@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: affirmations
 name: Affirmations
 description: Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: catalyst-foundational-metadata
 name: Catalyst Foundational Metadata
 description: Set up new chain foundational metadata (evms_info, prices, base sources, evms_blockchains_list).

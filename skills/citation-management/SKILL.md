@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: citation-management
 name: Citation Management
 description: Comprehensive citation management for academic research. Search Google Scholar and PubMed for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.
@@ -19,4 +19,3 @@ Comprehensive citation management for academic research. Search Google Scholar a
 
 - Summary of goals and plan
 - Key tips and precautions
-

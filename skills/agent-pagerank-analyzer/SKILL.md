@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: agent-pagerank-analyzer
 name: Agent PageRank Analyzer
 description: Agent skill for pagerank-analyzer - invoke with $agent-pagerank-analyzer.

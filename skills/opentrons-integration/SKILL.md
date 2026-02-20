@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: opentrons-integration
 name: Opentrons Integration
 description: Help with opentrons integration tasks and questions.

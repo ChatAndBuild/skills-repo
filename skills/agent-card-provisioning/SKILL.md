@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: agent-card-provisioning
 name: Agent Card Provisioning
 description: Provision virtual payment cards for AI agents on-demand. Create single-use or limited cards with spending controls, merchant restrictions, and automatic expiration. Cards are issued instantly when policy allows.

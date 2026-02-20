@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: fluxa-x402-payment
 name: Fluxa X402 Payment
 description: A FluxA Agent Wallet skill that enables agents to request budgets, sign x402 payments, and call paid endpoints autonomously. It walks through the full flow—from mandate creation to X-PAYMENT execution—so agents can perform paid actions without human intervention.

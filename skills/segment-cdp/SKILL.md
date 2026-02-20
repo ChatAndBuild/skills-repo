@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: segment-cdp
 name: Segment CDP
 description: Support segment cdp workflows with clear steps and best practices.

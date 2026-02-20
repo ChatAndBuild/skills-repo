@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: wiring
 name: Wiring
 description: 

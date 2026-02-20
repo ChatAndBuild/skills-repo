@@ -2,7 +2,7 @@
 id: agent-performance-monitor
 name: Agent Performance Monitor
 description: Support agent performance monitor workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Agent Performance Monitor

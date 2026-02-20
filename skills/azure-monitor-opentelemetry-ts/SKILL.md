@@ -2,7 +2,7 @@
 id: azure-monitor-opentelemetry-ts
 name: Azure Monitor OpenTelemetry TypeScript
 description: Support azure monitor opentelemetry typescript workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Monitor OpenTelemetry TypeScript

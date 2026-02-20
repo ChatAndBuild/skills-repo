@@ -2,7 +2,7 @@
 id: azure-deployment-preflight
 name: Azure Deployment Preflight
 description: Support azure deployment preflight workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Deployment Preflight

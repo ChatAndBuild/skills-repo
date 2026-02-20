@@ -2,7 +2,7 @@
 id: using-git-worktrees
 name: Using Git Worktrees
 description: Support using git worktrees workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Using Git Worktrees

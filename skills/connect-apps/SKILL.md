@@ -2,7 +2,7 @@
 id: connect-apps
 name: Connect Apps
 description: Support connect apps workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Connect Apps

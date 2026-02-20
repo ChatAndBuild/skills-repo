@@ -2,7 +2,7 @@
 id: project-overview
 name: Project Overview
 description: Support project overview workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Project Overview

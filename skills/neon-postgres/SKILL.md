@@ -2,7 +2,7 @@
 id: neon-postgres
 name: Neon Postgres
 description: Support neon postgres workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Neon Postgres

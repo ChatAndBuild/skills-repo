@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: web3-testing
 name: Web3 Testing
 description: Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking.

@@ -2,7 +2,7 @@
 id: rwkv-architecture
 name: RWKV Architecture
 description: Support rwkv architecture workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # RWKV Architecture

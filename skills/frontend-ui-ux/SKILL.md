@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: frontend-ui-ux
 name: Frontend UI UX
 description: Designer-turned-developer who crafts stunning UI/UX even without design mockups.

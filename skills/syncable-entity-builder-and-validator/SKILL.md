@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: syncable-entity-builder-and-validator
 name: Syncable Entity Builder And Validator
 description: Create validation logic and migration action builders for syncable entities in Twenty.

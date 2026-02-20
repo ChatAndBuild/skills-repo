@@ -2,7 +2,7 @@
 id: posthog-automation
 name: PostHog Automation
 description: Support posthog automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # PostHog Automation

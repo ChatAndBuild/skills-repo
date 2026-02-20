@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: zoom-automation
 name: Zoom Automation
 description: Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas.

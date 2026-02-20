@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: databricks-prod-checklist
 name: Databricks Prod Checklist
 description: Execute Databricks production deployment checklist and rollback procedures.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: shopify-expert
 name: Shopify Expert
 description: Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris components, billing, and app extensions.

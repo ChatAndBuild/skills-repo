@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: qlty-during-development
 name: QLTY During Development
 description: Help with qlty during development tasks and questions.

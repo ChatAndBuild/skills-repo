@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: stripe-best-practices
 name: Stripe Best Practices
 description: Best practices for building Stripe integrations.

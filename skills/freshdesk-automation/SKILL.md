@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: freshdesk-automation
 name: Freshdesk Automation
 description: Support freshdesk automation workflows with clear steps and best practices.

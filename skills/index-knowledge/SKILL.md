@@ -2,7 +2,7 @@
 id: index-knowledge
 name: Index Knowledge
 description: Support index knowledge workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Index Knowledge

@@ -2,7 +2,7 @@
 id: productboard-automation
 name: Productboard Automation
 description: Help with productboard automation tasks and questions.
-category: productivity
+category: Business
 source: composio
 tags: [mcp, automation, ai, claude]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/productboard-automation

@@ -2,7 +2,7 @@
 id: greeter
 name: Greeter
 description: Support greeter workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Greeter

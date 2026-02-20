@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: monday-automation
 name: Monday Automation
 description: Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas.

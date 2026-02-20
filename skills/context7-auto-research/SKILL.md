@@ -2,7 +2,7 @@
 id: context7-auto-research
 name: Context7 Auto Research
 description: Support context7 auto research workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Context7 Auto Research

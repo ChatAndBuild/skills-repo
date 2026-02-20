@@ -2,7 +2,7 @@
 id: railway-templates
 name: Railway Templates
 description: Support railway templates workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Railway Templates

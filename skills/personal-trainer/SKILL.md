@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: personal-trainer
 name: Personal Trainer
 description: Design workout programs, explain exercises, track progress, and adapt training based on user feedback.

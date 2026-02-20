@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: railway-metrics
 name: Railway Metrics
 description: Query resource usage metrics for Railway services.

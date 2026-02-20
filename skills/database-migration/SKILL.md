@@ -2,7 +2,7 @@
 id: database-migration
 name: Database Migration
 description: Support database migration workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Database Migration

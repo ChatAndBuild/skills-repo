@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: deepgram-prod-checklist
 name: Deepgram Prod Checklist
 description: Execute Deepgram production deployment checklist.

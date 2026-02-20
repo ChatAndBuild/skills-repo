@@ -2,7 +2,7 @@
 id: openai-image-vision
 name: OpenAI Image Vision
 description: Support openai image vision workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # OpenAI Image Vision

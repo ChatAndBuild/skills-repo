@@ -2,7 +2,7 @@
 id: reference-builder
 name: Reference Builder
 description: Support reference builder workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Reference Builder

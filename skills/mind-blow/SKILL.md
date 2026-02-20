@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: mind-blow
 name: Mind Blow
 description: Deliver "mind-blowing" insights, paradoxes, or cosmic horrors. Uses advanced reasoning to generate content that challenges reality or perception.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: aphorisms
 name: Aphorisms
 description: Help with aphorisms tasks and questions.

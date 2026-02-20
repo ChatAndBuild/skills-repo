@@ -2,7 +2,7 @@
 id: writing-skills
 name: Writing Skills
 description: Support skills workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Writing Skills

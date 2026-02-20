@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: eyebot-walletbot
 name: Eyebot Walletbot
 description: Wallet operations and portfolio management for crypto assets.

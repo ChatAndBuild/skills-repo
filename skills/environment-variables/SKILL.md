@@ -2,7 +2,7 @@
 id: environment-variables
 name: Environment Variables
 description: Support environment variables workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Environment Variables

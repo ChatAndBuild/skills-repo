@@ -2,7 +2,7 @@
 id: hook-development
 name: Hook Development
 description: Support hook development workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Hook Development

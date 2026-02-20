@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: wisdom-accountability-coach
 name: Wisdom Accountability Coach
 description: Longitudinal memory tracking, philosophy teaching, and personal accountability with compassion. Expert in pattern recognition, Stoicism/Buddhism, and growth guidance.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: ab-test-setup
 name: A/B Test Setup
 description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also.

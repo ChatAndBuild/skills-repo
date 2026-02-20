@@ -2,7 +2,7 @@
 id: prompt-engineering-patterns
 name: Prompt Engineering Patterns
 description: Support prompt engineering patterns workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Prompt Engineering Patterns

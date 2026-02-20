@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: daily-motivation
 name: Daily Motivation
 description: Get daily motivation with personalized encouragement, goal reminders, and momentum tracking.

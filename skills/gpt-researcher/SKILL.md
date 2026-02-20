@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Research
 id: gpt-researcher
 name: GPT Researcher
 description: Support gpt researcher workflows with clear steps and best practices.

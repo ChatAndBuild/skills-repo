@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: feishu-perm
 name: Feishu Perm
 description: Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.

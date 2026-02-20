@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: pause-detector
 name: Pause Detector
 description: Detect pauses and silence in audio using local dynamic thresholds.

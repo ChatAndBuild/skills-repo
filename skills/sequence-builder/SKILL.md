@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: sequence-builder
 name: Sequence Builder
 description: Manage Sequence smart wallets, projects, API keys, ERC20 transfers, and query blockchain data using the Sequence Builder CLI.

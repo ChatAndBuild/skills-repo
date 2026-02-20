@@ -2,7 +2,7 @@
 id: istio-traffic-management
 name: Istio Traffic Management
 description: Support istio traffic management workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Istio Traffic Management

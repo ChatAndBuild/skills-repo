@@ -2,7 +2,7 @@
 id: web-design-reviewer
 name: Web Design Reviewer
 description: Support web design reviewer workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Web Design Reviewer

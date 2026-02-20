@@ -2,7 +2,7 @@
 id: spacex
 name: SpaceX
 description: Support spacex workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # SpaceX

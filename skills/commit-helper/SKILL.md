@@ -2,7 +2,7 @@
 id: commit-helper
 name: Commit Helper
 description: Support commit workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Commit Helper

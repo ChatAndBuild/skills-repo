@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: scientific-writing
 name: Scientific Writing
 description: Academic research assistant for literature reviews, paper analysis, and scholarly writing.

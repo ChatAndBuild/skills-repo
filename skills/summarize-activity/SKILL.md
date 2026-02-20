@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: summarize-activity
 name: Summarize Activity
 description: Support summarize activity workflows with clear steps and best practices.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: 1k-feature-guides
 name: 1K Feature Guides
 description: Feature development guides for OneKey.

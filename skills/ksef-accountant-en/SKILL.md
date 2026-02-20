@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: ksef-accountant-en
 name: Ksef Accountant En
 description: Help with ksef accountant en tasks and questions.

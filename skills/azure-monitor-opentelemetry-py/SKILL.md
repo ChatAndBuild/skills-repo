@@ -2,7 +2,7 @@
 id: azure-monitor-opentelemetry-py
 name: Azure Monitor OpenTelemetry Python
 description: Support azure monitor opentelemetry python workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Monitor OpenTelemetry Python

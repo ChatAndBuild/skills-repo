@@ -2,7 +2,7 @@
 id: docs-architect
 name: Docs Architect
 description: Support docs architect workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Docs Architect

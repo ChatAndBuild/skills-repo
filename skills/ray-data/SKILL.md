@@ -2,7 +2,7 @@
 id: ray-data
 name: Ray Data
 description: Support ray data workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Ray Data

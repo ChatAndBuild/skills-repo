@@ -2,7 +2,7 @@
 id: datacommons-client
 name: Data Commons Client
 description: Support data commons client workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Data Commons Client

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: journal-entry-prep
 name: Journal Entry Prep
 description: Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.

@@ -2,7 +2,7 @@
 id: terraform-azurerm-set-diff-analyzer
 name: Terraform AzureRM Set Diff Analyzer
 description: Support terraform azurerm set diff workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Terraform AzureRM Set Diff Analyzer

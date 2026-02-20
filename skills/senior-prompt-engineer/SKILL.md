@@ -2,7 +2,7 @@
 id: senior-prompt-engineer
 name: Senior Prompt Engineer
 description: Support senior prompt engineer workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Senior Prompt Engineer

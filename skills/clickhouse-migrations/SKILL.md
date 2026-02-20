@@ -2,7 +2,7 @@
 id: clickhouse-migrations
 name: ClickHouse Migrations
 description: Support clickhouse migrations workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # ClickHouse Migrations

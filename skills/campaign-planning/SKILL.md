@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: campaign-planning
 name: Campaign Planning
 description: Plan marketing campaigns with objectives, audience segmentation, channel strategy, content calendars, and success metrics.

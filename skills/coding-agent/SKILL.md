@@ -2,7 +2,7 @@
 id: coding-agent
 name: Coding Agent
 description: Support coding agent workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Coding Agent

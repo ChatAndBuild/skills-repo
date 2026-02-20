@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: govpredict-ai
 name: Govpredict AI
 description: Smarter Government Procurement - Streamline compliance, tendering, and strategic alignment for UAE and Saudi Arabia Vision 2030 and National AI Strategy 2031 projects. Built by we-crafted.com/agents/govpredict-ai-rag - Buy CRAFTED_API_KEY in our website to start using.

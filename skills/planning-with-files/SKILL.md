@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: planning-with-files
 name: Planning With Files
 description: Help with planning with files tasks and questions.

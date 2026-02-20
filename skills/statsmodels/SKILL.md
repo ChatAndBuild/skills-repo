@@ -2,7 +2,7 @@
 id: statsmodels
 name: Statsmodels
 description: Support statsmodels workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Statsmodels

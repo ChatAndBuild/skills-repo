@@ -2,7 +2,7 @@
 id: modal-serverless-gpu
 name: Modal Serverless GPU
 description: Support modal serverless gpu workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Modal Serverless GPU

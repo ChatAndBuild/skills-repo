@@ -2,7 +2,7 @@
 id: file-uploads
 name: File Uploads
 description: Support file uploads workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # File Uploads

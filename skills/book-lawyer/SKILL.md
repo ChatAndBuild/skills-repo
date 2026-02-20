@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: book-lawyer
 name: Book Lawyer
 description: Book lawyer services through Lokuli MCP.

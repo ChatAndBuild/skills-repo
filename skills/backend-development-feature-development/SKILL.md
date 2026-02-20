@@ -2,7 +2,7 @@
 id: backend-development-feature-development
 name: Backend Development Feature Development
 description: Support backend development feature development workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Backend Development Feature Development

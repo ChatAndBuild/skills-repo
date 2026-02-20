@@ -2,7 +2,7 @@
 id: e2e-testing-patterns
 name: E2E Testing Patterns
 description: Support e2e testing patterns workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # E2E Testing Patterns

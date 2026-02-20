@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: arboreto
 name: Arboreto
 description: Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3).

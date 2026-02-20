@@ -2,7 +2,7 @@
 id: github-triage
 name: GitHub Triage
 description: Support github triage workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GitHub Triage

@@ -2,7 +2,7 @@
 id: error-detective
 name: Error Detective
 description: Support error detective workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Error Detective

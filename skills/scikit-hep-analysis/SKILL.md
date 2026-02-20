@@ -2,7 +2,7 @@
 id: scikit-hep-analysis
 name: Scikit-HEP Analysis
 description: Support scikit-hep workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Scikit-HEP Analysis

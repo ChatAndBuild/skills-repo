@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Content & Media
 id: nutrient-document-processing-ja
 name: Nutrient Document Processing
 description: Nutrient DWS API を使用してドキュメントの処理、変換、OCR、抽出、編集、署名、フォーム入力を行います。PDF、DOCX、XLSX、PPTX、HTML、画像に対応しています。.

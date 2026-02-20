@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: history
 name: History
 description: Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).

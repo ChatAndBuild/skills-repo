@@ -2,7 +2,7 @@
 id: nginx-to-highgress-migration
 name: Nginx to Highgress Migration
 description: Support nginx to highgress migration workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Nginx to Highgress Migration

@@ -2,7 +2,7 @@
 id: incident-runbook-templates
 name: Incident Runbook Templates
 description: Support incident runbook templates workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Incident Runbook Templates

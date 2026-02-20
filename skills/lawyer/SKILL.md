@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: lawyer
 name: Lawyer
 description: Draft contracts, review legal documents, and navigate compliance with practical legal patterns.

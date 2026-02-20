@@ -2,7 +2,7 @@
 id: railway-deploy
 name: Railway Deploy
 description: Support railway deploy workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Railway Deploy

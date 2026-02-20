@@ -2,7 +2,7 @@
 id: pr-review
 name: PR Review
 description: Support pr workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # PR Review

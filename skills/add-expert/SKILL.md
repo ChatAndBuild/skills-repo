@@ -2,7 +2,7 @@
 id: add-expert
 name: Add Expert
 description: Support add expert workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Add Expert

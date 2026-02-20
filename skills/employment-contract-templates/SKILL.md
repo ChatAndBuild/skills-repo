@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: employment-contract-templates
 name: Employment Contract Templates
 description: Create employment contracts, offer letters, and HR policy documents following legal best practices.
@@ -18,4 +18,3 @@ Create employment contracts, offer letters, and HR policy documents following le
 
 - Summary of goals and plan
 - Key tips and precautions
-

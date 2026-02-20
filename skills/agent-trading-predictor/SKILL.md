@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: agent-trading-predictor
 name: Agent Trading Predictor
 description: Agent skill for trading-predictor - invoke with $agent-trading-predictor.

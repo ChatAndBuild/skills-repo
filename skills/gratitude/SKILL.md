@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: gratitude
 name: Gratitude
 description: Build a personal gratitude practice for logging what's good, discovering patterns, and cultivating appreciation.

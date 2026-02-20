@@ -2,7 +2,7 @@
 id: database-schema-designer
 name: Database Schema Designer
 description: Support database schema designer workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Database Schema Designer

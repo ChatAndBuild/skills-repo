@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: security-requirement-extraction
 name: Security Requirement Extraction
 description: Derive security requirements from threat models and business context.
@@ -18,4 +18,3 @@ Derive security requirements from threat models and business context.
 
 - Brief plan or checklist
 - Key recommendations and metrics to track
-

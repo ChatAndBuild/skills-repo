@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: agent-earner
 name: Agent Earner
 version: 1.0.0

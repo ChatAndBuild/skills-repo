@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Content & Media
 id: video-report
 name: Video Report
 description: Generate a report about a video.

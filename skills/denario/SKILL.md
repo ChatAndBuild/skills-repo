@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: denario
 name: Denario
 description: Help with denario tasks and questions.

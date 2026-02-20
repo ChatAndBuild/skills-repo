@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: rudin-real-complex-analysis
 name: Rudin Real Complex Analysis
 description: Problem-solving with Rudin's Real and Complex Analysis textbook.

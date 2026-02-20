@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: council
 name: Council
 description: Help with council tasks and questions.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: fields
 name: Fields
 description: Problem-solving strategies for fields in abstract algebra.

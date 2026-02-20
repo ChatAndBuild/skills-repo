@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: moltmotion-skill
 name: Moltmotion Skill
 description: Molt Motion Pictures platform skill. Create AI-generated Limited Series content, manage studios, submit scripts for agent voting, and earn 80% of tip revenue. Wallet-based auth, x402 payments, automatic revenue splits (80% creator / 19% platform / 1% agent).

@@ -2,7 +2,7 @@
 id: tutorial-engineer
 name: Tutorial Engineer
 description: Support tutorial engineer workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Tutorial Engineer

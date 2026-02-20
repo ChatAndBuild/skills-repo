@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: startup-metrics-framework
 name: Startup Metrics Framework
 description: Support startup metrics framework workflows with clear steps and best practices.

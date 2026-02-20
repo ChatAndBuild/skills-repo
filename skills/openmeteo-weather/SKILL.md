@@ -2,7 +2,7 @@
 id: openmeteo-weather
 name: OpenMeteo Weather
 description: Support openmeteo weather workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # OpenMeteo Weather

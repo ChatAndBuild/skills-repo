@@ -2,7 +2,7 @@
 id: resource-curator
 name: Resource Curator
 description: Support resource curator workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Resource Curator

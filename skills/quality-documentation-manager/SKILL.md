@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: quality-documentation-manager
 name: Quality Documentation Manager
 description: Senior Quality Documentation Manager for comprehensive documentation control and regulatory document review. Provides document management system design, change control, configuration management, and regulatory documentation oversight. Use for document control system implementation, regulatory document review, change management, and documentation compliance verification.

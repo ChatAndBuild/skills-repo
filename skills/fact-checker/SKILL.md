@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: fact-checker
 name: Fact Checker
 description: Systematic fact verification and misinformation identification using evidence-based analysis.

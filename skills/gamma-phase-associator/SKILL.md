@@ -2,7 +2,7 @@
 id: gamma-phase-associator
 name: Gamma Phase Associator
 description: Support gamma phase associator workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Gamma Phase Associator

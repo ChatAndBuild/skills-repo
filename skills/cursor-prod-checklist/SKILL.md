@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: cursor-prod-checklist
 name: Cursor Prod Checklist
 description: Execute production readiness checklist for Cursor IDE setup. Triggers on "cursor production", "cursor ready", "cursor checklist", "optimize cursor setup".

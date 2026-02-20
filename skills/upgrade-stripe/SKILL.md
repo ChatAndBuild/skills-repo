@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: upgrade-stripe
 name: Upgrade Stripe
 description: Guide for upgrading Stripe API versions and SDKs.

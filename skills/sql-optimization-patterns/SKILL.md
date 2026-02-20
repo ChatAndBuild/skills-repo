@@ -2,7 +2,7 @@
 id: sql-optimization-patterns
 name: SQL Optimization Patterns
 description: Support sql optimization patterns workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # SQL Optimization Patterns

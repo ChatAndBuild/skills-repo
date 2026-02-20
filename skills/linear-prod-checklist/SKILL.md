@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: linear-prod-checklist
 name: Linear Prod Checklist
 description: Production readiness checklist for Linear integrations.

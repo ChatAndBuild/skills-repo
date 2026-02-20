@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: audit-support
 name: Audit Support
 description: Audit and improve web accessibility following WCAG 2.1 guidelines.

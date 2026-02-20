@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: planning-agent
 name: Planning Agent
 description: Generates comprehensive, workable unit tests for any programming language using a multi-agent pipeline.

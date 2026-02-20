@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: malay
 name: Malay
 description: Write Malay that sounds human. Not formal, not robotic, not AI-generated.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: rfi-notification-workflow
 name: RFI Notification Workflow
 description: Complete RFI (Request for Information) management system. Create, track, route, and analyze RFIs with automatic notifications and response deadline tracking.
@@ -20,4 +20,3 @@ Complete RFI (Request for Information) management system. Create, track, route, 
 
 - Summary of goals and plan
 - Key tips and precautions
-

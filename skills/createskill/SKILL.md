@@ -2,7 +2,7 @@
 id: createskill
 name: CreateSkill
 description: Support createskill workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # CreateSkill

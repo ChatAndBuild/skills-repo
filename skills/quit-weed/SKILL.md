@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: quit-weed
 name: Quit Weed
 description: Take a tolerance break or quit cannabis with streak tracking and craving support.

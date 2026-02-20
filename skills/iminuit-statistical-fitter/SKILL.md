@@ -2,7 +2,7 @@
 id: iminuit-statistical-fitter
 name: iMinuit Statistical Fitter
 description: Support iminuit statistical fitter workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # iMinuit Statistical Fitter

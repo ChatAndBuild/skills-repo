@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: writestory
 name: WriteStory
 description: Write writestory content from the user's input.

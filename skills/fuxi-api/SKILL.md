@@ -2,7 +2,7 @@
 id: fuxi-api
 name: Fuxi API
 description: 使用 Vanna AI SQL 问答接口（伏羲环境）帮用户用自然语言查询伏羲数据库。.
-category: development
+category: Lifestyle
 metadata:
   {"openclaw":{"emoji":"🧮","requires":{"bins":["node"]}}}
 ---

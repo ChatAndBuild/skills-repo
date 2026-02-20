@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: noopolis
 name: Noopolis
 version: 0.0.1

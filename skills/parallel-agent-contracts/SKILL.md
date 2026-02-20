@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: parallel-agent-contracts
 name: Parallel Agent Contracts
 description: Parallel Agent Type Contracts.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: erigon-network-ports
 name: Erigon Network Ports
 user-invocable: false

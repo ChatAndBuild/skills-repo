@@ -2,7 +2,7 @@
 id: matplotlib
 name: Matplotlib
 description: Support matplotlib workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Matplotlib

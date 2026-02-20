@@ -2,7 +2,7 @@
 id: clickhouse-io
 name: ClickHouse IO
 description: Support clickhouse io workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # ClickHouse IO

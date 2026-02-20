@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: literature-review
 name: Literature Review
 description: Academic research assistant for literature reviews, paper analysis, and scholarly writing.

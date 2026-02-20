@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: strategy-advisor
 name: Strategy Advisor
 description: High-level strategic thinking and business decision guidance for planning and direction-setting.

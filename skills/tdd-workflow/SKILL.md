@@ -2,7 +2,7 @@
 id: tdd-workflow
 name: TDD Workflow
 description: Support tdd workflow workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # TDD Workflow

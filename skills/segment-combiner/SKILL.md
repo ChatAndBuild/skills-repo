@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: segment-combiner
 name: Segment Combiner
 description: Combine multiple segment detection results into a unified list.

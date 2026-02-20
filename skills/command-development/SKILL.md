@@ -2,7 +2,7 @@
 id: command-development
 name: Command Development
 description: Support command development workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Command Development

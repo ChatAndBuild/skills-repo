@@ -2,7 +2,7 @@
 id: pytorch-lightning
 name: PyTorch Lightning
 description: Support pytorch lightning workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # PyTorch Lightning

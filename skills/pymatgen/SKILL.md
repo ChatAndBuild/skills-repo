@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: pymatgen
 name: Pymatgen
 description: Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.
@@ -18,4 +18,3 @@ Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, ban
 
 - Summary of goals and plan
 - Key tips and precautions
-

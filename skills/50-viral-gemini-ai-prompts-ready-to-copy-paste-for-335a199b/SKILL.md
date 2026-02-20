@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: 50-viral-gemini-ai-prompts-ready-to-copy-paste-for-335a199b
 name: 50 Viral Gemini AI Prompts Ready To Copy Paste For 335a199b
 description: Three women posing in urban street fashion, dramatic lighting, stylish hairstyles, using reference faces.

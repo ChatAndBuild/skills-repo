@@ -2,7 +2,7 @@
 id: sentry-automation
 name: Sentry Automation
 description: Support sentry automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Sentry Automation

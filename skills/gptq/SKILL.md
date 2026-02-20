@@ -2,7 +2,7 @@
 id: gptq
 name: GPTQ
 description: Support gptq workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # GPTQ

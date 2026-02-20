@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: x402-client
 
 name: X402 Client

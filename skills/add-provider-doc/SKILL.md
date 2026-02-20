@@ -2,7 +2,7 @@
 id: add-provider-doc
 name: Add Provider Doc
 description: Support add provider doc workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Add Provider Doc

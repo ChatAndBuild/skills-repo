@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: workout-logger
 name: Workout Logger
 description: Log workouts, track progress, get exercise suggestions and PR tracking.

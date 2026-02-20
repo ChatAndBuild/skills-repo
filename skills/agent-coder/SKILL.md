@@ -2,7 +2,7 @@
 id: agent-coder
 name: Agent Coder
 description: Support agent coder workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Agent Coder

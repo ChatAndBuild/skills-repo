@@ -2,7 +2,7 @@
 id: xero-automation
 name: Xero Automation
 description: "Xero Automation: manage invoices, contacts, payments, bank transactions, and accounts in Xero for cloud-based bookkeeping."
-category: productivity
+category: Business
 source: composio
 tags: [mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/xero-automation

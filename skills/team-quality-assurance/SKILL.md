@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: team-quality-assurance
 name: Team Quality Assurance
 description: Unified team skill for quality assurance team. All roles invoke this skill with --role arg for role-specific execution. Triggers on "team quality-assurance", "team qa".

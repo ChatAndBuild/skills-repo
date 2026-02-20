@@ -2,7 +2,7 @@
 id: flight-tracker
 name: Flight Tracker
 description: Support flight tracker workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Flight Tracker

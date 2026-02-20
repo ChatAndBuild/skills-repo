@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: bioservices
 name: BioServices
 description: Help with bioservices tasks and questions.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: hebrew-nikud
 name: Hebrew Nikud
 description: Hebrew nikud (vowel points) reference for AI agents. Correct nikud rules for verb conjugations (binyanim), dagesh, gender suffixes, homographs, and common mistakes. Use before adding nikud to Hebrew text (especially for TTS).

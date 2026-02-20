@@ -1,6 +1,6 @@
 ---
 id: nano-banana-pro
-category: development
+category: Content & Media
 author: openclaw
 name: Nano Banana Pro
 description: Support nano banana pro workflows with clear steps and best practices.

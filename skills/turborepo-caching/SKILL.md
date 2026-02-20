@@ -2,7 +2,7 @@
 id: turborepo-caching
 name: Turborepo Caching
 description: Support turborepo caching workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Turborepo Caching

@@ -2,7 +2,7 @@
 id: kaizen
 name: Kaizen
 description: Support kaizen workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Kaizen

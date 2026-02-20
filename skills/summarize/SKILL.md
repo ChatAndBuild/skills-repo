@@ -1,6 +1,6 @@
 ---
 id: summarize
-category: writing
+category: Content & Media
 author: openclaw
 name: Summarize
 description: Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).

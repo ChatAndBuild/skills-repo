@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: objectpool
 name: Objectpool
 description: Implements Zero Allocation patterns using Span, ArrayPool, and ObjectPool for memory efficiency in .NET.

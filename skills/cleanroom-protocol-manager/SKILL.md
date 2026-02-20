@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: cleanroom-protocol-manager
 name: Cleanroom Protocol Manager
 description: Cleanroom operations skill for managing protocols, contamination control, and process flows.

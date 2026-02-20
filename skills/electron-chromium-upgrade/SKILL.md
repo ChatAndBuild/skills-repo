@@ -2,7 +2,7 @@
 id: electron-chromium-upgrade
 name: Electron Chromium Upgrade
 description: Support electron chromium upgrade workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Electron Chromium Upgrade

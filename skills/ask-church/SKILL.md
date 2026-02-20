@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: ask-church
 name: Ask Church
 version: 1.2.0

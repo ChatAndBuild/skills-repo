@@ -2,7 +2,7 @@
 id: object-counter
 name: Object Counter
 description: Support object counter workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Object Counter

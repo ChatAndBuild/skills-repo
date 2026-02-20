@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: freshservice-automation
 name: Freshservice Automation
 description: "Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas."

@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: klaviyo-automation
 name: Klaviyo Automation
 description: "Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas."

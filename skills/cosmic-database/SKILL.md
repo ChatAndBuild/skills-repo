@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: cosmic-database
 name: Cosmic Database
 description: Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication.

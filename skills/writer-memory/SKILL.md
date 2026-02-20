@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: writer-memory
 name: Writer Memory
 description: Agentic memory system for writers - track characters, relationships, scenes, and themes.

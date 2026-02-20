@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: pyhealth
 name: PyHealth
 description: Support pyhealth workflows with clear steps and best practices.

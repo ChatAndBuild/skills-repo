@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: flowglad-checkout
 name: Flowglad Checkout
 description: Implement checkout sessions for purchasing subscriptions and products with Flowglad. Use this skill when creating upgrade buttons, purchase flows, or redirecting users to hosted checkout pages.

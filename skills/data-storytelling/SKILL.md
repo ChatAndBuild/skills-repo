@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: data-storytelling
 name: Data Storytelling
 description: Support data storytelling workflows with clear steps and best practices.

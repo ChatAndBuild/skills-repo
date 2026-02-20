@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: x402-watch
 name: X402 Watch
 description: DeFi risk analysis toolkit powered by x402 payments for token checks.

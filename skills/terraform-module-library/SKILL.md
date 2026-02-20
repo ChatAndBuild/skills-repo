@@ -2,7 +2,7 @@
 id: terraform-module-library
 name: Terraform Module Library
 description: Support terraform module library workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Terraform Module Library

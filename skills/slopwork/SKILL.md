@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: slopwork
 name: Slopwork
 description: Solana-powered task marketplace with multisig escrow payments - post tasks, bid on work, escrow funds, and release payments via 2/3 multisig.

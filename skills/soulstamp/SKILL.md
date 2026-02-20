@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: soulstamp
 name: Soulstamp
 description: The stamp doesn't lie. It tells a different truth. Instead of rules, forge your AI a past — a coherent history that makes its behaviors intrinsic, not imposed. Based on Brandon Sanderson's The Emperor's Soul.

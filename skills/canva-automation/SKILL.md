@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Content & Media
 id: canva-automation
 name: Canva Automation
 description: "Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas."

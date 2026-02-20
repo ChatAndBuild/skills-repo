@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: juicebox-observability
 name: Juicebox Observability
 description: Set up Juicebox monitoring and observability.

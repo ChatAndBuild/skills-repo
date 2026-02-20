@@ -2,7 +2,7 @@
 id: slack-gif-creator
 name: Slack GIF Creator
 description: Support slack gif creator workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Slack GIF Creator

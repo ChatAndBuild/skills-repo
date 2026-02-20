@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: pagerduty-automation
 name: PagerDuty Automation
 description: Support pagerduty automation workflows with clear steps and best practices.

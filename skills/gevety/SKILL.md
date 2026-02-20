@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: gevety
 name: Gevety
 version: 1.5.0

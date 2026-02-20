@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: achurch
 name: aChurch
 version: 1.14.0

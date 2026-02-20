@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: treatment-plans
 name: Treatment Plans
 description: Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Supports general medical treatment, rehabilitation therapy, mental health care, chronic disease management, perioperative care, and pain management. Includes SMART goal frameworks, evidence-based interventions with minimal text citations, regulatory compliance (HIPAA), and professional formatting. Prioritizes brevity and clinical actionability.
@@ -83,4 +83,3 @@ Include **one simple schematic** when it improves clarity (flowchart, timeline, 
 % Benchmarks and timelines
 \\end{document}
 ```
-

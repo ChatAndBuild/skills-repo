@@ -2,7 +2,7 @@
 id: zendesk-automation
 name: Zendesk Automation
 description: Support zendesk automation workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Zendesk Automation

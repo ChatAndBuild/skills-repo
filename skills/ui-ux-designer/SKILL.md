@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: ui-ux-designer
 name: UI/UX Designer
 description: Support ui/ux designer workflows with clear steps and best practices.

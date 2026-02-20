@@ -1,6 +1,6 @@
 ---
 id: seo-review
-category: research
+category: Content & Media
 name: Seo Review
 description: Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential.
 ---

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: nanomaterial-lims-manager
 name: Nanomaterial LIMS Manager
 description: Laboratory Information Management System skill for nanomaterial sample tracking and data management.

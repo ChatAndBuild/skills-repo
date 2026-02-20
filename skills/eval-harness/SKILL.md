@@ -2,7 +2,7 @@
 id: eval-harness
 name: Eval Harness
 description: Support eval harness workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Eval Harness

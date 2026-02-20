@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: mixpanel-automation
 name: Mixpanel Automation
 description: Support mixpanel automation workflows with clear steps and best practices.

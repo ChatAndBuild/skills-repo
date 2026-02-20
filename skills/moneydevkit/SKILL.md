@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: moneydevkit
 name: Moneydevkit
 description: Accept payments on any website using moneydevkit.

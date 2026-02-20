@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: predicate-logic
 name: Predicate Logic
 description: Problem-solving strategies for predicate logic in mathematical logic.

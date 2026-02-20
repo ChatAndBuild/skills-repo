@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: validating-ai-ethics-and-fairness
 name: Validating AI Ethics And Fairness
 description: Help with validating ai ethics and fairness tasks and questions.
@@ -12,6 +12,7 @@ version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
 ---
+
 # Ai Ethics Validator
 
 This skill provides automated assistance for ai ethics validator tasks.

@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: ukrainian
 name: Ukrainian
 description: Write Ukrainian that sounds human. Not formal, not robotic, not AI-generated.

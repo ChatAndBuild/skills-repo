@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: notion-spec-to-implementation
 name: Notion Spec To Implementation
 description: Turn Notion specs into implementation plans, tasks, and progress tracking;.

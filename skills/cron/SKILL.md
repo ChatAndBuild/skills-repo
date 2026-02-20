@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: cron
 name: Cron
 description: Schedule reminders and recurring tasks.

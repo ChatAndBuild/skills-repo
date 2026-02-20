@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: fix-life-in-1-day
 name: Fix Life In 1 Day
 version: 1.0.0

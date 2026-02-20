@@ -2,7 +2,7 @@
 id: swissweather
 name: SwissWeather
 description: Support swissweather workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # SwissWeather

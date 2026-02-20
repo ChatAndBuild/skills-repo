@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: triaging-issues
 name: Triaging Issues
 description: Triages GitHub issues by routing to oncall teams, applying labels, and closing questions.

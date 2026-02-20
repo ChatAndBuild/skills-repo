@@ -2,7 +2,7 @@
 id: git-workflow
 name: Git Workflow
 description: Support git workflow workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Git Workflow

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: rey-memory
 name: Rey Memory
 description: Hierarchical long-term memory system. Stores conversations, learnings, and growth. Compresses over time to prevent bloat.

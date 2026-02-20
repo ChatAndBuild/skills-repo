@@ -1,5 +1,5 @@
 ---
-category: development
+category: Content & Media
 id: web-fetch
 name: Web Fetch
 description: Fetch and extract readable content from web pages. Use for lightweight page access without browser automation.

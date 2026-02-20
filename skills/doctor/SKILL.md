@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: doctor
 name: Doctor
 description: Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.

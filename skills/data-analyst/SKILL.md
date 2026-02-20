@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: data-analyst
 name: Data Analyst
 description: Support data analyst workflows with clear steps and best practices.

@@ -2,7 +2,7 @@
 id: skill-seekers
 name: Skill Seekers
 description: Support seekers workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Skill Seekers

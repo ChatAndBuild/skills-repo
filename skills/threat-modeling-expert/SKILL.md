@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: threat-modeling-expert
 name: Threat Modeling Expert
 description: Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use for security architecture reviews, threat identification, and secure-by-design planning.

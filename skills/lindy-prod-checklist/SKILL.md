@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: lindy-prod-checklist
 name: Lindy Prod Checklist
 description: Production readiness checklist for Lindy AI deployments.

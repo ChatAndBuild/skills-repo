@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: pathml
 name: PathML
 description: Help with pathml tasks and questions.

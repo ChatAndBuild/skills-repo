@@ -2,7 +2,7 @@
 id: fact-check
 name: Fact Check
 description: Support fact check workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Fact Check

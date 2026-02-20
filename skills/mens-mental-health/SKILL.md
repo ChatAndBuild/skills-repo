@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: mens-mental-health
 name: Mens Mental Health
 description: Mental health support for men with emotion check-ins, stress tools, and no-judgment space.

@@ -2,7 +2,7 @@
 id: mcp-integration
 name: MCP Integration
 description: Support mcp integration workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # MCP Integration

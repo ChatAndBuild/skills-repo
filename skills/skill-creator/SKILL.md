@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: skill-creator
 name: Skill Creator
 description: Support creator workflows with clear steps and best practices.

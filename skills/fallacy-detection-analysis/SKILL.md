@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: fallacy-detection-analysis
 name: Fallacy Detection Analysis
 description: Identify formal and informal logical fallacies in arguments, classify fallacy types, and explain precisely why reasoning fails with reference to logical principles.

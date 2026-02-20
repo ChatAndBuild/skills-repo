@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: apollo-prod-checklist
 name: Apollo Prod Checklist
 description: Execute Apollo.io production deployment checklist.

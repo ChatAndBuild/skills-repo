@@ -2,7 +2,7 @@
 id: code-reviewer
 name: Code Reviewer
 description: Support code reviewer workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Code Reviewer

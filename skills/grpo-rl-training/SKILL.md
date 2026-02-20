@@ -2,7 +2,7 @@
 id: grpo-rl-training
 name: GRPO RL Training
 description: Support grpo rl training workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # GRPO RL Training

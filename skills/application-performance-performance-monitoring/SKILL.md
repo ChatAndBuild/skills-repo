@@ -2,7 +2,7 @@
 id: application-performance-performance-monitoring
 name: Application Performance Performance Monitoring
 description: Support performance performance monitoring workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Application Performance Performance Monitoring

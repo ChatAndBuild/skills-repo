@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: plan-writing
 name: Plan Writing
 description: Structured task planning with clear breakdowns, dependencies, and verification criteria.

@@ -2,7 +2,7 @@
 id: linkerd-patterns
 name: Linkerd Patterns
 description: Support linkerd patterns workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Linkerd Patterns

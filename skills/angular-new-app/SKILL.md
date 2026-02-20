@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: angular-new-app
 name: Angular New App
 description: Creates a new Angular app using the Angular CLI. This skill should be used whenver a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application.

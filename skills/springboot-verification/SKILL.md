@@ -2,7 +2,7 @@
 id: springboot-verification
 name: Spring Boot Verification
 description: Support spring boot verification workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Spring Boot Verification

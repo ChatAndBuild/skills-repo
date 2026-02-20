@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: mpc-accept-crypto-payments
 name: MPC Accept Crypto Payments
 description: Accept crypto payments on Solana via MoonPay Commerce (formerly Helio). Create Pay Links, generate checkout URLs, check transactions, and list supported currencies.

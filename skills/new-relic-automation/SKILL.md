@@ -2,7 +2,7 @@
 id: new-relic-automation
 name: New Relic Automation
 description: Support new relic automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # New Relic Automation

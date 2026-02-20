@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: medicine
 name: Medicine
 description: Support medical understanding from patient education to clinical practice and research.

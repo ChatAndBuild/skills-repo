@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: signnow
 name: Signnow
 description: Help with signnow tasks and questions.

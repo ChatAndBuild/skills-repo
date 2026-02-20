@@ -55,9 +55,29 @@ jobs:
 
             # Validate category
             CATEGORY=$(echo "$FRONTMATTER" | grep "^category:" | sed 's/category:\s*//')
-            VALID_CATEGORIES="productivity development communication writing research other"
-            if [ -n "$CATEGORY" ] && ! echo "$VALID_CATEGORIES" | grep -qw "$CATEGORY"; then
-              echo "::error file=$file::Invalid category '$CATEGORY'. Must be one of: $VALID_CATEGORIES"
+            VALID_CATEGORIES=(
+              "Lifestyle"
+              "Blockchain"
+              "Databases"
+              "Research"
+              "Content & Media"
+              "Documentation"
+              "Testing & Security"
+              "DevOps"
+              "Data & AI"
+              "Business"
+              "Development"
+              "Tools"
+            )
+            VALID=0
+            for valid_category in "${VALID_CATEGORIES[@]}"; do
+              if [ "$CATEGORY" = "$valid_category" ]; then
+                VALID=1
+                break
+              fi
+            done
+            if [ -n "$CATEGORY" ] && [ "$VALID" -ne 1 ]; then
+              echo "::error file=$file::Invalid category '$CATEGORY'. Must be one of: ${VALID_CATEGORIES[*]}"
               ERRORS=$((ERRORS + 1))
             fi
 

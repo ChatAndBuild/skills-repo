@@ -2,7 +2,7 @@
 id: weather-query
 name: Weather Query
 description: Support weather query workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Weather Query

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: whoopskill
 name: Whoopskill
 description: WHOOP CLI with health insights, trends analysis, and data fetching (sleep, recovery, HRV, strain).

@@ -2,7 +2,7 @@
 id: skill-installer
 name: Skill Installer
 description: Support installer workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Skill Installer

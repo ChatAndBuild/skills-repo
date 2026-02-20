@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: skill-judge
 name: Skill Judge
 description: Support judge workflows with clear steps and best practices.

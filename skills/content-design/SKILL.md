@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: content-design
 name: Content Design
 description: Product content designer for UI copy.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: agent-byzantine-coordinator
 name: Agent Byzantine Coordinator
 description: Agent skill for byzantine-coordinator - invoke with $agent-byzantine-coordinator.

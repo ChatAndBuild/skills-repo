@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: stride-analysis-patterns
 name: Stride Analysis Patterns
 description: Apply STRIDE methodology to systematically identify threats.
@@ -18,4 +18,3 @@ Apply STRIDE methodology to systematically identify threats.
 
 - Brief plan or checklist
 - Key risks, dependencies, and metrics
-
