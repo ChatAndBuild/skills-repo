@@ -1,8 +1,8 @@
 ---
-category: research
+category: writing
 id: dailydev
-name: Dailydev
-description: Overcome LLM knowledge cutoffs with real-time developer content. daily.dev aggregates articles from thousands of sources, validated by community engagement, with structured taxonomy for precise discovery.
+name: Daily.dev
+description: Support daily.dev workflows with clear steps and best practices.
 ---
 
 # daily.dev API for AI Agents

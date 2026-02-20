@@ -1,8 +1,8 @@
 ---
-category: other
+category: productivity
 id: skill-judge
 name: Skill Judge
-description: Evaluate Agent Skill design quality against official specifications and best practices.
+description: Support judge workflows with clear steps and best practices.
 ---
 
 # Skill Judge
@@ -18,4 +18,3 @@ Evaluate Agent Skill design quality against official specifications and best pra
 
 - Summary of goals and plan
 - Key tips and precautions
-

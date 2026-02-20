@@ -2,7 +2,7 @@
 category: productivity
 id: file-organizer
 name: File Organizer
-description: Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort.
+description: Support file organizer workflows with clear steps and best practices.
 ---
 
 # File Organizer

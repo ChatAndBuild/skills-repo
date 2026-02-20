@@ -2,7 +2,7 @@
 category: productivity
 id: postmortem-writing
 name: Postmortem Writing
-description: Write effective blameless postmortems with root cause analysis, timelines, and action items.
+description: Support postmortem workflows with clear steps and best practices.
 ---
 
 # Postmortem Writing

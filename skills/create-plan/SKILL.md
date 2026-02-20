@@ -1,8 +1,8 @@
 ---
-category: other
+category: productivity
 id: create-plan
 name: Create Plan
-description: Help with create plan tasks and questions.
+description: Support create plan workflows with clear steps and best practices.
 metadata:
   short-description: Create a plan
 ---
