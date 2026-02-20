@@ -1,0 +1,20 @@
+---
+id: ai-product
+name: AI Product
+description: Support ai product workflows with clear steps and best practices.
+category: development
+---
+
+# AI Product
+
+Support ai product workflows with clear steps and best practices.
+
+## When to Use
+
+- You need help with ai product.
+- You want a clear, actionable next step.
+
+## Output
+
+- Summary of goals and plan
+- Key tips and precautions

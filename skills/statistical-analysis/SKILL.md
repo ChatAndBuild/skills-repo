@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: statistical-analysis
 name: Statistical Analysis
-description: Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regression, correlation, Bayesian stats, power analysis, assumption checks, APA reporting, for academic research.
+description: Support statistical workflows with clear steps and best practices.
 ---
 
 # Statistical Analysis

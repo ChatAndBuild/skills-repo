@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: attack-tree-construction
 name: Attack Tree Construction
-description: Build comprehensive attack trees to visualize threat paths.
+description: Support attack tree construction workflows with clear steps and best practices.
 ---
 
 # Attack Tree Construction

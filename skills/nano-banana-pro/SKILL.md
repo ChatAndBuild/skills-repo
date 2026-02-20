@@ -3,7 +3,7 @@ id: nano-banana-pro
 category: development
 author: openclaw
 name: Nano Banana Pro
-description: Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).
+description: Support nano banana pro workflows with clear steps and best practices.
 homepage: https://ai.google.dev/
 metadata:
   {

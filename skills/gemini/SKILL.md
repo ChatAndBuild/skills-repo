@@ -2,7 +2,7 @@
 id: gemini
 name: Gemini
 description: Support gemini workflows with clear steps and best practices.
-category: productivity
+category: development
 ---
 
 # Gemini

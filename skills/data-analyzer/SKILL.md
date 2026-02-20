@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: data-analyzer
 name: Data Analyzer
-description: Analyze datasets and extract insights.
+description: Support data workflows with clear steps and best practices.
 ---
 
 # Data Analyzer

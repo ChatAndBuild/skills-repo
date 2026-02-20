@@ -2,8 +2,8 @@
 id: openai-image-gen
 category: development
 author: openclaw
-name: Openai Image Gen
-description: Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.
+name: OpenAI Image Gen
+description: Support openai image gen workflows with clear steps and best practices.
 homepage: https://platform.openai.com/docs/api-reference/images
 metadata:
   {

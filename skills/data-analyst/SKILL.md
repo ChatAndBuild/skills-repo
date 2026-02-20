@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: data-analyst
 name: Data Analyst
-description: SQL, pandas, and statistical analysis expertise for data exploration and insights.
+description: Support data analyst workflows with clear steps and best practices.
   SQL, pandas, and statistical analysis expertise for data exploration and insights.
   Use when: analyzing data, writing SQL queries, using pandas, performing statistical analysis,
   or when user mentions data analysis, SQL, pandas, statistics, or needs help exploring datasets.

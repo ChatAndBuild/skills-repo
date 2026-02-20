@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: mixpanel-automation
 name: Mixpanel Automation
-description: "Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas."
+description: Support mixpanel automation workflows with clear steps and best practices.
 requires:
   mcp: [rube]
 ---

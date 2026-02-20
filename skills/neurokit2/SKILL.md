@@ -1,8 +1,8 @@
 ---
-category: other
+category: development
 id: neurokit2
-name: Neurokit2
-description: Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.
+name: NeuroKit2
+description: Support neurokit2 workflows with clear steps and best practices.
 ---
 
 # NeuroKit2

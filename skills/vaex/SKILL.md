@@ -1,0 +1,20 @@
+---
+id: vaex
+name: Vaex
+description: Support vaex workflows with clear steps and best practices.
+category: development
+---
+
+# Vaex
+
+Support vaex workflows with clear steps and best practices.
+
+## When to Use
+
+- You need help with vaex.
+- You want a clear, actionable next step.
+
+## Output
+
+- Summary of goals and plan
+- Key tips and precautions

@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: data-storytelling
 name: Data Storytelling
-description: Transform data into compelling narratives using visualization, context, and persuasive structure.
+description: Support data storytelling workflows with clear steps and best practices.
 ---
 
 # Data Storytelling

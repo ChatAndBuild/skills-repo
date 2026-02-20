@@ -2,7 +2,7 @@
 id: skill-writer
 name: Skill Writer
 description: Support skill writer workflows with clear steps and best practices.
-category: productivity
+category: development
 ---
 
 # Skill Writer

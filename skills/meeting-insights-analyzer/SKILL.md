@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: meeting-insights-analyzer
 name: Meeting Insights Analyzer
-description: Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills.
+description: Support meeting insights workflows with clear steps and best practices.
 ---
 
 # Meeting Insights Analyzer
