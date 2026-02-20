@@ -19,4 +19,3 @@ Generate professional clinical decision support (CDS) documents for pharmaceutic
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

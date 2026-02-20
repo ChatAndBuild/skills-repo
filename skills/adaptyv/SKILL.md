@@ -1,5 +1,5 @@
 ---
-category: other
+category: research
 id: adaptyv
 name: Adaptyv
 description: Help with adaptyv tasks and questions.

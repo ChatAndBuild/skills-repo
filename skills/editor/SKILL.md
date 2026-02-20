@@ -1,6 +1,6 @@
 ---
 id: editor
-category: writing
+category: research
 name: Editor
 description: Help with editor tasks and questions.
   Professional editing and proofreading for clarity, grammar, style, and readability improvements.
