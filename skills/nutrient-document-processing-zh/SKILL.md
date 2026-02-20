@@ -1,8 +1,8 @@
 ---
 category: productivity
 id: nutrient-document-processing-zh
-name: nutrient-document-processing
-description: 使用Nutrient DWS API处理、转换、OCR、提取、编辑、签署和填写文档。支持PDF、DOCX、XLSX、PPTX、HTML和图像文件。
+name: Nutrient Document Processing
+description: 使用Nutrient DWS API处理、转换、OCR、提取、编辑、签署和填写文档。支持PDF、DOCX、XLSX、PPTX、HTML和图像文件。.
 ---
 
 # 文档处理

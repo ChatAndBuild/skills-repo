@@ -2,7 +2,7 @@
 id: summarize
 category: writing
 author: openclaw
-name: summarize
+name: Summarize
 description: Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).
 homepage: https://summarize.sh
 metadata:

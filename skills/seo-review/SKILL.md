@@ -1,8 +1,8 @@
 ---
 id: seo-review
 category: research
-name: seo-review
-description: Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential
+name: Seo Review
+description: Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential.
 ---
 
 # Skill: SEO Audit for Concept Pages

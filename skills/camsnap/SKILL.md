@@ -2,7 +2,7 @@
 id: camsnap
 category: development
 author: openclaw
-name: camsnap
+name: Camsnap
 description: Capture frames or clips from RTSP/ONVIF cameras.
 homepage: https://camsnap.ai
 metadata:

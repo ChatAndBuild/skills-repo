@@ -2,8 +2,8 @@
 id: book-translation
 category: writing
 author: f
-name: book-translation
-description: Translate "The Interactive Book of Prompting" chapters and UI strings to a new language
+name: Book Translation
+description: Translate "The Interactive Book of Prompting" chapters and UI strings to a new language.
 ---
 
 # Book Translation Skill

@@ -1,8 +1,8 @@
 ---
 id: content-creator
 category: writing
-name: content-creator
-description: |
+name: Content Creator
+description: Write content creator content from the user's input.
   Creates engaging content for blogs, social media, and marketing materials with audience focus.
   Use when: writing blog posts, creating social media content, developing marketing copy, crafting
   engaging headlines, or when user mentions content creation, blogging, social media, or

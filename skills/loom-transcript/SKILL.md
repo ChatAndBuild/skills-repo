@@ -2,8 +2,8 @@
 id: loom-transcript
 category: writing
 author: n8n-io
-name: loom-transcript
-description: Fetch and display the full transcript from a Loom video URL. Use when the user wants to get or read a Loom transcript.
+name: Loom Transcript
+description: Fetch and display the full transcript from a Loom video URL.
 argument-hint: [loom-url]
 ---
 
