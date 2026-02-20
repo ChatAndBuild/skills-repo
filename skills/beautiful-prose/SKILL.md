@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: beautiful-prose
 name: Beautiful Prose
 description: Hard-edged writing style contract for timeless, forceful English prose without AI tics.

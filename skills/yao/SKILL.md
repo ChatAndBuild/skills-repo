@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: yao
 name: Yao
 description: Help with yao tasks and questions.

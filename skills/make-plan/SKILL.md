@@ -2,7 +2,7 @@
 id: make-plan
 name: Make Plan
 description: Support make plan workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Make Plan

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: catalyst-dex-integration
 name: Catalyst DEX Integration
 description: Add a DEX project to dex.trades for a chain (sources, base trades, chain unions, seed, dex_info).

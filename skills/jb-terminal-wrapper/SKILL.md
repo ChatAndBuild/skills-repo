@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: jb-terminal-wrapper
 name: Jb Terminal Wrapper
 description: Common Juicebox V5 design patterns for vesting, NFT treasuries, terminal wrappers, yield integration, and governance-minimal configurations.
@@ -24,4 +24,3 @@ Common Juicebox V5 design patterns for vesting, NFT treasuries, terminal wrapper
 
 - Summary of goals and plan
 - Key tips and precautions
-

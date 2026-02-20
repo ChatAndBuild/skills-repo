@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Research
 id: hybrid-search-implementation
 name: Hybrid Search Implementation
 description: Support hybrid search implementation workflows with clear steps and best practices.

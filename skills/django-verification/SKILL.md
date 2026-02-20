@@ -2,7 +2,7 @@
 id: django-verification
 name: Django Verification
 description: Support django verification workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Django Verification

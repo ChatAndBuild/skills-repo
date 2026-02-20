@@ -2,7 +2,7 @@
 id: write-release-notes
 name: Write Release Notes
 description: Support write release notes workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Write Release Notes

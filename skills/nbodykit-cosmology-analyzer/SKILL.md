@@ -2,7 +2,7 @@
 id: nbodykit-cosmology-analyzer
 name: NBodyKit Cosmology Analyzer
 description: Support nbodykit cosmology workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # NBodyKit Cosmology Analyzer

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: cancel
 name: Cancel
 description: Cancel any active OMC mode (autopilot, ralph, ultrawork, ultraqa, swarm, ultrapilot, pipeline, team).

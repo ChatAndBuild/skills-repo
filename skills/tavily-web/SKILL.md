@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: tavily-web
 name: Tavily Web
 description: Web search, content extraction, crawling, and research capabilities using Tavily API.

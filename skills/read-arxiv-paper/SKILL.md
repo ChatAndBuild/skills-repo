@@ -1,5 +1,5 @@
 ---
-category: research
+category: Content & Media
 id: read-arxiv-paper
 name: Read Arxiv Paper
 description: Use this skill when when asked to read an arxiv paper given an arxiv URL.

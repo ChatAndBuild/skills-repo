@@ -1,6 +1,6 @@
 ---
 id: book-translation
-category: writing
+category: Content & Media
 author: f
 name: Book Translation
 description: Translate "The Interactive Book of Prompting" chapters and UI strings to a new language.

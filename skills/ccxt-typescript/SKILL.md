@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: ccxt-typescript
 name: CCXT TypeScript
 description: CCXT cryptocurrency exchange library for TypeScript and JavaScript developers (Node.js and browser). Covers both REST API (standard) and WebSocket API (real-time). Helps install CCXT, connect to exchanges, fetch market data, place orders, stream live tickers/orderbooks, handle authentication, and manage errors.

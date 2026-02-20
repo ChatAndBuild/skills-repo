@@ -2,7 +2,7 @@
 id: issue-triage
 name: Issue Triage
 description: Support issue triage workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Issue Triage

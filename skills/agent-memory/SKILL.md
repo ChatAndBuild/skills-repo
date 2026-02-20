@@ -2,7 +2,7 @@
 id: agent-memory
 name: Agent Memory
 description: Support agent memory workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Agent Memory

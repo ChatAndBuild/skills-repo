@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: calcom-api
 name: Calcom API
 description: Interact with the Cal.com API v2 to manage scheduling, bookings, event types, availability, and calendars. Use this skill when building integrations that need to create or manage bookings, check availability, configure event types, or sync calendars with Cal.com's scheduling infrastructure.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: visualization-expert
 name: Visualization Expert
 description: Support visualization expert workflows with clear steps and best practices.

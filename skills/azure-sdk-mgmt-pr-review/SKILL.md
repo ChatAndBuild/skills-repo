@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: azure-sdk-mgmt-pr-review
 name: Azure Sdk Mgmt Pr Review
 description: Review Azure SDK management-plane pull requests, check naming conventions, API compatibility, and code quality.

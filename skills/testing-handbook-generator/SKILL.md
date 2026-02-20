@@ -2,7 +2,7 @@
 id: testing-handbook-generator
 name: Testing Handbook Generator
 description: Support testing handbook workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Testing Handbook Generator

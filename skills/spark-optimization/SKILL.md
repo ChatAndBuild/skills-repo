@@ -2,7 +2,7 @@
 id: spark-optimization
 name: Spark Optimization
 description: Support spark optimization workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Spark Optimization

@@ -2,7 +2,7 @@
 id: author-contributions
 name: Author Contributions
 description: Support author contributions workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Author Contributions

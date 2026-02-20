@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: product-manager-toolkit
 name: Product Manager Toolkit
 description: Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.

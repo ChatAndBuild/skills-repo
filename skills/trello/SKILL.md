@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: trello
 name: Trello
 description: Manage Trello boards, lists, and cards via the Trello REST API.

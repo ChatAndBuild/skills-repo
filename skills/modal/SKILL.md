@@ -2,7 +2,7 @@
 id: modal
 name: Modal
 description: Support modal workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Modal

@@ -1,6 +1,6 @@
 ---
 id: songsee
-category: development
+category: Content & Media
 author: openclaw
 name: Songsee
 description: Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.

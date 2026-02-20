@@ -2,7 +2,7 @@
 id: skypilot-multi-cloud-orchestration
 name: SkyPilot Multi-Cloud Orchestration
 description: Support skypilot multi-cloud orchestration workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # SkyPilot Multi-Cloud Orchestration

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: aussie-mortgage-calc
 name: Aussie Mortgage Calc
 description: Australian mortgage calculator — LVR, stamp duty, LMI, repayments, and First Home Buyer concessions by state.

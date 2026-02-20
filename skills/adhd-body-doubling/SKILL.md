@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: adhd-body-doubling
 name: ADHD Body Doubling
 version: 2.1.0

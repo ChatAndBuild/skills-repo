@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: prayer-times
 name: Prayer Times
 description: Get accurate Islamic prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha) for any location worldwide using official calculation methods.

@@ -2,7 +2,7 @@
 id: railway-environment
 name: Railway Environment
 description: Support railway environment workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Railway Environment

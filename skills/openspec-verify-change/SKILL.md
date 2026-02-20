@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: openspec-verify-change
 name: OpenSpec Verify Change
 description: Verify implementation matches change artifacts.

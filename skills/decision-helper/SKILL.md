@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: decision-helper
 name: Decision Helper
 description: Structured decision-making frameworks for evaluating options and making informed choices.

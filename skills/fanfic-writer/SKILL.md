@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: fanfic-writer
 name: Fanfic Writer
 version: 2.1.0
@@ -10,6 +10,7 @@ metadata:
     emoji: "📖"
     category: "creative"
 ---
+
 # Fanfic Writer v2.1 - 自动化小说写作系统 / Automated Novel Writing System
 
 **版本 Version**: 2.1.0  

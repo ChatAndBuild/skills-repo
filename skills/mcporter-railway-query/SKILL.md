@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: mcporter-railway-query
 name: Mcporter Railway Query
 description: Query and book Chinese railway tickets via 12306 using mcporter CLI.

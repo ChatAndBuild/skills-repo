@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: nsfc-research-content-writer
 name: NSFC Research Content Writer
 version: 0.2.2

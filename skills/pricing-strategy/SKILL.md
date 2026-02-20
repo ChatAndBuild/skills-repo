@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: pricing-strategy
 name: Pricing Strategy
 description: When the user wants help with pricing decisions, packaging, or monetization strategy. Also.
@@ -18,4 +18,3 @@ When the user wants help with pricing decisions, packaging, or monetization stra
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

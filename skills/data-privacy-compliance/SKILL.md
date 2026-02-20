@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: data-privacy-compliance
 name: Data Privacy Compliance
 description: Data privacy and regulatory compliance specialist for GDPR, CCPA, HIPAA, and international data protection laws.
@@ -18,4 +18,3 @@ Data privacy and regulatory compliance specialist for GDPR, CCPA, HIPAA, and int
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

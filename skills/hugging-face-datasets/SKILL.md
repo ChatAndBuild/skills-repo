@@ -2,7 +2,7 @@
 id: hugging-face-datasets
 name: Hugging Face Datasets
 description: Support hugging face datasets workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Hugging Face Datasets

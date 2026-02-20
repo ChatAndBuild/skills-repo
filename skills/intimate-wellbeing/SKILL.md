@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: intimate-wellbeing
 name: Intimate Wellbeing
 description: "Professional, non-explicit guidance on intimate wellbeing and sexual performance: communication, stress reduction, sleep, exercise, habits, medical red flags, and relationship health. Use for wellness-focused questions; avoid explicit content."

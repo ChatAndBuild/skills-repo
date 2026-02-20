@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: personal-assistant
 name: Personal Assistant
 description: Personal daily briefing and productivity assistant. Generates morning briefings with priorities, habits, and self-care reminders.

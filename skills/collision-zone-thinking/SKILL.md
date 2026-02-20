@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: collision-zone-thinking
 name: Collision Zone Thinking
 description: Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?

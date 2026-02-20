@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: finishing-a-development-branch
 name: Finishing A Development Branch
 description: Guide the final steps to wrap up a development branch safely.

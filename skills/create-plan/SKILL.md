@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: create-plan
 name: Create Plan
 description: Support create plan workflows with clear steps and best practices.

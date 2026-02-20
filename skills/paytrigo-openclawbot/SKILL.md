@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: paytrigo-openclawbot
 name: Paytrigo Openclawbot
 description: Create PayTrigo Base/USDC payment flows for OpenClawBot.

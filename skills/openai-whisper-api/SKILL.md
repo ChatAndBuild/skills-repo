@@ -1,6 +1,6 @@
 ---
 id: openai-whisper-api
-category: development
+category: Content & Media
 author: openclaw
 name: OpenAI Whisper API
 description: Support openai whisper api workflows with clear steps and best practices.

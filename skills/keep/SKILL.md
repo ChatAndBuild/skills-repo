@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: keep
 name: Keep
 version: 0.43.5

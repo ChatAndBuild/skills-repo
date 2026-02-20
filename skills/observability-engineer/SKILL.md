@@ -2,7 +2,7 @@
 id: observability-engineer
 name: Observability Engineer
 description: Support observability engineer workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Observability Engineer

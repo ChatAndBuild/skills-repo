@@ -2,7 +2,7 @@
 id: crafting-effective-readmes
 name: Crafting Effective READMEs
 description: Support crafting effective readmes workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Crafting Effective READMEs

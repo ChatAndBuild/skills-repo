@@ -2,7 +2,7 @@
 id: build
 name: Build
 description: Support build workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Build

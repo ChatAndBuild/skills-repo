@@ -2,7 +2,7 @@
 id: github-automation
 name: GitHub Automation
 description: Support github automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GitHub Automation

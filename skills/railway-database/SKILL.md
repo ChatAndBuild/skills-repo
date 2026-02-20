@@ -2,7 +2,7 @@
 id: railway-database
 name: Railway Database
 description: Support railway database workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Railway Database

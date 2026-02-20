@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: generate-frontend-forms
 name: Generate Frontend Forms
 description: Guide for creating forms using Sentry's new form system.
@@ -18,4 +18,3 @@ Guide for creating forms using Sentry's new form system.
 
 - Brief plan or checklist
 - Key recommendations and metrics to track
-

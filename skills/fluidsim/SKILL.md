@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: fluidsim
 name: Fluidsim
 description: Framework for computational fluid dynamics simulations using Python.

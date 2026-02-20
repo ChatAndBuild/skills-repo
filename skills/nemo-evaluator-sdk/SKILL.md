@@ -2,7 +2,7 @@
 id: nemo-evaluator-sdk
 name: NeMo Evaluator SDK
 description: Support nemo evaluator sdk workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # NeMo Evaluator SDK

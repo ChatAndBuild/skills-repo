@@ -2,7 +2,7 @@
 id: kh-assistant
 name: KH Assistant
 description: Support kh workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # KH Assistant

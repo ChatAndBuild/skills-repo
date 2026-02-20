@@ -2,7 +2,7 @@
 id: render-deploy
 name: Render Deploy
 description: Support render deploy workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Render Deploy

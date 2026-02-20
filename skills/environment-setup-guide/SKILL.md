@@ -2,7 +2,7 @@
 id: environment-setup-guide
 name: Environment Setup Guide
 description: Support environment setup workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Environment Setup Guide

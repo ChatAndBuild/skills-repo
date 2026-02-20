@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: agent-agentic-payments
 name: Agent Agentic Payments
 description: Agent skill for agentic-payments - invoke with $agent-agentic-payments.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: pylabrobot
 name: PyLabRobot
 description: Support pylabrobot workflows with clear steps and best practices.

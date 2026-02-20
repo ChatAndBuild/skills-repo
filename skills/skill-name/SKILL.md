@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 description: What it does + when to use (activation triggers).
 name: Skill Name
 id: skill-name

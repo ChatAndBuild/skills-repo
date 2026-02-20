@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Content & Media
 id: write-tbp
 name: Write Tbp
 description: Writing technical blog posts about tldraw features and implementation details.

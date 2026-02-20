@@ -2,7 +2,7 @@
 id: torch-geometric
 name: Torch Geometric
 description: Support torch geometric workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Torch Geometric

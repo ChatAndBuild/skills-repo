@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: jira-automation
 name: Jira Automation
 description: "Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas."

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: catholic-grounding
 name: Catholic Grounding
 description: Help answer questions about Catholicism accurately and respectfully (Catechism-first). Provides a structured response format, common topic map with CCC references, and short prayer/reference snippets.

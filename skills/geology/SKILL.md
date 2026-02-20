@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: geology
 name: Geology
 description: Explain Earth's rocks, processes, and history from field trips to research.

@@ -2,7 +2,7 @@
 id: github-actions-creator
 name: GitHub Actions Creator
 description: Support github actions creator workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GitHub Actions Creator

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: inversion-exercise
 name: Inversion Exercise
 description: Flip core assumptions to reveal hidden constraints and alternative approaches - "what if the opposite were true?

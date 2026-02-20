@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: flowio
 name: FlowIO
 description: Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.
@@ -18,4 +18,3 @@ Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arra
 
 - Summary of goals and plan
 - Key tips and precautions
-

@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: project-guidelines-example
 name: Project Guidelines Example
 description: Example project-specific skill template based on a real production application.

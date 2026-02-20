@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: wcag-audit-patterns
 name: Wcag Audit Patterns
 description: Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance.

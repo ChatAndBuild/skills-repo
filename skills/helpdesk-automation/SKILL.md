@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: helpdesk-automation
 name: Helpdesk Automation
 description: Support helpdesk automation workflows with clear steps and best practices.

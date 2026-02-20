@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: peer-review
 name: Peer Review
 description: Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines.
@@ -19,4 +19,3 @@ Systematic peer review toolkit. Evaluate methodology, statistics, design, reprod
 
 - Summary of goals and plan
 - Key tips and precautions
-

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: infinite-gratitude
 name: Infinite Gratitude
 description: Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).

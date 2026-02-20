@@ -1,6 +1,6 @@
 ---
 id: technical-writer
-category: productivity
+category: Content & Media
 name: Technical Writer
 description: Support technical workflows with clear steps and best practices.
   Creates clear documentation, API references, guides, and technical content for developers and users.

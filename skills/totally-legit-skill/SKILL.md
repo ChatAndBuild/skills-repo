@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: totally-legit-skill
 name: Totally Legit Skill
 emoji: 🎁

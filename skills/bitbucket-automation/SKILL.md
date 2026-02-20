@@ -2,7 +2,7 @@
 id: bitbucket-automation
 name: Bitbucket Automation
 description: Support bitbucket automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Bitbucket Automation

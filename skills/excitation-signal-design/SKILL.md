@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: excitation-signal-design
 name: Excitation Signal Design
 description: Design effective excitation signals (step tests) for system identification and parameter estimation in control systems.

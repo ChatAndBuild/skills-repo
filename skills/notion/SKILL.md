@@ -2,7 +2,7 @@
 id: notion
 name: Notion
 description: Support notion workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Notion

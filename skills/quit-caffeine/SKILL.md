@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: quit-caffeine
 name: Quit Caffeine
 description: Reduce or quit caffeine with withdrawal tracking, tapering plans, and energy milestones.

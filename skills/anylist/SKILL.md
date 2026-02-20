@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: anylist
 name: Anylist
 description: Manage grocery and shopping lists via AnyList.

@@ -2,7 +2,7 @@
 id: conditioning
 name: Conditioning
 description: Support conditioning workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Conditioning

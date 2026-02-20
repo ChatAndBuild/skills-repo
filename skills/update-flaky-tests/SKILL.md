@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: update-flaky-tests
 name: Update Flaky Tests
 description: Update the flaky test tracker.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: create-attack-technique
 name: Create Attack Technique
 description: Create or review Stratus Red Team attack techniques.

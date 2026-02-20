@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: histolab
 name: Histolab
 description: Help with histolab tasks and questions.
@@ -18,4 +18,3 @@ Help with histolab tasks and questions.
 
 - Summary of goals and plan
 - Key tips and precautions
-

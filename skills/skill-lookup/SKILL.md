@@ -2,7 +2,7 @@
 id: skill-lookup
 name: Skill Lookup
 description: Support lookup workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Skill Lookup

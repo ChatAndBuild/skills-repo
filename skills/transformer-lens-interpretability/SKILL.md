@@ -2,7 +2,7 @@
 id: transformer-lens-interpretability
 name: Transformer Lens Interpretability
 description: Support transformer lens interpretability workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Transformer Lens Interpretability

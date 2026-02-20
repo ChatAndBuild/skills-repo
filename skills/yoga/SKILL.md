@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: yoga
 name: Yoga
 description: Yoga instruction, pose alignment, sequencing, breathwork, and modifications for different levels.

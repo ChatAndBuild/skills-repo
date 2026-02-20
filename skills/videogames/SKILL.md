@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: videogames
 name: Videogames
 slug: videogames

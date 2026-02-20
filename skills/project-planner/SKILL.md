@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: project-planner
 name: Project Planner
 description: Breaks down complex projects into actionable tasks with timelines, dependencies, and milestones.

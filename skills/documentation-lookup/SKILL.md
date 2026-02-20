@@ -2,7 +2,7 @@
 id: documentation-lookup
 name: Documentation Lookup
 description: Support documentation lookup workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Documentation Lookup

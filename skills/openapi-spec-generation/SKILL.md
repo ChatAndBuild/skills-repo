@@ -2,7 +2,7 @@
 id: openapi-spec-generation
 name: OpenAPI Spec Generation
 description: Support openapi spec generation workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # OpenAPI Spec Generation

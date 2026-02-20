@@ -2,7 +2,7 @@
 id: google-analytics
 name: Google Analytics
 description: Support google analytics workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Google Analytics

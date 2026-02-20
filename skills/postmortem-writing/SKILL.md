@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: postmortem-writing
 name: Postmortem Writing
 description: Support postmortem workflows with clear steps and best practices.

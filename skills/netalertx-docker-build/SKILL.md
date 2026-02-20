@@ -2,7 +2,7 @@
 id: netalertx-docker-build
 name: NetAlertX Docker Build
 description: Support netalertx docker build workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # NetAlertX Docker Build

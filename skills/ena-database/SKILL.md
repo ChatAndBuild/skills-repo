@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: ena-database
 name: ENA Database
 description: Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats.

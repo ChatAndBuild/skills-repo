@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: customer-support
 name: Customer Support
 description: Guidelines for handling customer support interactions.

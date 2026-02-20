@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: 1k-retrospective
 name: 1K Retrospective
 description: Analyze accumulated bug fix cases and propose updates to the self-testing checklist. Use periodically (weekly/monthly) to evolve quality checks based on real issues.

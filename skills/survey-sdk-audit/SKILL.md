@@ -2,7 +2,7 @@
 id: survey-sdk-audit
 name: Survey SDK Audit
 description: Support survey sdk audit workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Survey SDK Audit

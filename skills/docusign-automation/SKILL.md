@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Content & Media
 id: docusign-automation
 name: Docusign Automation
 description: "Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas."

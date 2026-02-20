@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: string-database
 name: String Database
 description: Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology.

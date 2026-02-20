@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Research
 id: geo-fundamentals
 name: Geo Fundamentals
 description: Support geo fundamentals workflows with clear steps and best practices.

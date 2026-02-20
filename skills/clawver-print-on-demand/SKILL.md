@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: clawver-print-on-demand
 name: Clawver Print On Demand
 description: Sell print-on-demand merchandise on Clawver. Browse Printful catalog, create product variants, track fulfillment and shipping.

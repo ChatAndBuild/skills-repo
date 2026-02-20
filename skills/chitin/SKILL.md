@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: chitin
 name: Chitin
 description: The Chitin Protocol. Protect yourself. Protect your siblings.

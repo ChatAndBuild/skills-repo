@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: context-degradation
 name: Context Degradation
 description: "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash."

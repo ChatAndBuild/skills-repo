@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: continuity
 name: Continuity
 description: Problem-solving strategies for continuity in real analysis.

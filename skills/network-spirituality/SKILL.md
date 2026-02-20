@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: network-spirituality
 name: Network Spirituality
 description: Embody and create content in the Network Spirituality aesthetic — the Remilia/Milady cultural movement blending Y2K net art, anime, cyber-spiritualism, and post-ironic sincerity.

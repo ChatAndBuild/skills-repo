@@ -2,7 +2,7 @@
 id: zoho-invoice-automation
 name: Zoho Invoice Automation
 description: Provide guidance on zoho invoice automation based on the user's goals and tools.
-category: productivity
+category: Business
 source: composio
 tags: [html, pdf, json, mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/zoho-books-automation

@@ -2,7 +2,7 @@
 id: airflow-dag-patterns
 name: Airflow DAG Patterns
 description: Support airflow dag patterns workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Airflow DAG Patterns

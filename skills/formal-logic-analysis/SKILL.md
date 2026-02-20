@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: formal-logic-analysis
 name: Formal Logic Analysis
 description: Apply propositional, predicate, and modal logic systems to formalize arguments, construct proofs, and evaluate validity using symbolic notation and truth tables.

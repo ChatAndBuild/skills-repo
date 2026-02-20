@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: money
 name: Money
 description: Personal finance guidance with practical rules for saving, investing, and avoiding common traps.

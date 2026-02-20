@@ -2,7 +2,7 @@
 id: obspy-datacenter-client
 name: ObsPy DataCenter Client
 description: Support obspy datacenter client workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # ObsPy DataCenter Client

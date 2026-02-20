@@ -2,7 +2,7 @@
 id: vercel-deploy
 name: Vercel Deploy
 description: Support vercel deploy workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Vercel Deploy

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: qutip
 name: Qutip
 description: Quantum mechanics simulations and analysis using QuTiP (Quantum Toolbox in Python).

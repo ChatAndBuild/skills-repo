@@ -2,7 +2,7 @@
 id: gitlab-ci-patterns
 name: GitLab CI Patterns
 description: Support gitlab ci patterns workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GitLab CI Patterns

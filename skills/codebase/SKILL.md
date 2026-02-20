@@ -2,7 +2,7 @@
 id: codebase
 name: Codebase
 description: Support codebase workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Codebase

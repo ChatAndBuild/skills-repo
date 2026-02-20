@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: style-extractor
 name: Style Extractor
 description: 从参考剧本或参考素材中提取统一风格锚点（STYLE_BASE），确保全剧视觉一致性。当需要匹配参考风格、提取画风、建立风格基准、生成风格资产包时使用。.

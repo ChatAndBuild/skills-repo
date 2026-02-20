@@ -2,7 +2,7 @@
 id: azure-resource-visualizer
 name: Azure Resource Visualizer
 description: Support azure resource visualizer workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Resource Visualizer

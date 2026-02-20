@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: contract-review
 name: Contract Review
 description: Review contracts against your organization's negotiation playbook, flagging deviations and generating redline suggestions.

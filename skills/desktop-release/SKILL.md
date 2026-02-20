@@ -2,7 +2,7 @@
 id: desktop-release
 name: Desktop Release
 description: Support desktop release workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Desktop Release

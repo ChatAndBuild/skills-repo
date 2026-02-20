@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: labview-instrument-controller
 name: LabVIEW Instrument Controller
 description: LabVIEW instrument control skill for DAQ systems, hardware integration, and real-time data acquisition.

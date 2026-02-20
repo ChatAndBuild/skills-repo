@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: memory-forensics
 name: Memory Forensics
 description: Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools.

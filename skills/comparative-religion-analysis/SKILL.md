@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: comparative-religion-analysis
 name: Comparative Religion Analysis
 description: Conduct phenomenological comparison of religious traditions, beliefs, practices, and institutions while maintaining methodological neutrality and scholarly rigor.

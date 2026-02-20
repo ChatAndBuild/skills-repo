@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: changelog-generator
 name: Changelog Generator
 description: Support changelog workflows with clear steps and best practices.

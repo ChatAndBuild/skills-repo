@@ -2,7 +2,7 @@
 id: datadog-cli
 name: Datadog CLI
 description: Support datadog cli workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Datadog CLI

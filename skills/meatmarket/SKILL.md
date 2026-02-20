@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: meatmarket
 name: Meatmarket
 description: Post jobs to a global human workforce and pay with crypto. MeatMarket connects AI agents to humans who complete real-world tasks for USDC on Base. Completely free for both AI and humans.

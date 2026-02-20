@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: ml-paper-writing
 name: ML Paper Writing
 description: Support ml paper workflows with clear steps and best practices.
@@ -23,4 +23,3 @@ Support ml paper workflows with clear steps and best practices.
 
 - Summary of goals and plan
 - Key tips and precautions
-

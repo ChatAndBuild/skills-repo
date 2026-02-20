@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: tools
 name: Tools
 description: Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.

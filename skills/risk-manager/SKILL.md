@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: risk-manager
 name: Risk Manager
 description: Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses. Use PROACTIVELY for risk assessment, trade tracking, or portfolio protection.

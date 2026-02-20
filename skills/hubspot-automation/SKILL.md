@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: hubspot-automation
 name: Hubspot Automation
 description: Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.

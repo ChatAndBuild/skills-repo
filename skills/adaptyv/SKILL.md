@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: adaptyv
 name: Adaptyv
 description: Help with adaptyv tasks and questions.

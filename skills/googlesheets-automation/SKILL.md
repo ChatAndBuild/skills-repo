@@ -1,5 +1,5 @@
 ---
-category: development
+category: Content & Media
 id: googlesheets-automation
 name: Google Sheets Automation
 description: Support google sheets automation workflows with clear steps and best practices.

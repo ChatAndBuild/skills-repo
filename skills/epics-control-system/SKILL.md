@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: epics-control-system
 name: EPICS Control System
 description: EPICS control system skill for accelerator and beamline instrument control and monitoring.

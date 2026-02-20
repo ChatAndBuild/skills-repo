@@ -2,7 +2,7 @@
 id: mcp-builder
 name: MCP Builder
 description: Support mcp builder workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # MCP Builder

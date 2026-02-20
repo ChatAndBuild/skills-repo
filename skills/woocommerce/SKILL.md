@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: woocommerce
 name: Woocommerce
 description: Guidelines for git and GitHub operations in the WooCommerce repository.

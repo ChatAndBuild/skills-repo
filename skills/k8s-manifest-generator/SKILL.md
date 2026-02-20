@@ -2,7 +2,7 @@
 id: k8s-manifest-generator
 name: K8s Manifest Generator
 description: Support k8s manifest workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # K8s Manifest Generator

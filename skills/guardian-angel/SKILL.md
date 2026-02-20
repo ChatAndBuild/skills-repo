@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: guardian-angel
 name: Guardian Angel
 version: 3.1.2

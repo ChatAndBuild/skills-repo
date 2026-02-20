@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: productboard-search
 name: Productboard Search
 description: Search and explore ProductBoard features, products, and feedback.

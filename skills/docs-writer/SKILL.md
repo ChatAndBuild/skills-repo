@@ -2,7 +2,7 @@
 id: docs-writer
 name: Docs Writer
 description: Support docs workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Docs Writer

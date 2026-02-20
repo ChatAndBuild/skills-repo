@@ -2,7 +2,7 @@
 id: aws-serverless
 name: AWS Serverless
 description: Support aws serverless workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # AWS Serverless

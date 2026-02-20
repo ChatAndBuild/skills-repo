@@ -2,7 +2,7 @@
 id: hqq-quantization
 name: HQQ Quantization
 description: Support hqq quantization workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # HQQ Quantization

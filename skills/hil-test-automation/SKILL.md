@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: hil-test-automation
 name: HIL Test Automation
 description: Hardware-in-the-loop test development and automation expertise.

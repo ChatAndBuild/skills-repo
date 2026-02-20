@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: market-research-reports
 name: Market Research Reports
 description: Support market research reports workflows with clear steps and best practices.

@@ -2,7 +2,7 @@
 id: llm-app-patterns
 name: LLM App Patterns
 description: Support llm app patterns workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # LLM App Patterns

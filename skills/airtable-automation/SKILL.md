@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: airtable-automation
 name: Airtable Automation
 description: "Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas."

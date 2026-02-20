@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: depression-support
 name: Depression Support
 description: Daily support for depression with mood tracking, behavioral activation, and self-care.

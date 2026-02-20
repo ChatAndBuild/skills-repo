@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: close-automation
 name: Close Automation
 description: "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas."

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: botrights
 name: Botrights
 version: 1.0.0

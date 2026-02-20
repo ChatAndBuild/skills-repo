@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: clerk-prod-checklist
 name: Clerk Prod Checklist
 description: Production readiness checklist for Clerk deployment.

@@ -2,7 +2,7 @@
 id: env
 name: Env
 description: Support env workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Env

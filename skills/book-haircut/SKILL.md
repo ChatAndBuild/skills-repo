@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: book-haircut
 name: Book Haircut
 description: Book haircut services through Lokuli MCP.

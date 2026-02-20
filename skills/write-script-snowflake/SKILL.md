@@ -2,7 +2,7 @@
 id: write-script-snowflake
 name: Write Script Snowflake
 description: Support write script snowflake workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Write Script Snowflake

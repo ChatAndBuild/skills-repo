@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: threat-mitigation-mapping
 name: Threat Mitigation Mapping
 description: Map identified threats to appropriate security controls and mitigations.
@@ -18,4 +18,3 @@ Map identified threats to appropriate security controls and mitigations.
 
 - Brief plan or checklist
 - Key risks, dependencies, and metrics
-

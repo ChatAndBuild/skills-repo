@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: hebrew
 name: Hebrew
 description: Write Hebrew that sounds human. Not formal, not robotic, not AI-generated.

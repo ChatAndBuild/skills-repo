@@ -2,7 +2,7 @@
 id: fitbit-automation
 name: Fitbit Automation
 description: Automate Fitbit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-category: productivity
+category: Business
 source: composio
 tags: [api, cli, mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/fitbit-automation

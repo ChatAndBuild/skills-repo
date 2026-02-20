@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: gitlab-automation
 name: GitLab Automation
 description: Support gitlab automation workflows with clear steps and best practices.

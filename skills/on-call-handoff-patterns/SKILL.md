@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: on-call-handoff-patterns
 name: On Call Handoff Patterns
 description: Master on-call shift handoffs with context transfer, escalation procedures, and documentation.

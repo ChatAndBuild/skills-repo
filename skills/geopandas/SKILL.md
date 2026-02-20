@@ -2,7 +2,7 @@
 id: geopandas
 name: GeoPandas
 description: Support geopandas workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # GeoPandas

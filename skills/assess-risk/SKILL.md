@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: assess-risk
 name: Assess Risk
 description: Used to review whether an Apache ShardingSphere PR truly fixes the root cause, assess side effects and regression risks, and determine whether it can be safely merged. If not mergeable, produce committer-tone change request suggestions. Supports targeted comparison across multiple review rounds.

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: proxy-pay
 name: Proxy Pay
 description: Proxy MCP server integration for agent payments. Use MCP tools to create intents, issue cards within policy, and track transactions. Supports agent tokens for autonomous runs and OAuth for interactive clients.

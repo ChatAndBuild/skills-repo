@@ -2,7 +2,7 @@
 id: confluence-automation
 name: Confluence Automation
 description: Support confluence automation workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Confluence Automation

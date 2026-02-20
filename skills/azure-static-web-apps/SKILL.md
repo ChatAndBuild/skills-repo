@@ -2,7 +2,7 @@
 id: azure-static-web-apps
 name: Azure Static Web Apps
 description: Support azure static web apps workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Static Web Apps

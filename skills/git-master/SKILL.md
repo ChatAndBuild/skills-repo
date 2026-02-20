@@ -2,7 +2,7 @@
 id: git-master
 name: Git Master
 description: Support git master workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Git Master

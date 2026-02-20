@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: airbnb-search
 name: Airbnb Search
 description: Search Airbnb listings with prices, ratings, and direct links. No API key required.

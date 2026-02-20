@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: safety-interlocks
 name: Safety Interlocks
 description: Implement safety interlocks and protective mechanisms to prevent equipment damage and ensure safe control system operation.

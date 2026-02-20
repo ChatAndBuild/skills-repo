@@ -1,5 +1,5 @@
 ---
-category: development
+category: Research
 id: geniml
 name: GeniML
 description: Support geniml workflows with clear steps and best practices.

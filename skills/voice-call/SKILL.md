@@ -2,7 +2,7 @@
 id: voice-call
 name: Voice Call
 description: Support voice call workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Voice Call

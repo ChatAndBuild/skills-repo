@@ -2,7 +2,7 @@
 id: documentation
 name: Documentation
 description: Support documentation workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Documentation

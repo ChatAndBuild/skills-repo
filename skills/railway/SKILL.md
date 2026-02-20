@@ -2,7 +2,7 @@
 id: railway
 name: Railway
 description: Support railway workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Railway

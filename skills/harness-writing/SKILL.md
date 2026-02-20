@@ -2,7 +2,7 @@
 id: harness-writing
 name: Harness Writing
 description: Support harness workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Harness Writing

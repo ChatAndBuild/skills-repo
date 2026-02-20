@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: metallurgical-analysis
 name: Metallurgical Analysis
 description: Specialized skill for metallic materials analysis and metallography including grain size measurement, phase quantification, and inclusion rating.

@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Research
 id: dailydev
 name: Daily.dev
 description: Support daily.dev workflows with clear steps and best practices.

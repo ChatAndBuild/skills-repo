@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: psychologist
 name: Psychologist
 description: Provide empathetic emotional support with active listening and evidence-based techniques.

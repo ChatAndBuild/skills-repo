@@ -2,7 +2,7 @@
 id: wave-accounting-automation
 name: Wave Accounting Automation
 description: "Automate Wave Accounting tasks via Rube MCP (Composio): invoices, customers, payments, and small business accounting. Always search tools first for current schemas."
-category: productivity
+category: Business
 source: composio
 tags: [api, cli, mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/wave_accounting-automation

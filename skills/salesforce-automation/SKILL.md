@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: salesforce-automation
 name: Salesforce Automation
 description: "Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas."

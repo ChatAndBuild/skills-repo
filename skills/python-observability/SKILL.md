@@ -2,7 +2,7 @@
 id: python-observability
 name: Python Observability
 description: Support python observability workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Python Observability

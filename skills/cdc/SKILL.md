@@ -2,7 +2,7 @@
 id: cdc
 name: CDC
 description: Support cdc workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # CDC

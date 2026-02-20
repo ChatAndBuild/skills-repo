@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: project-agora
 name: Project Agora
 version: 0.1.3

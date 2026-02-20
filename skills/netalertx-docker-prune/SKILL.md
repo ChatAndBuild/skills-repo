@@ -2,7 +2,7 @@
 id: netalertx-docker-prune
 name: NetAlertX Docker Prune
 description: Support netalertx docker prune workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # NetAlertX Docker Prune

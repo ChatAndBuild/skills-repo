@@ -2,7 +2,7 @@
 id: write-pr
 name: Write PR
 description: Support write pr workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Write PR

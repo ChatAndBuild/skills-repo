@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: stripe-automation
 name: Stripe Automation
 description: "Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas."

@@ -2,7 +2,7 @@
 id: starlink
 name: Starlink
 description: Support starlink workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Starlink

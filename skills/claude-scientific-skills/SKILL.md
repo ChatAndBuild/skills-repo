@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: claude-scientific-skills
 name: Claude Scientific Skills
 description: Scientific research and analysis skills.

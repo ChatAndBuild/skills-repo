@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: gtars
 name: Gtars
 description: High-performance toolkit for genomic interval analysis in Rust with Python bindings.

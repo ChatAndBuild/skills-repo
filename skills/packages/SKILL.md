@@ -2,7 +2,7 @@
 id: packages
 name: Packages
 description: Support packages workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Packages

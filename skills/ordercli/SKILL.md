@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: ordercli
 name: Ordercli
 description: "Reorder Foodora orders + track ETA/status with ordercli. Never confirm without explicit user approval. Triggers: order food, reorder, track ETA."

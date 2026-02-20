@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: hugo-blog-agent
 name: Hugo Blog Agent
 version: 1.0.0

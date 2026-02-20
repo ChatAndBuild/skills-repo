@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: documenso-observability
 name: Documenso Observability
 description: Implement monitoring, logging, and tracing for Documenso integrations.

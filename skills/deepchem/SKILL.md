@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: deepchem
 name: Deepchem
 description: Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs (GCN, MPNN), MoleculeNet benchmarks, pretrained models, featurization, for drug discovery ML.
@@ -18,4 +18,3 @@ Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs 
 
 - Summary of goals and plan
 - Key tips and precautions
-

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: gita-sotd
 name: Gita Sotd
 description: Help with gita sotd tasks and questions.

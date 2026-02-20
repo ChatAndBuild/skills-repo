@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: google-analytics-automation
 name: Google Analytics Automation
 description: Support google analytics automation workflows with clear steps and best practices.

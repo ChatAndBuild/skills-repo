@@ -2,7 +2,7 @@
 id: transit-least-squares
 name: Transit Least Squares
 description: Support transit least squares workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Transit Least Squares

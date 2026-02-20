@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: data-analyzer
 name: Data Analyzer
 description: Support data workflows with clear steps and best practices.

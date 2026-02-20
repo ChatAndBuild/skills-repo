@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: paypal
 name: Paypal
 description: Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management.

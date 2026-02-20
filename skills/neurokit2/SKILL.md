@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: neurokit2
 name: NeuroKit2
 description: Support neurokit2 workflows with clear steps and best practices.

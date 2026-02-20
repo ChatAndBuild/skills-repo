@@ -2,7 +2,7 @@
 id: create-skill-file
 name: Create Skill File
 description: Support create file workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Create Skill File

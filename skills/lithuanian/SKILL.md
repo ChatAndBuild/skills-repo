@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: lithuanian
 name: Lithuanian
 description: Write Lithuanian that sounds human. Not formal, not robotic, not AI-generated.

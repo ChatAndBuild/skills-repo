@@ -2,7 +2,7 @@
 id: navigator
 name: Navigator
 description: Support navigator workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Navigator

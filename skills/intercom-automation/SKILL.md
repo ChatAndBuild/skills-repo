@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: intercom-automation
 name: Intercom Automation
 description: "Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas."

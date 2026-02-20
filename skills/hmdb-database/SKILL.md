@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: hmdb-database
 name: HMDB Database
 description: Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.

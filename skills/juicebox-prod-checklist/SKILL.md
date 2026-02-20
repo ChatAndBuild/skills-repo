@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: juicebox-prod-checklist
 name: Juicebox Prod Checklist
 description: Execute Juicebox production deployment checklist.

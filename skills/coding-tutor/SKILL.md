@@ -2,7 +2,7 @@
 id: coding-tutor
 name: Coding Tutor
 description: Support coding workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Coding Tutor

@@ -2,7 +2,7 @@
 id: documentation-generation-doc-generate
 name: Documentation Generation Doc Generate
 description: Support documentation generation doc generate workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Documentation Generation Doc Generate

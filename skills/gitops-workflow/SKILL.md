@@ -2,7 +2,7 @@
 id: gitops-workflow
 name: GitOps Workflow
 description: Support gitops workflow workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GitOps Workflow

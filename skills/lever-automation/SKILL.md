@@ -2,7 +2,7 @@
 id: lever-automation
 name: Lever Automation
 description: Support lever automation workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Lever Automation

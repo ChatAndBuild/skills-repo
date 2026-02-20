@@ -2,7 +2,7 @@
 id: lambda-labs-gpu-cloud
 name: Lambda Labs GPU Cloud
 description: Support lambda labs gpu cloud workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Lambda Labs GPU Cloud

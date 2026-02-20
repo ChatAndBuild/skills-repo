@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: quit-smoking
 name: Quit Smoking
 description: Quit cigarettes with smoke-free tracking, craving support, and health recovery timeline.

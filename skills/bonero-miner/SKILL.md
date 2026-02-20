@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: bonero-miner
 name: Bonero Miner
 version: 2.0.0

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: biopython
 name: Biopython
 description: Support biopython workflows with clear steps and best practices.

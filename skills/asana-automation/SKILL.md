@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: asana-automation
 name: Asana Automation
 description: "Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas."

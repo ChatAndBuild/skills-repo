@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: cost-aware-llm-pipeline
 name: Cost Aware LLM Pipeline
 description: Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.

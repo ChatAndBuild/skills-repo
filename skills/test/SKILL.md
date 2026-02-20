@@ -2,7 +2,7 @@
 id: test
 name: Test
 description: Support test workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Test

@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: daily-meeting-update
 name: Daily Meeting Update
 description: Interactive daily standup/meeting update generator.

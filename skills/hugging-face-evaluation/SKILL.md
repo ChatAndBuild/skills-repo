@@ -2,7 +2,7 @@
 id: hugging-face-evaluation
 name: Hugging Face Evaluation
 description: Support hugging face evaluation workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Hugging Face Evaluation

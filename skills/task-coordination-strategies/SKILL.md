@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: task-coordination-strategies
 name: Task Coordination Strategies
 description: Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper task descriptions and workload balancing. Use this skill when breaking down work for agent teams, managing task dependencies, or monitoring team progress.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: analyzing-financial-statements
 name: Analyzing Financial Statements
 description: This skill calculates key financial ratios and metrics from financial statement data for investment analysis.

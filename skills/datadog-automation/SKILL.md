@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: datadog-automation
 name: Datadog Automation
 description: Support datadog automation workflows with clear steps and best practices.

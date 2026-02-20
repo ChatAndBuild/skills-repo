@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: habit-flow
 name: Habit Flow
 description: AI-powered atomic habit tracker with natural language logging, streak tracking, smart reminders, and coaching. Use for creating habits, logging completions naturally ("I meditated today"), viewing progress, and getting personalized coaching.

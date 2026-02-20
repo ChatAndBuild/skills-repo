@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: openspec-archive-change
 name: OpenSpec Archive Change
 description: Archive multiple completed changes at once.

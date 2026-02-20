@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Content & Media
 id: text-to-pdf-automation
 name: Canva
 version: 1.0.0

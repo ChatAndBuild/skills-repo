@@ -2,7 +2,7 @@
 id: azure-functions
 name: Azure Functions
 description: Support azure functions workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Azure Functions

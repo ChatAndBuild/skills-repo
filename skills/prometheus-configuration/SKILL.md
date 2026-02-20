@@ -2,7 +2,7 @@
 id: prometheus-configuration
 name: Prometheus Configuration
 description: Support prometheus configuration workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Prometheus Configuration

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: attack-tree-construction
 name: Attack Tree Construction
 description: Support attack tree construction workflows with clear steps and best practices.

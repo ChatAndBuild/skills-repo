@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: monitor-experiment
 name: Monitor Experiment
 description: Monitor Beaker experiments until completion.

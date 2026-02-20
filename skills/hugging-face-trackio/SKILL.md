@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: hugging-face-trackio
 name: Hugging Face Trackio
 description: Support hugging face trackio workflows with clear steps and best practices.

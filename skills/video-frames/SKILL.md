@@ -1,6 +1,6 @@
 ---
 id: video-frames
-category: development
+category: Content & Media
 author: openclaw
 name: Video Frames
 description: Extract frames or short clips from videos using ffmpeg.

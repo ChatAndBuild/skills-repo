@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: claude-ally-health
 name: Claude Ally Health
 description: A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.

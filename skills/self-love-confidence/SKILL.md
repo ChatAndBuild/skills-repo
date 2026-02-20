@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: self-love-confidence
 name: Self Love Confidence
 description: Build self-love and confidence with affirmations, wins logging, and inner critic management.

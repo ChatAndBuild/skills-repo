@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: paraswap
 name: ParaSwap
 description: DEX aggregator for best swap routes across major chains.

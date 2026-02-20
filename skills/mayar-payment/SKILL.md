@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: mayar-payment
 name: Mayar Payment
 description: Provide guidance on mayar payment based on the user's goals and tools.

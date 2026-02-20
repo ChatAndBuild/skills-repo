@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: mcp-scripts
 name: Mcp Scripts
 description: Help with mcp scripts tasks and questions.

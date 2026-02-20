@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: science
 name: Science
 description: Help with science tasks and questions.

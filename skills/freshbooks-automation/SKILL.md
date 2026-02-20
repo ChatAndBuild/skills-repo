@@ -2,7 +2,7 @@
 id: freshbooks-automation
 name: Freshbooks Automation
 description: "FreshBooks Automation: manage businesses, projects, time tracking, and billing in FreshBooks cloud accounting."
-category: productivity
+category: Business
 source: composio
 tags: [api, cli, mcp, automation, ai]
 url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/freshbooks-automation

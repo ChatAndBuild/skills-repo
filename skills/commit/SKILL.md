@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: commit
 name: Commit
 description: Run verification steps and prepare a clean commit.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: philosophy
 name: Philosophy
 description: Guide philosophical inquiry from first questions to scholarly debate.

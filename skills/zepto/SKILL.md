@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: zepto
 name: Zepto
 description: Order groceries from Zepto in seconds. Just say what you need, get a payment link on WhatsApp, pay on your phone, done. Remembers your usual items. Works across India where Zepto delivers.
@@ -19,4 +19,3 @@ Order groceries from Zepto in seconds. Just say what you need, get a payment lin
 
 - Summary of goals and plan
 - Key tips and precautions
-

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: meeting-insights-analyzer
 name: Meeting Insights Analyzer
 description: Support meeting insights workflows with clear steps and best practices.

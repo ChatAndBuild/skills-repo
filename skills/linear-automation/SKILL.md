@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: linear-automation
 name: Linear Automation
 description: "Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas."

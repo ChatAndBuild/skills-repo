@@ -2,7 +2,7 @@
 id: reference-signal-forms
 name: Reference Signal Forms
 description: Support reference signal forms workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Reference Signal Forms

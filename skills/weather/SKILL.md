@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: weather
 name: Weather
 description: Get current weather and forecasts via wttr.in or Open-Meteo.

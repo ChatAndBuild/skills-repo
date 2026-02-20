@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Content & Media
 id: mailchimp-automation
 name: Mailchimp Automation
 description: Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas.

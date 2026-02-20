@@ -2,7 +2,7 @@
 id: embedding-strategies
 name: Embedding Strategies
 description: Support embedding strategies workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Embedding Strategies

@@ -2,7 +2,7 @@
 id: code-review-excellence
 name: Code Review Excellence
 description: Support code excellence workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Code Review Excellence

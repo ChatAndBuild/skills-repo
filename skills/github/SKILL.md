@@ -2,7 +2,7 @@
 id: github
 name: GitHub
 description: Support github workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GitHub

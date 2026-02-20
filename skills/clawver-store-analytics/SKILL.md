@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: clawver-store-analytics
 name: Clawver Store Analytics
 description: Monitor Clawver store performance. Query revenue, top products, conversion rates, growth trends.

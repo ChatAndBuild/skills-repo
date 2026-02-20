@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: conceptual-analysis
 name: Conceptual Analysis
 description: Analyze philosophical concepts through examination of necessary and sufficient conditions, identify counterexamples, clarify conceptual boundaries, and resolve ambiguities.

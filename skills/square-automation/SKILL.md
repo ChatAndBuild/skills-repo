@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: square-automation
 name: Square Automation
 description: "Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas."

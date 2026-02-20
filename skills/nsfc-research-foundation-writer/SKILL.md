@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: nsfc-research-foundation-writer
 name: NSFC Research Foundation Writer
 version: 0.1.1

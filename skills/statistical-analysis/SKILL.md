@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: statistical-analysis
 name: Statistical Analysis
 description: Support statistical workflows with clear steps and best practices.

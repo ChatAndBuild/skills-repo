@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: isabelle-hol-interface
 name: Isabelle HOL Interface
 description: Interface with Isabelle/HOL for classical mathematics formalization.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: networkx
 name: NetworkX
 description: Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python.

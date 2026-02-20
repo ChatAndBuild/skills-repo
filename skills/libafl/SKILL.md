@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: libafl
 name: LibAFL
 type: fuzzer

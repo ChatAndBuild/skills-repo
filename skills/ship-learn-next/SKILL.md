@@ -2,7 +2,7 @@
 id: ship-learn-next
 name: Ship Learn Next
 description: Support ship learn next workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Ship Learn Next

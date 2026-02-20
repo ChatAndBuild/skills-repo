@@ -2,7 +2,7 @@
 id: hbcreative
 name: HBCreative
 description: Support hbcreative workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # HBCreative

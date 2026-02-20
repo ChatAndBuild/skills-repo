@@ -2,7 +2,7 @@
 id: gh-create-pr
 name: GH Create PR
 description: Support gh create pr workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # GH Create PR

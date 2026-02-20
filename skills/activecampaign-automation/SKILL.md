@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: activecampaign-automation
 name: Activecampaign Automation
 description: "Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first for current schemas."

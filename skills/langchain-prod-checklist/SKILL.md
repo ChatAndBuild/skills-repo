@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: langchain-prod-checklist
 name: Langchain Prod Checklist
 description: Execute LangChain production deployment checklist.

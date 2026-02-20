@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: pdp
 name: Pdp
 description: Product Detail Page architecture, image gallery/carousel, caching, and add-to-cart flow.

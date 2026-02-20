@@ -2,7 +2,7 @@
 id: astropy
 name: Astropy
 description: Support astropy workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Astropy

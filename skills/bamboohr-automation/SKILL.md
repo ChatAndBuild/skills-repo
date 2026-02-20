@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: bamboohr-automation
 name: Bamboohr Automation
 description: "Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas."

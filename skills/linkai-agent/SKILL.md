@@ -2,7 +2,7 @@
 id: linkai-agent
 name: LinkAI Agent
 description: Support linkai agent workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # LinkAI Agent

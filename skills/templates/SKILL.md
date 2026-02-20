@@ -2,7 +2,7 @@
 id: templates
 name: Templates
 description: Support templates workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Templates

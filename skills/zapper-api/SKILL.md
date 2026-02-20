@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: zapper-api
 name: Zapper API
 description: Query DeFi portfolio data across 50+ chains via Zapper's GraphQL API.

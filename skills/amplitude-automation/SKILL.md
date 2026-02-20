@@ -2,7 +2,7 @@
 id: amplitude-automation
 name: Amplitude Automation
 description: Support amplitude automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Amplitude Automation

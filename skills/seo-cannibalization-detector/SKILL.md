@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: seo-cannibalization-detector
 name: SEO Cannibalization Detector
 description: Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.

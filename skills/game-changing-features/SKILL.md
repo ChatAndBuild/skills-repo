@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: game-changing-features
 name: Game Changing Features
 description: Find 10x product opportunities and high-leverage improvements.

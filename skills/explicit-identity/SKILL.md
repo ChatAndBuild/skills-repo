@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: explicit-identity
 name: Explicit Identity
 description: Explicit Identity Across Boundaries.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: dyadpr-fixcomments
 name: Dyadpr Fixcomments
 description: Read all unresolved GitHub PR comments from trusted authors and address or resolve them appropriately.

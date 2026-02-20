@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: figma-automation
 name: Figma Automation
 description: "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas."

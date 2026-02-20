@@ -2,7 +2,7 @@
 id: agent-performance-benchmarker
 name: Agent Performance Benchmarker
 description: Support agent performance benchmarker workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Agent Performance Benchmarker

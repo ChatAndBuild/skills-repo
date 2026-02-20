@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: trello-automation
 name: Trello Automation
 description: Automate Trello boards, cards, and team workflows via Rube MCP.

@@ -2,7 +2,7 @@
 id: kubernetes-architect
 name: Kubernetes Architect
 description: Support kubernetes architect workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Kubernetes Architect

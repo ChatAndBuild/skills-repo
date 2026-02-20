@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: management
 name: Management
 description: Management principles, team leadership, and organizational effectiveness.

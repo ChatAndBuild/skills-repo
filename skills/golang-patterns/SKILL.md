@@ -2,7 +2,7 @@
 id: golang-patterns
 name: Golang Patterns
 description: Support golang patterns workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Golang Patterns

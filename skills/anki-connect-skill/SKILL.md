@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: anki-connect-skill
 name: Anki Connect Skill
 description: Interact with Anki flashcard decks via the AnkiConnect REST API.

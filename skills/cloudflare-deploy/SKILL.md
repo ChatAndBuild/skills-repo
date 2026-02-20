@@ -2,7 +2,7 @@
 id: cloudflare-deploy
 name: Cloudflare Deploy
 description: Support cloudflare deploy workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Cloudflare Deploy

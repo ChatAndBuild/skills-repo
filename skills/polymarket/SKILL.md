@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: polymarket
 name: Polymarket
 description: Comprehensive Polymarket skill covering prediction markets, API, trading, market data, and real-time WebSocket data streaming. Build applications with Polymarket services, monitor live trades, and integrate market predictions.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Research
 id: pydeseq2
 name: PyDESeq2
 description: Support pydeseq2 workflows with clear steps and best practices.

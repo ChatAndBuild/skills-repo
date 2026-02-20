@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: cookbook-audit
 name: Cookbook Audit
 description: Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook review or audit is requested.

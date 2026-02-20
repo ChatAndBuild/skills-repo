@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: compliance
 name: Compliance
 description: Verify technical accuracy of JavaScript concept pages by checking code examples, MDN/ECMAScript compliance, and external resources to prevent misinformation.
@@ -18,4 +18,3 @@ Verify technical accuracy of JavaScript concept pages by checking code examples,
 
 - Summary of goals and plan
 - Key tips and precautions
-

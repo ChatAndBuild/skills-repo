@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: ai-agent-card-payments
 name: AI Agent Card Payments
 description: Virtual card payments for AI agents. Create intents, issue cards within policy, and make autonomous purchases with approvals for high-value spend.

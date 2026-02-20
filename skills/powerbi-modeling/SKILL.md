@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: powerbi-modeling
 name: Power BI Modeling
 description: Support power bi modeling workflows with clear steps and best practices.

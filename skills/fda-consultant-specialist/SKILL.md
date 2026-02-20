@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: fda-consultant-specialist
 name: Fda Consultant Specialist
 description: Senior FDA consultant and specialist for medical device companies including HIPAA compliance and requirement management. Provides FDA pathway expertise, QSR compliance, cybersecurity guidance, and regulatory submission support. Use for FDA submission planning, QSR compliance assessments, HIPAA evaluations, and FDA regulatory strategy development.

@@ -2,7 +2,7 @@
 id: review-docs
 name: Review Docs
 description: Support docs workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Review Docs

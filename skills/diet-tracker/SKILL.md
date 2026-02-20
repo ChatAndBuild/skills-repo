@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: diet-tracker
 name: Diet Tracker
 description: Tracks daily diet and calculates nutrition information to help achieve weight loss goals.

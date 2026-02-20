@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: scholarly-literature-synthesis
 name: Scholarly Literature Synthesis
 description: Survey, analyze, and synthesize philosophical literature on topics, identify major positions, trace debates, and locate gaps in scholarly discourse.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: marketing-ideas
 name: Marketing Ideas
 description: When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also.
@@ -18,4 +18,3 @@ When the user needs marketing ideas, inspiration, or strategies for their SaaS o
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

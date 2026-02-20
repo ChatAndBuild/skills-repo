@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: create-an-asset
 name: Create An Asset
 description: Help with create an asset tasks and questions.
@@ -18,4 +18,3 @@ Help with create an asset tasks and questions.
 
 - Summary of goals and plan
 - Key tips and precautions
-

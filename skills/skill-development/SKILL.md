@@ -2,7 +2,7 @@
 id: skill-development
 name: Skill Development
 description: Support development workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Skill Development

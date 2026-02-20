@@ -2,7 +2,7 @@
 id: implementing-agent-modes
 name: Implementing Agent Modes
 description: Support implementing agent modes workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Implementing Agent Modes

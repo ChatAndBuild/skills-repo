@@ -2,7 +2,7 @@
 id: slack-automation
 name: Slack Automation
 description: Support slack automation workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Slack Automation

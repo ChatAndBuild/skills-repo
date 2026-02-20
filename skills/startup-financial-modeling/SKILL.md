@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: startup-financial-modeling
 name: Startup Financial Modeling
 description: Support startup financial modeling workflows with clear steps and best practices.

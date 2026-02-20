@@ -2,7 +2,7 @@
 id: training-llms-megatron
 name: Training LLMs Megatron
 description: Support training llms megatron workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Training LLMs Megatron

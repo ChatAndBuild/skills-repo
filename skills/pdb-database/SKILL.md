@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: pdb-database
 name: PDB Database
 description: Help with pdb database tasks and questions.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: business-analyst
 name: Business Analyst
 description: Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis.

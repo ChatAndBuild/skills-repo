@@ -2,7 +2,7 @@
 id: data-quality-frameworks
 name: Data Quality Frameworks
 description: Support data quality frameworks workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Data Quality Frameworks

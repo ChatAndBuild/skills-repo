@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: calendly-automation
 name: Calendly Automation
 description: Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.

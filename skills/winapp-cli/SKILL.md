@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: winapp-cli
 name: WinApp CLI
 description: Windows App Development CLI (winapp) for building, packaging, and deploying Windows applications.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: exploratory-data-analysis
 name: Exploratory Data Analysis
 description: Support exploratory data workflows with clear steps and best practices.

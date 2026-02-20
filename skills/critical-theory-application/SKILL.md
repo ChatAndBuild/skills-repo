@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: critical-theory-application
 name: Critical Theory Application
 description: Apply theoretical frameworks (postcolonial, feminist, Marxist, post-structuralist) to cultural texts and phenomena.

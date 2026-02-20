@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: uk-prayer-times
 name: UK Prayer Times
 version: 1.0.0

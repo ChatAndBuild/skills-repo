@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: backtesting-frameworks
 name: Backtesting Frameworks
 description: Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs.
@@ -18,4 +18,3 @@ Build robust backtesting systems for trading strategies with proper handling of 
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

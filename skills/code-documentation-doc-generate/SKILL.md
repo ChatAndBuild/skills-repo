@@ -2,7 +2,7 @@
 id: code-documentation-doc-generate
 name: Code Documentation Doc Generate
 description: Support code documentation doc generate workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Code Documentation Doc Generate

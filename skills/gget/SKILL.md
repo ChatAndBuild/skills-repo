@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: gget
 name: gget
 description: Help with gget tasks and questions.

@@ -2,7 +2,7 @@
 id: concept-workflow
 name: Concept Workflow
 description: Support concept workflow workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Concept Workflow

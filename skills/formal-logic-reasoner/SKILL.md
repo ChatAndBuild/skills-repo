@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: formal-logic-reasoner
 name: Formal Logic Reasoner
 description: Skill for formal logical reasoning and argument validation.

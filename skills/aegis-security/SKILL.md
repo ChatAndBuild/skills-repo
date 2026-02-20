@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: aegis-security
 name: Aegis Security
 version: 1.2.2

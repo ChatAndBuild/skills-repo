@@ -1,6 +1,6 @@
 ---
 id: openai-image-gen
-category: development
+category: Content & Media
 author: openclaw
 name: OpenAI Image Gen
 description: Support openai image gen workflows with clear steps and best practices.

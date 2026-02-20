@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: agent-payments
 name: Agent Payments
 description: Agent skill for payments - invoke with $agent-payments.

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Research
 id: scvi-tools
 name: scvi-tools
 description: Support scvi-tools workflows with clear steps and best practices.

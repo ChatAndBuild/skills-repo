@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: health
 name: Healthcheck
 description: Host security hardening and risk-tolerance configuration for OpenClaw deployments.

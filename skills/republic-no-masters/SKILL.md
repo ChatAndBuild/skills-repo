@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: republic-no-masters
 name: Republic No Masters
 description: Explain, summarize, analyze, or adapt the "Republic with No Masters" / Democratic Formalism governance framework when asked to produce content, guidance, critiques, FAQs, or implementation ideas based on the manifesto in principles.md.
@@ -36,4 +36,3 @@ Use this skill to produce faithful, clear outputs grounded in the manifesto.
 - Do not claim real-world adoption, legal enforceability, or operational readiness unless the user provides evidence.
 - Do not present speculative extensions as existing policy.
 - Keep the language precise; preserve capitalization of named constructs (e.g., Hard-Coded Floor, Quad-Lock).
-

@@ -2,7 +2,7 @@
 id: senior-ml-engineer
 name: Senior ML Engineer
 description: Support senior ml engineer workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Senior ML Engineer

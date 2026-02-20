@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Research
 id: deep-research
 name: Deep Research
 description: Support deep research workflows with clear steps and best practices.

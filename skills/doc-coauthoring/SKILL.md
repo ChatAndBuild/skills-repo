@@ -2,7 +2,7 @@
 id: doc-coauthoring
 name: Doc Coauthoring
 description: Support doc coauthoring workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Doc Coauthoring

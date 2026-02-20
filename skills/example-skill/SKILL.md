@@ -2,7 +2,7 @@
 id: example-skill
 name: Example Skill
 description: Support example workflows with clear steps and best practices.
-category: productivity
+category: Documentation
 ---
 
 # Example Skill

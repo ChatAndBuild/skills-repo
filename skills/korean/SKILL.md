@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: korean
 name: Korean
 description: Write Korean that sounds human. Not formal, not robotic, not AI-generated.

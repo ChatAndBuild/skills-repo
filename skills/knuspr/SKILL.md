@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: knuspr
 name: Knuspr
 description: Manage grocery shopping on Knuspr.de via the knuspr-cli. Use for product search, cart management, delivery slot reservation, shopping lists, order history, deals, favorites, and meal suggestions. Trigger when the user mentions Knuspr, groceries, Einkauf, Lebensmittel, Warenkorb, Lieferslot, or shopping list tasks.

@@ -2,7 +2,7 @@
 id: syncable-entity-cache-and-transform
 name: Syncable Entity Cache and Transform
 description: Support syncable entity cache and transform workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Syncable Entity Cache and Transform

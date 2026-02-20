@@ -2,7 +2,7 @@
 id: pantun-indonesia
 name: Pantun Indonesia
 description: Generate Indonesian pantun in a traditional structure.
-category: writing
+category: Lifestyle
 ---
 
 # Pantun Indonesia

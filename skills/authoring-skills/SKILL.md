@@ -1,5 +1,5 @@
 ---
-category: communication
+category: Business
 id: authoring-skills
 name: Authoring Skills
 description: How to create and maintain agent skills in .agents/skills/.

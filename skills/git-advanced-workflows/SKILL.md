@@ -2,7 +2,7 @@
 id: git-advanced-workflows
 name: Git Advanced Workflows
 description: Support git advanced workflows workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Git Advanced Workflows

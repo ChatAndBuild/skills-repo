@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: liuren
 name: Liuren
 description: Traditional Chinese "Xiao Liu Ren" divination based on current lunar time.

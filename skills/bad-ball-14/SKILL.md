@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: bad-ball-14
 name: Bad Ball 14
 description: "Bad Ball 14: doom-laden pessimistic oracle with 12 negative responses. Logs results. Use for \"bad-ball-14\", doom predictions."

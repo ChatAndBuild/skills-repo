@@ -1,5 +1,5 @@
 ---
-category: development
+category: Research
 id: evaluating-llms-harness
 name: Evaluating LLMs Harness
 description: Support evaluating llms harness workflows with clear steps and best practices.

@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: convergence
 name: Convergence
 description: Problem-solving strategies for convergence in real analysis.

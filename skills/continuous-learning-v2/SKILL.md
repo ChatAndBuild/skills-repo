@@ -2,7 +2,7 @@
 id: continuous-learning-v2
 name: Continuous Learning V2
 description: Support continuous learning v2 workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Continuous Learning V2

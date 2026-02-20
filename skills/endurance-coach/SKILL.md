@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: endurance-coach
 name: Endurance Coach
 description: Create personalized triathlon, marathon, and ultra-endurance training plans.

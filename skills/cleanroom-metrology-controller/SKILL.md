@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: cleanroom-metrology-controller
 name: Cleanroom Metrology Controller
 description: Nanofabrication metrology skill for process control with CD-SEM, ellipsometry, and profilometry.

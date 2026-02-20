@@ -2,7 +2,7 @@
 id: docs-style
 name: Docs Style
 description: Support docs style workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Docs Style

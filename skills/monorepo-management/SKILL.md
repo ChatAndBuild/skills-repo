@@ -2,7 +2,7 @@
 id: monorepo-management
 name: Monorepo Management
 description: Support monorepo management workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Monorepo Management

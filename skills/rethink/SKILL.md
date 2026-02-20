@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: rethink
 name: Rethink
 description: Challenge system assumptions against accumulated evidence. Triages observations and tensions, detects patterns, generates proposals. The scientific method applied to knowledge systems. Triggers on "/rethink", "review observations", "challenge assumptions", "what have I learned".

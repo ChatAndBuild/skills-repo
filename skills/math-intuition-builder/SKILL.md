@@ -1,5 +1,5 @@
 ---
-category: other
+category: Lifestyle
 id: math-intuition-builder
 name: Math Intuition Builder
 description: Develops mathematical understanding through examples, visualization, and analogy.

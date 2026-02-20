@@ -2,7 +2,7 @@
 id: d3-viz
 name: D3 Viz
 description: Support d3 viz workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # D3 Viz

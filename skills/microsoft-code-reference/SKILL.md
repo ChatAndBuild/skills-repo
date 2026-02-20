@@ -2,7 +2,7 @@
 id: microsoft-code-reference
 name: Microsoft Code Reference
 description: Support microsoft code reference workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Microsoft Code Reference

@@ -1,6 +1,6 @@
 ---
 id: content-creator
-category: writing
+category: Content & Media
 name: Content Creator
 description: Write content creator content from the user's input.
   Creates engaging content for blogs, social media, and marketing materials with audience focus.

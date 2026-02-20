@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: data-catalog-updater
 name: Data Catalog Updater
 description: "Data Catalog Updater - Auto-activating skill for Data Pipelines. Triggers on: data catalog updater, data catalog updater Part of the Data Pipelines skill category."

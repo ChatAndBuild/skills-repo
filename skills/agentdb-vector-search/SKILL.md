@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: agentdb-vector-search
 name: AgentDB Vector Search
 description: AgentDB memory system with HNSW vector search.

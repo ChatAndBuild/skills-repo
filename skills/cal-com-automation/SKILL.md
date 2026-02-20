@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: cal-com-automation
 name: Cal Com Automation
 description: "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas."

@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: urdu
 name: Urdu
 description: Write Urdu that sounds human. Not formal, not robotic, not AI-generated.

@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: uncle-matt
 name: Uncle Matt
 slug: uncle-matt

@@ -2,7 +2,7 @@
 id: workflow-patterns
 name: Workflow Patterns
 description: Support workflow patterns workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Workflow Patterns

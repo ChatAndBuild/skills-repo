@@ -2,7 +2,7 @@
 id: secrets-management
 name: Secrets Management
 description: Support secrets management workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Secrets Management

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: jb-revloans
 name: JB RevLoans
 description: Query REVLoans data via Bendystraw GraphQL.

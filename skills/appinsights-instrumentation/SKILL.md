@@ -1,5 +1,5 @@
 ---
-category: development
+category: Research
 id: appinsights-instrumentation
 name: AppInsights Instrumentation
 description: Support appinsights instrumentation workflows with clear steps and best practices.

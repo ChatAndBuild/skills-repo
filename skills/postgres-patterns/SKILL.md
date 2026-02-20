@@ -2,7 +2,7 @@
 id: postgres-patterns
 name: Postgres Patterns
 description: Support postgres patterns workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Postgres Patterns

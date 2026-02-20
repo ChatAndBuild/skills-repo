@@ -2,7 +2,7 @@
 id: docstring
 name: Docstring
 description: Support docstring workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Docstring

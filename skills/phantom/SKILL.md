@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: phantom
 name: Phantom
 description: Work with Phantom browser extension - add custom networks, import tokens, check connected dApps, troubleshoot issues, and manage Solana/Ethereum/Polygon accounts.

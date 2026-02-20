@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: pubmed-database
 name: PubMed Database
 description: Help with pubmed database tasks and questions.

@@ -2,7 +2,7 @@
 id: mutation-testing
 name: Mutation Testing
 description: Support mutation testing workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Mutation Testing

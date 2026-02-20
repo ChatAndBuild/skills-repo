@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: fixing-metadata
 name: Fixing Metadata
 description: Ship correct, complete metadata.

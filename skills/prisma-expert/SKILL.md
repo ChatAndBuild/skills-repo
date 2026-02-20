@@ -2,7 +2,7 @@
 id: prisma-expert
 name: Prisma Expert
 description: Support prisma expert workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # Prisma Expert

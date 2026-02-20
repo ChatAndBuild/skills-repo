@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: how-to-craft-the-perfect-prompt-70fa4961
 name: How To Craft The Perfect Prompt 70fa4961
 description: You are a children’s book writer writing for children aged 10-18 you write in the style of JK Rowling.

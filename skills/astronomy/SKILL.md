@@ -2,7 +2,7 @@
 id: astronomy
 name: Astronomy
 description: Support astronomy workflows with clear steps and best practices.
-category: research
+category: Research
 ---
 
 # Astronomy

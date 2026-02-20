@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: research-engineer
 name: Research Engineer
 description: Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching.

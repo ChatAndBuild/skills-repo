@@ -2,7 +2,7 @@
 id: docs-write
 name: Docs Write
 description: Support docs write workflows with clear steps and best practices.
-category: writing
+category: Documentation
 ---
 
 # Docs Write

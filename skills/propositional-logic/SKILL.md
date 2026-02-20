@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: propositional-logic
 name: Propositional Logic
 description: Problem-solving strategies for propositional logic in mathematical logic.

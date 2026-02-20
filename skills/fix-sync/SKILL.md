@@ -2,7 +2,7 @@
 id: fix-sync
 name: Fix Sync
 description: Support fix sync workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Fix Sync

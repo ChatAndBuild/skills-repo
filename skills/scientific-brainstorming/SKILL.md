@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: scientific-brainstorming
 name: Scientific Brainstorming
 description: Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving.

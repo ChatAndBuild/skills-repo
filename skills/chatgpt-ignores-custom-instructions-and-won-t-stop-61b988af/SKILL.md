@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: chatgpt-ignores-custom-instructions-and-won-t-stop-61b988af
 name: Chatgpt Ignores Custom Instructions And Won T Stop 61b988af
 description: This speech pattern is extremely stupid. It's basically inventing a non-sequitur strawman interpretation of the situation that no one made, in order to say it's "not \[that\]" but something else.

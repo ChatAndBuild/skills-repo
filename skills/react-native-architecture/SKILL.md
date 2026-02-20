@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: react-native-architecture
 name: React Native Architecture
 description: Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns.

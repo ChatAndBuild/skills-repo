@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: bms-development
 name: Bms Development
 description: Battery system design, BMS algorithm development, and validation expertise.

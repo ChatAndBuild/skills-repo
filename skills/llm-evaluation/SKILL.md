@@ -2,7 +2,7 @@
 id: llm-evaluation
 name: LLM Evaluation
 description: Support llm evaluation workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # LLM Evaluation

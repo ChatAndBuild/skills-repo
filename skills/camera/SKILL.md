@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: camera
 name: Camera
 description: Capture frames or clips from RTSP/ONVIF cameras.

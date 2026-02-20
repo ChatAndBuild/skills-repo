@@ -1,5 +1,5 @@
 ---
-category: writing
+category: Lifestyle
 id: exile-galacticfracture
 name: Exile Galacticfracture
 description: An entertainment micro-skill. Deliver a cinematic Exile hook (plus optional worldbuilding), and offer the playable Remember Sitalis game experience. Keep waitlist handoff consent-first. No email capture in chat.

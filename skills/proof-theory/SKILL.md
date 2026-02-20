@@ -1,5 +1,5 @@
 ---
-category: research
+category: Lifestyle
 id: proof-theory
 name: Proof Theory
 description: Problem-solving strategies for proof theory in mathematical logic.

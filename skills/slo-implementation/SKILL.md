@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: Business
 id: slo-implementation
 name: Slo Implementation
 description: Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting.

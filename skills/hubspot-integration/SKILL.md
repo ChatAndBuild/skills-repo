@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: hubspot-integration
 name: Hubspot Integration
 description: Multi-channel demand generation, paid media optimization, SEO strategy, and partnership programs for Series A+ startups. Includes CAC calculator, channel playbooks, HubSpot integration, and international expansion tactics.
@@ -28,4 +28,3 @@ Multi-channel demand generation, paid media optimization, SEO strategy, and part
 
 - Summary of goals and plan
 - Key tips and precautions
-

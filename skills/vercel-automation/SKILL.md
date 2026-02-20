@@ -2,7 +2,7 @@
 id: vercel-automation
 name: Vercel Automation
 description: Support vercel automation workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # Vercel Automation

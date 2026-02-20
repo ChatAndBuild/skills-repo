@@ -1,5 +1,5 @@
 ---
-category: development
+category: Blockchain
 id: binance
 name: Binance
 description: Build, evaluate, and tune a Polymarket BTC 1h Up/Down trading strategy using Binance (resolution source) as the anchor.

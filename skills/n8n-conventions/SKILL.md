@@ -2,7 +2,7 @@
 id: n8n-conventions
 name: n8n Conventions
 description: Support n8n conventions workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # n8n Conventions

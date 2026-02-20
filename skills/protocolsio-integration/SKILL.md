@@ -1,5 +1,5 @@
 ---
-category: research
+category: Research
 id: protocolsio-integration
 name: protocols.io Integration
 description: Help with protocols.io integration tasks and questions.

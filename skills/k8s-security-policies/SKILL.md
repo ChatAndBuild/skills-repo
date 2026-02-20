@@ -2,7 +2,7 @@
 id: k8s-security-policies
 name: K8s Security Policies
 description: Support k8s security policies workflows with clear steps and best practices.
-category: development
+category: DevOps
 ---
 
 # K8s Security Policies

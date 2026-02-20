@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: ux-researcher-designer
 name: UX Researcher Designer
 description: Support ux researcher designer workflows with clear steps and best practices.

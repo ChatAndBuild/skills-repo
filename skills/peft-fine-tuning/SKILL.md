@@ -2,7 +2,7 @@
 id: peft-fine-tuning
 name: PEFT Fine Tuning
 description: Support peft fine tuning workflows with clear steps and best practices.
-category: development
+category: Data & AI
 ---
 
 # PEFT Fine Tuning

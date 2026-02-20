@@ -1,6 +1,6 @@
 ---
 id: microcopy
-category: writing
+category: Content & Media
 name: Microcopy
 description: UI copy and microcopy guidelines.
 ---

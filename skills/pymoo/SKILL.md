@@ -1,5 +1,5 @@
 ---
-category: research
+category: Business
 id: pymoo
 name: Pymoo
 description: Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.
@@ -18,4 +18,3 @@ Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

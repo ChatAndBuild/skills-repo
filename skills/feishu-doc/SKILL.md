@@ -1,6 +1,6 @@
 ---
 id: feishu-doc
-category: productivity
+category: Content & Media
 author: openclaw
 name: Feishu Doc
 description: Help with feishu doc tasks and questions.

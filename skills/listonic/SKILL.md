@@ -1,5 +1,5 @@
 ---
-category: other
+category: Business
 id: listonic
 name: Listonic
 version: 1.0.0

@@ -1,5 +1,5 @@
 ---
-category: development
+category: Business
 id: circleci-automation
 name: CircleCI Automation
 description: Support circleci automation workflows with clear steps and best practices.
