@@ -2,7 +2,7 @@
 category: productivity
 id: workflow-orchestration-patterns
 name: Workflow Orchestration Patterns
-description: Automate workflow orchestration patterns workflows and routine tasks.
+description: Learn workflow orchestration patterns for reliable distributed systems.
 ---
 
 # Workflow Orchestration Patterns

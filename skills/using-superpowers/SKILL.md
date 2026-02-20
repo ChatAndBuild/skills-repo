@@ -2,7 +2,7 @@
 category: communication
 id: using-superpowers
 name: Using Superpowers
-description: 
+description: Ensure relevant skills are invoked before any response or action.
 ---
 
 <EXTREMELY-IMPORTANT>

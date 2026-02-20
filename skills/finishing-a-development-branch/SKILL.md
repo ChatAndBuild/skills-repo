@@ -2,7 +2,7 @@
 category: communication
 id: finishing-a-development-branch
 name: Finishing A Development Branch
-description: 
+description: Guide the final steps to wrap up a development branch safely.
 ---
 
 # Finishing a Development Branch

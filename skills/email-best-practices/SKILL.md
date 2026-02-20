@@ -2,7 +2,7 @@
 category: communication
 id: email-best-practices
 name: Email Best Practices
-description: 
+description: Apply deliverability and compliance best practices for email systems.
 ---
 
 # Email Best Practices

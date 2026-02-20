@@ -2,7 +2,7 @@
 category: productivity
 id: trello-automation
 name: Trello Automation
-description: Automate trello automation workflows and routine tasks.
+description: Automate Trello boards, cards, and team workflows via Rube MCP.
 requires:
   mcp: [rube]
 ---

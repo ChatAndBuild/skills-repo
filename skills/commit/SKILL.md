@@ -2,7 +2,7 @@
 category: other
 id: commit
 name: Commit
-description: 
+description: Run verification steps and prepare a clean commit.
 ---
 
 # Verification

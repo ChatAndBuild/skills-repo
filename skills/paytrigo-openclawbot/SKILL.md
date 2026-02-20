@@ -2,7 +2,7 @@
 category: other
 id: paytrigo-openclawbot
 name: Paytrigo Openclawbot
-description: 
+description: Create PayTrigo Base/USDC payment flows for OpenClawBot.
 metadata: {"openclaw":{}}
 ---
 
