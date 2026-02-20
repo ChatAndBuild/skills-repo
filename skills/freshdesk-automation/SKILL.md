@@ -1,8 +1,8 @@
 ---
-category: communication
+category: productivity
 id: freshdesk-automation
 name: Freshdesk Automation
-description: Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas.
+description: Support freshdesk automation workflows with clear steps and best practices.
 requires:
   mcp: [rube]
 ---

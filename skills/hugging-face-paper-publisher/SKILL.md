@@ -1,8 +1,8 @@
 ---
-category: research
+category: productivity
 id: hugging-face-paper-publisher
 name: Hugging Face Paper Publisher
-description: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
+description: Support hugging face paper publisher workflows with clear steps and best practices.
 ---
 
 # Hugging Face Paper Publisher
@@ -18,4 +18,3 @@ Publish and manage research papers on Hugging Face Hub. Supports creating paper 
 
 - Summary of goals and plan
 - Key tips and precautions
-

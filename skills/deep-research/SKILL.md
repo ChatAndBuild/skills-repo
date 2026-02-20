@@ -1,8 +1,8 @@
 ---
-category: research
+category: productivity
 id: deep-research
 name: Deep Research
-description: Comprehensive research assistant that synthesizes information from multiple sources with citations.
+description: Support deep research workflows with clear steps and best practices.
   Comprehensive research assistant that synthesizes information from multiple sources with citations.
   Use when: conducting in-depth research, gathering sources, writing research summaries, analyzing topics
   from multiple perspectives, or when user mentions research, investigation, or needs synthesized analysis

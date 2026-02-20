@@ -1,8 +1,8 @@
 ---
 id: technical-writer
-category: writing
+category: productivity
 name: Technical Writer
-description: Write technical content from the user's input.
+description: Support technical workflows with clear steps and best practices.
   Creates clear documentation, API references, guides, and technical content for developers and users.
   Use when: writing documentation, creating README files, documenting APIs, writing tutorials,
   creating user guides, or when user mentions documentation, technical writing, or needs help

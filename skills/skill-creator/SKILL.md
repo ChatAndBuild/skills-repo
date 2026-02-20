@@ -1,8 +1,8 @@
 ---
-category: communication
+category: productivity
 id: skill-creator
 name: Skill Creator
-description: Help with creator tasks and questions.
+description: Support creator workflows with clear steps and best practices.
 license: Complete terms in LICENSE.txt
 ---
 
@@ -19,4 +19,3 @@ Help with creator tasks and questions.
 
 - Brief plan or checklist
 - Key recommendations and metrics to track
-

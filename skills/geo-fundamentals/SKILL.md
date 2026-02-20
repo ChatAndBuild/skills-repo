@@ -1,8 +1,8 @@
 ---
-category: research
+category: productivity
 id: geo-fundamentals
-name: GEO Fundamentals
-description: Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).
+name: Geo Fundamentals
+description: Support geo fundamentals workflows with clear steps and best practices.
 allowed-tools: Read, Glob, Grep
 ---
 

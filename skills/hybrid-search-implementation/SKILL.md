@@ -1,8 +1,8 @@
 ---
-category: research
+category: productivity
 id: hybrid-search-implementation
 name: Hybrid Search Implementation
-description: Combine vector and keyword search for improved retrieval.
+description: Support hybrid search implementation workflows with clear steps and best practices.
 ---
 
 # Hybrid Search Implementation
@@ -18,4 +18,3 @@ Combine vector and keyword search for improved retrieval.
 
 - Summary of goals and plan
 - Key tips and precautions
-

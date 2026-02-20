@@ -1,0 +1,20 @@
+---
+id: skill-development
+name: Skill Development
+description: Support development workflows with clear steps and best practices.
+category: writing
+---
+
+# Skill Development
+
+Support development workflows with clear steps and best practices.
+
+## When to Use
+
+- You need help with skill development.
+- You want a clear, actionable next step.
+
+## Output
+
+- Summary of goals and plan
+- Key tips and precautions

@@ -1,8 +1,8 @@
 ---
-category: communication
+category: productivity
 id: helpdesk-automation
 name: Helpdesk Automation
-description: "Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas."
+description: Support helpdesk automation workflows with clear steps and best practices.
 requires:
   mcp: [rube]
 ---

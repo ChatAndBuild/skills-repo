@@ -1,8 +1,8 @@
 ---
-category: other
+category: productivity
 id: ui-ux-designer
-name: UI UX Designer
-description: Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens, component libraries, and inclusive design. Use PROACTIVELY for design systems, user flows, or interface optimization.
+name: UI/UX Designer
+description: Support ui/ux designer workflows with clear steps and best practices.
   user research, accessibility standards, and modern design tools. Specializes
   in design tokens, component libraries, and inclusive design. Use PROACTIVELY
   for design systems, user flows, or interface optimization.
