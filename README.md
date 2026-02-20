@@ -1,6 +1,7 @@
 # ChatChat Community Skills
 
-Community-contributed skills for ChatChat AI agents. Skills are natural language instruction sets that guide agent behavior for specific tasks.
+Community-contributed skills for ChatChat AI agents. Try at chatchat.com. 
+Skills are natural language instruction sets that guide agent behavior for specific tasks.
 
 ## Using Skills
 
