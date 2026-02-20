@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: evaluating-llms-harness
 name: Evaluating LLMs Harness
-description: Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag).
+description: Support evaluating llms harness workflows with clear steps and best practices.
 version: 1.0.0
 author: Orchestra Research
 license: MIT

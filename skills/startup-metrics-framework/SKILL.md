@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: startup-metrics-framework
 name: Startup Metrics Framework
-description: This skill should be used when the user asks about "key startup metrics", "SaaS metrics", "CAC and LTV", "unit economics", "burn multiple", "rule of 40", "marketplace metrics", or requests guidance on tracking and optimizing business performance metrics.
+description: Support startup metrics framework workflows with clear steps and best practices.
 version: 1.0.0
 ---
 

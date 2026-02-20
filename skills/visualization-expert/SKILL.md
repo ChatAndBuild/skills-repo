@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: visualization-expert
 name: Visualization Expert
-description: Chart selection and data visualization guidance for effective data communication.
+description: Support visualization expert workflows with clear steps and best practices.
   Chart selection and data visualization guidance for effective data communication.
   Use when: creating visualizations, choosing chart types, designing dashboards, or when user
   mentions data visualization, charts, graphs, or needs help presenting data visually.

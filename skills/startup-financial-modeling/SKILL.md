@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: startup-financial-modeling
 name: Startup Financial Modeling
-description: This skill should be used when the user asks to "create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "estimate runway", "model cash flow", or requests 3-5 year financial planning for a startup.
+description: Support startup financial modeling workflows with clear steps and best practices.
 version: 1.0.0
 ---
 

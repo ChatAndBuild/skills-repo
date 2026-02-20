@@ -1,5 +1,5 @@
 ---
-category: research
+category: development
 id: reactome-database
 name: Reactome Database
 description: Support reactome database workflows with clear steps and best practices.

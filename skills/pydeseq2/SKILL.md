@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: pydeseq2
-name: pyDESeq2
-description: Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.
+name: PyDESeq2
+description: Support pydeseq2 workflows with clear steps and best practices.
 ---
 
 # PyDESeq2

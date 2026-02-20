@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: segment-cdp
-name: Segment Cdp
-description: Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking, tracking plans with Protocols, identity resolution, destinations configuration, and data governance best practices.
+name: Segment CDP
+description: Support segment cdp workflows with clear steps and best practices.
 source: vibeship-spawner-skills (Apache 2.0)
 ---
 

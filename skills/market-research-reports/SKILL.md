@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: market-research-reports
 name: Market Research Reports
-description: Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with research-lookup for data gathering, and multi-framework strategic analysis including Porter's Five Forces, PESTLE, SWOT, TAM/SAM/SOM, and BCG Matrix.
+description: Support market research reports workflows with clear steps and best practices.
 allowed-tools: [Read, Write, Edit, Bash]
 ---
 
@@ -19,4 +19,3 @@ Generate comprehensive market research reports (50+ pages) in the style of top c
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

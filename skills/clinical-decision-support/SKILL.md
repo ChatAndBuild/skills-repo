@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: clinical-decision-support
 name: Clinical Decision Support
-description: Generate professional clinical decision support (CDS) documents for pharmaceutical and clinical research settings, including patient cohort analyses (biomarker-stratified with outcomes) and treatment recommendation reports (evidence-based guidelines with decision algorithms). Supports GRADE evidence grading, statistical analysis (hazard ratios, survival curves, waterfall plots), biomarker integration, and regulatory compliance. Outputs publication-ready LaTeX/PDF format optimized for drug development, clinical research, and evidence synthesis.
+description: Support clinical decision support workflows with clear steps and best practices.
 allowed-tools: [Read, Write, Edit, Bash]
 ---
 
