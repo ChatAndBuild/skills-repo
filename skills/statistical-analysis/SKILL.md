@@ -18,4 +18,3 @@ Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regr
 
 - Summary of assumptions and inputs
 - Key metrics and conclusions
-

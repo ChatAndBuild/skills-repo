@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: research
 id: attack-tree-construction
 name: Attack Tree Construction
 description: Build comprehensive attack trees to visualize threat paths.
@@ -18,4 +18,3 @@ Build comprehensive attack trees to visualize threat paths.
 
 - Brief plan or checklist
 - Key risks, dependencies, and metrics
-
