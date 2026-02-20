@@ -1,8 +1,8 @@
 ---
-category: productivity
+category: development
 id: cost-optimization
 name: Cost Optimization
-description: Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis.
+description: Support cost optimization workflows with clear steps and best practices.
 ---
 
 # Cloud Cost Optimization

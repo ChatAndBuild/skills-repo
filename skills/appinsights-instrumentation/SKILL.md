@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: appinsights-instrumentation
 name: AppInsights Instrumentation
-description: Instrument a webapp to send useful telemetry data to Azure App Insights.
+description: Support appinsights instrumentation workflows with clear steps and best practices.
 ---
 
 # AppInsights instrumentation
