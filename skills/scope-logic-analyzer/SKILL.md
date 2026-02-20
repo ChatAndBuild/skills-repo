@@ -2,7 +2,7 @@
 id: scope-logic-analyzer
 name: Scope Logic Analyzer
 description: Test equipment integration for signal analysis (oscilloscope and logic analyzer).
-category: Hardware Debugging
+category: research
 allowed-tools:
   - Bash
   - Read
