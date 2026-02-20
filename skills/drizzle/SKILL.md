@@ -1,0 +1,20 @@
+---
+id: drizzle
+name: Drizzle
+description: Support drizzle workflows with clear steps and best practices.
+category: development
+---
+
+# Drizzle
+
+Support drizzle workflows with clear steps and best practices.
+
+## When to Use
+
+- You need help with drizzle.
+- You want a clear, actionable next step.
+
+## Output
+
+- Summary of goals and plan
+- Key tips and precautions

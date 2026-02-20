@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: google-analytics-automation
 name: Google Analytics Automation
-description: "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas."
+description: Support google analytics automation workflows with clear steps and best practices.
 requires:
   mcp: [rube]
 ---

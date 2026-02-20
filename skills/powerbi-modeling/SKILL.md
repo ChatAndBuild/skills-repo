@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: powerbi-modeling
-name: Powerbi Modeling
-description: Power BI semantic modeling assistant for building optimized data models.
+name: Power BI Modeling
+description: Support power bi modeling workflows with clear steps and best practices.
 ---
 
 # Power BI Semantic Modeling

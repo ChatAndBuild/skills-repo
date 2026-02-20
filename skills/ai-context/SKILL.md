@@ -2,7 +2,7 @@
 id: ai-context
 name: AI Context
 description: Support ai context workflows with clear steps and best practices.
-category: writing
+category: development
 ---
 
 # AI Context

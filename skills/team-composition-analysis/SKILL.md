@@ -1,8 +1,8 @@
 ---
-category: research
+category: development
 id: team-composition-analysis
 name: Team Composition Analysis
-description: This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity allocation", or requests organizational design and headcount planning for a startup.
+description: Support team composition workflows with clear steps and best practices.
 version: 1.0.0
 ---
 

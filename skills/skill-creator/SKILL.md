@@ -1,5 +1,5 @@
 ---
-category: productivity
+category: development
 id: skill-creator
 name: Skill Creator
 description: Support creator workflows with clear steps and best practices.

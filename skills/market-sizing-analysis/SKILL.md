@@ -1,8 +1,8 @@
 ---
-category: communication
+category: development
 id: market-sizing-analysis
 name: Market Sizing Analysis
-description: This skill should be used when the user asks to "calculate TAM", "determine SAM", "estimate SOM", "size the market", "calculate market opportunity", "what's the total addressable market", or requests market sizing analysis for a startup or business opportunity.
+description: Support market sizing workflows with clear steps and best practices.
 version: 1.0.0
 ---
 

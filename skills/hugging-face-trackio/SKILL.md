@@ -1,8 +1,8 @@
 ---
-category: productivity
+category: development
 id: hugging-face-trackio
 name: Hugging Face Trackio
-description: Track and visualize ML training experiments with Trackio.
+description: Support hugging face trackio workflows with clear steps and best practices.
 ---
 
 # Trackio - Experiment Tracking for ML Training

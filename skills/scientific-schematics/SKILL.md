@@ -1,0 +1,20 @@
+---
+id: scientific-schematics
+name: Scientific Schematics
+description: Support scientific schematics workflows with clear steps and best practices.
+category: development
+---
+
+# Scientific Schematics
+
+Support scientific schematics workflows with clear steps and best practices.
+
+## When to Use
+
+- You need help with scientific schematics.
+- You want a clear, actionable next step.
+
+## Output
+
+- Summary of goals and plan
+- Key tips and precautions
