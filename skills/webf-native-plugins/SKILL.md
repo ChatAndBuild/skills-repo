@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: webf-native-plugins
 name: WebF Native Plugins
 description: Install WebF native plugins to access platform capabilities like sharing, payment, camera, geolocation, and more.

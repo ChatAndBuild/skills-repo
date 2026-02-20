@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: property-based-testing
 name: Property Based Testing
 description: Expert-level JavaScript testing skill focused on writing high-quality tests that find bugs, serve as documentation, and prevent regressions. Advocates for property-based testing with fast-check and protects against indeterministic code in tests. Does not cover black-box e2e testing.

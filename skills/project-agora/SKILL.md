@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: project-agora
 name: Project Agora
 version: 0.1.3

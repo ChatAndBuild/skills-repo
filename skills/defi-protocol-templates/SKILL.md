@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: defi-protocol-templates
 name: DeFi Protocol Templates
 description: Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems.

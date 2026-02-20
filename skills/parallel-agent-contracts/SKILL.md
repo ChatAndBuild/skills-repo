@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: parallel-agent-contracts
 name: Parallel Agent Contracts
 description: Parallel Agent Type Contracts.

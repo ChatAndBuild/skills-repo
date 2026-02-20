@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: ccxt-php
 name: CCXT PHP
 description: CCXT cryptocurrency exchange library for PHP developers. Covers both REST API (standard) and WebSocket API (real-time). Helps install CCXT, connect to exchanges, fetch market data, place orders, stream live tickers/orderbooks, handle authentication, and manage errors in PHP 8.1+.
@@ -18,4 +18,3 @@ CCXT cryptocurrency exchange library for PHP developers. Covers both REST API (s
 
 - Summary of goals and plan
 - Key tips and precautions
-

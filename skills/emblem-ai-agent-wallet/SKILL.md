@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: emblem-ai-agent-wallet
 name: Emblem AI Agent Wallet
 description: Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. Supports Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin.
@@ -21,4 +21,3 @@ Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. S
 
 - Summary of goals and plan
 - Key tips and precautions
-

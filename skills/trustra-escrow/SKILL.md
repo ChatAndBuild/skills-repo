@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: trustra-escrow
 name: Trustra Escrow
 version: 1.0.0

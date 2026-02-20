@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: evm-hardhat
 name: EVM Hardhat
 description: Hardhat development for EVM chains including Celo.

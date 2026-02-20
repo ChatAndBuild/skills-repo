@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: 1k-defi-module-integration
 name: 1K DeFi Module Integration
 description: Guide for integrating new DeFi modules or protocols (staking, lending, Earn, Borrow) into OneKey.

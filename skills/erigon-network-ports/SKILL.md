@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: erigon-network-ports
 name: Erigon Network Ports
 user-invocable: false

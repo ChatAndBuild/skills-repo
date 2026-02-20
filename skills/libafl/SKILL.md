@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: libafl
 name: LibAFL
 type: fuzzer
@@ -21,4 +21,3 @@ LibAFL is a modular fuzzing library for building custom fuzzers. Use for advance
 
 - Summary of goals and plan
 - Key tips and precautions
-

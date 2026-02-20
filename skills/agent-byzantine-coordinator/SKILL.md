@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: agent-byzantine-coordinator
 name: Agent Byzantine Coordinator
 description: Agent skill for byzantine-coordinator - invoke with $agent-byzantine-coordinator.

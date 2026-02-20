@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: coingecko
 name: Coingecko
 description: CoinGecko API documentation - cryptocurrency market data API, price feeds, market cap, volume, historical data.

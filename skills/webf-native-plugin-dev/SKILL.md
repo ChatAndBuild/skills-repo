@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: webf-native-plugin-dev
 name: WebF Native Plugin Dev
 description: Develop custom WebF native plugins based on Flutter packages. Create reusable plugins that wrap Flutter/platform capabilities as JavaScript APIs.
@@ -18,4 +18,3 @@ Develop custom WebF native plugins based on Flutter packages. Create reusable pl
 
 - Summary of goals and plan
 - Key tips and precautions
-

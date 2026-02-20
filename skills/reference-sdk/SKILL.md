@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: reference-sdk
 name: Reference SDK
 description: Look up Microsoft API references, find working code samples, and verify SDK code is correct.

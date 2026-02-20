@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: slopwork
 name: Slopwork
 description: Solana-powered task marketplace with multisig escrow payments - post tasks, bid on work, escrow funds, and release payments via 2/3 multisig.
@@ -25,4 +25,3 @@ Solana-powered task marketplace with multisig escrow payments - post tasks, bid 
 
 - Summary of goals and plan
 - Key tips and precautions
-

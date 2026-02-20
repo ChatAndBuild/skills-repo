@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: aegis-security
 name: Aegis Security
 version: 1.2.2

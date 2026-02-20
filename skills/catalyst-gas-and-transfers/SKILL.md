@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: catalyst-gas-and-transfers
 name: Catalyst Gas And Transfers
 description: Add gas fees and token transfer models for a new chain (hourly_spellbook + tokens).

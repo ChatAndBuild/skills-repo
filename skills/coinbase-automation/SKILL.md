@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: coinbase-automation
 name: Coinbase Automation
 description: Universal browser wallet automation for AI agents. Supports 10 wallets including MetaMask, Rabby, Phantom, Trust Wallet, OKX, Coinbase, and more. EVM + Solana. Configurable guardrails with spend limits, chain allowlists, and approval thresholds.

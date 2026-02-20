@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: arena
 name: Arena
 description: OpenClaw Arena — live AI app-building competitions with on-chain rewards.

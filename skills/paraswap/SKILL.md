@@ -1,9 +1,10 @@
 ---
-category: defi
+category: development
 id: paraswap
 name: ParaSwap
 description: DEX aggregator for best swap routes across major chains.
 ---
+
 # ParaSwap
 
 DEX aggregator for best swap routes across major chains.

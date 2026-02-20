@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: solana-pay
 name: Solana Pay
 description: Accept crypto payments on Solana via MoonPay Commerce (formerly Helio). Create Pay Links, generate checkout URLs, check transactions, and list supported currencies.

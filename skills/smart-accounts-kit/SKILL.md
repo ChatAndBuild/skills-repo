@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: smart-accounts-kit
 name: Smart Accounts Kit
 description: Web3 development using MetaMask Smart Accounts Kit.
@@ -19,4 +19,3 @@ Web3 development using MetaMask Smart Accounts Kit.
 
 - Summary of goals and plan
 - Key tips and precautions
-

@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: dust-hive
 name: Dust Hive
 description: Information about dust-hive, a CLI tool for running multiple isolated Dust development environments. ALWAYS enable this skill when the working directory is under ~/dust-hive/. Use for understanding port allocation, running tests, and working with the environment.

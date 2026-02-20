@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: 1k-feature-guides
 name: 1K Feature Guides
 description: Feature development guides for OneKey.

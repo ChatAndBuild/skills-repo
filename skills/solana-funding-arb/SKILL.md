@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: solana-funding-arb
 name: Solana Funding Arb
 description: Solana perpetual DEX funding rate arbitrage - scanner and auto-trader. Compares funding rates across Drift and Flash Trade to find and execute cross-DEX arbitrage opportunities.

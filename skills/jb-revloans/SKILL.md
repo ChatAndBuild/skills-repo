@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: jb-revloans
 name: JB RevLoans
 description: Query REVLoans data via Bendystraw GraphQL.

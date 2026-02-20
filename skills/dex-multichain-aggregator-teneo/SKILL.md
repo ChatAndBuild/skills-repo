@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: dex-multichain-aggregator-teneo
 name: DEX Multichain Aggregator Teneo
 description: Advanced multichain DEX aggregator. Finds the best token swap routes across 50+ decentralized exchanges on 9+ blockchain networks (Ethereum, BSC, Polygon, Arbitrum, Optimism, Base, Avalanche, Gnosis,.

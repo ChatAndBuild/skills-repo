@@ -1,9 +1,10 @@
 ---
-category: web3-tools
+category: development
 id: eyebot-elite
 name: Eyebot Elite
 description: All 15 Elite AI Agents for complete crypto automation.
 ---
+
 # Eyebot Elite
 
 All 15 Elite AI Agents for complete crypto automation.

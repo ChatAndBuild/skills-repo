@@ -1,9 +1,10 @@
 ---
-category: defi
+category: development
 id: eyebot-walletbot
 name: Eyebot Walletbot
 description: Wallet operations and portfolio management for crypto assets.
 ---
+
 # Eyebot Walletbot
 
 Wallet operations and portfolio management for crypto assets.

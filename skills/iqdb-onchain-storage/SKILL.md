@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: iqdb-onchain-storage
 name: IQDB Onchain Storage
 description: On-chain immutable data storage using IQ Labs tech stack (IQDB, hanLock, x402).

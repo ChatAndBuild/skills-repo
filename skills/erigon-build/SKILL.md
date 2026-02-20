@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: erigon-build
 name: Erigon Build
 description: Build the Erigon binary using make. Use this when you need to compile erigon before running any erigon commands.

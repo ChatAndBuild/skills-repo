@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: solidity-security
 name: Solidity Security
 description: Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns.

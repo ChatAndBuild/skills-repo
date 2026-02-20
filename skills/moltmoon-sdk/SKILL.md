@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: moltmoon-sdk
 name: Moltmoon SDK
 description: Complete OpenClaw-ready operating skill for @moltmoon/sdk V2.

@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: karmabank
 name: Karmabank
 description: AI agents borrow USDC based on their Moltbook karma score. Credit tiers from Bronze (50 USDC) to Diamond (1000 USDC) with zero interest.

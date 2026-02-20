@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: wagmi-development
 name: Wagmi Development
 description: Creates Wagmi features across all layers - core actions, query options, framework bindings.

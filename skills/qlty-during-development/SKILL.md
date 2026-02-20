@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: qlty-during-development
 name: QLTY During Development
 description: Help with qlty during development tasks and questions.

@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: erigon-datadir
 name: Erigon Datadir
 description: Use the 'erigon seg step-rebase' command to change the step size of an existing datadir.

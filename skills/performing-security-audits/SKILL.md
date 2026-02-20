@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: performing-security-audits
 name: Performing Security Audits
 description: Thorough code review with focus on security, performance, and best practices.

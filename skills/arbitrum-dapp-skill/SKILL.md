@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: arbitrum-dapp-skill
 name: Arbitrum Dapp Skill
 description: Opinionated guide for building dApps on Arbitrum using Stylus (Rust) and/or Solidity. Covers local devnode setup, contract development, testing, deployment, and React frontend integration with viem.

@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: nervepay
 name: Nervepay
 description: Agent identity and analytics. Sign requests with Ed25519, track API usage, build reputation. Use after external API calls.

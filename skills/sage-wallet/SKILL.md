@@ -1,5 +1,5 @@
 ---
-category: smart-contracts
+category: development
 id: sage-wallet
 name: Sage Wallet
 description: Telegram Web App for Chia wallet verification via WalletConnect and Sage. Enables cryptographic proof of wallet ownership through signature verification using MintGarden API.

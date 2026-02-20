@@ -1,5 +1,5 @@
 ---
-category: web3-tools
+category: development
 id: winapp-cli
 name: WinApp CLI
 description: Windows App Development CLI (winapp) for building, packaging, and deploying Windows applications.

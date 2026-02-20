@@ -1,5 +1,5 @@
 ---
-category: defi
+category: development
 id: streme-launcher
 name: Streme Launcher
 description: Launch tokens on Streme (streme.fun) - the streaming token platform on Base.
