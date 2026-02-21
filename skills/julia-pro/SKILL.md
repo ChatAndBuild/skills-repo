@@ -1,7 +1,7 @@
 ---
 id: julia-pro
 name: Julia Pro
-description: Support julia pro workflows with clear steps and best practices.
+description: Step-by-step guidance for julia pro.
 category: Development
 ---
 

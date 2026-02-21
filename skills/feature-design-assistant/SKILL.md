@@ -1,7 +1,7 @@
 ---
 id: feature-design-assistant
 name: Feature Design Assistant
-description: Support feature design assistant workflows with clear steps and best practices.
+description: Step-by-step guidance for feature design assistant.
 category: Tools
 ---
 

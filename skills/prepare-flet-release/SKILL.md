@@ -1,7 +1,7 @@
 ---
 id: prepare-flet-release
 name: Prepare Flet Release
-description: Support prepare flet release workflows with clear steps and best practices.
+description: Step-by-step guidance for prepare flet release.
 category: Development
 ---
 

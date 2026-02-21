@@ -1,7 +1,7 @@
 ---
 id: cache-components
 name: Cache Components
-description: Support cache components workflows with clear steps and best practices.
+description: Step-by-step guidance for cache components.
 category: Tools
 ---
 

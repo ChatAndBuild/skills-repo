@@ -2,7 +2,7 @@
 category: Research
 id: benchling-integration
 name: Benchling Integration
-description: Help with benchling integration tasks and questions.
+description: Guidance and answers for benchling integration.
 ---
 
 # Benchling Integration

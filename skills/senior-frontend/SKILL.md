@@ -1,7 +1,7 @@
 ---
 id: senior-frontend
 name: Senior Frontend
-description: Support senior frontend workflows with clear steps and best practices.
+description: Step-by-step guidance for senior frontend.
 category: Development
 ---
 

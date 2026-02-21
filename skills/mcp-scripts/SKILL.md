@@ -2,7 +2,7 @@
 category: Business
 id: mcp-scripts
 name: Mcp Scripts
-description: Help with mcp scripts tasks and questions.
+description: Guidance and answers for mcp scripts.
 ---
 
 # Unity-MCP Operator Guide

@@ -1,7 +1,7 @@
 ---
 id: agent-performance-analyzer
 name: Agent Performance Analyzer
-description: Support agent performance workflows with clear steps and best practices.
+description: Step-by-step guidance for agent performance.
 category: DevOps
 ---
 

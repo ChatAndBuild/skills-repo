@@ -1,7 +1,7 @@
 ---
 id: writing-user-outputs
 name: Writing User Outputs
-description: Support writing user outputs workflows with clear steps and best practices.
+description: Step-by-step guidance for writing user outputs.
 category: Tools
 ---
 

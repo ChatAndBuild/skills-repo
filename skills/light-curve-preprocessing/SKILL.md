@@ -1,7 +1,7 @@
 ---
 id: light-curve-preprocessing
 name: Light Curve Preprocessing
-description: Support light curve preprocessing workflows with clear steps and best practices.
+description: Step-by-step guidance for light curve preprocessing.
 category: Research
 ---
 

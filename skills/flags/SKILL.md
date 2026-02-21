@@ -1,7 +1,7 @@
 ---
 id: flags
 name: Flags
-description: Support flags workflows with clear steps and best practices.
+description: Step-by-step guidance for flags.
 category: Tools
 ---
 

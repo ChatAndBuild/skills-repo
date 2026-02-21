@@ -2,7 +2,7 @@
 category: Business
 id: signnow
 name: Signnow
-description: Help with signnow tasks and questions.
+description: Guidance and answers for signnow.
   SignNow API integration with managed OAuth. E-signature platform for sending, signing, and managing documents.
   Use this skill when users want to upload documents, send signature invites, create templates, or manage e-signature workflows.
   For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).

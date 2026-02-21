@@ -1,7 +1,7 @@
 ---
 id: verification-before-completion
 name: Verification Before Completion
-description: Support verification before completion workflows with clear steps and best practices.
+description: Step-by-step guidance for verification before completion.
 category: Tools
 ---
 

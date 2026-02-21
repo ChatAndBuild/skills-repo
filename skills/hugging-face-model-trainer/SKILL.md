@@ -1,7 +1,7 @@
 ---
 id: hugging-face-model-trainer
 name: Hugging Face Model Trainer
-description: Support hugging face model trainer workflows with clear steps and best practices.
+description: Step-by-step guidance for hugging face model trainer.
 category: Data & AI
 ---
 

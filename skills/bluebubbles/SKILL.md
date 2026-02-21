@@ -1,7 +1,7 @@
 ---
 id: bluebubbles
 name: BlueBubbles
-description: Support bluebubbles workflows with clear steps and best practices.
+description: Step-by-step guidance for bluebubbles.
 category: DevOps
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: reasoningbank-with-agentdb
 name: Reasoningbank With Agentdb
-description: Support reasoningbank with agentdb workflows with clear steps and best practices.
+description: Step-by-step guidance for reasoningbank with agentdb.
 category: Development
 ---
 

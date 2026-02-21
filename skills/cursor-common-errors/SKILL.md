@@ -1,7 +1,7 @@
 ---
 id: cursor-common-errors
 name: Cursor Common Errors
-description: Support cursor common errors workflows with clear steps and best practices.
+description: Step-by-step guidance for cursor common errors.
 category: Tools
 ---
 

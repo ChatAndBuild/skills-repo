@@ -1,7 +1,7 @@
 ---
 id: databricks-migration-deep-dive
 name: Databricks Migration Deep Dive
-description: Support databricks migration deep dive workflows with clear steps and best practices.
+description: Step-by-step guidance for databricks migration deep dive.
 category: Databases
 ---
 

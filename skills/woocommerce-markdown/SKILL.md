@@ -1,7 +1,7 @@
 ---
 id: woocommerce-markdown
 name: Woocommerce Markdown
-description: Support woocommerce markdown workflows with clear steps and best practices.
+description: Step-by-step guidance for woocommerce markdown.
 category: Development
 ---
 

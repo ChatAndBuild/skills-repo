@@ -1,7 +1,7 @@
 ---
 id: granola-upgrade-migration
 name: Granola Upgrade Migration
-description: Support granola upgrade migration workflows with clear steps and best practices.
+description: Step-by-step guidance for granola upgrade migration.
 category: Databases
 ---
 

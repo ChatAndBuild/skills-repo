@@ -2,7 +2,7 @@
 category: Business
 id: statistical-analysis
 name: Statistical Analysis
-description: Support statistical workflows with clear steps and best practices.
+description: Step-by-step guidance for statistical.
 ---
 
 # Statistical Analysis

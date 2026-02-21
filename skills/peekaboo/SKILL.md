@@ -1,7 +1,7 @@
 ---
 id: peekaboo
 name: Peekaboo
-description: Support peekaboo workflows with clear steps and best practices.
+description: Step-by-step guidance for peekaboo.
 category: Tools
 ---
 

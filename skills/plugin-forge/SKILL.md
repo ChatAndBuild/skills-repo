@@ -1,7 +1,7 @@
 ---
 id: plugin-forge
 name: Plugin Forge
-description: Support plugin forge workflows with clear steps and best practices.
+description: Step-by-step guidance for plugin forge.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: springboot-patterns
 name: Spring Boot Patterns
-description: Support spring boot patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for spring boot patterns.
 category: Development
 ---
 

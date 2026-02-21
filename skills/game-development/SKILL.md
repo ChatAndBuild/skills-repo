@@ -1,7 +1,7 @@
 ---
 id: game-development
 name: Game Development
-description: Support game development workflows with clear steps and best practices.
+description: Step-by-step guidance for game development.
 category: Development
 ---
 

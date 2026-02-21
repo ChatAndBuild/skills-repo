@@ -1,7 +1,7 @@
 ---
 id: query-data
 name: Query Data
-description: Support query data workflows with clear steps and best practices.
+description: Step-by-step guidance for query data.
 category: Data & AI
 ---
 

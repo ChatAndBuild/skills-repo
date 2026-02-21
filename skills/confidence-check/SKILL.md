@@ -1,7 +1,7 @@
 ---
 id: confidence-check
 name: Confidence Check
-description: Support confidence check workflows with clear steps and best practices.
+description: Step-by-step guidance for confidence check.
 category: Testing & Security
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: ci-monitor
 name: CI Monitor
-description: Support ci monitor workflows with clear steps and best practices.
+description: Step-by-step guidance for ci monitor.
 category: DevOps
 ---
 

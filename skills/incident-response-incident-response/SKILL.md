@@ -1,7 +1,7 @@
 ---
 id: incident-response-incident-response
 name: Incident Response Incident Response
-description: Support incident response incident response workflows with clear steps and best practices.
+description: Step-by-step guidance for incident response incident response.
 category: DevOps
 ---
 

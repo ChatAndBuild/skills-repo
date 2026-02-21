@@ -1,7 +1,7 @@
 ---
 id: code-style
 name: Code Style
-description: Support code style workflows with clear steps and best practices.
+description: Step-by-step guidance for code style.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: optimizing-database-connection-pool
 name: Optimizing Database Connection Pool
-description: Support optimizing database connection pool workflows with clear steps and best practices.
+description: Step-by-step guidance for optimizing database connection pool.
 category: Databases
 ---
 

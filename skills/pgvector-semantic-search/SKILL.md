@@ -1,7 +1,7 @@
 ---
 id: pgvector-semantic-search
 name: pgvector Semantic Search
-description: Support pgvector semantic search workflows with clear steps and best practices.
+description: Step-by-step guidance for pgvector semantic search.
 category: Databases
 ---
 

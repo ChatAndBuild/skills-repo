@@ -2,7 +2,7 @@
 category: Business
 id: market-sizing-analysis
 name: Market Sizing Analysis
-description: Support market sizing workflows with clear steps and best practices.
+description: Step-by-step guidance for market sizing.
 version: 1.0.0
 ---
 

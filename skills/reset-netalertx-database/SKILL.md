@@ -1,7 +1,7 @@
 ---
 id: reset-netalertx-database
 name: Reset Netalertx Database
-description: Support reset netalertx database workflows with clear steps and best practices.
+description: Step-by-step guidance for reset netalertx database.
 category: Databases
 ---
 

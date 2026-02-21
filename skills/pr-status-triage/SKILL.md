@@ -1,7 +1,7 @@
 ---
 id: pr-status-triage
 name: PR Status Triage
-description: Support pr status triage workflows with clear steps and best practices.
+description: Step-by-step guidance for pr status triage.
 category: Tools
 ---
 

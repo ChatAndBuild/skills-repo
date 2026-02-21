@@ -1,7 +1,7 @@
 ---
 id: srs-support
 name: SRS Support
-description: Support srs support workflows with clear steps and best practices.
+description: Step-by-step guidance for srs support.
 category: Development
 ---
 

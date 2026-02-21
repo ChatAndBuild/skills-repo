@@ -1,7 +1,7 @@
 ---
 id: create-view
 name: Create View
-description: Support create view workflows with clear steps and best practices.
+description: Step-by-step guidance for create view.
 category: Development
 ---
 

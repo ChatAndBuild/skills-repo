@@ -1,7 +1,7 @@
 ---
 id: dotnet-backend-patterns
 name: .NET Backend Patterns
-description: Support .net backend patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for .net backend patterns.
 category: Development
 ---
 

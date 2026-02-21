@@ -1,7 +1,7 @@
 ---
 id: makepad-skills
 name: Makepad Skills
-description: Support makepad skills workflows with clear steps and best practices.
+description: Step-by-step guidance for makepad skills.
 category: Development
 ---
 

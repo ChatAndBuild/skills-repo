@@ -1,7 +1,7 @@
 ---
 id: receiving-code-review
 name: Receiving Code Review
-description: Support receiving code review workflows with clear steps and best practices.
+description: Step-by-step guidance for receiving code review.
 category: Testing & Security
 ---
 

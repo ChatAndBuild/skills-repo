@@ -1,7 +1,7 @@
 ---
 id: add-reward
 name: Add Reward
-description: Support add reward workflows with clear steps and best practices.
+description: Step-by-step guidance for add reward.
 category: Development
 ---
 

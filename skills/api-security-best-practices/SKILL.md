@@ -1,7 +1,7 @@
 ---
 id: api-security-best-practices
 name: API Security Best Practices
-description: Support api security best practices workflows with clear steps and best practices.
+description: Step-by-step guidance for API security best practices.
 category: Testing & Security
 ---
 

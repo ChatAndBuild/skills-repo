@@ -1,7 +1,7 @@
 ---
 id: vector-index-tuning
 name: Vector Index Tuning
-description: Support vector index tuning workflows with clear steps and best practices.
+description: Step-by-step guidance for vector index tuning.
 category: Databases
 ---
 

@@ -2,7 +2,7 @@
 category: Business
 id: create-an-asset
 name: Create An Asset
-description: Help with create an asset tasks and questions.
+description: Guidance and answers for create an asset.
 ---
 
 # Create An Asset

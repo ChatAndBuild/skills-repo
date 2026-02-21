@@ -1,7 +1,7 @@
 ---
 id: debugging-output-and-previewing-html
 name: Debugging Output And Previewing HTML
-description: Support debugging output and previewing html workflows with clear steps and best practices.
+description: Step-by-step guidance for debugging output and previewing html.
 category: Tools
 ---
 

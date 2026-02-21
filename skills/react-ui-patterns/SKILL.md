@@ -1,7 +1,7 @@
 ---
 id: react-ui-patterns
 name: React UI Patterns
-description: Support react ui patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for react UI patterns.
 category: Development
 ---
 

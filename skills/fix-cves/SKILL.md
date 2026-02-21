@@ -1,7 +1,7 @@
 ---
 id: fix-cves
 name: Fix CVEs
-description: Support fix cves workflows with clear steps and best practices.
+description: Step-by-step guidance for fix cves.
 category: DevOps
 ---
 

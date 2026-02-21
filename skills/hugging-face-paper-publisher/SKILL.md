@@ -2,7 +2,7 @@
 category: Research
 id: hugging-face-paper-publisher
 name: Hugging Face Paper Publisher
-description: Support hugging face paper publisher workflows with clear steps and best practices.
+description: Step-by-step guidance for hugging face paper publisher.
 ---
 
 # Hugging Face Paper Publisher

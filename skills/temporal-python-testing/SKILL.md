@@ -1,7 +1,7 @@
 ---
 id: temporal-python-testing
 name: Temporal Python Testing
-description: Support temporal python testing workflows with clear steps and best practices.
+description: Step-by-step guidance for temporal python testing.
 category: Testing & Security
 ---
 

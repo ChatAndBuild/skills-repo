@@ -1,7 +1,7 @@
 ---
 id: openai-knowledge
 name: OpenAI Knowledge
-description: Support openai knowledge workflows with clear steps and best practices.
+description: Step-by-step guidance for openai knowledge.
 category: Documentation
 ---
 

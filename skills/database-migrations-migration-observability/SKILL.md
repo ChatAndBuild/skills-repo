@@ -1,7 +1,7 @@
 ---
 id: database-migrations-migration-observability
 name: Database Migrations Migration Observability
-description: Support database migrations migration observability workflows with clear steps and best practices.
+description: Step-by-step guidance for database migrations migration observability.
 category: Research
 ---
 

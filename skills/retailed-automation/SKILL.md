@@ -1,7 +1,7 @@
 ---
 id: retailed-automation
 name: Retailed Automation
-description: Support retailed automation workflows with clear steps and best practices.
+description: Step-by-step guidance for retailed automation.
 category: Tools
 ---
 

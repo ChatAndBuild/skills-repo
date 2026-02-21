@@ -2,7 +2,7 @@
 category: Research
 id: pubmed-database
 name: PubMed Database
-description: Help with pubmed database tasks and questions.
+description: Guidance and answers for pubmed database.
 ---
 
 # Biopython: Computational Molecular Biology in Python

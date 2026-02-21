@@ -1,7 +1,7 @@
 ---
 id: agent-collective-intelligence-coordinator
 name: Agent Collective Intelligence Coordinator
-description: Support agent collective intelligence coordinator workflows with clear steps and best practices.
+description: Step-by-step guidance for agent collective intelligence coordinator.
 category: Development
 ---
 

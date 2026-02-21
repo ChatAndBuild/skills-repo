@@ -1,7 +1,7 @@
 ---
 id: lomb-scargle-periodogram
 name: Lomb Scargle Periodogram
-description: Support lomb scargle periodogram workflows with clear steps and best practices.
+description: Step-by-step guidance for lomb scargle periodogram.
 category: Research
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: orpc-contract-first
 name: oRPC Contract First
-description: Support orpc contract first workflows with clear steps and best practices.
+description: Step-by-step guidance for orpc contract first.
 category: Development
 ---
 

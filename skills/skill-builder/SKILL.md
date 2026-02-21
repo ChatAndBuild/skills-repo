@@ -1,7 +1,7 @@
 ---
 id: skill-builder
 name: Skill Builder
-description: Support builder workflows with clear steps and best practices.
+description: Step-by-step guidance for builder.
 category: Documentation
 ---
 

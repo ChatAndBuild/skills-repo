@@ -1,7 +1,7 @@
 ---
 id: starlink
 name: Starlink
-description: Support starlink workflows with clear steps and best practices.
+description: Step-by-step guidance for starlink.
 category: Research
 ---
 

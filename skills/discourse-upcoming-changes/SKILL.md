@@ -1,7 +1,7 @@
 ---
 id: discourse-upcoming-changes
 name: Discourse Upcoming Changes
-description: Support discourse upcoming changes workflows with clear steps and best practices.
+description: Step-by-step guidance for discourse upcoming changes.
 category: Tools
 ---
 

@@ -2,7 +2,7 @@
 category: Business
 id: market-research-reports
 name: Market Research Reports
-description: Support market research reports workflows with clear steps and best practices.
+description: Step-by-step guidance for market research reports.
 allowed-tools: [Read, Write, Edit, Bash]
 ---
 

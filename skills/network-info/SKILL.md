@@ -1,7 +1,7 @@
 ---
 id: network-info
 name: Network Info
-description: Support network info workflows with clear steps and best practices.
+description: Step-by-step guidance for network info.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: domain-dns-ops
 name: Domain DNS Ops
-description: Support domain dns ops workflows with clear steps and best practices.
+description: Step-by-step guidance for domain DNS ops.
 category: Tools
 ---
 

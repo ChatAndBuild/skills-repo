@@ -1,7 +1,7 @@
 ---
 id: playwright-roll
 name: Playwright Roll
-description: Support playwright roll workflows with clear steps and best practices.
+description: Step-by-step guidance for playwright roll.
 category: Development
 ---
 

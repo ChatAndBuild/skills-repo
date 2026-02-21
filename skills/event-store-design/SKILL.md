@@ -1,7 +1,7 @@
 ---
 id: event-store-design
 name: Event Store Design
-description: Support event store design workflows with clear steps and best practices.
+description: Step-by-step guidance for event store design.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: agent-base-template-generator
 name: Agent Base Template Generator
-description: Support agent base template generator workflows with clear steps and best practices.
+description: Step-by-step guidance for agent base template generator.
 category: Development
 ---
 

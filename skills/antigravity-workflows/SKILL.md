@@ -1,7 +1,7 @@
 ---
 id: antigravity-workflows
 name: Antigravity Workflows
-description: Support antigravity workflows workflows with clear steps and best practices.
+description: Step-by-step guidance for antigravity workflows.
 category: Development
 ---
 

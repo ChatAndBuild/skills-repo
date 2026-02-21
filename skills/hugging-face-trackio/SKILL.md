@@ -2,7 +2,7 @@
 category: Business
 id: hugging-face-trackio
 name: Hugging Face Trackio
-description: Support hugging face trackio workflows with clear steps and best practices.
+description: Step-by-step guidance for hugging face trackio.
 ---
 
 # Trackio - Experiment Tracking for ML Training

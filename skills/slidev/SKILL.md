@@ -1,7 +1,7 @@
 ---
 id: slidev
 name: Slidev
-description: Support slidev workflows with clear steps and best practices.
+description: Step-by-step guidance for slidev.
 category: Tools
 ---
 

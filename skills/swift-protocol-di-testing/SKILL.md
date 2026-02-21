@@ -1,7 +1,7 @@
 ---
 id: swift-protocol-di-testing
 name: Swift Protocol Di Testing
-description: Support swift protocol di testing workflows with clear steps and best practices.
+description: Step-by-step guidance for swift protocol di testing.
 category: Testing & Security
 ---
 

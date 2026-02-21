@@ -1,7 +1,7 @@
 ---
 id: generate-translations
 name: Generate Translations
-description: Support generate translations workflows with clear steps and best practices.
+description: Step-by-step guidance for generate translations.
 category: Tools
 ---
 

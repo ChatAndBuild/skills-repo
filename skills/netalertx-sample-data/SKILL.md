@@ -1,7 +1,7 @@
 ---
 id: netalertx-sample-data
 name: NetAlertX Sample Data
-description: Support netalertx sample data workflows with clear steps and best practices.
+description: Step-by-step guidance for netalertx sample data.
 category: DevOps
 ---
 

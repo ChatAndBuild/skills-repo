@@ -1,7 +1,7 @@
 ---
 id: helm-chart-scaffolding
 name: Helm Chart Scaffolding
-description: Support helm chart scaffolding workflows with clear steps and best practices.
+description: Step-by-step guidance for helm chart scaffolding.
 category: DevOps
 ---
 

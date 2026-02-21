@@ -1,7 +1,7 @@
 ---
 id: docker-expert
 name: Docker Expert
-description: Support docker expert workflows with clear steps and best practices.
+description: Step-by-step guidance for docker expert.
 category: DevOps
 ---
 

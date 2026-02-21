@@ -1,7 +1,7 @@
 ---
 id: usgs-data-download
 name: USGS Data Download
-description: Support usgs data download workflows with clear steps and best practices.
+description: Step-by-step guidance for usgs data download.
 category: Research
 ---
 

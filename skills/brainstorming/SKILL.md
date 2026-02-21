@@ -2,7 +2,7 @@
 category: Business
 id: brainstorming
 name: Brainstorming
-description: Help with brainstorming tasks and questions.
+description: Guidance and answers for brainstorming.
 ---
 
 # Brainstorming Ideas Into Designs

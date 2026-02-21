@@ -1,7 +1,7 @@
 ---
 id: livewire-development
 name: Livewire Development
-description: Support livewire development workflows with clear steps and best practices.
+description: Step-by-step guidance for livewire development.
 category: Development
 ---
 

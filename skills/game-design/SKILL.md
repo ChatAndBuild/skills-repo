@@ -1,7 +1,7 @@
 ---
 id: game-design
 name: Game Design
-description: Support game design workflows with clear steps and best practices.
+description: Step-by-step guidance for game design.
 category: Development
 ---
 

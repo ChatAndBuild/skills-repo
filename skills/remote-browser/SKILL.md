@@ -1,7 +1,7 @@
 ---
 id: remote-browser
 name: Remote Browser
-description: Support remote browser workflows with clear steps and best practices.
+description: Step-by-step guidance for remote browser.
 category: Tools
 ---
 

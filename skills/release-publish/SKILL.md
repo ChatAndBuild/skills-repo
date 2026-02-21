@@ -1,7 +1,7 @@
 ---
 id: release-publish
 name: Release Publish
-description: Support release publish workflows with clear steps and best practices.
+description: Step-by-step guidance for release publish.
 category: Development
 ---
 

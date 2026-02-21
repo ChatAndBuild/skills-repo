@@ -1,7 +1,7 @@
 ---
 id: production-code-audit
 name: Production Code Audit
-description: Support production code audit workflows with clear steps and best practices.
+description: Step-by-step guidance for production code audit.
 category: Tools
 ---
 

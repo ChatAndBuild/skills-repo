@@ -1,7 +1,7 @@
 ---
 id: gh-issues
 name: GH Issues
-description: Support gh issues workflows with clear steps and best practices.
+description: Step-by-step guidance for gh issues.
 category: DevOps
 ---
 

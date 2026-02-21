@@ -1,7 +1,7 @@
 ---
 id: postgresql-table-design
 name: PostgreSQL Table Design
-description: Support postgresql table design workflows with clear steps and best practices.
+description: Step-by-step guidance for postgresql table design.
 category: Databases
 ---
 

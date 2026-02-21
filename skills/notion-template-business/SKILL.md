@@ -1,7 +1,7 @@
 ---
 id: notion-template-business
 name: Notion Template Business
-description: Support notion template business workflows with clear steps and best practices.
+description: Step-by-step guidance for notion template business.
 category: Development
 ---
 

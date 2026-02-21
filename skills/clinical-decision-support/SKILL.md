@@ -2,7 +2,7 @@
 category: Business
 id: clinical-decision-support
 name: Clinical Decision Support
-description: Support clinical decision support workflows with clear steps and best practices.
+description: Step-by-step guidance for clinical decision support.
 allowed-tools: [Read, Write, Edit, Bash]
 ---
 

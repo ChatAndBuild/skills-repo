@@ -1,7 +1,7 @@
 ---
 id: frontend-testing
 name: Frontend Testing
-description: Support frontend testing workflows with clear steps and best practices.
+description: Step-by-step guidance for frontend testing.
 category: Testing & Security
 ---
 

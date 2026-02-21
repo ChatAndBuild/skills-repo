@@ -2,7 +2,7 @@
 category: Lifestyle
 id: council
 name: Council
-description: Help with council tasks and questions.
+description: Guidance and answers for council.
 implements: Science
 science_cycle_time: meso
 ---

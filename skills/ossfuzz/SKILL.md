@@ -1,7 +1,7 @@
 ---
 id: ossfuzz
 name: OSS-Fuzz
-description: Support oss-fuzz workflows with clear steps and best practices.
+description: Step-by-step guidance for oss-fuzz.
 category: Development
 ---
 

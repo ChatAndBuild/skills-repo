@@ -2,7 +2,7 @@
 category: Research
 id: gget
 name: gget
-description: Help with gget tasks and questions.
+description: Guidance and answers for gget.
 ---
 
 # Biopython: Computational Molecular Biology in Python

@@ -1,7 +1,7 @@
 ---
 id: embedded-systems
 name: Embedded Systems
-description: Support embedded systems workflows with clear steps and best practices.
+description: Step-by-step guidance for embedded systems.
 category: Development
 ---
 

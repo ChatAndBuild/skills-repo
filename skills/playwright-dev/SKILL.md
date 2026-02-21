@@ -1,7 +1,7 @@
 ---
 id: playwright-dev
 name: Playwright Dev
-description: Support playwright dev workflows with clear steps and best practices.
+description: Step-by-step guidance for playwright dev.
 category: Documentation
 ---
 

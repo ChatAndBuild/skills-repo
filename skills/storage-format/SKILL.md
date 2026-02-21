@@ -1,7 +1,7 @@
 ---
 id: storage-format
 name: Storage Format
-description: Support storage format workflows with clear steps and best practices.
+description: Step-by-step guidance for storage format.
 category: Databases
 ---
 

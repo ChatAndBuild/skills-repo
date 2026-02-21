@@ -1,7 +1,7 @@
 ---
 id: prose
 name: Prose
-description: Support prose workflows with clear steps and best practices.
+description: Step-by-step guidance for prose.
 category: Data & AI
 ---
 

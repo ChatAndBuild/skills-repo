@@ -1,7 +1,7 @@
 ---
 id: export
 name: Export
-description: Support export workflows with clear steps and best practices.
+description: Step-by-step guidance for export.
 category: Development
 ---
 

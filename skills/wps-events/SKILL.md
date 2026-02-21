@@ -1,7 +1,7 @@
 ---
 id: wps-events
 name: Wps Events
-description: Support wps events workflows with clear steps and best practices.
+description: Step-by-step guidance for wps events.
 category: Development
 ---
 

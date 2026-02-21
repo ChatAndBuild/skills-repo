@@ -1,7 +1,7 @@
 ---
 id: meilisearch
 name: Meilisearch
-description: Support meilisearch workflows with clear steps and best practices.
+description: Step-by-step guidance for meilisearch.
 category: Databases
 ---
 

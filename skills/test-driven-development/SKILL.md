@@ -1,7 +1,7 @@
 ---
 id: test-driven-development
 name: Test Driven Development
-description: Support test driven development workflows with clear steps and best practices.
+description: Step-by-step guidance for test driven development.
 category: Testing & Security
 ---
 

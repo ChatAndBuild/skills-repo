@@ -1,7 +1,7 @@
 ---
 id: add-components-to-registry
 name: Add Components To Registry
-description: Support add components to registry workflows with clear steps and best practices.
+description: Step-by-step guidance for add components to registry.
 category: Development
 ---
 

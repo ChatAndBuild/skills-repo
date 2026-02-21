@@ -1,7 +1,7 @@
 ---
 id: cursor-tab-completion
 name: Cursor Tab Completion
-description: Support cursor tab completion workflows with clear steps and best practices.
+description: Step-by-step guidance for cursor tab completion.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: activate-data-source
 name: Activate Data Source
-description: Support activate data source workflows with clear steps and best practices.
+description: Step-by-step guidance for activate data source.
 category: Development
 ---
 

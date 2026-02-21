@@ -1,7 +1,7 @@
 ---
 id: python-expert
 name: Python Expert
-description: Support python expert workflows with clear steps and best practices.
+description: Step-by-step guidance for python expert.
 category: Documentation
 ---
 

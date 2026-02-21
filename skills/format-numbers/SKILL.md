@@ -1,7 +1,7 @@
 ---
 id: format-numbers
 name: Format Numbers
-description: Support format numbers workflows with clear steps and best practices.
+description: Step-by-step guidance for format numbers.
 category: Tools
 ---
 

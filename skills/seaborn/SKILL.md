@@ -1,7 +1,7 @@
 ---
 id: seaborn
 name: Seaborn
-description: Support seaborn workflows with clear steps and best practices.
+description: Step-by-step guidance for seaborn.
 category: Data & AI
 ---
 

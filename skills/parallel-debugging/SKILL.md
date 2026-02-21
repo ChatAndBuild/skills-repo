@@ -1,7 +1,7 @@
 ---
 id: parallel-debugging
 name: Parallel Debugging
-description: Support parallel debugging workflows with clear steps and best practices.
+description: Step-by-step guidance for parallel debugging.
 category: Documentation
 ---
 

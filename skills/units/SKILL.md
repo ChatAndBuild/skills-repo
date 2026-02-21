@@ -1,7 +1,7 @@
 ---
 id: units
 name: Units
-description: Support units workflows with clear steps and best practices.
+description: Step-by-step guidance for units.
 category: Research
 ---
 

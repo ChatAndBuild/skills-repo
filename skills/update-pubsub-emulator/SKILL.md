@@ -1,7 +1,7 @@
 ---
 id: update-pubsub-emulator
 name: Update Pubsub Emulator
-description: Support update pubsub emulator workflows with clear steps and best practices.
+description: Step-by-step guidance for update pubsub emulator.
 category: Development
 ---
 

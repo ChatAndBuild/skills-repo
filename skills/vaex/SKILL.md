@@ -1,7 +1,7 @@
 ---
 id: vaex
 name: Vaex
-description: Support vaex workflows with clear steps and best practices.
+description: Step-by-step guidance for vaex.
 category: Data & AI
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: multi-cloud-architecture
 name: Multi-Cloud Architecture
-description: Support multi-cloud architecture workflows with clear steps and best practices.
+description: Step-by-step guidance for multi-cloud architecture.
 category: DevOps
 ---
 

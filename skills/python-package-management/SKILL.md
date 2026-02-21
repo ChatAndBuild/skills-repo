@@ -1,7 +1,7 @@
 ---
 id: python-package-management
 name: Python Package Management
-description: Support python package management workflows with clear steps and best practices.
+description: Step-by-step guidance for python package management.
 category: Development
 ---
 

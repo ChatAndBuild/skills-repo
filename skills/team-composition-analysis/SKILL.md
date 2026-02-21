@@ -2,7 +2,7 @@
 category: Business
 id: team-composition-analysis
 name: Team Composition Analysis
-description: Support team composition workflows with clear steps and best practices.
+description: Step-by-step guidance for team composition.
 version: 1.0.0
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: db-migrations-and-schema-changes
 name: Db Migrations And Schema Changes
-description: Support db migrations and schema changes workflows with clear steps and best practices.
+description: Step-by-step guidance for db migrations and schema changes.
 category: Databases
 ---
 

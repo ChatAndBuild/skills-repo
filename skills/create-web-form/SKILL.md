@@ -1,7 +1,7 @@
 ---
 id: create-web-form
 name: Create Web Form
-description: Support create web form workflows with clear steps and best practices.
+description: Step-by-step guidance for create web form.
 category: Development
 ---
 

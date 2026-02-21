@@ -1,7 +1,7 @@
 ---
 id: generate-migration
 name: Generate Migration
-description: Support generate migration workflows with clear steps and best practices.
+description: Step-by-step guidance for generate migration.
 category: Databases
 ---
 

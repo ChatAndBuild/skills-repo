@@ -1,7 +1,7 @@
 ---
 id: ratelimit-ts
 name: Ratelimit Ts
-description: Support ratelimit ts workflows with clear steps and best practices.
+description: Step-by-step guidance for ratelimit TS.
 category: Databases
 ---
 

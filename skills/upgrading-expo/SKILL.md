@@ -1,7 +1,7 @@
 ---
 id: upgrading-expo
 name: Upgrading Expo
-description: Support upgrading expo workflows with clear steps and best practices.
+description: Step-by-step guidance for upgrading expo.
 category: Development
 ---
 

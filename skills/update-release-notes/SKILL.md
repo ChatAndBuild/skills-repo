@@ -1,7 +1,7 @@
 ---
 id: update-release-notes
 name: Update Release Notes
-description: Support update release notes workflows with clear steps and best practices.
+description: Step-by-step guidance for update release notes.
 category: Tools
 ---
 

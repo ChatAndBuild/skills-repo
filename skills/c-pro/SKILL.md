@@ -1,7 +1,7 @@
 ---
 id: c-pro
 name: C Pro
-description: Support c pro workflows with clear steps and best practices.
+description: Step-by-step guidance for c pro.
 category: Development
 ---
 

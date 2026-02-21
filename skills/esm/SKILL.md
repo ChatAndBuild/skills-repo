@@ -2,7 +2,7 @@
 category: Research
 id: esm
 name: ESM
-description: Help with esm tasks and questions.
+description: Guidance and answers for esm.
 ---
 
 # Adaptyv

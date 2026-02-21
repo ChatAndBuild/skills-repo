@@ -1,7 +1,7 @@
 ---
 id: syncable-entity-testing
 name: Syncable Entity Testing
-description: Support syncable entity testing workflows with clear steps and best practices.
+description: Step-by-step guidance for syncable entity testing.
 category: Testing & Security
 ---
 

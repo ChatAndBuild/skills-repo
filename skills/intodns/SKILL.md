@@ -1,7 +1,7 @@
 ---
 id: intodns
 name: IntoDNS
-description: Support intodns workflows with clear steps and best practices.
+description: Step-by-step guidance for intodns.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: migrate-frontend-forms
 name: Migrate Frontend Forms
-description: Support migrate frontend forms workflows with clear steps and best practices.
+description: Step-by-step guidance for migrate frontend forms.
 category: DevOps
 ---
 

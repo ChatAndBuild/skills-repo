@@ -1,7 +1,7 @@
 ---
 id: author-contributions
 name: Author Contributions
-description: Support author contributions workflows with clear steps and best practices.
+description: Step-by-step guidance for author contributions.
 category: DevOps
 ---
 

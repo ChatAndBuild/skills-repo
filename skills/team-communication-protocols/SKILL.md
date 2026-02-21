@@ -1,7 +1,7 @@
 ---
 id: team-communication-protocols
 name: Team Communication Protocols
-description: Support team communication protocols workflows with clear steps and best practices.
+description: Step-by-step guidance for team communication protocols.
 category: Development
 ---
 

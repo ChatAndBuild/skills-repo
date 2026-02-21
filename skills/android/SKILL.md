@@ -1,7 +1,7 @@
 ---
 id: android
 name: Android
-description: Support android workflows with clear steps and best practices.
+description: Step-by-step guidance for android.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: geo-ip
 name: Geo IP
-description: Support geo ip workflows with clear steps and best practices.
+description: Step-by-step guidance for geo IP.
 category: Tools
 ---
 

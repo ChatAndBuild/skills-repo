@@ -2,7 +2,7 @@
 category: Research
 id: opentrons-integration
 name: Opentrons Integration
-description: Help with opentrons integration tasks and questions.
+description: Guidance and answers for opentrons integration.
 ---
 
 # Opentrons Integration

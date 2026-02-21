@@ -1,7 +1,7 @@
 ---
 id: swiftui-expert-skill
 name: SwiftUI Expert Skill
-description: Support swiftui expert skill workflows with clear steps and best practices.
+description: Step-by-step guidance for swiftui expert skill.
 category: Development
 ---
 

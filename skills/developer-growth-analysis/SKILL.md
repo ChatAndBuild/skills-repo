@@ -1,7 +1,7 @@
 ---
 id: developer-growth-analysis
 name: Developer Growth Analysis
-description: Support developer growth analysis workflows with clear steps and best practices.
+description: Step-by-step guidance for developer growth analysis.
 category: Tools
 ---
 

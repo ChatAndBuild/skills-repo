@@ -1,7 +1,7 @@
 ---
 id: python-pro
 name: Python Pro
-description: Support python pro workflows with clear steps and best practices.
+description: Step-by-step guidance for python pro.
 category: Development
 ---
 

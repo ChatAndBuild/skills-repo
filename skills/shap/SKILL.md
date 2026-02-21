@@ -1,7 +1,7 @@
 ---
 id: shap
 name: SHAP
-description: Support shap workflows with clear steps and best practices.
+description: Step-by-step guidance for shap.
 category: Data & AI
 ---
 

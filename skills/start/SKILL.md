@@ -1,7 +1,7 @@
 ---
 id: start
 name: Start
-description: Support start workflows with clear steps and best practices.
+description: Step-by-step guidance for start.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: write-script-mysql
 name: Write Script MySQL
-description: Support write script mysql workflows with clear steps and best practices.
+description: Step-by-step guidance for write script mysql.
 category: Databases
 ---
 

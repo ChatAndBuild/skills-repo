@@ -1,7 +1,7 @@
 ---
 id: arm-cortex-expert
 name: Arm Cortex Expert
-description: Support arm cortex expert workflows with clear steps and best practices.
+description: Step-by-step guidance for arm cortex expert.
 category: Development
 ---
 

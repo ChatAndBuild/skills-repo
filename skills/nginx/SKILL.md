@@ -1,7 +1,7 @@
 ---
 id: nginx
 name: Nginx
-description: Support nginx workflows with clear steps and best practices.
+description: Step-by-step guidance for nginx.
 category: Tools
 ---
 

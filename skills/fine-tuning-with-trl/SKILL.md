@@ -1,7 +1,7 @@
 ---
 id: fine-tuning-with-trl
 name: Fine Tuning with TRL
-description: Support fine tuning with trl workflows with clear steps and best practices.
+description: Step-by-step guidance for fine tuning with trl.
 category: Data & AI
 ---
 

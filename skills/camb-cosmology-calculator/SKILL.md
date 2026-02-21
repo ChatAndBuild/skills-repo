@@ -1,7 +1,7 @@
 ---
 id: camb-cosmology-calculator
 name: CAMB Cosmology Calculator
-description: Support camb cosmology calculator workflows with clear steps and best practices.
+description: Step-by-step guidance for camb cosmology calculator.
 category: Research
 ---
 

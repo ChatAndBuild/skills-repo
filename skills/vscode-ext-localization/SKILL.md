@@ -1,7 +1,7 @@
 ---
 id: vscode-ext-localization
 name: VS Code Ext Localization
-description: Support vs code ext localization workflows with clear steps and best practices.
+description: Step-by-step guidance for vs code ext localization.
 category: Tools
 ---
 

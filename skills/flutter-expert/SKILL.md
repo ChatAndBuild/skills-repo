@@ -1,7 +1,7 @@
 ---
 id: flutter-expert
 name: Flutter Expert
-description: Support flutter expert workflows with clear steps and best practices.
+description: Step-by-step guidance for flutter expert.
 category: Development
 ---
 

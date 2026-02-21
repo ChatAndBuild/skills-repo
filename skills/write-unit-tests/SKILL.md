@@ -1,7 +1,7 @@
 ---
 id: write-unit-tests
 name: Write Unit Tests
-description: Support write unit tests workflows with clear steps and best practices.
+description: Step-by-step guidance for write unit tests.
 category: Testing & Security
 ---
 

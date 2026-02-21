@@ -1,7 +1,7 @@
 ---
 id: addressing-pr-review-comments
 name: Addressing PR Review Comments
-description: Support addressing pr review comments workflows with clear steps and best practices.
+description: Step-by-step guidance for addressing pr review comments.
 category: Tools
 ---
 

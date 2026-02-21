@@ -1,7 +1,7 @@
 ---
 id: context-menu
 name: Context Menu
-description: Support context menu workflows with clear steps and best practices.
+description: Step-by-step guidance for context menu.
 category: Tools
 ---
 

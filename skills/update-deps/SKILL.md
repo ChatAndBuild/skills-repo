@@ -1,7 +1,7 @@
 ---
 id: update-deps
 name: Update Deps
-description: Support update deps workflows with clear steps and best practices.
+description: Step-by-step guidance for update deps.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: culture-index
 name: Culture Index
-description: Support culture index workflows with clear steps and best practices.
+description: Step-by-step guidance for culture index.
 category: Databases
 ---
 

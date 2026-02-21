@@ -1,7 +1,7 @@
 ---
 id: gandi
 name: Gandi
-description: Support gandi workflows with clear steps and best practices.
+description: Step-by-step guidance for gandi.
 category: Tools
 ---
 

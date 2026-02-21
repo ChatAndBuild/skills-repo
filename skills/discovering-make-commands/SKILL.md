@@ -1,7 +1,7 @@
 ---
 id: discovering-make-commands
 name: Discovering Make Commands
-description: Support discovering make commands workflows with clear steps and best practices.
+description: Step-by-step guidance for discovering make commands.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: zarr-python
 name: Zarr Python
-description: Support zarr python workflows with clear steps and best practices.
+description: Step-by-step guidance for zarr python.
 category: Data & AI
 ---
 

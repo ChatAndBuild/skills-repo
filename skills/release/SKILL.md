@@ -1,7 +1,7 @@
 ---
 id: release
 name: Release
-description: Support release workflows with clear steps and best practices.
+description: Step-by-step guidance for release.
 category: Development
 ---
 

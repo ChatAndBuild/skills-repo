@@ -1,7 +1,7 @@
 ---
 id: my-prs
 name: My PRs
-description: Support my prs workflows with clear steps and best practices.
+description: Step-by-step guidance for my prs.
 category: DevOps
 ---
 

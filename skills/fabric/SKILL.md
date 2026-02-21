@@ -1,7 +1,7 @@
 ---
 id: fabric
 name: Fabric
-description: Support fabric workflows with clear steps and best practices.
+description: Step-by-step guidance for fabric.
 category: Development
 ---
 

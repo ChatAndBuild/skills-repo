@@ -1,7 +1,7 @@
 ---
 id: feature-flags
 name: Feature Flags
-description: Support feature flags workflows with clear steps and best practices.
+description: Step-by-step guidance for feature flags.
 category: Testing & Security
 ---
 

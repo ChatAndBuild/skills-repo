@@ -1,7 +1,7 @@
 ---
 id: radio-copilot
 name: Radio Copilot
-description: Support radio copilot workflows with clear steps and best practices.
+description: Step-by-step guidance for radio copilot.
 category: Research
 ---
 

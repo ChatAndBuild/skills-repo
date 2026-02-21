@@ -1,7 +1,7 @@
 ---
 id: bun-file-io
 name: Bun File IO
-description: Support bun file io workflows with clear steps and best practices.
+description: Step-by-step guidance for bun file io.
 category: Tools
 ---
 

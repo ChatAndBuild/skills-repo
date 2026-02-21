@@ -1,7 +1,7 @@
 ---
 id: codex
 name: Codex
-description: Support codex workflows with clear steps and best practices.
+description: Step-by-step guidance for codex.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: python-anti-patterns
 name: Python Anti Patterns
-description: Support python anti patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for python anti patterns.
 category: Testing & Security
 ---
 

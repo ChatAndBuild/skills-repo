@@ -1,7 +1,7 @@
 ---
 id: devops-troubleshooter
 name: DevOps Troubleshooter
-description: Support devops troubleshooter workflows with clear steps and best practices.
+description: Step-by-step guidance for devops troubleshooter.
 category: DevOps
 ---
 

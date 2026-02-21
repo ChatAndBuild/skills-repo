@@ -1,7 +1,7 @@
 ---
 id: better-auth-best-practices
 name: Better Auth Best Practices
-description: Support better auth best practices workflows with clear steps and best practices.
+description: Step-by-step guidance for better auth best practices.
 category: Testing & Security
 ---
 

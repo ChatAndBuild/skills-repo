@@ -3,7 +3,7 @@ id: feishu-doc
 category: Content & Media
 author: openclaw
 name: Feishu Doc
-description: Help with feishu doc tasks and questions.
+description: Guidance and answers for feishu doc.
   Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.
 ---
 

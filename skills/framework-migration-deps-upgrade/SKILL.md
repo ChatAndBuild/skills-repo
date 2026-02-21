@@ -1,7 +1,7 @@
 ---
 id: framework-migration-deps-upgrade
 name: Framework Migration Deps Upgrade
-description: Support framework migration deps upgrade workflows with clear steps and best practices.
+description: Step-by-step guidance for framework migration deps upgrade.
 category: Development
 ---
 

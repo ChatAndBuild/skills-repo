@@ -1,7 +1,7 @@
 ---
 id: cpp-coding-standards
 name: C++ Coding Standards
-description: Support c++ coding standards workflows with clear steps and best practices.
+description: Step-by-step guidance for c++ coding standards.
 category: Testing & Security
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: service-mesh-expert
 name: Service Mesh Expert
-description: Support service mesh expert workflows with clear steps and best practices.
+description: Step-by-step guidance for service mesh expert.
 category: DevOps
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: whodb
 name: Whodb
-description: Support whodb workflows with clear steps and best practices.
+description: Step-by-step guidance for whodb.
 category: Databases
 ---
 

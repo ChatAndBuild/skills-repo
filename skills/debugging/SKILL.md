@@ -1,7 +1,7 @@
 ---
 id: debugging
 name: Debugging
-description: Support debugging workflows with clear steps and best practices.
+description: Step-by-step guidance for debugging.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: microsoft-docs
 name: Microsoft Docs
-description: Support microsoft docs workflows with clear steps and best practices.
+description: Step-by-step guidance for microsoft docs.
 category: Documentation
 ---
 

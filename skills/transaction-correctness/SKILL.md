@@ -1,7 +1,7 @@
 ---
 id: transaction-correctness
 name: Transaction Correctness
-description: Support transaction correctness workflows with clear steps and best practices.
+description: Step-by-step guidance for transaction correctness.
 category: Databases
 ---
 

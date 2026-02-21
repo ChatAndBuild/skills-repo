@@ -1,7 +1,7 @@
 ---
 id: evaluating-code-models
 name: Evaluating Code Models
-description: Support evaluating code models workflows with clear steps and best practices.
+description: Step-by-step guidance for evaluating code models.
 category: Data & AI
 ---
 

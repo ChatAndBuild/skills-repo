@@ -1,7 +1,7 @@
 ---
 id: hybrid-cloud-networking
 name: Hybrid Cloud Networking
-description: Support hybrid cloud networking workflows with clear steps and best practices.
+description: Step-by-step guidance for hybrid cloud networking.
 category: DevOps
 ---
 

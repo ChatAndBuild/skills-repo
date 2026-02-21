@@ -2,7 +2,7 @@
 category: Business
 id: kpi-dashboard-design
 name: KPI Dashboard Design
-description: Support kpi dashboard design workflows with clear steps and best practices.
+description: Step-by-step guidance for KPI dashboard design.
 ---
 
 # KPI Dashboard Design

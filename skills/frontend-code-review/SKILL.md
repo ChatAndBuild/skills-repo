@@ -1,7 +1,7 @@
 ---
 id: frontend-code-review
 name: Frontend Code Review
-description: Support frontend code review workflows with clear steps and best practices.
+description: Step-by-step guidance for frontend code review.
 category: Testing & Security
 ---
 

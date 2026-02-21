@@ -1,7 +1,7 @@
 ---
 id: optimizing-attention-flash
 name: Optimizing Attention Flash
-description: Support optimizing attention flash workflows with clear steps and best practices.
+description: Step-by-step guidance for optimizing attention flash.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: dashboard-create-screen
 name: Dashboard Create Screen
-description: Support dashboard create screen workflows with clear steps and best practices.
+description: Step-by-step guidance for dashboard create screen.
 category: DevOps
 ---
 

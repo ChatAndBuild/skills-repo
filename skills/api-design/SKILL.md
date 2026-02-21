@@ -1,7 +1,7 @@
 ---
 id: api-design
 name: API Design
-description: Support api design workflows with clear steps and best practices.
+description: Step-by-step guidance for API design.
 category: Documentation
 ---
 

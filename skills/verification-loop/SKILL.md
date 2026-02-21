@@ -1,7 +1,7 @@
 ---
 id: verification-loop
 name: Verification Loop
-description: Support verification loop workflows with clear steps and best practices.
+description: Step-by-step guidance for verification loop.
 category: Testing & Security
 ---
 

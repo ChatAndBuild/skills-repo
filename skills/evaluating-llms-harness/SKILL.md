@@ -2,7 +2,7 @@
 category: Research
 id: evaluating-llms-harness
 name: Evaluating LLMs Harness
-description: Support evaluating llms harness workflows with clear steps and best practices.
+description: Step-by-step guidance for evaluating llms harness.
 version: 1.0.0
 author: Orchestra Research
 license: MIT

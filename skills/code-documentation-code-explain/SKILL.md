@@ -1,7 +1,7 @@
 ---
 id: code-documentation-code-explain
 name: Code Documentation Code Explain
-description: Support code documentation code explain workflows with clear steps and best practices.
+description: Step-by-step guidance for code documentation code explain.
 category: Documentation
 ---
 

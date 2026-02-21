@@ -1,7 +1,7 @@
 ---
 id: slash-commands
 name: Slash Commands
-description: Support slash commands workflows with clear steps and best practices.
+description: Step-by-step guidance for slash commands.
 category: Tools
 ---
 

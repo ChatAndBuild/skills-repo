@@ -1,7 +1,7 @@
 ---
 id: system-info
 name: System Info
-description: Support system info workflows with clear steps and best practices.
+description: Step-by-step guidance for system info.
 category: Tools
 ---
 

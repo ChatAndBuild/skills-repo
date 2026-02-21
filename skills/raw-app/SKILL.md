@@ -1,7 +1,7 @@
 ---
 id: raw-app
 name: Raw App
-description: Support raw app workflows with clear steps and best practices.
+description: Step-by-step guidance for raw app.
 category: Development
 ---
 

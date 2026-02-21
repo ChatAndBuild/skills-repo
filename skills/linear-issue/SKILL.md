@@ -1,7 +1,7 @@
 ---
 id: linear-issue
 name: Linear Issue
-description: Support linear issue workflows with clear steps and best practices.
+description: Step-by-step guidance for linear issue.
 category: Tools
 ---
 

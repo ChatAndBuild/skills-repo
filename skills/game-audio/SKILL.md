@@ -1,7 +1,7 @@
 ---
 id: game-audio
 name: Game Audio
-description: Support game audio workflows with clear steps and best practices.
+description: Step-by-step guidance for game audio.
 category: Development
 ---
 

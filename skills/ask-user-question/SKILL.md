@@ -1,7 +1,7 @@
 ---
 id: ask-user-question
 name: Ask User Question
-description: Support ask user question workflows with clear steps and best practices.
+description: Step-by-step guidance for ask user question.
 category: Tools
 ---
 

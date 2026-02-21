@@ -1,7 +1,7 @@
 ---
 id: web-games
 name: Web Games
-description: Support web games workflows with clear steps and best practices.
+description: Step-by-step guidance for web games.
 category: Development
 ---
 

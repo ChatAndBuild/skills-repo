@@ -2,7 +2,7 @@
 category: Business
 id: skill-creator
 name: Skill Creator
-description: Support creator workflows with clear steps and best practices.
+description: Step-by-step guidance for creator.
 license: Complete terms in LICENSE.txt
 ---
 

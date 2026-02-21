@@ -1,7 +1,7 @@
 ---
 id: prowler-compliance
 name: Prowler Compliance
-description: Support prowler compliance workflows with clear steps and best practices.
+description: Step-by-step guidance for prowler compliance.
 category: DevOps
 ---
 

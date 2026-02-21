@@ -1,7 +1,7 @@
 ---
 id: domain-authority-auditor
 name: Domain Authority Auditor
-description: Support domain authority auditor workflows with clear steps and best practices.
+description: Step-by-step guidance for domain authority auditor.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: eightctl
 name: Eightctl
-description: Support eightctl workflows with clear steps and best practices.
+description: Step-by-step guidance for eightctl.
 category: Tools
 ---
 

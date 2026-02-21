@@ -1,7 +1,7 @@
 ---
 id: architecture-decision-records
 name: Architecture Decision Records
-description: Support architecture decision records workflows with clear steps and best practices.
+description: Step-by-step guidance for architecture decision records.
 category: Documentation
 ---
 

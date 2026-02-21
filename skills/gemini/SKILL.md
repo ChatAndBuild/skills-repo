@@ -1,7 +1,7 @@
 ---
 id: gemini
 name: Gemini
-description: Support gemini workflows with clear steps and best practices.
+description: Step-by-step guidance for gemini.
 category: Documentation
 ---
 

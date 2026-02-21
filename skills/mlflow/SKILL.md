@@ -1,7 +1,7 @@
 ---
 id: mlflow
 name: MLflow
-description: Support mlflow workflows with clear steps and best practices.
+description: Step-by-step guidance for mlflow.
 category: Data & AI
 ---
 

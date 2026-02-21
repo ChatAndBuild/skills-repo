@@ -1,7 +1,7 @@
 ---
 id: mobile-design
 name: Mobile Design
-description: Support mobile design workflows with clear steps and best practices.
+description: Step-by-step guidance for mobile design.
 category: Development
 ---
 

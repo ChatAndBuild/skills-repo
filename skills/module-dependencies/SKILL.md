@@ -1,7 +1,7 @@
 ---
 id: module-dependencies
 name: Module Dependencies
-description: Support module dependencies workflows with clear steps and best practices.
+description: Step-by-step guidance for module dependencies.
 category: Tools
 ---
 

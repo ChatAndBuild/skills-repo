@@ -1,7 +1,7 @@
 ---
 id: develop-ai-functions-example
 name: Develop AI Functions Example
-description: Support develop ai functions example workflows with clear steps and best practices.
+description: Step-by-step guidance for develop AI functions example.
 category: DevOps
 ---
 

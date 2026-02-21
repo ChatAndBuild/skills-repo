@@ -1,7 +1,7 @@
 ---
 id: implement-flet-extension
 name: Implement Flet Extension
-description: Support implement flet extension workflows with clear steps and best practices.
+description: Step-by-step guidance for implement flet extension.
 category: Development
 ---
 

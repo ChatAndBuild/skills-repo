@@ -1,7 +1,7 @@
 ---
 id: add-setting-env
 name: Add Setting Env
-description: Support add setting env workflows with clear steps and best practices.
+description: Step-by-step guidance for add setting env.
 category: Tools
 ---
 

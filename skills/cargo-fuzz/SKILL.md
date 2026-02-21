@@ -1,7 +1,7 @@
 ---
 id: cargo-fuzz
 name: Cargo Fuzz
-description: Support cargo fuzz workflows with clear steps and best practices.
+description: Step-by-step guidance for cargo fuzz.
 category: Development
 ---
 

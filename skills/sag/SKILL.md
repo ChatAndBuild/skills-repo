@@ -1,7 +1,7 @@
 ---
 id: sag
 name: SAG
-description: Support sag workflows with clear steps and best practices.
+description: Step-by-step guidance for sag.
 category: Data & AI
 ---
 

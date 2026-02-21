@@ -1,7 +1,7 @@
 ---
 id: mobile-games
 name: Mobile Games
-description: Support mobile games workflows with clear steps and best practices.
+description: Step-by-step guidance for mobile games.
 category: Development
 ---
 

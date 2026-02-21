@@ -1,7 +1,7 @@
 ---
 id: finnish-humanizer
 name: Finnish Humanizer
-description: Support finnish humanizer workflows with clear steps and best practices.
+description: Step-by-step guidance for finnish humanizer.
 category: Tools
 ---
 

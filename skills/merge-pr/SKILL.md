@@ -1,7 +1,7 @@
 ---
 id: merge-pr
 name: Merge PR
-description: Support merge pr workflows with clear steps and best practices.
+description: Step-by-step guidance for merge pr.
 category: DevOps
 ---
 

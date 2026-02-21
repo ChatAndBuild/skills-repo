@@ -1,7 +1,7 @@
 ---
 id: postgres-schema-design
 name: Postgres Schema Design
-description: Support postgres schema design workflows with clear steps and best practices.
+description: Step-by-step guidance for postgres schema design.
 category: Databases
 ---
 

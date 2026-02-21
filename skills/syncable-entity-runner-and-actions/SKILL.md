@@ -1,7 +1,7 @@
 ---
 id: syncable-entity-runner-and-actions
 name: Syncable Entity Runner And Actions
-description: Support syncable entity runner and actions workflows with clear steps and best practices.
+description: Step-by-step guidance for syncable entity runner and actions.
 category: Databases
 ---
 

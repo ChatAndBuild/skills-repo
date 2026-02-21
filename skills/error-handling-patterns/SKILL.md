@@ -1,7 +1,7 @@
 ---
 id: error-handling-patterns
 name: Error Handling Patterns
-description: Support error handling patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for error handling patterns.
 category: Development
 ---
 

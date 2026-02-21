@@ -1,7 +1,7 @@
 ---
 id: fabll
 name: Fabll
-description: Support fabll workflows with clear steps and best practices.
+description: Step-by-step guidance for fabll.
 category: Development
 ---
 

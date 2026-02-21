@@ -1,7 +1,7 @@
 ---
 id: dns-networking
 name: DNS Networking
-description: Support dns networking workflows with clear steps and best practices.
+description: Step-by-step guidance for DNS networking.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: hotkey
 name: Hotkey
-description: Support hotkey workflows with clear steps and best practices.
+description: Step-by-step guidance for hotkey.
 category: Tools
 ---
 

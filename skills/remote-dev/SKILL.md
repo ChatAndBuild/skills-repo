@@ -1,7 +1,7 @@
 ---
 id: remote-dev
 name: Remote Dev
-description: Support remote dev workflows with clear steps and best practices.
+description: Step-by-step guidance for remote dev.
 category: Tools
 ---
 

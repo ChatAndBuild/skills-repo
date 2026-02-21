@@ -1,7 +1,7 @@
 ---
 id: senior-backend
 name: Senior Backend
-description: Support senior backend workflows with clear steps and best practices.
+description: Step-by-step guidance for senior backend.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: ip-lookup
 name: IP Lookup
-description: Support ip lookup workflows with clear steps and best practices.
+description: Step-by-step guidance for IP lookup.
 category: Tools
 ---
 

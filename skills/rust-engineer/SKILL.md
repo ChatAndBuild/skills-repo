@@ -1,7 +1,7 @@
 ---
 id: rust-engineer
 name: Rust Engineer
-description: Support rust engineer workflows with clear steps and best practices.
+description: Step-by-step guidance for rust engineer.
 category: Development
 ---
 

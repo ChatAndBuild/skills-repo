@@ -2,7 +2,7 @@
 category: Business
 id: linear
 name: Linear
-description: Help with linear tasks and questions.
+description: Guidance and answers for linear.
 ---
 
 # Linear Issue Management

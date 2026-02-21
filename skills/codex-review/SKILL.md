@@ -1,7 +1,7 @@
 ---
 id: codex-review
 name: Codex Review
-description: Support codex review workflows with clear steps and best practices.
+description: Step-by-step guidance for codex review.
 category: Tools
 ---
 

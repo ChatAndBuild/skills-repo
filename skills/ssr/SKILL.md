@@ -1,7 +1,7 @@
 ---
 id: ssr
 name: SSR
-description: Support ssr workflows with clear steps and best practices.
+description: Step-by-step guidance for ssr.
 category: Tools
 ---
 

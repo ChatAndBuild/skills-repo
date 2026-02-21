@@ -1,7 +1,7 @@
 ---
 id: using-neon
 name: Using Neon
-description: Support using neon workflows with clear steps and best practices.
+description: Step-by-step guidance for using neon.
 category: Databases
 ---
 

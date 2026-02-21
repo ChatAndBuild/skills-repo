@@ -1,7 +1,7 @@
 ---
 id: microservices-patterns
 name: Microservices Patterns
-description: Support microservices patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for microservices patterns.
 category: Development
 ---
 

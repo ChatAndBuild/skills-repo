@@ -1,7 +1,7 @@
 ---
 id: supabase-postgres-best-practices
 name: Supabase Postgres Best Practices
-description: Support supabase postgres best practices workflows with clear steps and best practices.
+description: Step-by-step guidance for supabase postgres best practices.
 category: Data & AI
 ---
 

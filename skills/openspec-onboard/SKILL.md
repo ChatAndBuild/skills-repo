@@ -1,7 +1,7 @@
 ---
 id: openspec-onboard
 name: OpenSpec Onboard
-description: Support openspec onboard workflows with clear steps and best practices.
+description: Step-by-step guidance for openspec onboard.
 category: DevOps
 ---
 

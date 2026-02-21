@@ -1,7 +1,7 @@
 ---
 id: strategic-compact
 name: Strategic Compact
-description: Support strategic compact workflows with clear steps and best practices.
+description: Step-by-step guidance for strategic compact.
 category: Data & AI
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: add-dataset
 name: Add Dataset
-description: Support add dataset workflows with clear steps and best practices.
+description: Step-by-step guidance for add dataset.
 category: Development
 ---
 

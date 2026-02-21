@@ -1,7 +1,7 @@
 ---
 id: reasoningbank-intelligence
 name: Reasoningbank Intelligence
-description: Support reasoningbank intelligence workflows with clear steps and best practices.
+description: Step-by-step guidance for reasoningbank intelligence.
 category: Development
 ---
 

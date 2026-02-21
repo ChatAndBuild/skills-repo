@@ -2,7 +2,7 @@
 category: Research
 id: ml-paper-writing
 name: ML Paper Writing
-description: Support ml paper workflows with clear steps and best practices.
+description: Step-by-step guidance for ML paper.
 version: 1.0.0
 author: Orchestra Research
 license: MIT

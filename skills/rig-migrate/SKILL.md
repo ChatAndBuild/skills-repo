@@ -1,7 +1,7 @@
 ---
 id: rig-migrate
 name: Rig Migrate
-description: Support rig migrate workflows with clear steps and best practices.
+description: Step-by-step guidance for rig migrate.
 category: Development
 ---
 

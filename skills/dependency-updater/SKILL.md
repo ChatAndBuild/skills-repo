@@ -1,7 +1,7 @@
 ---
 id: dependency-updater
 name: Dependency Updater
-description: Support dependency updater workflows with clear steps and best practices.
+description: Step-by-step guidance for dependency updater.
 category: Development
 ---
 

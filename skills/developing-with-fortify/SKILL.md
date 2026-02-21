@@ -1,7 +1,7 @@
 ---
 id: developing-with-fortify
 name: Developing With Fortify
-description: Support developing with fortify workflows with clear steps and best practices.
+description: Step-by-step guidance for developing with fortify.
 category: Testing & Security
 ---
 

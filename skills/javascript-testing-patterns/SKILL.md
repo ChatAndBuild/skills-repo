@@ -1,7 +1,7 @@
 ---
 id: javascript-testing-patterns
 name: Javascript Testing Patterns
-description: Support javascript testing patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for javascript testing patterns.
 category: Testing & Security
 ---
 

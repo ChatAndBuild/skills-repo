@@ -1,7 +1,7 @@
 ---
 id: test-writer
 name: Test Writer
-description: Support test writer workflows with clear steps and best practices.
+description: Step-by-step guidance for test writer.
 category: Testing & Security
 ---
 

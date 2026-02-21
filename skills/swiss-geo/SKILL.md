@@ -1,7 +1,7 @@
 ---
 id: swiss-geo
 name: Swiss Geo
-description: Support swiss geo workflows with clear steps and best practices.
+description: Step-by-step guidance for swiss geo.
 category: Research
 ---
 

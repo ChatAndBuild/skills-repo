@@ -1,7 +1,7 @@
 ---
 id: senior-secops
 name: Senior Secops
-description: Support senior secops workflows with clear steps and best practices.
+description: Step-by-step guidance for senior secops.
 category: Testing & Security
 ---
 

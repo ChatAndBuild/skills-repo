@@ -1,7 +1,7 @@
 ---
 id: bun-development
 name: Bun Development
-description: Support bun development workflows with clear steps and best practices.
+description: Step-by-step guidance for bun development.
 category: Development
 ---
 

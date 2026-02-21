@@ -1,7 +1,7 @@
 ---
 id: dns
 name: DNS
-description: Support dns workflows with clear steps and best practices.
+description: Step-by-step guidance for DNS.
 category: Tools
 ---
 

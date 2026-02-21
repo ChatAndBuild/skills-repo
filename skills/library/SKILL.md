@@ -1,7 +1,7 @@
 ---
 id: library
 name: Library
-description: Support library workflows with clear steps and best practices.
+description: Step-by-step guidance for library.
 category: Development
 ---
 

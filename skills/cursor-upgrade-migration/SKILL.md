@@ -1,7 +1,7 @@
 ---
 id: cursor-upgrade-migration
 name: Cursor Upgrade Migration
-description: Support cursor upgrade migration workflows with clear steps and best practices.
+description: Step-by-step guidance for cursor upgrade migration.
 category: Databases
 ---
 

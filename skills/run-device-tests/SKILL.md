@@ -1,7 +1,7 @@
 ---
 id: run-device-tests
 name: Run Device Tests
-description: Support run device tests workflows with clear steps and best practices.
+description: Step-by-step guidance for run device tests.
 category: Development
 ---
 

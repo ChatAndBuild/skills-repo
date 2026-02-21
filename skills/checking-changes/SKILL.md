@@ -1,7 +1,7 @@
 ---
 id: checking-changes
 name: Checking Changes
-description: Support checking changes workflows with clear steps and best practices.
+description: Step-by-step guidance for checking changes.
 category: Testing & Security
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: vscode-ext-commands
 name: VS Code Ext Commands
-description: Support vs code ext commands workflows with clear steps and best practices.
+description: Step-by-step guidance for vs code ext commands.
 category: Tools
 ---
 

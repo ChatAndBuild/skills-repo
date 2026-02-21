@@ -1,7 +1,7 @@
 ---
 id: comparing-database-schemas
 name: Comparing Database Schemas
-description: Support comparing database schemas workflows with clear steps and best practices.
+description: Step-by-step guidance for comparing database schemas.
 category: Databases
 ---
 

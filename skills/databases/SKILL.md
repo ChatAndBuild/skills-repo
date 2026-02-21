@@ -1,7 +1,7 @@
 ---
 id: databases
 name: Databases
-description: Support databases workflows with clear steps and best practices.
+description: Step-by-step guidance for databases.
 category: Databases
 ---
 

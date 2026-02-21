@@ -1,7 +1,7 @@
 ---
 id: exoplanet-workflows
 name: Exoplanet Workflows
-description: Support exoplanet workflows workflows with clear steps and best practices.
+description: Step-by-step guidance for exoplanet workflows.
 category: Research
 ---
 

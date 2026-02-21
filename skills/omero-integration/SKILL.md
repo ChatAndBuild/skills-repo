@@ -2,7 +2,7 @@
 category: Research
 id: omero-integration
 name: OMERO Integration
-description: Support omero integration workflows with clear steps and best practices.
+description: Step-by-step guidance for omero integration.
 ---
 
 # OMERO Integration

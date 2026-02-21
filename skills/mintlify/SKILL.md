@@ -1,7 +1,7 @@
 ---
 id: mintlify
 name: Mintlify
-description: Support mintlify workflows with clear steps and best practices.
+description: Step-by-step guidance for mintlify.
 category: Documentation
 ---
 

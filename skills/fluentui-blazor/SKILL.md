@@ -1,7 +1,7 @@
 ---
 id: fluentui-blazor
 name: Fluentui Blazor
-description: Support fluentui blazor workflows with clear steps and best practices.
+description: Step-by-step guidance for fluentui blazor.
 category: Development
 ---
 

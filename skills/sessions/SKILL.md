@@ -1,7 +1,7 @@
 ---
 id: sessions
 name: Sessions
-description: Support sessions workflows with clear steps and best practices.
+description: Step-by-step guidance for sessions.
 category: Development
 ---
 

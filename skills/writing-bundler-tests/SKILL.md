@@ -1,7 +1,7 @@
 ---
 id: writing-bundler-tests
 name: Writing Bundler Tests
-description: Support writing bundler tests workflows with clear steps and best practices.
+description: Step-by-step guidance for writing bundler tests.
 category: Testing & Security
 ---
 

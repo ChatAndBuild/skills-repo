@@ -1,7 +1,7 @@
 ---
 id: setup-web-tests
 name: Setup Web Tests
-description: Support setup web tests workflows with clear steps and best practices.
+description: Step-by-step guidance for setup web tests.
 category: Testing & Security
 ---
 

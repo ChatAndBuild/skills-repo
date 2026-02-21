@@ -1,7 +1,7 @@
 ---
 id: verify
 name: Verify
-description: Support verify workflows with clear steps and best practices.
+description: Step-by-step guidance for verify.
 category: Testing & Security
 ---
 

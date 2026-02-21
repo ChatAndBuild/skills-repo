@@ -1,7 +1,7 @@
 ---
 id: bird
 name: Bird
-description: Support bird workflows with clear steps and best practices.
+description: Step-by-step guidance for bird.
 category: Tools
 ---
 

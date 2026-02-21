@@ -1,7 +1,7 @@
 ---
 id: create-database-migration
 name: Create Database Migration
-description: Support create database migration workflows with clear steps and best practices.
+description: Step-by-step guidance for create database migration.
 category: Databases
 ---
 

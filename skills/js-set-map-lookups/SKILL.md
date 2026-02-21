@@ -1,7 +1,7 @@
 ---
 id: js-set-map-lookups
 name: Js Set Map Lookups
-description: Support js set map lookups workflows with clear steps and best practices.
+description: Step-by-step guidance for JS set map lookups.
 category: Databases
 ---
 

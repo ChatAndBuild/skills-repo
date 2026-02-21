@@ -32,6 +32,27 @@ skills/
 index.json          # Auto-generated manifest (do not edit manually)
 ```
 
+## Categories
+
+Each skill declares a `category` in its frontmatter. Categories help users browse the Skills Store and should reflect the user-facing purpose of the skill.
+
+Common categories you’ll see:
+- Productivity
+- Communication
+- Business
+- Lifestyle
+- Content & Media
+- Development
+- Data & AI
+- Research
+- Documentation
+- Design
+- DevOps
+- Testing & Security
+- Tools
+
+Use the most specific, user-friendly category that matches the skill’s primary intent. If a skill spans multiple domains, pick the category users would most likely search.
+
 ## Available Skills
 
 | Skill | Category | Description |

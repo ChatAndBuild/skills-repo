@@ -1,7 +1,7 @@
 ---
 id: security-review
 name: Security Review
-description: Support security review workflows with clear steps and best practices.
+description: Step-by-step guidance for security review.
 category: Tools
 ---
 

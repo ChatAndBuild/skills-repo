@@ -1,7 +1,7 @@
 ---
 id: security-scan
 name: Security Scan
-description: Support security scan workflows with clear steps and best practices.
+description: Step-by-step guidance for security scan.
 category: Tools
 ---
 

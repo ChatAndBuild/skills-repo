@@ -1,7 +1,7 @@
 ---
 id: pulsiverifier
 name: Pulsiverifier
-description: Support pulsiverifier workflows with clear steps and best practices.
+description: Step-by-step guidance for pulsiverifier.
 category: Tools
 ---
 

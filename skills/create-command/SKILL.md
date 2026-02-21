@@ -1,7 +1,7 @@
 ---
 id: create-command
 name: Create Command
-description: Support create command workflows with clear steps and best practices.
+description: Step-by-step guidance for create command.
 category: Tools
 ---
 

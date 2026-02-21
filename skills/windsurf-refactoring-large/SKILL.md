@@ -1,7 +1,7 @@
 ---
 id: windsurf-refactoring-large
 name: Windsurf Refactoring Large
-description: Support windsurf refactoring large workflows with clear steps and best practices.
+description: Step-by-step guidance for windsurf refactoring large.
 category: Databases
 ---
 

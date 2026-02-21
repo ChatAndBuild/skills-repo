@@ -1,7 +1,7 @@
 ---
 id: design-system-patterns
 name: Design System Patterns
-description: Support design system patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for design system patterns.
 category: Development
 ---
 

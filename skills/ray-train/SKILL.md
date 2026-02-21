@@ -1,7 +1,7 @@
 ---
 id: ray-train
 name: Ray ट्रेन
-description: Support ray ट्रेन workflows with clear steps and best practices.
+description: Step-by-step guidance for ray ट्रेन.
 category: Data & AI
 ---
 

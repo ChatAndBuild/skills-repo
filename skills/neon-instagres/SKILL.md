@@ -1,7 +1,7 @@
 ---
 id: neon-instagres
 name: Neon Instagres
-description: Support neon instagres workflows with clear steps and best practices.
+description: Step-by-step guidance for neon instagres.
 category: Data & AI
 ---
 

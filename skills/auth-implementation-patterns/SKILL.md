@@ -1,7 +1,7 @@
 ---
 id: auth-implementation-patterns
 name: Auth Implementation Patterns
-description: Support auth implementation patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for auth implementation patterns.
 category: Development
 ---
 

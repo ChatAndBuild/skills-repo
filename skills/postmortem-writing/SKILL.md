@@ -2,7 +2,7 @@
 category: Business
 id: postmortem-writing
 name: Postmortem Writing
-description: Support postmortem workflows with clear steps and best practices.
+description: Step-by-step guidance for postmortem.
 ---
 
 # Postmortem Writing

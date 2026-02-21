@@ -1,7 +1,7 @@
 ---
 id: realphonevalidation-automation
 name: Real Phone Validation Automation
-description: Support real phone validation automation workflows with clear steps and best practices.
+description: Step-by-step guidance for real phone validation automation.
 category: Testing & Security
 ---
 

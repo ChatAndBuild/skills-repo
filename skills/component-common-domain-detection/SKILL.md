@@ -1,7 +1,7 @@
 ---
 id: component-common-domain-detection
 name: Component Common Domain Detection
-description: Support component common domain detection workflows with clear steps and best practices.
+description: Step-by-step guidance for component common domain detection.
 category: Tools
 ---
 

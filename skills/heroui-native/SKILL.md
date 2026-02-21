@@ -1,7 +1,7 @@
 ---
 id: heroui-native
 name: HeroUI Native
-description: Support heroui native workflows with clear steps and best practices.
+description: Step-by-step guidance for heroui native.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: docker-patterns
 name: Docker Patterns
-description: Support docker patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for docker patterns.
 category: Development
 ---
 

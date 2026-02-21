@@ -1,7 +1,7 @@
 ---
 id: code-review
 name: Code Review
-description: Support code review workflows with clear steps and best practices.
+description: Step-by-step guidance for code review.
 category: Tools
 ---
 

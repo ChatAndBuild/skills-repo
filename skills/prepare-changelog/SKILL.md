@@ -1,7 +1,7 @@
 ---
 id: prepare-changelog
 name: Prepare Changelog
-description: Support prepare changelog workflows with clear steps and best practices.
+description: Step-by-step guidance for prepare changelog.
 category: Development
 ---
 

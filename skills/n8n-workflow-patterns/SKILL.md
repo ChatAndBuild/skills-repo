@@ -1,7 +1,7 @@
 ---
 id: n8n-workflow-patterns
 name: n8n Workflow Patterns
-description: Support n8n workflow patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for n8n workflow patterns.
 category: Data & AI
 ---
 

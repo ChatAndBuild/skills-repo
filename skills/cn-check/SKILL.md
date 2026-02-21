@@ -1,7 +1,7 @@
 ---
 id: cn-check
 name: CN Check
-description: Support cn check workflows with clear steps and best practices.
+description: Step-by-step guidance for cn check.
 category: DevOps
 ---
 

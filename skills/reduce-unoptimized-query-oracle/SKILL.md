@@ -1,7 +1,7 @@
 ---
 id: reduce-unoptimized-query-oracle
 name: Reduce Unoptimized Query Oracle
-description: Support reduce unoptimized query oracle workflows with clear steps and best practices.
+description: Step-by-step guidance for reduce unoptimized query oracle.
 category: Tools
 ---
 

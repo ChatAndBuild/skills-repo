@@ -1,7 +1,7 @@
 ---
 id: zenml-backport
 name: Zenml Backport
-description: Support zenml backport workflows with clear steps and best practices.
+description: Step-by-step guidance for zenml backport.
 category: Development
 ---
 

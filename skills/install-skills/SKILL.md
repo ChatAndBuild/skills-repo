@@ -1,7 +1,7 @@
 ---
 id: install-skills
 name: Install Skills
-description: Support install skills workflows with clear steps and best practices.
+description: Step-by-step guidance for install skills.
 category: Documentation
 ---
 

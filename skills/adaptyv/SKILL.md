@@ -2,7 +2,7 @@
 category: Business
 id: adaptyv
 name: Adaptyv
-description: Help with adaptyv tasks and questions.
+description: Guidance and answers for adaptyv.
 ---
 
 # Adaptyv

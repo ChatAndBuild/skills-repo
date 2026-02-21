@@ -1,7 +1,7 @@
 ---
 id: error-debugging-error-trace
 name: Error Debugging Error Trace
-description: Support error debugging error trace workflows with clear steps and best practices.
+description: Step-by-step guidance for error debugging error trace.
 category: DevOps
 ---
 

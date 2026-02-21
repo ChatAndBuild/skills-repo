@@ -1,7 +1,7 @@
 ---
 id: python-design-patterns
 name: Python Design Patterns
-description: Support python design patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for python design patterns.
 category: Development
 ---
 

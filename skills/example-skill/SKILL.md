@@ -1,7 +1,7 @@
 ---
 id: example-skill
 name: Example Skill
-description: Support example workflows with clear steps and best practices.
+description: Step-by-step guidance for example.
 category: Documentation
 ---
 

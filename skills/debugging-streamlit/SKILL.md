@@ -1,7 +1,7 @@
 ---
 id: debugging-streamlit
 name: Debugging Streamlit
-description: Support debugging streamlit workflows with clear steps and best practices.
+description: Step-by-step guidance for debugging streamlit.
 category: Tools
 ---
 

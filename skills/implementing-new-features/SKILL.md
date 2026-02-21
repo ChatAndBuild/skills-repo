@@ -1,7 +1,7 @@
 ---
 id: implementing-new-features
 name: Implementing New Features
-description: Support implementing new features workflows with clear steps and best practices.
+description: Step-by-step guidance for implementing new features.
 category: Development
 ---
 

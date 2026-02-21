@@ -1,7 +1,7 @@
 ---
 id: dtek-light-check
 name: Dtek Light Check
-description: Support dtek light check workflows with clear steps and best practices.
+description: Step-by-step guidance for dtek light check.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: create-skill-file
 name: Create Skill File
-description: Support create file workflows with clear steps and best practices.
+description: Step-by-step guidance for create file.
 category: Documentation
 ---
 

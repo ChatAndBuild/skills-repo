@@ -1,7 +1,7 @@
 ---
 id: continuous-learning
 name: Continuous Learning
-description: Support continuous learning workflows with clear steps and best practices.
+description: Step-by-step guidance for continuous learning.
 category: Data & AI
 ---
 

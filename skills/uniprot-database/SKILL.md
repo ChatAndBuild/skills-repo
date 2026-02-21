@@ -2,7 +2,7 @@
 category: Research
 id: uniprot-database
 name: UniProt Database
-description: Support uniprot database workflows with clear steps and best practices.
+description: Step-by-step guidance for uniprot database.
 ---
 
 # BioServices

@@ -1,7 +1,7 @@
 ---
 id: cache-expert
 name: Cache Expert
-description: Support cache expert workflows with clear steps and best practices.
+description: Step-by-step guidance for cache expert.
 category: Databases
 ---
 

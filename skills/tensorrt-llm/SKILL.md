@@ -1,7 +1,7 @@
 ---
 id: tensorrt-llm
 name: Tensorrt LLM
-description: Support tensorrt llm workflows with clear steps and best practices.
+description: Step-by-step guidance for tensorrt LLM.
 category: Development
 ---
 

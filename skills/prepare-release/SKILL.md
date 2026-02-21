@@ -1,7 +1,7 @@
 ---
 id: prepare-release
 name: Prepare Release
-description: Support prepare release workflows with clear steps and best practices.
+description: Step-by-step guidance for prepare release.
 category: Development
 ---
 

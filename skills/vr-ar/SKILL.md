@@ -1,7 +1,7 @@
 ---
 id: vr-ar
 name: VR AR
-description: Support vr ar workflows with clear steps and best practices.
+description: Step-by-step guidance for vr ar.
 category: Development
 ---
 

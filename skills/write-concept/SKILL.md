@@ -1,7 +1,7 @@
 ---
 id: write-concept
 name: Write Concept
-description: Support write concept workflows with clear steps and best practices.
+description: Step-by-step guidance for write concept.
 category: Documentation
 ---
 

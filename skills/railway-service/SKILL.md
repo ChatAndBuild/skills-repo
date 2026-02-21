@@ -1,7 +1,7 @@
 ---
 id: railway-service
 name: Railway Service
-description: Support railway service workflows with clear steps and best practices.
+description: Step-by-step guidance for railway service.
 category: DevOps
 ---
 

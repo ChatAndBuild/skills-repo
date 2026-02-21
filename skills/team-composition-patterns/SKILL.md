@@ -2,7 +2,7 @@
 category: Business
 id: team-composition-patterns
 name: Team Composition Patterns
-description: Help with team composition patterns tasks and questions.
+description: Guidance and answers for team composition patterns.
 version: 1.0.2
 ---
 

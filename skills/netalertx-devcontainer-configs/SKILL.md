@@ -1,7 +1,7 @@
 ---
 id: netalertx-devcontainer-configs
 name: NetAlertX Devcontainer Configs
-description: Support netalertx devcontainer configs workflows with clear steps and best practices.
+description: Step-by-step guidance for netalertx devcontainer configs.
 category: DevOps
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: content-hash-cache-pattern
 name: Content Hash Cache Pattern
-description: Support content hash cache pattern workflows with clear steps and best practices.
+description: Step-by-step guidance for content hash cache pattern.
 category: Data & AI
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: fullstack-developer
 name: Fullstack Developer
-description: Support fullstack developer workflows with clear steps and best practices.
+description: Step-by-step guidance for fullstack developer.
 category: Development
 ---
 

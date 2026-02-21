@@ -1,7 +1,7 @@
 ---
 id: polars
 name: Polars
-description: Support polars workflows with clear steps and best practices.
+description: Step-by-step guidance for polars.
 category: Data & AI
 ---
 

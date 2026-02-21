@@ -1,7 +1,7 @@
 ---
 id: shopify-apps
 name: Shopify Apps
-description: Support shopify apps workflows with clear steps and best practices.
+description: Step-by-step guidance for shopify apps.
 category: Development
 ---
 

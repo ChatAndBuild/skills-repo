@@ -2,7 +2,7 @@
 category: Business
 id: planning-with-files
 name: Planning With Files
-description: Help with planning with files tasks and questions.
+description: Guidance and answers for planning with files.
 ---
 
 # Planning with Files

@@ -1,7 +1,7 @@
 ---
 id: glm-output
 name: GLM Output
-description: Support glm output workflows with clear steps and best practices.
+description: Step-by-step guidance for glm output.
 category: Research
 ---
 

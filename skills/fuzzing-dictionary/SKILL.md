@@ -1,7 +1,7 @@
 ---
 id: fuzzing-dictionary
 name: Fuzzing Dictionary
-description: Support fuzzing dictionary workflows with clear steps and best practices.
+description: Step-by-step guidance for fuzzing dictionary.
 category: Documentation
 ---
 

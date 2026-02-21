@@ -1,7 +1,7 @@
 ---
 id: uv-global
 name: UV Global
-description: Support uv global workflows with clear steps and best practices.
+description: Step-by-step guidance for uv global.
 category: Research
 ---
 

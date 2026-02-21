@@ -1,7 +1,7 @@
 ---
 id: write-script-graphql
 name: Write Script GraphQL
-description: Support write script graphql workflows with clear steps and best practices.
+description: Step-by-step guidance for write script graphql.
 category: Development
 ---
 
