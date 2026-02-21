@@ -1,11 +1,11 @@
 ---
 id: createskill
-name: CreateSkill
+name: Create Skill
 description: Support createskill workflows with clear steps and best practices.
 category: Documentation
 ---
 
-# CreateSkill
+# Create Skill
 
 Support createskill workflows with clear steps and best practices.
 
