@@ -1,7 +1,7 @@
 ---
 category: Research
 id: last30days
-name: Last30Days
+name: Last 30 Days
 description: Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.
 argument-hint: "[topic] for [tool] or [topic]"
 context: fork
@@ -10,7 +10,7 @@ disable-model-invocation: true
 allowed-tools: Bash, Read, Write, AskUserQuestion, WebSearch
 ---
 
-# Last30Days
+# Last 30 Days
 
 Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.
 

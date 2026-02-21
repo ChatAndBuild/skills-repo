@@ -1,7 +1,7 @@
 ---
 category: Business
 id: xclaw02
-name: Xclaw02
+name: Xclaw 02
 description: Make x402 payments. Pay for APIs, sell your services, handle 402 Payment Required responses with USDC on Base and other EVM chains.
 metadata: {"openclaw":{"emoji":"$","requires":{"anyBins":["node","npx","python3","pip"]}}}
 ---
