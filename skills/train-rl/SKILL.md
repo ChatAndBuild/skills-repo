@@ -1,7 +1,7 @@
 ---
 id: train-rl
 name: Train RL
-description: Support train rl workflows with clear steps and best practices.
+description: Step-by-step guidance for train rl.
 category: Documentation
 ---
 

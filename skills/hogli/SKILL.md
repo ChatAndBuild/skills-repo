@@ -1,7 +1,7 @@
 ---
 id: hogli
 name: Hogli
-description: Support hogli workflows with clear steps and best practices.
+description: Step-by-step guidance for hogli.
 category: DevOps
 ---
 

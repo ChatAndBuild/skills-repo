@@ -1,7 +1,7 @@
 ---
 id: formatter-development
 name: Formatter Development
-description: Support formatter development workflows with clear steps and best practices.
+description: Step-by-step guidance for formatter development.
 category: Tools
 ---
 

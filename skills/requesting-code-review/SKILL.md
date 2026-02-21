@@ -1,7 +1,7 @@
 ---
 id: requesting-code-review
 name: Requesting Code Review
-description: Support requesting code review workflows with clear steps and best practices.
+description: Step-by-step guidance for requesting code review.
 category: Testing & Security
 ---
 

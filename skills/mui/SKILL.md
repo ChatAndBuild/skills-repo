@@ -1,7 +1,7 @@
 ---
 id: mui
 name: MUI
-description: Support mui workflows with clear steps and best practices.
+description: Step-by-step guidance for mui.
 category: Development
 ---
 

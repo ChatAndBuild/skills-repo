@@ -1,7 +1,7 @@
 ---
 id: brand-guidelines
 name: Brand Guidelines
-description: Support brand guidelines workflows with clear steps and best practices.
+description: Step-by-step guidance for brand guidelines.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: write-script-duckdb
 name: Write Script DuckDB
-description: Support write script duckdb workflows with clear steps and best practices.
+description: Step-by-step guidance for write script duckdb.
 category: Databases
 ---
 

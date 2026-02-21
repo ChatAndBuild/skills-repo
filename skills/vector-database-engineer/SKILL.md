@@ -1,7 +1,7 @@
 ---
 id: vector-database-engineer
 name: Vector Database Engineer
-description: Support vector database engineer workflows with clear steps and best practices.
+description: Step-by-step guidance for vector database engineer.
 category: Databases
 ---
 

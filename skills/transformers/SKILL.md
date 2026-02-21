@@ -1,7 +1,7 @@
 ---
 id: transformers
 name: Transformers
-description: Support transformers workflows with clear steps and best practices.
+description: Step-by-step guidance for transformers.
 category: Data & AI
 ---
 

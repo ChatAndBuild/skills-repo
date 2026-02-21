@@ -1,7 +1,7 @@
 ---
 id: typescript-write
 name: TypeScript Write
-description: Support typescript write workflows with clear steps and best practices.
+description: Step-by-step guidance for typescript write.
 category: Tools
 ---
 

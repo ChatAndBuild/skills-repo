@@ -1,7 +1,7 @@
 ---
 id: nodejs-best-practices
 name: Node.js Best Practices
-description: Support node.js best practices workflows with clear steps and best practices.
+description: Step-by-step guidance for node.JS best practices.
 category: Development
 ---
 

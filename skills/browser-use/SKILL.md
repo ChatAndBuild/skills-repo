@@ -1,7 +1,7 @@
 ---
 id: browser-use
 name: Browser Use
-description: Support browser use workflows with clear steps and best practices.
+description: Step-by-step guidance for browser use.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: agent-goal-planner
 name: Agent Goal Planner
-description: Support agent goal planner workflows with clear steps and best practices.
+description: Step-by-step guidance for agent goal planner.
 category: Development
 ---
 

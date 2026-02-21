@@ -1,7 +1,7 @@
 ---
 id: django-patterns
 name: Django Patterns
-description: Support django patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for django patterns.
 category: Development
 ---
 

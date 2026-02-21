@@ -1,7 +1,7 @@
 ---
 id: dispatching-parallel-agents
 name: Dispatching Parallel Agents
-description: Support dispatching parallel agents workflows with clear steps and best practices.
+description: Step-by-step guidance for dispatching parallel agents.
 category: Development
 ---
 

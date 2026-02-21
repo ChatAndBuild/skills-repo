@@ -1,7 +1,7 @@
 ---
 id: embeddings
 name: Embeddings
-description: Support embeddings workflows with clear steps and best practices.
+description: Step-by-step guidance for embeddings.
 category: Databases
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: apollo-migration-deep-dive
 name: Apollo Migration Deep Dive
-description: Support apollo migration deep dive workflows with clear steps and best practices.
+description: Step-by-step guidance for apollo migration deep dive.
 category: Databases
 ---
 

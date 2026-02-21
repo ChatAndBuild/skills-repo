@@ -1,7 +1,7 @@
 ---
 id: add-cdn-bundle
 name: Add Cdn Bundle
-description: Support add cdn bundle workflows with clear steps and best practices.
+description: Step-by-step guidance for add cdn bundle.
 category: Development
 ---
 

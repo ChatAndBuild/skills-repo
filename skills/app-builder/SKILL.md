@@ -1,7 +1,7 @@
 ---
 id: app-builder
 name: App Builder
-description: Support app builder workflows with clear steps and best practices.
+description: Step-by-step guidance for app builder.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: pennyLane
 name: Pennylane
-description: Support pennylane workflows with clear steps and best practices.
+description: Step-by-step guidance for pennylane.
 category: Development
 ---
 

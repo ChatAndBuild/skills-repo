@@ -2,7 +2,7 @@
 category: Business
 id: ui-ux-designer
 name: UI/UX Designer
-description: Support ui/ux designer workflows with clear steps and best practices.
+description: Step-by-step guidance for UI/UX designer.
   user research, accessibility standards, and modern design tools. Specializes
   in design tokens, component libraries, and inclusive design. Use PROACTIVELY
   for design systems, user flows, or interface optimization.

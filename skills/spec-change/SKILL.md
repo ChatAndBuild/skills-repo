@@ -1,7 +1,7 @@
 ---
 id: spec-change
 name: Spec Change
-description: Support spec change workflows with clear steps and best practices.
+description: Step-by-step guidance for spec change.
 category: Tools
 ---
 

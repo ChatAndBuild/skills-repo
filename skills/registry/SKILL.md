@@ -1,7 +1,7 @@
 ---
 id: registry
 name: Registry
-description: Support registry workflows with clear steps and best practices.
+description: Step-by-step guidance for registry.
 category: Tools
 ---
 

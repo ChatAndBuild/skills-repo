@@ -1,7 +1,7 @@
 ---
 id: pr-creator
 name: PR Creator
-description: Support pr creator workflows with clear steps and best practices.
+description: Step-by-step guidance for pr creator.
 category: DevOps
 ---
 

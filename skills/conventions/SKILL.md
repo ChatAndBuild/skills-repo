@@ -1,7 +1,7 @@
 ---
 id: conventions
 name: Conventions
-description: Support conventions workflows with clear steps and best practices.
+description: Step-by-step guidance for conventions.
 category: Tools
 ---
 

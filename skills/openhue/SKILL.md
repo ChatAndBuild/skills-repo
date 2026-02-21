@@ -1,7 +1,7 @@
 ---
 id: openhue
 name: OpenHue
-description: Support openhue workflows with clear steps and best practices.
+description: Step-by-step guidance for openhue.
 category: Tools
 ---
 

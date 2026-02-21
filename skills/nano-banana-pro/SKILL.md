@@ -3,7 +3,7 @@ id: nano-banana-pro
 category: Content & Media
 author: openclaw
 name: Nano Banana Pro
-description: Support nano banana pro workflows with clear steps and best practices.
+description: Step-by-step guidance for nano banana pro.
 homepage: https://ai.google.dev/
 metadata:
   {

@@ -1,7 +1,7 @@
 ---
 id: managing-database-migrations
 name: Managing Database Migrations
-description: Support managing database migrations workflows with clear steps and best practices.
+description: Step-by-step guidance for managing database migrations.
 category: Databases
 ---
 

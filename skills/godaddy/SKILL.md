@@ -1,7 +1,7 @@
 ---
 id: godaddy
 name: Godaddy
-description: Support godaddy workflows with clear steps and best practices.
+description: Step-by-step guidance for godaddy.
 category: Tools
 ---
 

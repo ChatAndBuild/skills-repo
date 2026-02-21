@@ -1,7 +1,7 @@
 ---
 id: isms-audit-expert
 name: Isms Audit Expert
-description: Support isms audit expert workflows with clear steps and best practices.
+description: Step-by-step guidance for isms audit expert.
 category: Testing & Security
 ---
 

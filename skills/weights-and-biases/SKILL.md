@@ -1,7 +1,7 @@
 ---
 id: weights-and-biases
 name: Weights & Biases
-description: Support weights & biases workflows with clear steps and best practices.
+description: Step-by-step guidance for weights & biases.
 category: Data & AI
 ---
 

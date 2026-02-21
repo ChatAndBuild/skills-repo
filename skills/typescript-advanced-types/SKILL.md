@@ -1,7 +1,7 @@
 ---
 id: typescript-advanced-types
 name: TypeScript Advanced Types
-description: Support typescript advanced types workflows with clear steps and best practices.
+description: Step-by-step guidance for typescript advanced types.
 category: Development
 ---
 

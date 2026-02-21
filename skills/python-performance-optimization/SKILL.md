@@ -1,7 +1,7 @@
 ---
 id: python-performance-optimization
 name: Python Performance Optimization
-description: Support python performance optimization workflows with clear steps and best practices.
+description: Step-by-step guidance for python performance optimization.
 category: Tools
 ---
 

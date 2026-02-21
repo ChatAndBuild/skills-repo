@@ -1,7 +1,7 @@
 ---
 id: react-native-design
 name: React Native Design
-description: Support react native design workflows with clear steps and best practices.
+description: Step-by-step guidance for react native design.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: food-order
 name: Food Order
-description: Support food order workflows with clear steps and best practices.
+description: Step-by-step guidance for food order.
 category: Development
 ---
 

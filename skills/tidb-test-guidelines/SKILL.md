@@ -1,7 +1,7 @@
 ---
 id: tidb-test-guidelines
 name: TiDB Test Guidelines
-description: Support tidb test guidelines workflows with clear steps and best practices.
+description: Step-by-step guidance for tidb test guidelines.
 category: Testing & Security
 ---
 

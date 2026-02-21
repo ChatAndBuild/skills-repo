@@ -1,7 +1,7 @@
 ---
 id: object-counter
 name: Object Counter
-description: Support object counter workflows with clear steps and best practices.
+description: Step-by-step guidance for object counter.
 category: Research
 ---
 

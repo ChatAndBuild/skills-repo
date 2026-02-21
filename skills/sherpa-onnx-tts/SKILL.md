@@ -1,7 +1,7 @@
 ---
 id: sherpa-onnx-tts
 name: Sherpa ONNX TTS
-description: Support sherpa onnx tts workflows with clear steps and best practices.
+description: Step-by-step guidance for sherpa onnx tts.
 category: DevOps
 ---
 

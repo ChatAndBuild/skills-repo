@@ -1,7 +1,7 @@
 ---
 id: actions
 name: Actions
-description: Support actions workflows with clear steps and best practices.
+description: Step-by-step guidance for actions.
 category: Tools
 ---
 

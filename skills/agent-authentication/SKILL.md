@@ -1,7 +1,7 @@
 ---
 id: agent-authentication
 name: Agent Authentication
-description: Support agent authentication workflows with clear steps and best practices.
+description: Step-by-step guidance for agent authentication.
 category: Testing & Security
 ---
 

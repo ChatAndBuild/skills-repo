@@ -2,7 +2,7 @@
 category: Business
 id: mixpanel-automation
 name: Mixpanel Automation
-description: Support mixpanel automation workflows with clear steps and best practices.
+description: Step-by-step guidance for mixpanel automation.
 requires:
   mcp: [rube]
 ---

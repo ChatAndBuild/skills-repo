@@ -1,7 +1,7 @@
 ---
 id: skill-share
 name: Skill Share
-description: Support share workflows with clear steps and best practices.
+description: Step-by-step guidance for share.
 category: Documentation
 ---
 

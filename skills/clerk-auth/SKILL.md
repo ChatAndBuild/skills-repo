@@ -1,7 +1,7 @@
 ---
 id: clerk-auth
 name: Clerk Auth
-description: Support clerk auth workflows with clear steps and best practices.
+description: Step-by-step guidance for clerk auth.
 category: Testing & Security
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: matched-filtering
 name: Matched Filtering
-description: Support matched filtering workflows with clear steps and best practices.
+description: Step-by-step guidance for matched filtering.
 category: Research
 ---
 

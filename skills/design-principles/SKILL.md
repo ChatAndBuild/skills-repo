@@ -1,7 +1,7 @@
 ---
 id: design-principles
 name: Design Principles
-description: Support design principles workflows with clear steps and best practices.
+description: Step-by-step guidance for design principles.
 category: Tools
 ---
 

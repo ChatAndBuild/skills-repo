@@ -1,7 +1,7 @@
 ---
 id: api-patterns
 name: API Patterns
-description: Support api patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for API patterns.
 category: Development
 ---
 

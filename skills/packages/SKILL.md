@@ -1,7 +1,7 @@
 ---
 id: packages
 name: Packages
-description: Support packages workflows with clear steps and best practices.
+description: Step-by-step guidance for packages.
 category: Documentation
 ---
 

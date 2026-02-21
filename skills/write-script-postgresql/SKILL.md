@@ -1,7 +1,7 @@
 ---
 id: write-script-postgresql
 name: Write Script PostgreSQL
-description: Support write script postgresql workflows with clear steps and best practices.
+description: Step-by-step guidance for write script postgresql.
 category: Databases
 ---
 

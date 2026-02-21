@@ -1,7 +1,7 @@
 ---
 id: add-malli-schemas
 name: Add Malli Schemas
-description: Support add malli schemas workflows with clear steps and best practices.
+description: Step-by-step guidance for add malli schemas.
 category: Development
 ---
 

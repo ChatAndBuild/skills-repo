@@ -1,7 +1,7 @@
 ---
 id: memory-safety-patterns
 name: Memory Safety Patterns
-description: Support memory safety patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for memory safety patterns.
 category: Development
 ---
 

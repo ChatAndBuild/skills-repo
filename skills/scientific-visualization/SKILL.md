@@ -1,7 +1,7 @@
 ---
 id: scientific-visualization
 name: Scientific Visualization
-description: Support scientific visualization workflows with clear steps and best practices.
+description: Step-by-step guidance for scientific visualization.
 category: Data & AI
 ---
 

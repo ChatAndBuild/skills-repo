@@ -1,7 +1,7 @@
 ---
 id: elysium-arcology-planner
 name: Elysium Arcology Planner
-description: Support elysium arcology workflows with clear steps and best practices.
+description: Step-by-step guidance for elysium arcology.
 category: Research
 ---
 

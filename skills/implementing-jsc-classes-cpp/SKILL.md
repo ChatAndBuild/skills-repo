@@ -1,7 +1,7 @@
 ---
 id: implementing-jsc-classes-cpp
 name: Implementing JSC Classes C++
-description: Support implementing jsc classes c++ workflows with clear steps and best practices.
+description: Step-by-step guidance for implementing jsc classes c++.
 category: Development
 ---
 

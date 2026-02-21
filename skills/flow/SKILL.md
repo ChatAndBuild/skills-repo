@@ -1,7 +1,7 @@
 ---
 id: flow
 name: Flow
-description: Support flow workflows with clear steps and best practices.
+description: Step-by-step guidance for flow.
 category: Testing & Security
 ---
 

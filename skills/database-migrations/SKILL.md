@@ -1,7 +1,7 @@
 ---
 id: database-migrations
 name: Database Migrations
-description: Support database migrations workflows with clear steps and best practices.
+description: Step-by-step guidance for database migrations.
 category: Databases
 ---
 

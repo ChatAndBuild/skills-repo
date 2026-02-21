@@ -1,7 +1,7 @@
 ---
 id: create-pr
 name: Create PR
-description: Support create pr workflows with clear steps and best practices.
+description: Step-by-step guidance for create pr.
 category: DevOps
 ---
 

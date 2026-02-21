@@ -1,7 +1,7 @@
 ---
 id: make-pr
 name: Make PR
-description: Support make pr workflows with clear steps and best practices.
+description: Step-by-step guidance for make pr.
 category: DevOps
 ---
 

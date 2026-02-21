@@ -1,7 +1,7 @@
 ---
 id: healthcheck
 name: Healthcheck
-description: Support healthcheck workflows with clear steps and best practices.
+description: Step-by-step guidance for healthcheck.
 category: Tools
 ---
 

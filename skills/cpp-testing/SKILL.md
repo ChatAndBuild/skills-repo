@@ -1,7 +1,7 @@
 ---
 id: cpp-testing
 name: C++ Testing
-description: Support c++ testing workflows with clear steps and best practices.
+description: Step-by-step guidance for c++ testing.
 category: Testing & Security
 ---
 

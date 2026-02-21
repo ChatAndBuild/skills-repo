@@ -1,7 +1,7 @@
 ---
 id: python-type-safety
 name: Python Type Safety
-description: Support python type safety workflows with clear steps and best practices.
+description: Step-by-step guidance for python type safety.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: tailwindcss-development
 name: Tailwind CSS Development
-description: Support tailwind css development workflows with clear steps and best practices.
+description: Step-by-step guidance for tailwind css development.
 category: Development
 ---
 

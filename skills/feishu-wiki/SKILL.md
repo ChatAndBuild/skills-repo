@@ -1,7 +1,7 @@
 ---
 id: feishu-wiki
 name: Feishu Wiki
-description: Support feishu wiki workflows with clear steps and best practices.
+description: Step-by-step guidance for feishu wiki.
 category: Documentation
 ---
 

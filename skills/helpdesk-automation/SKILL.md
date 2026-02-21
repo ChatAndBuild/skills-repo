@@ -2,7 +2,7 @@
 category: Business
 id: helpdesk-automation
 name: Helpdesk Automation
-description: Support helpdesk automation workflows with clear steps and best practices.
+description: Step-by-step guidance for helpdesk automation.
 requires:
   mcp: [rube]
 ---

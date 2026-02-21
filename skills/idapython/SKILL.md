@@ -1,7 +1,7 @@
 ---
 id: idapython
 name: Idapython
-description: Support idapython workflows with clear steps and best practices.
+description: Step-by-step guidance for idapython.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: grafana-dashboards
 name: Grafana Dashboards
-description: Support grafana dashboards workflows with clear steps and best practices.
+description: Step-by-step guidance for grafana dashboards.
 category: DevOps
 ---
 

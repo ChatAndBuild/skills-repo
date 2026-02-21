@@ -1,7 +1,7 @@
 ---
 id: pytorch-fsdp
 name: Pytorch FSDP
-description: Support pytorch fsdp workflows with clear steps and best practices.
+description: Step-by-step guidance for pytorch fsdp.
 category: Development
 ---
 

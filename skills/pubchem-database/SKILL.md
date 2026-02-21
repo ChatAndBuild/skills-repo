@@ -2,7 +2,7 @@
 category: Research
 id: pubchem-database
 name: PubChem Database
-description: Help with pubchem database tasks and questions.
+description: Guidance and answers for pubchem database.
 ---
 
 # BioServices

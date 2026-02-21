@@ -1,7 +1,7 @@
 ---
 id: docs-demo
 name: Docs Demo
-description: Support docs demo workflows with clear steps and best practices.
+description: Step-by-step guidance for docs demo.
 category: Development
 ---
 

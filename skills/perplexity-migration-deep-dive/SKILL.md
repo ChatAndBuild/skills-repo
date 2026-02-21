@@ -1,7 +1,7 @@
 ---
 id: perplexity-migration-deep-dive
 name: Perplexity Migration Deep Dive
-description: Support perplexity migration deep dive workflows with clear steps and best practices.
+description: Step-by-step guidance for perplexity migration deep dive.
 category: Databases
 ---
 

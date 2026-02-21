@@ -1,7 +1,7 @@
 ---
 id: port-c-module
 name: Port C Module
-description: Support port c module workflows with clear steps and best practices.
+description: Step-by-step guidance for port c module.
 category: Development
 ---
 

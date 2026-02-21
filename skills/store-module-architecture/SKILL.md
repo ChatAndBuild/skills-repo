@@ -1,7 +1,7 @@
 ---
 id: store-module-architecture
 name: Store Module Architecture
-description: Support store module architecture workflows with clear steps and best practices.
+description: Step-by-step guidance for store module architecture.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: managing-database-replication
 name: Managing Database Replication
-description: Support managing database replication workflows with clear steps and best practices.
+description: Step-by-step guidance for managing database replication.
 category: Databases
 ---
 

@@ -2,7 +2,7 @@
 category: Research
 id: protocolsio-integration
 name: protocols.io Integration
-description: Help with protocols.io integration tasks and questions.
+description: Guidance and answers for protocols.io integration.
 ---
 
 # Protocols.io Integration

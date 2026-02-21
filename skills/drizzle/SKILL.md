@@ -1,7 +1,7 @@
 ---
 id: drizzle
 name: Drizzle
-description: Support drizzle workflows with clear steps and best practices.
+description: Step-by-step guidance for drizzle.
 category: Data & AI
 ---
 

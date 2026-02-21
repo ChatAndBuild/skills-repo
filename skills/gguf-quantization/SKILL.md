@@ -1,7 +1,7 @@
 ---
 id: gguf-quantization
 name: Gguf Quantization
-description: Support gguf quantization workflows with clear steps and best practices.
+description: Step-by-step guidance for gguf quantization.
 category: Development
 ---
 

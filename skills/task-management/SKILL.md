@@ -1,7 +1,7 @@
 ---
 id: task-management
 name: Task Management
-description: Support task management workflows with clear steps and best practices.
+description: Step-by-step guidance for task management.
 category: Tools
 ---
 

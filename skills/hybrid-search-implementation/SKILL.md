@@ -2,7 +2,7 @@
 category: Research
 id: hybrid-search-implementation
 name: Hybrid Search Implementation
-description: Support hybrid search implementation workflows with clear steps and best practices.
+description: Step-by-step guidance for hybrid search implementation.
 ---
 
 # Hybrid Search Implementation

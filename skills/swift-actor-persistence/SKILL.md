@@ -1,7 +1,7 @@
 ---
 id: swift-actor-persistence
 name: Swift Actor Persistence
-description: Support swift actor persistence workflows with clear steps and best practices.
+description: Step-by-step guidance for swift actor persistence.
 category: Development
 ---
 

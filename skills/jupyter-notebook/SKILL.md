@@ -1,7 +1,7 @@
 ---
 id: jupyter-notebook
 name: Jupyter Notebook
-description: Support jupyter notebook workflows with clear steps and best practices.
+description: Step-by-step guidance for jupyter notebook.
 category: Documentation
 ---
 

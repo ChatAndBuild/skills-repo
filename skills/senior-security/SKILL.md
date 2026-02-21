@@ -1,7 +1,7 @@
 ---
 id: senior-security
 name: Senior Security
-description: Support senior security workflows with clear steps and best practices.
+description: Step-by-step guidance for senior security.
 category: Testing & Security
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: web-design-guidelines
 name: Web Design Guidelines
-description: Support web design guidelines workflows with clear steps and best practices.
+description: Step-by-step guidance for web design guidelines.
 category: Documentation
 ---
 

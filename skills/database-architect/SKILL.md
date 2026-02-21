@@ -1,7 +1,7 @@
 ---
 id: database-architect
 name: Database Architect
-description: Support database architect workflows with clear steps and best practices.
+description: Step-by-step guidance for database architect.
 category: Databases
 ---
 

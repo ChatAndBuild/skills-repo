@@ -1,7 +1,7 @@
 ---
 id: modern-python
 name: Modern Python
-description: Support modern python workflows with clear steps and best practices.
+description: Step-by-step guidance for modern python.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: replit-deploy-integration
 name: Replit Deploy Integration
-description: Support replit deploy integration workflows with clear steps and best practices.
+description: Step-by-step guidance for replit deploy integration.
 category: Databases
 ---
 

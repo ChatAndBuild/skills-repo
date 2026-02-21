@@ -1,7 +1,7 @@
 ---
 id: multi-reviewer-patterns
 name: Multi-Reviewer Patterns
-description: Support multi-reviewer patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for multi-reviewer patterns.
 category: DevOps
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: ruby-pro
 name: Ruby Pro
-description: Support ruby pro workflows with clear steps and best practices.
+description: Step-by-step guidance for ruby pro.
 category: Development
 ---
 

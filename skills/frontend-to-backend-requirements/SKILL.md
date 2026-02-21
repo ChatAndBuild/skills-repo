@@ -1,7 +1,7 @@
 ---
 id: frontend-to-backend-requirements
 name: Frontend To Backend Requirements
-description: Support frontend to backend requirements workflows with clear steps and best practices.
+description: Step-by-step guidance for frontend to backend requirements.
 category: Development
 ---
 

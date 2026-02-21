@@ -1,7 +1,7 @@
 ---
 id: parallel-feature-development
 name: Parallel Feature Development
-description: Support parallel feature development workflows with clear steps and best practices.
+description: Step-by-step guidance for parallel feature development.
 category: DevOps
 ---
 

@@ -2,7 +2,7 @@
 category: Business
 id: data-storytelling
 name: Data Storytelling
-description: Support data storytelling workflows with clear steps and best practices.
+description: Step-by-step guidance for data storytelling.
 ---
 
 # Data Storytelling

@@ -2,7 +2,7 @@
 category: Business
 id: file-organizer
 name: File Organizer
-description: Support file organizer workflows with clear steps and best practices.
+description: Step-by-step guidance for file organizer.
 ---
 
 # File Organizer

@@ -1,7 +1,7 @@
 ---
 id: context-optimization
 name: Context Optimization
-description: Support context optimization workflows with clear steps and best practices.
+description: Step-by-step guidance for context optimization.
 category: Development
 ---
 

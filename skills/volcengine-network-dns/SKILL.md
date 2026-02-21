@@ -1,7 +1,7 @@
 ---
 id: volcengine-network-dns
 name: Volcengine Network DNS
-description: Support volcengine network dns workflows with clear steps and best practices.
+description: Step-by-step guidance for volcengine network DNS.
 category: Tools
 ---
 

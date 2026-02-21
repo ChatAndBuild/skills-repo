@@ -1,7 +1,7 @@
 ---
 id: build-tui-view
 name: Build Tui View
-description: Support build tui view workflows with clear steps and best practices.
+description: Step-by-step guidance for build tui view.
 category: Tools
 ---
 

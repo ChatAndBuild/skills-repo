@@ -1,7 +1,7 @@
 ---
 id: ralph-plan
 name: Ralph Plan
-description: Support ralph plan workflows with clear steps and best practices.
+description: Step-by-step guidance for ralph plan.
 category: Development
 ---
 

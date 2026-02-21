@@ -1,7 +1,7 @@
 ---
 id: dependency-update
 name: Dependency Update
-description: Support dependency update workflows with clear steps and best practices.
+description: Step-by-step guidance for dependency update.
 category: Development
 ---
 

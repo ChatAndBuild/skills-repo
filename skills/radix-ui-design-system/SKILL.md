@@ -1,7 +1,7 @@
 ---
 id: radix-ui-design-system
 name: Radix UI Design System
-description: Support radix ui design system workflows with clear steps and best practices.
+description: Step-by-step guidance for radix UI design system.
 category: Development
 ---
 

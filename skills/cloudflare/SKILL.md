@@ -1,7 +1,7 @@
 ---
 id: cloudflare
 name: Cloudflare
-description: Support cloudflare workflows with clear steps and best practices.
+description: Step-by-step guidance for cloudflare.
 category: Tools
 ---
 

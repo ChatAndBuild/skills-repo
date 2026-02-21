@@ -1,7 +1,7 @@
 ---
 id: website-maintainer
 name: Website Maintainer
-description: Support website maintainer workflows with clear steps and best practices.
+description: Step-by-step guidance for website maintainer.
 category: Development
 ---
 

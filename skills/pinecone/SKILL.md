@@ -1,7 +1,7 @@
 ---
 id: pinecone
 name: Pinecone
-description: Support pinecone workflows with clear steps and best practices.
+description: Step-by-step guidance for pinecone.
 category: Data & AI
 ---
 

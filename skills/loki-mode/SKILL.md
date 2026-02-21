@@ -1,7 +1,7 @@
 ---
 id: loki-mode
 name: Loki Mode
-description: Support loki mode workflows with clear steps and best practices.
+description: Step-by-step guidance for loki mode.
 category: DevOps
 ---
 

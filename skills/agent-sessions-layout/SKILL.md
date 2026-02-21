@@ -1,7 +1,7 @@
 ---
 id: agent-sessions-layout
 name: Agent Sessions Layout
-description: Support agent sessions layout workflows with clear steps and best practices.
+description: Step-by-step guidance for agent sessions layout.
 category: Tools
 ---
 

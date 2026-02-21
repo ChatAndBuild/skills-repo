@@ -1,7 +1,7 @@
 ---
 id: responsive-design
 name: Responsive Design
-description: Support responsive design workflows with clear steps and best practices.
+description: Step-by-step guidance for responsive design.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: elastic
 name: Elastic
-description: Support elastic workflows with clear steps and best practices.
+description: Step-by-step guidance for elastic.
 category: Databases
 ---
 

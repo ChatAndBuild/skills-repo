@@ -1,7 +1,7 @@
 ---
 id: run-nx-generator
 name: Run Nx Generator
-description: Support run nx generator workflows with clear steps and best practices.
+description: Step-by-step guidance for run nx generator.
 category: Tools
 ---
 

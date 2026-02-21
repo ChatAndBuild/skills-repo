@@ -1,7 +1,7 @@
 ---
 id: ai-product
 name: AI Product
-description: Support ai product workflows with clear steps and best practices.
+description: Step-by-step guidance for AI product.
 category: Data & AI
 ---
 

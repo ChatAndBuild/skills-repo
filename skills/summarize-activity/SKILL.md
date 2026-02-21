@@ -2,7 +2,7 @@
 category: Business
 id: summarize-activity
 name: Summarize Activity
-description: Support summarize activity workflows with clear steps and best practices.
+description: Step-by-step guidance for summarize activity.
 disable-model-invocation: true
 allowed-tools: Bash, Read, Task
 argument-hint: "[timeframe: 24h (default), 48h, 7d, 1w]"

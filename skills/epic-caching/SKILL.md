@@ -1,7 +1,7 @@
 ---
 id: epic-caching
 name: Epic Caching
-description: Support epic caching workflows with clear steps and best practices.
+description: Step-by-step guidance for epic caching.
 category: Databases
 ---
 

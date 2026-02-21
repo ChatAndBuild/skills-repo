@@ -1,7 +1,7 @@
 ---
 id: bullmq-specialist
 name: BullMQ Specialist
-description: Support bullmq specialist workflows with clear steps and best practices.
+description: Step-by-step guidance for bullmq specialist.
 category: Databases
 ---
 

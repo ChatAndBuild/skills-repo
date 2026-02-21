@@ -1,7 +1,7 @@
 ---
 id: browser-extension-developer
 name: Browser Extension Developer
-description: Support browser extension developer workflows with clear steps and best practices.
+description: Step-by-step guidance for browser extension developer.
 category: Tools
 ---
 

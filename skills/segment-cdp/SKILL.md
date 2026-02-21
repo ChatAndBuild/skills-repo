@@ -2,7 +2,7 @@
 category: Business
 id: segment-cdp
 name: Segment CDP
-description: Support segment cdp workflows with clear steps and best practices.
+description: Step-by-step guidance for segment cdp.
 source: vibeship-spawner-skills (Apache 2.0)
 ---
 

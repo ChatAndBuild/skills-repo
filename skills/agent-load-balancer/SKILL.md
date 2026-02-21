@@ -1,7 +1,7 @@
 ---
 id: agent-load-balancer
 name: Agent Load Balancer
-description: Support agent load balancer workflows with clear steps and best practices.
+description: Step-by-step guidance for agent load balancer.
 category: DevOps
 ---
 

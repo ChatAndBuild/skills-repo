@@ -1,7 +1,7 @@
 ---
 id: fastgpt-design-skill
 name: FastGPT Design Skill
-description: Support fastgpt design skill workflows with clear steps and best practices.
+description: Step-by-step guidance for fastgpt design skill.
 category: Development
 ---
 

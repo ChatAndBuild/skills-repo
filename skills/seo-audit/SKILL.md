@@ -1,7 +1,7 @@
 ---
 id: seo-audit
 name: SEO Audit
-description: Support seo audit workflows with clear steps and best practices.
+description: Step-by-step guidance for seo audit.
 category: Documentation
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: gdpr-data-handling
 name: GDPR Data Handling
-description: Support gdpr data handling workflows with clear steps and best practices.
+description: Step-by-step guidance for gdpr data handling.
 category: Testing & Security
 ---
 

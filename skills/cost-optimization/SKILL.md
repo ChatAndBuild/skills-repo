@@ -2,7 +2,7 @@
 category: Business
 id: cost-optimization
 name: Cost Optimization
-description: Support cost optimization workflows with clear steps and best practices.
+description: Step-by-step guidance for cost optimization.
 ---
 
 # Cloud Cost Optimization

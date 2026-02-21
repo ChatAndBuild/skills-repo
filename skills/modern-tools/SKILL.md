@@ -1,7 +1,7 @@
 ---
 id: modern-tools
 name: Modern Tools
-description: Support modern tools workflows with clear steps and best practices.
+description: Step-by-step guidance for modern tools.
 category: Development
 ---
 

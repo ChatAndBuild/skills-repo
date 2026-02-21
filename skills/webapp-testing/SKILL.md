@@ -1,7 +1,7 @@
 ---
 id: webapp-testing
 name: Web App Testing
-description: Support web app testing workflows with clear steps and best practices.
+description: Step-by-step guidance for web app testing.
 category: Tools
 ---
 

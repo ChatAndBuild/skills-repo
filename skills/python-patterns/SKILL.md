@@ -1,7 +1,7 @@
 ---
 id: python-patterns
 name: Python Patterns
-description: Support python patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for python patterns.
 category: Development
 ---
 

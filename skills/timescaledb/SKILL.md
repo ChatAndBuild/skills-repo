@@ -1,7 +1,7 @@
 ---
 id: timescaledb
 name: TimescaleDB
-description: Support timescaledb workflows with clear steps and best practices.
+description: Step-by-step guidance for timescaledb.
 category: Databases
 ---
 

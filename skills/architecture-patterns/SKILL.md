@@ -1,7 +1,7 @@
 ---
 id: architecture-patterns
 name: Architecture Patterns
-description: Support architecture patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for architecture patterns.
 category: Development
 ---
 

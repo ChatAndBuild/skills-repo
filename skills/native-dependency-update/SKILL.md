@@ -1,7 +1,7 @@
 ---
 id: native-dependency-update
 name: Native Dependency Update
-description: Support native dependency update workflows with clear steps and best practices.
+description: Step-by-step guidance for native dependency update.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: web-component-design
 name: Web Component Design
-description: Support web component design workflows with clear steps and best practices.
+description: Step-by-step guidance for web component design.
 category: Development
 ---
 

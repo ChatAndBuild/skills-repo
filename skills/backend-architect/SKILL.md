@@ -1,7 +1,7 @@
 ---
 id: backend-architect
 name: Backend Architect
-description: Support backend architect workflows with clear steps and best practices.
+description: Step-by-step guidance for backend architect.
 category: Development
 ---
 

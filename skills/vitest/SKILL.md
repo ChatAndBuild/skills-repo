@@ -1,7 +1,7 @@
 ---
 id: vitest
 name: Vitest
-description: Support vitest workflows with clear steps and best practices.
+description: Step-by-step guidance for vitest.
 category: Testing & Security
 ---
 

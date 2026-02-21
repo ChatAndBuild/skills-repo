@@ -1,7 +1,7 @@
 ---
 id: meilisearch-admin
 name: Meilisearch Admin
-description: Support meilisearch admin workflows with clear steps and best practices.
+description: Step-by-step guidance for meilisearch admin.
 category: Databases
 ---
 

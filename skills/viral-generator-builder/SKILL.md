@@ -1,7 +1,7 @@
 ---
 id: viral-generator-builder
 name: Viral Generator Builder
-description: Support viral generator builder workflows with clear steps and best practices.
+description: Step-by-step guidance for viral generator builder.
 category: Development
 ---
 

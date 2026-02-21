@@ -1,7 +1,7 @@
 ---
 id: golang-testing
 name: Golang Testing
-description: Support golang testing workflows with clear steps and best practices.
+description: Step-by-step guidance for golang testing.
 category: Testing & Security
 ---
 

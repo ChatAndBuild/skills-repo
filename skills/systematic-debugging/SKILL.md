@@ -1,7 +1,7 @@
 ---
 id: systematic-debugging
 name: Systematic Debugging
-description: Support systematic debugging workflows with clear steps and best practices.
+description: Step-by-step guidance for systematic debugging.
 category: Tools
 ---
 

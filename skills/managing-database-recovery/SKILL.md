@@ -1,7 +1,7 @@
 ---
 id: managing-database-recovery
 name: Managing Database Recovery
-description: Support managing database recovery workflows with clear steps and best practices.
+description: Step-by-step guidance for managing database recovery.
 category: Databases
 ---
 

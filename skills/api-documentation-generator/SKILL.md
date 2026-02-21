@@ -1,7 +1,7 @@
 ---
 id: api-documentation-generator
 name: API Documentation Generator
-description: Support api documentation workflows with clear steps and best practices.
+description: Step-by-step guidance for API documentation.
 category: Documentation
 ---
 

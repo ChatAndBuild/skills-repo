@@ -1,7 +1,7 @@
 ---
 id: inngest
 name: Inngest
-description: Support inngest workflows with clear steps and best practices.
+description: Step-by-step guidance for inngest.
 category: DevOps
 ---
 

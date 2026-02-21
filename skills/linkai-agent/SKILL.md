@@ -1,7 +1,7 @@
 ---
 id: linkai-agent
 name: LinkAI Agent
-description: Support linkai agent workflows with clear steps and best practices.
+description: Step-by-step guidance for linkai agent.
 category: Data & AI
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: security-audit
 name: Security Audit
-description: Support security audit workflows with clear steps and best practices.
+description: Step-by-step guidance for security audit.
 category: Testing & Security
 ---
 

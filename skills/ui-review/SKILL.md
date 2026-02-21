@@ -1,7 +1,7 @@
 ---
 id: ui-review
 name: UI Review
-description: Support ui review workflows with clear steps and best practices.
+description: Step-by-step guidance for UI review.
 category: Testing & Security
 ---
 

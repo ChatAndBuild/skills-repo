@@ -1,7 +1,7 @@
 ---
 id: lint-and-validate
 name: Lint And Validate
-description: Support lint and validate workflows with clear steps and best practices.
+description: Step-by-step guidance for lint and validate.
 category: Tools
 ---
 

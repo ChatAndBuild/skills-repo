@@ -1,7 +1,7 @@
 ---
 id: deployment-pipeline-design
 name: Deployment Pipeline Design
-description: Support deployment pipeline design workflows with clear steps and best practices.
+description: Step-by-step guidance for deployment pipeline design.
 category: DevOps
 ---
 

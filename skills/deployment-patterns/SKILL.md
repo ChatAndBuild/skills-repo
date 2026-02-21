@@ -1,7 +1,7 @@
 ---
 id: deployment-patterns
 name: Deployment Patterns
-description: Support deployment patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for deployment patterns.
 category: Data & AI
 ---
 

@@ -2,7 +2,7 @@
 category: Research
 id: pyopenms
 name: pyOpenMS
-description: Help with pyopenms tasks and questions.
+description: Guidance and answers for pyopenms.
 ---
 
 # PyOpenMS

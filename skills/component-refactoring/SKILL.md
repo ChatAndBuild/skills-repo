@@ -1,7 +1,7 @@
 ---
 id: component-refactoring
 name: Component Refactoring
-description: Support component refactoring workflows with clear steps and best practices.
+description: Step-by-step guidance for component refactoring.
 category: Testing & Security
 ---
 

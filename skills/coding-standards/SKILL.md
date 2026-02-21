@@ -1,7 +1,7 @@
 ---
 id: coding-standards
 name: Coding Standards
-description: Support coding standards workflows with clear steps and best practices.
+description: Step-by-step guidance for coding standards.
 category: Development
 ---
 

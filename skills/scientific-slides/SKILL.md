@@ -1,7 +1,7 @@
 ---
 id: scientific-slides
 name: Scientific Slides
-description: Support scientific slides workflows with clear steps and best practices.
+description: Step-by-step guidance for scientific slides.
 category: Documentation
 ---
 

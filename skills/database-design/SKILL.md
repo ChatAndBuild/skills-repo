@@ -1,7 +1,7 @@
 ---
 id: database-design
 name: Database Design
-description: Support database design workflows with clear steps and best practices.
+description: Step-by-step guidance for database design.
 category: Databases
 ---
 

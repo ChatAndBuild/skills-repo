@@ -1,7 +1,7 @@
 ---
 id: mobile-developer
 name: Mobile Developer
-description: Support mobile developer workflows with clear steps and best practices.
+description: Step-by-step guidance for mobile developer.
 category: Development
 ---
 

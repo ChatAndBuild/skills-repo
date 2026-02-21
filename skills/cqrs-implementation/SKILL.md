@@ -1,7 +1,7 @@
 ---
 id: cqrs-implementation
 name: CQRS Implementation
-description: Support cqrs implementation workflows with clear steps and best practices.
+description: Step-by-step guidance for cqrs implementation.
 category: Development
 ---
 

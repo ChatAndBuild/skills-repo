@@ -1,7 +1,7 @@
 ---
 id: react-patterns
 name: React Patterns
-description: Support react patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for react patterns.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: qlm-calibration
 name: QLM Calibration
-description: Support QLM calibration workflows with clear steps and best practices.
+description: Step-by-step guidance for QLM calibration.
 category: Research
 ---
 

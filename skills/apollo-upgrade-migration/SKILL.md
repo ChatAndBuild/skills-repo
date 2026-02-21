@@ -1,7 +1,7 @@
 ---
 id: apollo-upgrade-migration
 name: Apollo Upgrade Migration
-description: Support apollo upgrade migration workflows with clear steps and best practices.
+description: Step-by-step guidance for apollo upgrade migration.
 category: Databases
 ---
 

@@ -2,7 +2,7 @@
 category: Lifestyle
 id: validating-ai-ethics-and-fairness
 name: Validating AI Ethics And Fairness
-description: Help with validating ai ethics and fairness tasks and questions.
+description: Guidance and answers for validating AI ethics and fairness.
   Validate AI/ML models and datasets for bias, fairness, and ethical concerns.
   Use when auditing AI systems for ethical compliance, fairness assessment, or bias detection.
   Trigger with phrases like "evaluate model fairness", "check for bias", or "validate AI ethics".

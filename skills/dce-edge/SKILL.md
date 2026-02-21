@@ -1,7 +1,7 @@
 ---
 id: dce-edge
 name: DCE Edge
-description: Support dce edge workflows with clear steps and best practices.
+description: Step-by-step guidance for dce edge.
 category: Tools
 ---
 

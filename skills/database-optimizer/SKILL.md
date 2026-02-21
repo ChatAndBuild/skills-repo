@@ -1,7 +1,7 @@
 ---
 id: database-optimizer
 name: Database Optimizer
-description: Support database optimizer workflows with clear steps and best practices.
+description: Step-by-step guidance for database optimizer.
 category: Databases
 ---
 

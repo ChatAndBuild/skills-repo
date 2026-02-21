@@ -1,7 +1,7 @@
 ---
 id: tencent-cos
 name: Tencent Cos
-description: Support tencent cos workflows with clear steps and best practices.
+description: Step-by-step guidance for tencent cos.
 category: Databases
 ---
 

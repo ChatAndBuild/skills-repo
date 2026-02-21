@@ -1,7 +1,7 @@
 ---
 id: juicebox-migration-deep-dive
 name: Juicebox Migration Deep Dive
-description: Support juicebox migration deep dive workflows with clear steps and best practices.
+description: Step-by-step guidance for juicebox migration deep dive.
 category: Databases
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: stitch-ui-design
 name: Stitch UI Design
-description: Support stitch ui design workflows with clear steps and best practices.
+description: Step-by-step guidance for stitch UI design.
 category: Development
 ---
 

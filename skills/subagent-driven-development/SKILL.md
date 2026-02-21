@@ -1,7 +1,7 @@
 ---
 id: subagent-driven-development
 name: Subagent-driven Development
-description: Support subagent-driven development workflows with clear steps and best practices.
+description: Step-by-step guidance for subagent-driven development.
 category: DevOps
 ---
 

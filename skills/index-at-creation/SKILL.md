@@ -1,7 +1,7 @@
 ---
 id: index-at-creation
 name: Index At Creation
-description: Support index at creation workflows with clear steps and best practices.
+description: Step-by-step guidance for index at creation.
 category: Databases
 ---
 

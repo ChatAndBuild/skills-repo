@@ -1,7 +1,7 @@
 ---
 id: workflows-yaml-reference
 name: Workflows YAML Reference
-description: Support workflows yaml reference workflows with clear steps and best practices.
+description: Step-by-step guidance for workflows yaml reference.
 category: Documentation
 ---
 

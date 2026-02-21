@@ -2,7 +2,7 @@
 id: email-drafter
 category: Content & Media
 name: Email Drafter
-description: Help with email drafter tasks and questions.
+description: Guidance and answers for email drafter.
   Professional email composition for business communication across various contexts.
   Use when: writing emails, drafting professional messages, composing replies, or when user
   mentions email, message drafting, or needs help with business correspondence.

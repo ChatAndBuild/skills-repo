@@ -1,7 +1,7 @@
 ---
 id: threejs-skills
 name: Three.js Skills
-description: Support three.js skills workflows with clear steps and best practices.
+description: Step-by-step guidance for three.JS skills.
 category: Development
 ---
 

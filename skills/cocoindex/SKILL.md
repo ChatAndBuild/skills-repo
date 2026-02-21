@@ -1,7 +1,7 @@
 ---
 id: cocoindex
 name: Cocoindex
-description: Support cocoindex workflows with clear steps and best practices.
+description: Step-by-step guidance for cocoindex.
 category: Data & AI
 ---
 

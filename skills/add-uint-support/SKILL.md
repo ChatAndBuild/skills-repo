@@ -1,7 +1,7 @@
 ---
 id: add-uint-support
 name: Add UInt Support
-description: Support add uint support workflows with clear steps and best practices.
+description: Step-by-step guidance for add uint support.
 category: Development
 ---
 

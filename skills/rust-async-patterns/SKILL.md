@@ -1,7 +1,7 @@
 ---
 id: rust-async-patterns
 name: Rust Async Patterns
-description: Support rust async patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for rust async patterns.
 category: Development
 ---
 

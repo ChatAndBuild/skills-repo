@@ -1,7 +1,7 @@
 ---
 id: fal-platform
 name: FAL Platform
-description: Support fal platform workflows with clear steps and best practices.
+description: Step-by-step guidance for fal platform.
 category: Development
 ---
 

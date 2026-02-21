@@ -1,7 +1,7 @@
 ---
 id: senior-devops
 name: Senior DevOps
-description: Support senior devops workflows with clear steps and best practices.
+description: Step-by-step guidance for senior devops.
 category: DevOps
 ---
 

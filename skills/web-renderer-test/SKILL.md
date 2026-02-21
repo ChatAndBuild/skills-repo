@@ -1,7 +1,7 @@
 ---
 id: web-renderer-test
 name: Web Renderer Test
-description: Support web renderer test workflows with clear steps and best practices.
+description: Step-by-step guidance for web renderer test.
 category: Testing & Security
 ---
 

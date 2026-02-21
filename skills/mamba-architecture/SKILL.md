@@ -1,7 +1,7 @@
 ---
 id: mamba-architecture
 name: Mamba Architecture
-description: Support mamba architecture workflows with clear steps and best practices.
+description: Step-by-step guidance for mamba architecture.
 category: Data & AI
 ---
 

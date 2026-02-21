@@ -1,7 +1,7 @@
 ---
 id: documentation-templates
 name: Documentation Templates
-description: Support documentation templates workflows with clear steps and best practices.
+description: Step-by-step guidance for documentation templates.
 category: Documentation
 ---
 

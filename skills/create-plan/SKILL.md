@@ -2,7 +2,7 @@
 category: Business
 id: create-plan
 name: Create Plan
-description: Support create plan workflows with clear steps and best practices.
+description: Step-by-step guidance for create plan.
 metadata:
   short-description: Create a plan
 ---

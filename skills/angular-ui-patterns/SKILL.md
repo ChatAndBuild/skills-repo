@@ -1,7 +1,7 @@
 ---
 id: angular-ui-patterns
 name: Angular UI Patterns
-description: Support angular ui patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for angular UI patterns.
 category: Development
 ---
 

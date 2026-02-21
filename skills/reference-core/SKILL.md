@@ -1,7 +1,7 @@
 ---
 id: reference-core
 name: Reference Core
-description: Support reference core workflows with clear steps and best practices.
+description: Step-by-step guidance for reference core.
 category: Documentation
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: unreal-engine-cpp-pro
 name: Unreal Engine C++ Pro
-description: Support unreal engine c++ pro workflows with clear steps and best practices.
+description: Step-by-step guidance for unreal engine c++ pro.
 category: Development
 ---
 

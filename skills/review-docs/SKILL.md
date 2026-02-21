@@ -1,7 +1,7 @@
 ---
 id: review-docs
 name: Review Docs
-description: Support docs workflows with clear steps and best practices.
+description: Step-by-step guidance for docs.
 category: Documentation
 ---
 

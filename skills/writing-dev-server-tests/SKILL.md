@@ -1,7 +1,7 @@
 ---
 id: writing-dev-server-tests
 name: Writing Dev Server Tests
-description: Support writing dev server tests workflows with clear steps and best practices.
+description: Step-by-step guidance for writing dev server tests.
 category: Testing & Security
 ---
 

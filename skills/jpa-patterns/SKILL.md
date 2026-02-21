@@ -1,7 +1,7 @@
 ---
 id: jpa-patterns
 name: JPA Patterns
-description: Support jpa patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for jpa patterns.
 category: Development
 ---
 

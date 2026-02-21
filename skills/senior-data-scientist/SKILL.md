@@ -1,7 +1,7 @@
 ---
 id: senior-data-scientist
 name: Senior Data Scientist
-description: Support senior data scientist workflows with clear steps and best practices.
+description: Step-by-step guidance for senior data scientist.
 category: Data & AI
 ---
 

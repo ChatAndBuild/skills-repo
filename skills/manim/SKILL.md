@@ -1,7 +1,7 @@
 ---
 id: manim
 name: Manim
-description: Support manim workflows with clear steps and best practices.
+description: Step-by-step guidance for manim.
 category: Development
 ---
 

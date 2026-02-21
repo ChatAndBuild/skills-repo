@@ -1,7 +1,7 @@
 ---
 id: api-integration-specialist
 name: API Integration Specialist
-description: Support api integration specialist workflows with clear steps and best practices.
+description: Step-by-step guidance for API integration specialist.
 category: Development
 ---
 

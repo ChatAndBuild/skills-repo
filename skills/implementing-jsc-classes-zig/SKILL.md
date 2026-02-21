@@ -1,7 +1,7 @@
 ---
 id: implementing-jsc-classes-zig
 name: Implementing JSC Classes Zig
-description: Support implementing jsc classes zig workflows with clear steps and best practices.
+description: Step-by-step guidance for implementing jsc classes zig.
 category: Development
 ---
 

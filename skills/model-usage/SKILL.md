@@ -1,7 +1,7 @@
 ---
 id: model-usage
 name: Model Usage
-description: Support model usage workflows with clear steps and best practices.
+description: Step-by-step guidance for model usage.
 category: Data & AI
 ---
 

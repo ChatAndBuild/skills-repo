@@ -1,7 +1,7 @@
 ---
 id: python-error-handling
 name: Python Error Handling
-description: Support python error handling workflows with clear steps and best practices.
+description: Step-by-step guidance for python error handling.
 category: Development
 ---
 

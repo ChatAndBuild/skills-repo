@@ -1,7 +1,7 @@
 ---
 id: domainkits
 name: Domainkits
-description: Support domainkits workflows with clear steps and best practices.
+description: Step-by-step guidance for domainkits.
 category: Tools
 ---
 

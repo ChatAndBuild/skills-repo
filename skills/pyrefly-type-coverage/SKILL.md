@@ -1,7 +1,7 @@
 ---
 id: pyrefly-type-coverage
 name: Pyrefly Type Coverage
-description: Support pyrefly type coverage workflows with clear steps and best practices.
+description: Step-by-step guidance for pyrefly type coverage.
 category: Testing & Security
 ---
 

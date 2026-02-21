@@ -1,7 +1,7 @@
 ---
 id: aoti-debug
 name: AOTI Debug
-description: Support aoti debug workflows with clear steps and best practices.
+description: Step-by-step guidance for aoti debug.
 category: Tools
 ---
 

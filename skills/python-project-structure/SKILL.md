@@ -1,7 +1,7 @@
 ---
 id: python-project-structure
 name: Python Project Structure
-description: Support python project structure workflows with clear steps and best practices.
+description: Step-by-step guidance for python project structure.
 category: Development
 ---
 

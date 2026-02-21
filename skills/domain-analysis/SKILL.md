@@ -1,7 +1,7 @@
 ---
 id: domain-analysis
 name: Domain Analysis
-description: Support domain analysis workflows with clear steps and best practices.
+description: Step-by-step guidance for domain analysis.
 category: Tools
 ---
 

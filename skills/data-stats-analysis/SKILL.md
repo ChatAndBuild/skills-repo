@@ -1,7 +1,7 @@
 ---
 id: data-stats-analysis
 name: Data Stats Analysis
-description: Support data stats workflows with clear steps and best practices.
+description: Step-by-step guidance for data stats.
 category: Research
 ---
 

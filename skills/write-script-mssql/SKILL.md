@@ -1,7 +1,7 @@
 ---
 id: write-script-mssql
 name: Write Script MSSQL
-description: Support write script mssql workflows with clear steps and best practices.
+description: Step-by-step guidance for write script mssql.
 category: Databases
 ---
 

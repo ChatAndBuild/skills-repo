@@ -1,7 +1,7 @@
 ---
 id: pc-games
 name: Pc Games
-description: Support pc games workflows with clear steps and best practices.
+description: Step-by-step guidance for pc games.
 category: Development
 ---
 

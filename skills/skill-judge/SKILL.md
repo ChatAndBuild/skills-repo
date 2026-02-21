@@ -2,7 +2,7 @@
 category: Business
 id: skill-judge
 name: Skill Judge
-description: Support judge workflows with clear steps and best practices.
+description: Step-by-step guidance for judge.
 ---
 
 # Skill Judge

@@ -1,7 +1,7 @@
 ---
 id: nx-workspace-patterns
 name: Nx Workspace Patterns
-description: Support nx workspace patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for nx workspace patterns.
 category: Tools
 ---
 

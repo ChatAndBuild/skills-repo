@@ -1,7 +1,7 @@
 ---
 id: dependency-upgrade
 name: Dependency Upgrade
-description: Support dependency upgrade workflows with clear steps and best practices.
+description: Step-by-step guidance for dependency upgrade.
 category: DevOps
 ---
 

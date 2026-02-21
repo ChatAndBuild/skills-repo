@@ -1,7 +1,7 @@
 ---
 id: swiss-phone-directory
 name: Swiss Phone Directory
-description: Support swiss phone directory workflows with clear steps and best practices.
+description: Step-by-step guidance for swiss phone directory.
 category: Tools
 ---
 

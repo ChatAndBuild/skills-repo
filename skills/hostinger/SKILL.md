@@ -1,7 +1,7 @@
 ---
 id: hostinger
 name: Hostinger
-description: Support hostinger workflows with clear steps and best practices.
+description: Step-by-step guidance for hostinger.
 category: Tools
 ---
 

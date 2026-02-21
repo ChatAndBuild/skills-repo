@@ -1,7 +1,7 @@
 ---
 id: premium-domains
 name: Premium Domains
-description: Support premium domains workflows with clear steps and best practices.
+description: Step-by-step guidance for premium domains.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: wrangler
 name: Wrangler
-description: Support wrangler workflows with clear steps and best practices.
+description: Step-by-step guidance for wrangler.
 category: DevOps
 ---
 

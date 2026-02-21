@@ -1,7 +1,7 @@
 ---
 id: write-example
 name: Write Example
-description: Support write example workflows with clear steps and best practices.
+description: Step-by-step guidance for write example.
 category: Documentation
 ---
 

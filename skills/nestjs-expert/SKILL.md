@@ -1,7 +1,7 @@
 ---
 id: nestjs-expert
 name: NestJS Expert
-description: Support nestjs expert workflows with clear steps and best practices.
+description: Step-by-step guidance for nestjs expert.
 category: Development
 ---
 

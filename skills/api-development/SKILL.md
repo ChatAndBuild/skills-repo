@@ -1,7 +1,7 @@
 ---
 id: api-development
 name: API Development
-description: Support api development workflows with clear steps and best practices.
+description: Step-by-step guidance for API development.
 category: Development
 ---
 

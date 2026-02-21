@@ -1,7 +1,7 @@
 ---
 id: umap-learn
 name: UMAP Learn
-description: Support umap learn workflows with clear steps and best practices.
+description: Step-by-step guidance for umap learn.
 category: Data & AI
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: snowflake-semanticview
 name: Snowflake Semantic View
-description: Support snowflake semantic view workflows with clear steps and best practices.
+description: Step-by-step guidance for snowflake semantic view.
 category: Data & AI
 ---
 

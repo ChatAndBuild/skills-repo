@@ -1,7 +1,7 @@
 ---
 id: claude-code-guide
 name: Claude Code Guide
-description: Support claude code workflows with clear steps and best practices.
+description: Step-by-step guidance for claude code.
 category: Documentation
 ---
 

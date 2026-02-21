@@ -1,7 +1,7 @@
 ---
 id: generate-sparkle-appcast
 name: Generate Sparkle Appcast
-description: Support generate sparkle appcast workflows with clear steps and best practices.
+description: Step-by-step guidance for generate sparkle appcast.
 category: Development
 ---
 

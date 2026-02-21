@@ -1,7 +1,7 @@
 ---
 id: discordbot-automation
 name: Discord Bot Automation
-description: Support discord bot automation workflows with clear steps and best practices.
+description: Step-by-step guidance for discord bot automation.
 category: Tools
 ---
 

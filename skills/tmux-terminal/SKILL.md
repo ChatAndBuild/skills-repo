@@ -1,7 +1,7 @@
 ---
 id: tmux-terminal
 name: tmux Terminal
-description: Support tmux terminal workflows with clear steps and best practices.
+description: Step-by-step guidance for tmux terminal.
 category: Tools
 ---
 

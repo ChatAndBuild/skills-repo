@@ -1,7 +1,7 @@
 ---
 id: dbt-transformation-patterns
 name: dbt Transformation Patterns
-description: Support dbt transformation patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for dbt transformation patterns.
 category: Data & AI
 ---
 

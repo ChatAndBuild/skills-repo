@@ -2,7 +2,7 @@
 id: editor
 category: Content & Media
 name: Editor
-description: Help with editor tasks and questions.
+description: Guidance and answers for editor.
   Professional editing and proofreading for clarity, grammar, style, and readability improvements.
   Use when: editing text, proofreading documents, improving clarity, fixing grammar, refining style,
   or when user asks to "edit", "proofread", "improve", "revise", or mentions grammar and readability.

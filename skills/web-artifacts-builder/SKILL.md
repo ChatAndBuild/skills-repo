@@ -1,7 +1,7 @@
 ---
 id: web-artifacts-builder
 name: Web Artifacts Builder
-description: Support web artifacts builder workflows with clear steps and best practices.
+description: Step-by-step guidance for web artifacts builder.
 category: Development
 ---
 

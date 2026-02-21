@@ -2,7 +2,7 @@
 category: Research
 id: geo-fundamentals
 name: Geo Fundamentals
-description: Support geo fundamentals workflows with clear steps and best practices.
+description: Step-by-step guidance for geo fundamentals.
 allowed-tools: Read, Glob, Grep
 ---
 

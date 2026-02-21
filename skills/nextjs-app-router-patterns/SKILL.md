@@ -1,7 +1,7 @@
 ---
 id: nextjs-app-router-patterns
 name: Next.js App Router Patterns
-description: Support next.js app router patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for next.JS app router patterns.
 category: Development
 ---
 

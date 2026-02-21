@@ -1,7 +1,7 @@
 ---
 id: libraries-release-notes
 name: Libraries Release Notes
-description: Support libraries release notes workflows with clear steps and best practices.
+description: Step-by-step guidance for libraries release notes.
 category: Documentation
 ---
 

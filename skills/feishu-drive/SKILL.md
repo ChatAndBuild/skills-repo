@@ -1,7 +1,7 @@
 ---
 id: feishu-drive
 name: Feishu Drive
-description: Support feishu drive workflows with clear steps and best practices.
+description: Step-by-step guidance for feishu drive.
 category: DevOps
 ---
 

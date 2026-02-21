@@ -1,7 +1,7 @@
 ---
 id: avalonia-viewmodels-zafiro
 name: Avalonia Viewmodels Zafiro
-description: Support avalonia viewmodels zafiro workflows with clear steps and best practices.
+description: Step-by-step guidance for avalonia viewmodels zafiro.
 category: Development
 ---
 

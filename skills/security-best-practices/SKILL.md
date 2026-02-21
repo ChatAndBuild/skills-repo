@@ -1,7 +1,7 @@
 ---
 id: security-best-practices
 name: Security Best Practices
-description: Support security best practices workflows with clear steps and best practices.
+description: Step-by-step guidance for security best practices.
 category: Testing & Security
 ---
 

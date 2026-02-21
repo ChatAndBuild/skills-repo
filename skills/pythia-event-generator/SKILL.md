@@ -1,7 +1,7 @@
 ---
 id: pythia-event-generator
 name: Pythia Event Generator
-description: Support pythia event workflows with clear steps and best practices.
+description: Step-by-step guidance for pythia event.
 category: Research
 ---
 

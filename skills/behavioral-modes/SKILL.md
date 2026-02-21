@@ -1,7 +1,7 @@
 ---
 id: behavioral-modes
 name: Behavioral Modes
-description: Support behavioral modes workflows with clear steps and best practices.
+description: Step-by-step guidance for behavioral modes.
 category: Development
 ---
 

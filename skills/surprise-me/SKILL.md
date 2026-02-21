@@ -1,7 +1,7 @@
 ---
 id: surprise-me
 name: Surprise Me
-description: Support surprise me workflows with clear steps and best practices.
+description: Step-by-step guidance for surprise me.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: extract-errors
 name: Extract Errors
-description: Support extract errors workflows with clear steps and best practices.
+description: Step-by-step guidance for extract errors.
 category: Development
 ---
 

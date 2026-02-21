@@ -1,7 +1,7 @@
 ---
 id: async-repl-protocol
 name: Async Repl Protocol
-description: Support async repl protocol workflows with clear steps and best practices.
+description: Step-by-step guidance for async repl protocol.
 category: Tools
 ---
 

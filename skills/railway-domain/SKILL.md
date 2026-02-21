@@ -1,7 +1,7 @@
 ---
 id: railway-domain
 name: Railway Domain
-description: Support railway domain workflows with clear steps and best practices.
+description: Step-by-step guidance for railway domain.
 category: Tools
 ---
 

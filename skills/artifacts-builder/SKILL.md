@@ -1,7 +1,7 @@
 ---
 id: artifacts-builder
 name: Artifacts Builder
-description: Support artifacts builder workflows with clear steps and best practices.
+description: Step-by-step guidance for artifacts builder.
 category: Development
 ---
 

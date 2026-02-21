@@ -1,7 +1,7 @@
 ---
 id: create-cowork-plugin
 name: Create Cowork Plugin
-description: Support create cowork plugin workflows with clear steps and best practices.
+description: Step-by-step guidance for create cowork plugin.
 category: Development
 ---
 

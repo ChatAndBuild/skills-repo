@@ -1,7 +1,7 @@
 ---
 id: create-skill
 name: Create Skill
-description: Support create skill workflows with clear steps and best practices.
+description: Step-by-step guidance for create skill.
 category: Development
 ---
 

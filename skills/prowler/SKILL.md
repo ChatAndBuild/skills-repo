@@ -1,7 +1,7 @@
 ---
 id: prowler
 name: Prowler
-description: Support prowler workflows with clear steps and best practices.
+description: Step-by-step guidance for prowler.
 category: DevOps
 ---
 

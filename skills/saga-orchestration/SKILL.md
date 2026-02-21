@@ -1,7 +1,7 @@
 ---
 id: saga-orchestration
 name: Saga Orchestration
-description: Support saga orchestration workflows with clear steps and best practices.
+description: Step-by-step guidance for saga orchestration.
 category: Development
 ---
 

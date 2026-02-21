@@ -1,7 +1,7 @@
 ---
 id: typescript-review
 name: TypeScript Review
-description: Support typescript workflows with clear steps and best practices.
+description: Step-by-step guidance for typescript.
 category: DevOps
 ---
 

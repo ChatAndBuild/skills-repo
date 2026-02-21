@@ -1,7 +1,7 @@
 ---
 id: installing-mobile-preview-builds
 name: Installing Mobile Preview Builds
-description: Support installing mobile preview builds workflows with clear steps and best practices.
+description: Step-by-step guidance for installing mobile preview builds.
 category: Development
 ---
 

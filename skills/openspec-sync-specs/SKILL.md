@@ -1,7 +1,7 @@
 ---
 id: openspec-sync-specs
 name: OpenSpec Sync Specs
-description: Support openspec sync specs workflows with clear steps and best practices.
+description: Step-by-step guidance for openspec sync specs.
 category: Data & AI
 ---
 

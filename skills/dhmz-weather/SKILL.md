@@ -1,7 +1,7 @@
 ---
 id: dhmz-weather
 name: DHMZ Weather
-description: Support dhmz weather workflows with clear steps and best practices.
+description: Step-by-step guidance for dhmz weather.
 category: Tools
 ---
 

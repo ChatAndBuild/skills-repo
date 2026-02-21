@@ -1,7 +1,7 @@
 ---
 id: project-overview
 name: Project Overview
-description: Support project overview workflows with clear steps and best practices.
+description: Step-by-step guidance for project overview.
 category: Documentation
 ---
 

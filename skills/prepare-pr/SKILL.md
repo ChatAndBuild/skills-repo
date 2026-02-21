@@ -1,7 +1,7 @@
 ---
 id: prepare-pr
 name: Prepare PR
-description: Support prepare pr workflows with clear steps and best practices.
+description: Step-by-step guidance for prepare pr.
 category: DevOps
 ---
 

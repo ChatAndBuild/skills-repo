@@ -1,7 +1,7 @@
 ---
 id: clojure-review
 name: Clojure Review
-description: Support clojure review workflows with clear steps and best practices.
+description: Step-by-step guidance for clojure review.
 category: Tools
 ---
 

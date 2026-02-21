@@ -1,7 +1,7 @@
 ---
 id: mobile-security-coder
 name: Mobile Security Coder
-description: Support mobile security coder workflows with clear steps and best practices.
+description: Step-by-step guidance for mobile security coder.
 category: Development
 ---
 

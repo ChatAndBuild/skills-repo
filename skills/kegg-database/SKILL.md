@@ -2,7 +2,7 @@
 category: Research
 id: kegg-database
 name: KEGG Database
-description: Help with kegg database tasks and questions.
+description: Guidance and answers for kegg database.
 ---
 
 # BioServices

@@ -1,7 +1,7 @@
 ---
 id: observability-monitoring-monitor-setup
 name: Observability Monitoring Monitor Setup
-description: Support observability monitoring monitor setup workflows with clear steps and best practices.
+description: Step-by-step guidance for observability monitoring monitor setup.
 category: DevOps
 ---
 

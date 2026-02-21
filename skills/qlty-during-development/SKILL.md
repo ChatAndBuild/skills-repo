@@ -2,7 +2,7 @@
 category: Blockchain
 id: qlty-during-development
 name: QLTY During Development
-description: Help with qlty during development tasks and questions.
+description: Guidance and answers for qlty during development.
 user-invocable: false
 ---
 

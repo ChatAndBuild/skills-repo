@@ -2,7 +2,7 @@
 category: Business
 id: context-driven-development
 name: Context Driven Development
-description: Help with context driven development tasks and questions.
+description: Guidance and answers for context driven development.
 version: 1.0.0
 ---
 

@@ -2,7 +2,7 @@
 category: Research
 id: dailydev
 name: Daily.dev
-description: Support daily.dev workflows with clear steps and best practices.
+description: Step-by-step guidance for daily.dev.
 ---
 
 # daily.dev API for AI Agents

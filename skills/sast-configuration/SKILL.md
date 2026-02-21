@@ -1,7 +1,7 @@
 ---
 id: sast-configuration
 name: SAST Configuration
-description: Support sast configuration workflows with clear steps and best practices.
+description: Step-by-step guidance for sast configuration.
 category: DevOps
 ---
 

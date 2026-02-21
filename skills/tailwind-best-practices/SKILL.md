@@ -1,7 +1,7 @@
 ---
 id: tailwind-best-practices
 name: Tailwind Best Practices
-description: Support tailwind best practices workflows with clear steps and best practices.
+description: Step-by-step guidance for tailwind best practices.
 category: Development
 ---
 

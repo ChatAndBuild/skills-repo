@@ -1,7 +1,7 @@
 ---
 id: nodejs-backend-patterns
 name: Node.js Backend Patterns
-description: Support node.js backend patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for node.JS backend patterns.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: shellcheck-configuration
 name: Shellcheck Configuration
-description: Support shellcheck configuration workflows with clear steps and best practices.
+description: Step-by-step guidance for shellcheck configuration.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: domain-checker
 name: Domain Checker
-description: Support domain checker workflows with clear steps and best practices.
+description: Step-by-step guidance for domain checker.
 category: Tools
 ---
 

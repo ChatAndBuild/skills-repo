@@ -1,7 +1,7 @@
 ---
 id: pest-testing
 name: Pest Testing
-description: Support pest testing workflows with clear steps and best practices.
+description: Step-by-step guidance for pest testing.
 category: Testing & Security
 ---
 

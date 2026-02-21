@@ -1,7 +1,7 @@
 ---
 id: domain-identification-grouping
 name: Domain Identification Grouping
-description: Support domain identification grouping workflows with clear steps and best practices.
+description: Step-by-step guidance for domain identification grouping.
 category: Tools
 ---
 

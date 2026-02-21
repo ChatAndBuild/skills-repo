@@ -1,7 +1,7 @@
 ---
 id: modern-javascript-patterns
 name: Modern JavaScript Patterns
-description: Support modern javascript patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for modern javascript patterns.
 category: Tools
 ---
 

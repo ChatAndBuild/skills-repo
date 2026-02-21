@@ -1,7 +1,7 @@
 ---
 id: algolia-search
 name: Algolia Search
-description: Support algolia search workflows with clear steps and best practices.
+description: Step-by-step guidance for algolia search.
 category: Databases
 ---
 

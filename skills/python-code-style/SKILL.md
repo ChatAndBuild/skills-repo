@@ -1,7 +1,7 @@
 ---
 id: python-code-style
 name: Python Code Style
-description: Support python code style workflows with clear steps and best practices.
+description: Step-by-step guidance for python code style.
 category: Tools
 ---
 

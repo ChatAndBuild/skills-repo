@@ -1,7 +1,7 @@
 ---
 id: backend-patterns
 name: Backend Patterns
-description: Support backend patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for backend patterns.
 category: Development
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: database-migrations-sql-migrations
 name: Database Migrations SQL Migrations
-description: Support database migrations sql migrations workflows with clear steps and best practices.
+description: Step-by-step guidance for database migrations SQL migrations.
 category: Databases
 ---
 

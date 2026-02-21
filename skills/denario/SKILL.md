@@ -2,7 +2,7 @@
 category: Research
 id: denario
 name: Denario
-description: Help with denario tasks and questions.
+description: Guidance and answers for denario.
 ---
 
 # Denario

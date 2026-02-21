@@ -1,7 +1,7 @@
 ---
 id: java-coding-standards
 name: Java Coding Standards
-description: Support java coding standards workflows with clear steps and best practices.
+description: Step-by-step guidance for java coding standards.
 category: Development
 ---
 

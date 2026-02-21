@@ -2,7 +2,7 @@
 category: Research
 id: agent-evaluation
 name: Agent Evaluation
-description: Help with agent evaluation tasks and questions.
+description: Guidance and answers for agent evaluation.
   Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:
   - Implementing self-critique and reflection loops
   - Building evaluator-optimizer pipelines for quality-critical generation

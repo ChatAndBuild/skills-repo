@@ -2,7 +2,7 @@
 category: Research
 id: histolab
 name: Histolab
-description: Help with histolab tasks and questions.
+description: Guidance and answers for histolab.
 ---
 
 # Histolab

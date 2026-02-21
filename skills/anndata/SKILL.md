@@ -1,7 +1,7 @@
 ---
 id: anndata
 name: AnnData
-description: Support anndata workflows with clear steps and best practices.
+description: Step-by-step guidance for anndata.
 category: Data & AI
 ---
 

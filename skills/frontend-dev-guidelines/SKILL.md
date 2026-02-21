@@ -1,7 +1,7 @@
 ---
 id: frontend-dev-guidelines
 name: Frontend Dev Guidelines
-description: Support frontend dev guidelines workflows with clear steps and best practices.
+description: Step-by-step guidance for frontend dev guidelines.
 category: Development
 ---
 

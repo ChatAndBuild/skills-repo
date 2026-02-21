@@ -1,7 +1,7 @@
 ---
 id: documentation
 name: Documentation
-description: Support documentation workflows with clear steps and best practices.
+description: Step-by-step guidance for documentation.
 category: Documentation
 ---
 

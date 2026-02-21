@@ -1,7 +1,7 @@
 ---
 id: setup
 name: Setup
-description: Support setup workflows with clear steps and best practices.
+description: Step-by-step guidance for setup.
 category: Development
 ---
 

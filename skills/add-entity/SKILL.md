@@ -1,7 +1,7 @@
 ---
 id: add-entity
 name: Add Entity
-description: Support add entity workflows with clear steps and best practices.
+description: Step-by-step guidance for add entity.
 category: Tools
 ---
 

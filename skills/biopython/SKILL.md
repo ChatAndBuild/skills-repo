@@ -2,7 +2,7 @@
 category: Research
 id: biopython
 name: Biopython
-description: Support biopython workflows with clear steps and best practices.
+description: Step-by-step guidance for biopython.
 ---
 
 # Biopython: Computational Molecular Biology in Python

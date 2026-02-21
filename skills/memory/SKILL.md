@@ -1,7 +1,7 @@
 ---
 id: memory
 name: Memory
-description: Support memory workflows with clear steps and best practices.
+description: Step-by-step guidance for memory.
 category: Data & AI
 ---
 

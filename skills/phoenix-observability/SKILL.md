@@ -1,7 +1,7 @@
 ---
 id: phoenix-observability
 name: Phoenix Observability
-description: Support phoenix observability workflows with clear steps and best practices.
+description: Step-by-step guidance for phoenix observability.
 category: Data & AI
 ---
 

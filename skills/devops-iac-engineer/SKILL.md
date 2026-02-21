@@ -1,7 +1,7 @@
 ---
 id: devops-iac-engineer
 name: DevOps IaC Engineer
-description: Support devops iac engineer workflows with clear steps and best practices.
+description: Step-by-step guidance for devops iac engineer.
 category: DevOps
 ---
 

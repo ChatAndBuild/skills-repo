@@ -1,7 +1,7 @@
 ---
 id: fixing-streamlit-ci
 name: Fixing Streamlit CI
-description: Support fixing streamlit ci workflows with clear steps and best practices.
+description: Step-by-step guidance for fixing streamlit ci.
 category: DevOps
 ---
 

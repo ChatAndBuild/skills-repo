@@ -1,7 +1,7 @@
 ---
 id: clojure-write
 name: Clojure Write
-description: Support clojure write workflows with clear steps and best practices.
+description: Step-by-step guidance for clojure write.
 category: Tools
 ---
 

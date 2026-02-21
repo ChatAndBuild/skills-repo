@@ -1,7 +1,7 @@
 ---
 id: agent-arch-system-design
 name: Agent Arch System Design
-description: Support agent arch system design workflows with clear steps and best practices.
+description: Step-by-step guidance for agent arch system design.
 category: Development
 ---
 

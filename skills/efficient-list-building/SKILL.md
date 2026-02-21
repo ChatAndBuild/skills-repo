@@ -1,7 +1,7 @@
 ---
 id: efficient-list-building
 name: Efficient List Building
-description: Support efficient list building workflows with clear steps and best practices.
+description: Step-by-step guidance for efficient list building.
 category: Databases
 ---
 

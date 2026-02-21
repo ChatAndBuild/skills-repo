@@ -1,7 +1,7 @@
 ---
 id: api-design-principles
 name: API Design Principles
-description: Support api design principles workflows with clear steps and best practices.
+description: Step-by-step guidance for API design principles.
 category: Development
 ---
 

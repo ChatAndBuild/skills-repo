@@ -1,7 +1,7 @@
 ---
 id: avalonia-zafiro-development
 name: Avalonia Zafiro Development
-description: Support avalonia zafiro development workflows with clear steps and best practices.
+description: Step-by-step guidance for avalonia zafiro development.
 category: Development
 ---
 

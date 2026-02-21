@@ -1,7 +1,7 @@
 ---
 id: wiki-onboarding
 name: Wiki Onboarding
-description: Support wiki onboarding workflows with clear steps and best practices.
+description: Step-by-step guidance for wiki onboarding.
 category: Documentation
 ---
 

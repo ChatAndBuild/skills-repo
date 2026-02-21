@@ -1,7 +1,7 @@
 ---
 id: iterative-retrieval
 name: Iterative Retrieval
-description: Support iterative retrieval workflows with clear steps and best practices.
+description: Step-by-step guidance for iterative retrieval.
 category: Data & AI
 ---
 

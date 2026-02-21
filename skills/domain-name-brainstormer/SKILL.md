@@ -1,7 +1,7 @@
 ---
 id: domain-name-brainstormer
 name: Domain Name Brainstormer
-description: Support domain name brainstormer workflows with clear steps and best practices.
+description: Step-by-step guidance for domain name brainstormer.
 category: Tools
 ---
 

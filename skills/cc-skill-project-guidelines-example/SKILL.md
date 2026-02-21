@@ -1,7 +1,7 @@
 ---
 id: cc-skill-project-guidelines-example
 name: CC Skill Project Guidelines Example
-description: Support cc project guidelines example workflows with clear steps and best practices.
+description: Step-by-step guidance for cc project guidelines example.
 category: Documentation
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: godot-gdscript-patterns
 name: Godot GDScript Patterns
-description: Support godot gdscript patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for godot gdscript patterns.
 category: Development
 ---
 

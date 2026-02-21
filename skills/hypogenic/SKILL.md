@@ -2,7 +2,7 @@
 category: Research
 id: hypogenic
 name: Hypogenic
-description: Support hypogenic workflows with clear steps and best practices.
+description: Step-by-step guidance for hypogenic.
 ---
 
 # Hypogenic

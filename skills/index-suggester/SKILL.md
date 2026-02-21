@@ -1,7 +1,7 @@
 ---
 id: index-suggester
 name: Index Suggester
-description: Support index suggester workflows with clear steps and best practices.
+description: Step-by-step guidance for index suggester.
 category: Databases
 ---
 

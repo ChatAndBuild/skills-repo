@@ -1,7 +1,7 @@
 ---
 id: game-art
 name: Game Art
-description: Support game art workflows with clear steps and best practices.
+description: Step-by-step guidance for game art.
 category: Development
 ---
 

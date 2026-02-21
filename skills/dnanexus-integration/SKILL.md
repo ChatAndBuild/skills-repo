@@ -2,7 +2,7 @@
 category: Business
 id: dnanexus-integration
 name: Dnanexus Integration
-description: Help with dnanexus integration tasks and questions.
+description: Guidance and answers for dnanexus integration.
 ---
 
 # DNAnexus Integration

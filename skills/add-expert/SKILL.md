@@ -1,7 +1,7 @@
 ---
 id: add-expert
 name: Add Expert
-description: Support add expert workflows with clear steps and best practices.
+description: Step-by-step guidance for add expert.
 category: DevOps
 ---
 

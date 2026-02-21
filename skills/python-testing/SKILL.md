@@ -1,7 +1,7 @@
 ---
 id: python-testing
 name: Python Testing
-description: Support python testing workflows with clear steps and best practices.
+description: Step-by-step guidance for python testing.
 category: Testing & Security
 ---
 

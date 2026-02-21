@@ -1,7 +1,7 @@
 ---
 id: zig-system-calls
 name: Zig System Calls
-description: Support zig system calls workflows with clear steps and best practices.
+description: Step-by-step guidance for zig system calls.
 category: Development
 ---
 

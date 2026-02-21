@@ -1,7 +1,7 @@
 ---
 id: broken-authentication-testing
 name: Broken Authentication Testing
-description: Support broken authentication testing workflows with clear steps and best practices.
+description: Step-by-step guidance for broken authentication testing.
 category: Testing & Security
 ---
 

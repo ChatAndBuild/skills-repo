@@ -1,7 +1,7 @@
 ---
 id: syncable-entity-integration
 name: Syncable Entity Integration
-description: Support syncable entity integration workflows with clear steps and best practices.
+description: Step-by-step guidance for syncable entity integration.
 category: Development
 ---
 

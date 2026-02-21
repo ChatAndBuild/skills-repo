@@ -1,7 +1,7 @@
 ---
 id: create-pull-request
 name: Create Pull Request
-description: Support create pull request workflows with clear steps and best practices.
+description: Step-by-step guidance for create pull request.
 category: DevOps
 ---
 

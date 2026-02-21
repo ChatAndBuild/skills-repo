@@ -1,7 +1,7 @@
 ---
 id: python-packaging
 name: Python Packaging
-description: Support python packaging workflows with clear steps and best practices.
+description: Step-by-step guidance for python packaging.
 category: Development
 ---
 

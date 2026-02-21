@@ -1,7 +1,7 @@
 ---
 id: frontend-patterns
 name: Frontend Patterns
-description: Support frontend patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for frontend patterns.
 category: Development
 ---
 

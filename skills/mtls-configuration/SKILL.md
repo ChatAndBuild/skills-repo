@@ -1,7 +1,7 @@
 ---
 id: mtls-configuration
 name: mTLS Configuration
-description: Support mtls configuration workflows with clear steps and best practices.
+description: Step-by-step guidance for mtls configuration.
 category: Testing & Security
 ---
 

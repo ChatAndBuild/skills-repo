@@ -1,7 +1,7 @@
 ---
 id: elasticsearch-index-manager
 name: Elasticsearch Index Manager
-description: Support elasticsearch index manager workflows with clear steps and best practices.
+description: Step-by-step guidance for elasticsearch index manager.
 category: Databases
 ---
 

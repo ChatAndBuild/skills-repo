@@ -2,7 +2,7 @@
 category: Content & Media
 id: googlesheets-automation
 name: Google Sheets Automation
-description: Support google sheets automation workflows with clear steps and best practices.
+description: Step-by-step guidance for google sheets automation.
 requires:
   mcp: [rube]
 ---

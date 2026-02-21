@@ -1,7 +1,7 @@
 ---
 id: backport-pr-assistant
 name: Backport PR Assistant
-description: Support backport pr workflows with clear steps and best practices.
+description: Step-by-step guidance for backport pr.
 category: DevOps
 ---
 

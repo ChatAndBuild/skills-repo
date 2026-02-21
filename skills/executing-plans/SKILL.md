@@ -1,7 +1,7 @@
 ---
 id: executing-plans
 name: Executing Plans
-description: Support executing plans workflows with clear steps and best practices.
+description: Step-by-step guidance for executing plans.
 category: DevOps
 ---
 

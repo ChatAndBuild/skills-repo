@@ -1,7 +1,7 @@
 ---
 id: moe-training
 name: MoE Training
-description: Support moe training workflows with clear steps and best practices.
+description: Step-by-step guidance for moe training.
 category: Data & AI
 ---
 

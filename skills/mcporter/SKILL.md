@@ -1,7 +1,7 @@
 ---
 id: mcporter
 name: MCPorter
-description: Support mcporter workflows with clear steps and best practices.
+description: Step-by-step guidance for mcporter.
 category: Tools
 ---
 

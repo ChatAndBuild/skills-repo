@@ -1,7 +1,7 @@
 ---
 id: cloudflare-dns-updater
 name: Cloudflare DNS Updater
-description: Support cloudflare dns updater workflows with clear steps and best practices.
+description: Step-by-step guidance for cloudflare DNS updater.
 category: Tools
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: projection-patterns
 name: Projection Patterns
-description: Support projection patterns workflows with clear steps and best practices.
+description: Step-by-step guidance for projection patterns.
 category: Data & AI
 ---
 

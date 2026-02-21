@@ -1,7 +1,7 @@
 ---
 id: scroll-experience
 name: Scroll Experience
-description: Support scroll experience workflows with clear steps and best practices.
+description: Step-by-step guidance for scroll experience.
 category: Development
 ---
 

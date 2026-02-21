@@ -1,7 +1,7 @@
 ---
 id: openai-whisper
 name: OpenAI Whisper
-description: Support openai whisper workflows with clear steps and best practices.
+description: Step-by-step guidance for openai whisper.
 category: Data & AI
 ---
 

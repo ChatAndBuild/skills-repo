@@ -1,7 +1,7 @@
 ---
 id: local-places
 name: Local Places
-description: Support local places workflows with clear steps and best practices.
+description: Step-by-step guidance for local places.
 category: Tools
 ---
 

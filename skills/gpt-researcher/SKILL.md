@@ -2,7 +2,7 @@
 category: Research
 id: gpt-researcher
 name: GPT Researcher
-description: Support gpt researcher workflows with clear steps and best practices.
+description: Step-by-step guidance for gpt researcher.
 ---
 
 # GPT Researcher Development Skill

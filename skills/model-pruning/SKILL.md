@@ -1,7 +1,7 @@
 ---
 id: model-pruning
 name: Model Pruning
-description: Support model pruning workflows with clear steps and best practices.
+description: Step-by-step guidance for model pruning.
 category: Data & AI
 ---
 

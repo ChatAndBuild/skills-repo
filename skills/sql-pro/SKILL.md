@@ -1,7 +1,7 @@
 ---
 id: sql-pro
 name: SQL Pro
-description: Support sql pro workflows with clear steps and best practices.
+description: Step-by-step guidance for SQL pro.
 category: Databases
 ---
 

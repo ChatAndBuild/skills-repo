@@ -1,7 +1,7 @@
 ---
 id: omc-setup
 name: OMC Setup
-description: Support omc setup workflows with clear steps and best practices.
+description: Step-by-step guidance for omc setup.
 category: Tools
 ---
 

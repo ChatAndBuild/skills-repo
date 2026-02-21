@@ -1,7 +1,7 @@
 ---
 id: session-logs
 name: Session Logs
-description: Support session logs workflows with clear steps and best practices.
+description: Step-by-step guidance for session logs.
 category: Tools
 ---
 

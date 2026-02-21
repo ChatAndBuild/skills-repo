@@ -1,7 +1,7 @@
 ---
 id: python-resilience
 name: Python Resilience
-description: Support python resilience workflows with clear steps and best practices.
+description: Step-by-step guidance for python resilience.
 category: Development
 ---
 

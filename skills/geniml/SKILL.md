@@ -2,7 +2,7 @@
 category: Research
 id: geniml
 name: GeniML
-description: Support geniml workflows with clear steps and best practices.
+description: Step-by-step guidance for geniml.
 ---
 
 # Geniml: Genomic Interval Machine Learning
