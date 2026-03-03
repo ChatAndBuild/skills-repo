@@ -2,7 +2,7 @@
 id: morning-briefing
 name: Morning Briefing
 description: Start your day with a unified briefing — today's calendar, pending tasks, messages needing attention, and PRs to review.
-category: productivity
+category: Lifestyle
 author: saiboyizhan
 version: 2.0.0
 language: en
