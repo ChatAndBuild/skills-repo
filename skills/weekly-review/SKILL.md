@@ -2,7 +2,7 @@
 id: weekly-review
 name: Weekly Review
 description: Generate a structured weekly review by collecting accomplishments, open items, and next-week priorities from connected tools.
-category: productivity
+category: Lifestyle
 author: saiboyizhan
 version: 1.0.0
 requires:
