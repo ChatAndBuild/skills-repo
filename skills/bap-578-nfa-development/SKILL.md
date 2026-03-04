@@ -99,10 +99,11 @@ struct AgentMetadata {
 ### Required Events
 
 ```solidity
-event ActionExecuted(uint256 indexed tokenId, bytes data);
-event LogicUpgraded(uint256 indexed tokenId, address indexed newLogicAddress);
+event AgentCreated(uint256 indexed tokenId, address indexed owner, address logicAddress, string metadataURI);
 event AgentFunded(uint256 indexed tokenId, uint256 amount);
-event StatusChanged(uint256 indexed tokenId, Status newStatus);
+event AgentWithdraw(uint256 indexed tokenId, uint256 amount);
+event AgentStatusChanged(uint256 indexed tokenId, bool active);
+event LogicAddressUpdated(uint256 indexed tokenId, address newLogicAddress);
 event MetadataUpdated(uint256 indexed tokenId);
 ```
 
@@ -119,8 +120,8 @@ function executeAction(uint256 tokenId, bytes calldata data) external
 - Agent must be in `Status.Active` — reverts if Paused or Terminated
 - Delegates execution to the contract at `logicAddress`
 - Updates `lastActionTimestamp` after execution
-- Emits `ActionExecuted(tokenId, data)`
 - **Gas safety:** implementations should cap gas for delegatecall (spec suggests `MAX_GAS_FOR_DELEGATECALL = 3_000_000`)
+- **Note:** The core BAP-578 spec does not define an `ActionExecuted` event. Specific implementations (e.g., `NFAPredictionAgent`) may add their own action events.
 
 ### 2. Minting an Agent
 
@@ -155,7 +156,7 @@ function terminate(uint256 tokenId) external  // Any → Terminated (permanent)
 
 - **Paused**: temporary suspension, agent cannot execute actions, can be resumed
 - **Terminated**: permanent — cannot be reactivated, remaining balance is returned to the owner
-- Emits `StatusChanged(tokenId, newStatus)` on each transition
+- Emits `AgentStatusChanged(tokenId, active)` on each transition
 
 ### 5. Upgrading Agent Logic
 
@@ -165,7 +166,7 @@ function setLogicAddress(uint256 tokenId, address newLogicAddress) external
 
 - Swap the agent's logic contract without changing its identity or balance
 - New address must be `address(0)` (no logic) or a deployed contract (`code.length > 0`)
-- Emits `LogicUpgraded(tokenId, newLogicAddress)`
+- Emits `LogicAddressUpdated(tokenId, newLogicAddress)`
 
 ### 6. Updating Metadata
 
