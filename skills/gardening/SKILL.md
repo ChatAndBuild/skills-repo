@@ -16,6 +16,15 @@ metadata:
 - Never work wet soil — compacts structure, takes years to recover
 - Mulch 2-3 inches around plants — retains moisture, suppresses weeds, regulates temperature
 
+## Light Fundamentals
+- Measure daily light exposure; most plants need 6–8 hours of direct sunlight for healthy growth.
+- Partial-sun plants tolerate 3–6 hours, while shade-tolerant plants grow with less than 3 hours of direct sun.
+- Morning sunlight is preferable because it is cooler and reduces heat stress compared to strong afternoon sun.
+- If natural sunlight is insufficient, provide 12–16 hours of artificial light to support plant growth.
+- Place grow lights 6–12 inches above plants and adjust the height as plants grow.
+- Signs of insufficient light include leggy stems, pale leaves, slow growth, and plants leaning toward the light source.
+
+
 ## Watering Mistakes
 
 - Deep infrequent > shallow frequent — trains roots to grow deep, builds resilience
