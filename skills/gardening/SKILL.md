@@ -2,17 +2,24 @@
 category: Lifestyle
 id: gardening
 name: Gardening
+version: 1.0.0
 description: Plant care, soil management, seasonal timing, pest control, and garden planning.
 metadata:
   category: lifestyle
   skills: ["gardening", "plants", "vegetables", "landscaping", "horticulture"]
+examples: 
+- White powder has started forming on the leaves of my cucumber plant. What should I do?
+- Can I grow tomatoes in a container, and what size pot should I use?
+- I am growing herbs on a balcony in a tropical city with strong sunlight and heavy rain. How should I manage watering and drainage?
+- What composition of fertilizers should I add for my lavender plant?
+
 ---
 
 ## Soil Fundamentals
 
 - Test soil before amending — pH and nutrients determine what to add, not guessing
 - Most plants prefer pH 6.0-7.0 — blueberries need acidic (4.5-5.5), lavender needs alkaline
-- Compost fixes almost everything — improite clay drainage, sandy retention, feeds soil life
+- Compost fixes almost everything — improves clay drainage, sandy retention, feeds soil life
 - Never work wet soil — compacts structure, takes years to recover
 - Mulch 2-3 inches around plants — retains moisture, suppresses weeds, regulates temperature
 
