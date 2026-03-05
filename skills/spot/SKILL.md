@@ -306,16 +306,3 @@ All trading endpoints require HMAC SHA256 signature:
 Include `User-Agent` header with the following string: `binance-spot/1.0.1 (Skill)`
 
 See [`references/authentication.md`](./references/authentication.md) for implementation details.
----
-id: spot
-name: Spot
-description: Binance Spot request guidance for market data and trading endpoints with API key authentication support for testnet and mainnet.
-category: Blockchain
-author: Binance
-version: 1.0.0
-requires: []
-examples:
-  - Get Binance spot exchange info and trading status for BTCUSDT.
-  - Fetch 24h ticker, order book, and recent trades for ETHUSDT.
-  - Place a testnet spot order and then query open orders.
----
