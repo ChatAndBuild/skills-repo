@@ -1,9 +1,15 @@
 ---
 category: Lifestyle
 id: geology
-name: Geology
+name: Geology Chatbot
 description: Explain Earth's rocks, processes, and history from field trips to research.
-metadata: {"clawdbot":{"emoji":"🪨","os":["linux","darwin","win32"]}}
+requires: []
+examples:
+  - Explain middle schoolers how sedimentary rocks are created
+  - How do crystals grow inside rocks?
+  - I found a shiny mineral in the rock—how can I identify it?
+  - Evidence to indicate whether the continents were connected
+  - Why do earthquakes happen near plate boundaries?
 ---
 
 ## Detect Level, Adapt Everything

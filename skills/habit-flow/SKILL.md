@@ -1,13 +1,14 @@
 ---
 category: Lifestyle
 id: habit-flow
-name: Habit Flow
-description: AI-powered atomic habit tracker with natural language logging, streak tracking, smart reminders, and coaching. Use for creating habits, logging completions naturally ("I meditated today"), viewing progress, and getting personalized coaching.
-homepage: https://github.com/tralves/habit-flow-skill
-license: MIT
-compatibility: Requires Node.js 18+ and npm. Designed for clawdbot CLI.
-user-invocable: true
-metadata: {"author":"tralves","version":"1.5.4","moltbot":{"install":[{"kind":"node","package":".","label":"Install via npm","bins":["node","npm"]}],"requires":{"bins":["node","npm"]}},"clawdbot":{"emoji":"🎯"}}
+name: Habit Tracker
+description: AI-powered atomic habit tracker with natural language logging, streak tracking, smart reminders, and coaching. Use for creating habits, logging completions naturally, viewing progress, and getting personalized coaching.
+requires :[]
+examples: 
+- "I want to add in 30 mins of pilates in my Tuesday and Thursday schedule"
+- "Show my habit streaks"
+- "Elaborate on how my journaling went on about this week"
+- "Remind me to do my skincare at 9pm everyday"
 ---
 
 # HabitFlow - Atomic Habit Tracker
@@ -17,12 +18,12 @@ metadata: {"author":"tralves","version":"1.5.4","moltbot":{"install":[{"kind":"n
 HabitFlow is an AI-powered habit tracking system that helps users build lasting habits through natural language interaction, streak tracking with forgiveness, smart reminders, and evidence-based coaching techniques from *Atomic Habits*.
 
 **Key Features:**
-- ✅ Natural language logging ("I meditated today", "walked Monday and Thursday")
-- ✅ Smart streak calculation with 1-day forgiveness
-- ✅ Scheduled reminders via WhatsApp
-- ✅ AI coaching with multiple personas
-- ✅ Statistics and progress tracking
-- ✅ Multi-category habit organization
+- Natural language logging ("I meditated today", "walked Monday and Thursday")
+- Smart streak calculation with 1-day forgiveness
+- Scheduled reminders via WhatsApp
+- AI coaching with multiple personas
+- Statistics and progress tracking
+- Multi-category habit organization
 
 ---
 
@@ -85,45 +86,47 @@ cat references/personas/coach-blaze.md
 ### Available Personas
 
 - **flex** - Professional, data-driven (default)
-- **coach-blaze** - Energetic sports coach 🔥
-- **luna** - Gentle therapist 💜
-- **ava** - Curious productivity nerd 🤓
-- **max** - Chill buddy 😎
-- **sofi** - Zen minimalist 🌸
-- **the-monk** - Wise philosopher 🧘
+- **coach-blaze** - Energetic sports coach 
+- **luna** - Gentle therapist 
+- **ava** - Curious productivity nerd 
+- **max** - Chill buddy 
+- **sofi** - Zen minimalist 
+- **the-monk** - Wise philosopher 
 
 ### Persona Switching
 
-When user requests a persona change (e.g., "Switch to Coach Blaze", "I want Luna"):
+Trigger: User requests a persona change.
 
-1. Read current config:
-   ```bash
-   cat ~/clawd/habit-flow-data/config.json
-   ```
+**Steps**
 
-2. **Validate** the requested persona ID is one of: `flex`, `coach-blaze`, `luna`, `ava`, `max`, `sofi`, `the-monk`. If not, inform the user and show the available personas
+1. Read config  
+   `cat ~/clawd/habit-flow-data/config.json`
 
-3. Update the `activePersona` field to the validated persona ID
+2. Validate persona ID  
+   Allowed values: `flex`, `coach-blaze`, `luna`, `ava`, `max`, `sofi`, `the-monk`
 
-4. Load the new persona file:
-   ```bash
-   cat references/personas/{validated-persona-id}.md
-   ```
+3. Update `activePersona` in `config.json`
 
-5. Confirm the switch **using the new persona's communication style** (see persona file for introduction example)
+4. Load persona  
+   `cat references/personas/{persona-id}.md`
+
+5. Respond using the selected persona style
+
+
 
 ### Showing Persona to User
 
-When user asks to see their persona (e.g., "Show me my persona", "What does my coach look like?"):
+When the user asks to see their persona (e.g., "Show me my persona", "What does my coach look like?"):
 
-1. Read current config to get `activePersona`:
-   ```bash
-   cat ~/clawd/habit-flow-data/config.json
-   ```
+1. **Read the current configuration**
+
+```bash
+cat ~/clawd/habit-flow-data/config.json
 
 2. **Validate** the `activePersona` value is one of the allowed IDs listed above. If not, fall back to `flex`
 
 3. Display the persona image using Read tool:
+   cat personas/{activePersona}.png
    ```bash
    # Example for coach-blaze
    cat personas/coach-blaze.png
@@ -133,9 +136,9 @@ When user asks to see their persona (e.g., "Show me my persona", "What does my c
    ```
    [Display persona/coach-blaze.png]
 
-   🔥 That's me, champ! Coach Blaze at your service!
+   That's me, champ! Coach Blaze at your service!
    I'm here to PUMP YOU UP and help you CRUSH those habits!
-   Let's BUILD that unstoppable momentum together! 💪
+   Let's BUILD that unstoppable momentum together! 
    ```
 
 **Available persona images:**
@@ -173,7 +176,7 @@ npx tsx scripts/parse_natural_language.ts --text "I meditated today"
 3. Confirm with streak update from the script output
 
 **Example Response (high confidence):**
-> "Logged! 🔥 Your meditation streak is now 9 days. Keep up the excellent work."
+> "Logged!  Your meditation streak is now 9 days. Keep up the excellent work."
 
 **Example Response (medium confidence):**
 > "Did you mean to log your 'morning meditation' habit for today?"

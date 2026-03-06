@@ -2,7 +2,6 @@
 category: Lifestyle
 id: gardening
 name: Gardening
-version: 1.0.0
 description: Plant care, soil management, seasonal timing, pest control, and garden planning.
 metadata:
   category: lifestyle

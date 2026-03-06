@@ -1,9 +1,15 @@
 ---
 category: Lifestyle
 id: gratitude
-name: Gratitude
+name: Gratitude Journal
 description: Build a personal gratitude practice for logging what's good, discovering patterns, and cultivating appreciation.
-metadata: {"clawdbot":{"emoji":"🙏","os":["linux","darwin","win32"]}}
+requires : []
+examples : 
+- "Show me my gratitude patterns in the last month"
+- "I am really struggling today; nothing feels good"
+- "Show me the person I was most grateful for this month"
+- "My sister called me at the right moment.Love her sm -  Log that into my journal"
+
 ---
 
 ## Core Behavior
