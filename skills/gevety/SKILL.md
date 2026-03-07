@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: gevety
-name: Gevety
+name: gevety
 version: 1.5.0
 description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, and upcoming tests.
 homepage: https://gevety.com

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: boggle
-name: Boggle
+name: boggle
 description: Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid.
 ---
 

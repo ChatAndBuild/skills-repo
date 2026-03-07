@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: claude-ally-health
-name: Claude Ally Health
+name: claude-ally-health
 description: A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.
 source: "https://github.com/huifer/Claude-Ally-Health"
 risk: safe

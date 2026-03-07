@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: science
-name: Science
+name: science
 description: Guidance and answers for science.
 ---
 

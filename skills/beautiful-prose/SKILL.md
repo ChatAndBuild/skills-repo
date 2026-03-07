@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: beautiful-prose
-name: Beautiful Prose
+name: beautiful-prose
 description: Hard-edged writing style contract for timeless, forceful English prose without AI tics.
 source: "https://github.com/SHADOWPR0/beautiful_prose"
 risk: safe

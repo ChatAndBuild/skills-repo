@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: fix-life-in-1-day
-name: Fix Life In 1 Day
+name: fix-life-in-1-day
 version: 1.0.0
 description: Fix your entire life in 1 day. 10 psychological sessions based on Dan Koe's viral article.
 author: chip1cr

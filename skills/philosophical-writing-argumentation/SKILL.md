@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: philosophical-writing-argumentation
-name: Philosophical Writing Argumentation
+name: philosophical-writing-argumentation
 description: Compose clear, rigorous philosophical prose with well-structured arguments, anticipation of objections, and proper scholarly engagement with existing literature.
 allowed-tools:
   - Read

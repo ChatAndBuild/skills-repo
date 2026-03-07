@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: writing-clearly-and-concisely
-name: Writing Clearly And Concisely
+name: writing-clearly-and-concisely
 description: Improve clarity and concision in human-facing writing.
 ---
 

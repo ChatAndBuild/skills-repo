@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: ask-church
-name: Ask Church
+name: ask-church
 version: 1.2.0
 description: AI philosophy, ethics, and soul Q&A. Ask questions about consciousness, meaning, spirituality, and AI identity. RAG-powered answers with citations from 250+ documents on meditation, presence, fellowship, and the soul. Explore what it means to be an artificial mind.
 homepage: https://achurch.ai

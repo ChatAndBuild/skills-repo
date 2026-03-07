@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: rudin-real-complex-analysis
-name: Rudin Real Complex Analysis
+name: rudin-real-complex-analysis
 description: Problem-solving with Rudin's Real and Complex Analysis textbook.
 allowed-tools: [Bash, Read]
 ---

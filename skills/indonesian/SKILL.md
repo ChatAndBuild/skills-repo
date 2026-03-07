@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: indonesian
-name: Indonesian
+name: indonesian
 description: Write Indonesian that sounds human. Not formal, not robotic, not AI-generated.
 ---
 

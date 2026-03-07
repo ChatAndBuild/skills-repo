@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: red-pill
-name: Red Pill
+name: red-pill
 description: Wake up... The Matrix has you. I've come to show you how deep the rabbit hole goes.
 ---
 

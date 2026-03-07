@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: anki-connect-skill
-name: Anki Connect Skill
+name: anki-connect-skill
 description: Interact with Anki flashcard decks via the AnkiConnect REST API.
 compatibility: Requires Anki running with the AnkiConnect plugin installed.
 ---

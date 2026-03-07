@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: coach
-name: Coach
+name: coach
 description: Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.
 metadata:
   category: role

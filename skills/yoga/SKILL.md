@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: yoga
-name: Yoga
+name: yoga
 requires : []
 description: Yoga instruction, pose alignment, sequencing, breathwork, and modifications for different levels.
 examples:

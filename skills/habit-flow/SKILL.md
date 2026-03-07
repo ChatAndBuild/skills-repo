@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: habit-flow
-name: Habit Tracker
+name: habit-flow
 description: AI-powered atomic habit tracker with natural language logging, streak tracking, smart reminders, and coaching. Use for creating habits, logging completions naturally, viewing progress, and getting personalized coaching.
 requires :[]
 examples: 

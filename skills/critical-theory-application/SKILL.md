@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: critical-theory-application
-name: Critical Theory Application
+name: critical-theory-application
 description: Apply theoretical frameworks (postcolonial, feminist, Marxist, post-structuralist) to cultural texts and phenomena.
 allowed-tools: Read, Grep, Write, Edit, Glob, WebFetch
 ---

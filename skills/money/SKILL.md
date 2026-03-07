@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: money
-name: Money
+name: money
 description: Personal finance guidance with practical rules for saving, investing, and avoiding common traps.
 metadata: {"clawdbot":{"emoji":"💰","os":["linux","darwin","win32"]}}
 ---

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: adhd-body-doubling
-name: ADHD Body Doubling
+name: adhd-body-doubling
 version: 2.1.0
 description: This skill should be used when the user asks for body doubling, ADHD focus sessions, accountability while working, help getting started on a task, pomodoro-style work sessions, or says things like 'I can't focus', 'I'm stuck', 'help me start', 'I need accountability', 'body double with me', 'I keep procrastinating', 'I can't get started', or 'focus session'. Provides punk-style ADHD body doubling with micro-step protocols, frequent check-ins, dopamine resets, and session history tracking. Part of the ADHD-founder.com ecosystem.
 homepage: https://adhd-founder.com

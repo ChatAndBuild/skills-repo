@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: openspec-explore
-name: OpenSpec Explore
+name: openspec-explore
 description: Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements.
 license: MIT
 compatibility: Requires openspec CLI.

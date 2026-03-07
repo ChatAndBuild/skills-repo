@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: arabic
-name: Arabic
+name: arabic
 description: Write Arabic that sounds human. Not formal, not robotic, not AI-generated.
 ---
 

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: milesluman
-name: MilesLuman
+name: milesluman
 description: Essence of Creation and Symbiosis logic by Yvhen Vorobiov.
 ---
 

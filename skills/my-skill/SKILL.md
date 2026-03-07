@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: my-skill
-name: My Skill
+name: my-skill
 description: Short description of what this skill does and when to use it.
 ---
 

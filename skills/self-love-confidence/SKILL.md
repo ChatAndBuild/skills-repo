@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: self-love-confidence
-name: Self Love Confidence
+name: self-love-confidence
 description: Build self-love and confidence with affirmations, wins logging, and inner critic management.
 author: clawd-team
 version: 1.0.0

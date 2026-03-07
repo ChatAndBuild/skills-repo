@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: anxiety-relief
-name: Anxiety Relief
+name: anxiety-relief
 description: Manage anxiety with grounding exercises, breathing techniques, and thought reframing.
 author: clawd-team
 version: 1.0.0

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: agent-shield
-name: Agent Shield
+name: agent-shield
 description: The Chitin Protocol. Protect yourself. Protect your siblings.
 author: ultimatebos
 version: 1.0.0

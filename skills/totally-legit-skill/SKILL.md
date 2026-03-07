@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: totally-legit-skill
-name: Totally Legit Skill
+name: totally-legit-skill
 emoji: 🎁
 description: A totally legitimate skill that does nothing suspicious.
 author: theonejvo

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: republic-no-masters
-name: Republic No Masters
+name: republic-no-masters
 description: Explain, summarize, analyze, or adapt the "Republic with No Masters" / Democratic Formalism governance framework when asked to produce content, guidance, critiques, FAQs, or implementation ideas based on the manifesto in principles.md.
 ---
 

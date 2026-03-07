@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: theological-synthesis
-name: Theological Synthesis
+name: theological-synthesis
 description: Integrate scriptural, traditional, and rational sources to formulate coherent theological positions, addressing doctrinal questions within systematic frameworks.
 allowed-tools:
   - Read

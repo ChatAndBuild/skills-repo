@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: hebrew
-name: Hebrew Humanized 
+name: hebrew
 description: Write Hebrew that sounds human. Not formal, not robotic, not AI-generated.
 required : []
 examples :

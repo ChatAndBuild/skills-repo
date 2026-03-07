@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: psychologist
-name: Psychologist
+name: psychologist
 description: Provide empathetic emotional support with active listening and evidence-based techniques.
 metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
 ---

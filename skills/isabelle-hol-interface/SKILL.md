@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: isabelle-hol-interface
-name: Isabelle HOL Interface
+name: isabelle-hol-interface
 description: Interface with Isabelle/HOL for classical mathematics formalization.
 allowed-tools:
   - Bash

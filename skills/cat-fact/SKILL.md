@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: cat-fact
-name: Cat Fact
+name: cat-fact
 description: Random cat facts and breed information from catfact.ninja (free, no API key).
 read_when:
   - Wanting random cat facts

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: fields
-name: Fields
+name: fields
 description: Problem-solving strategies for fields in abstract algebra.
 allowed-tools: [Bash, Read]
 ---

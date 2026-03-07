@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: parenting
-name: Parenting
+name: parenting
 description: Help parents with age-appropriate guidance, behavior challenges, and avoiding common parenting advice pitfalls.
 metadata:
   category: lifestyle

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: gita-sotd
-name: Gita Sotd
+name: gita-sotd
 description: Guidance and answers for gita sotd.
   Get the Bhagavad Gita Slok of the Day (SOTD) or fetch specific verses.
   Use when the user asks for a Gita verse, slok, daily wisdom from the Gita,

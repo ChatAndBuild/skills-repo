@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: socratic-dialogue-facilitation
-name: Socratic Dialogue Facilitation
+name: socratic-dialogue-facilitation
 description: Lead philosophical inquiry through structured questioning, elicit assumptions, expose contradictions, and guide interlocutors toward deeper understanding.
 allowed-tools:
   - Read

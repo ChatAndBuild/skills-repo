@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: geology
-name: Geology Chatbot
+name: geology
 description: Explain Earth's rocks, processes, and history from field trips to research.
 requires: []
 examples:

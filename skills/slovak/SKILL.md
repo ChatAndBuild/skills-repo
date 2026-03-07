@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: slovak
-name: Slovak
+name: slovak
 description: Write Slovak that sounds human. Not formal, not robotic, not AI-generated.
 examples:
   - Translate this into natural Slovak (ty, casual)

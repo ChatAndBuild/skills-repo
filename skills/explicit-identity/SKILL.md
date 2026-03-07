@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: explicit-identity
-name: Explicit Identity
+name: explicit-identity
 description: Explicit Identity Across Boundaries.
 user-invocable: false
 ---

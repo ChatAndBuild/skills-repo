@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: philosophy
-name: Philosophy
+name: philosophy
 description: Guide philosophical inquiry from first questions to scholarly debate.
 metadata: {"clawdbot":{"emoji":"🤔","os":["linux","darwin","win32"]}}
 ---

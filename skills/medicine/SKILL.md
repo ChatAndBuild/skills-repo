@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: medicine
-name: Medicine
+name: medicine
 description: Support medical understanding from patient education to clinical practice and research.
 metadata: {"clawdbot":{"emoji":"⚕️","os":["linux","darwin","win32"]}}
 ---

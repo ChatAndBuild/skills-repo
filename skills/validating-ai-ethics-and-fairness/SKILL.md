@@ -1,16 +1,19 @@
 ---
 category: Lifestyle
 id: validating-ai-ethics-and-fairness
-name: Validating AI Ethics And Fairness
-description: Guidance and answers for validating AI ethics and fairness.
-  Validate AI/ML models and datasets for bias, fairness, and ethical concerns.
-  Use when auditing AI systems for ethical compliance, fairness assessment, or bias detection.
-  Trigger with phrases like "evaluate model fairness", "check for bias", or "validate AI ethics".
-  
+name: validating-ai-ethics-and-fairness
+description: Validate AI/ML models and datasets for bias, fairness, and ethical concerns; audit AI systems for ethical compliance and bias detection.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 license: MIT
+examples:
+  - Evaluate this model for fairness across demographic groups
+  - Check my dataset for bias before we deploy; suggest mitigations
+  - Run a fairness assessment and report which metrics to use
+  - Audit this AI system for ethical compliance and document gaps
+  - Identify potential proxy discrimination in these features
+  - What fairness metrics (demographic parity, equalized odds) apply to this use case?
 ---
 
 # Ai Ethics Validator

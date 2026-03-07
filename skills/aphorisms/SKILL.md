@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: aphorisms
-name: Aphorisms
+name: aphorisms
 description: Guidance and answers for aphorisms.
 ---
 

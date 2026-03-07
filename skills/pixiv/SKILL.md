@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: pixiv
-name: Pixiv
+name: pixiv
 description: Access Pixiv for searching illustrations, manga, and viewing rankings. Supports searching by keyword and viewing daily/weekly/monthly rankings.
 ---
 

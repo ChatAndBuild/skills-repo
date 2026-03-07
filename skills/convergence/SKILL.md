@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: convergence
-name: Convergence
+name: convergence
 description: Problem-solving strategies for convergence in real analysis.
 allowed-tools: [Bash, Read]
 ---

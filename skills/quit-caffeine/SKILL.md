@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: quit-caffeine
-name: Quit Caffeine
+name: quit-caffeine
 description: Reduce or quit caffeine with withdrawal tracking, tapering plans, and energy milestones.
 author: clawd-team
 version: 1.0.0

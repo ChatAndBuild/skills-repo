@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: management
-name: Management
+name: management
 description: Management principles, team leadership, and organizational effectiveness.
 metadata: {"clawdbot":{"emoji":"👔","os":["linux","darwin","win32"]}}
 ---

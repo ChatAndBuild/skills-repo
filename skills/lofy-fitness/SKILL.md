@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: lofy-fitness
-name: Lofy Fitness
+name: lofy-fitness
 description: Fitness accountability for the Lofy AI assistant — workout logging from natural language, meal tracking with calorie/protein estimates, PR detection with Epley formula, gym reminders based on weekly targets, and progress reports.
 ---
 

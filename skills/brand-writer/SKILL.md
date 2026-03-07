@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: brand-writer
-name: Brand Writer
+name: brand-writer
 description: Write clear, developer-first copy for Zed — leading with facts, grounded in craft.
 allowed-tools: Read, Write, Edit, Glob, Grep, AskUserQuestion, WebFetch
 user-invocable: true

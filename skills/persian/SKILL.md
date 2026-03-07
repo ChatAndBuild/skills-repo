@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: persian
-name: Persian
+name: persian
 description: Write Persian that sounds human. Not formal, not robotic, not AI-generated.
 ---
 

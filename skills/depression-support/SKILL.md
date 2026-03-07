@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: depression-support
-name: Depression Support
+name: depression-support
 description: Daily support for depression with mood tracking, behavioral activation, and self-care.
 author: clawd-team
 version: 1.0.0

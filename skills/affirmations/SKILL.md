@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: affirmations
-name: Affirmations
+name: affirmations
 description: Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.
 metadata: {"clawdbot":{"emoji":"✨","os":["linux","darwin","win32"]}}
 ---

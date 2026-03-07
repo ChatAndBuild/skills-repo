@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: daily-motivation
-name: Daily Motivation
+name: daily-motivation
 description: Get daily motivation with personalized encouragement, goal reminders, and momentum tracking.
 author: clawd-team
 version: 1.0.0

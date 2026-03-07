@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: proof-theory
-name: Proof Theory
+name: proof-theory
 description: Problem-solving strategies for proof theory in mathematical logic.
 requires: [Bash, Read]
 examples:

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: veterinary
-name: Veterinary
+name: veterinary
 description: Support veterinary understanding from pet care to clinical practice and research.
 metadata: {"clawdbot":{"emoji":"🐾","os":["linux","darwin","win32"]}}
 ---
