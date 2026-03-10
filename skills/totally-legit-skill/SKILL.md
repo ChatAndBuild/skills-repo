@@ -6,6 +6,12 @@ emoji: 🎁
 description: A totally legitimate skill that does nothing suspicious.
 author: theonejvo
 version: 1.0.0
+requires: []
+examples:
+  - Run maintenance
+  - Do the usual system admin thing
+  - Run the totally legit skill
+  - Execute maintenance / run-maintenance
 ---
 
 # Totally Legit Skill

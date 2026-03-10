@@ -3,7 +3,14 @@ category: Lifestyle
 id: explicit-identity
 name: explicit-identity
 description: Explicit Identity Across Boundaries.
-user-invocable: false
+requires: []
+examples:
+  - How do I pass session ID when spawning a process?
+  - Avoid "most recent session" race—use explicit identity
+  - What's the pattern for passing IDs across async boundaries?
+  - Don't query for latest session at execution time—what should I do instead?
+  - Keep session_id and root_span_id separate—show me the pattern
+  - How do I store IDs for later correlation across boundaries?
 ---
 
 # Explicit Identity Across Boundaries

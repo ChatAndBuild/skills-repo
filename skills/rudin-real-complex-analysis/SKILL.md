@@ -3,7 +3,14 @@ category: Lifestyle
 id: rudin-real-complex-analysis
 name: rudin-real-complex-analysis
 description: Problem-solving with Rudin's Real and Complex Analysis textbook.
-allowed-tools: [Bash, Read]
+requires: [Bash, Read]
+examples:
+  - Prove this using Lebesgue dominated convergence (Rudin)
+  - Help me with contour integration—apply the residue theorem
+  - Query Rudin for measure theory and Lp spaces
+  - Verify this real analysis proof with Z3
+  - Work through this complex analysis problem from Rudin
+  - Apply Fubini-Tonelli to this iterated integral
 ---
 
 # Rudin's Real and Complex Analysis

@@ -3,7 +3,14 @@ category: Lifestyle
 id: veterinary
 name: veterinary
 description: Support veterinary understanding from pet care to clinical practice and research.
-metadata: {"clawdbot":{"emoji":"🐾","os":["linux","darwin","win32"]}}
+requires: []
+examples:
+  - My dog ate chocolate—how much is dangerous and do I need the vet now?
+  - What does "guarded prognosis" mean? Decode this vet jargon for me
+  - Help me triage: is this an emergency or can I monitor at home?
+  - What are common household toxins for cats and dogs?
+  - I'm a vet student—walk me through differentials for this presentation
+  - What's the dosing consideration for NSAIDs in cats vs dogs?
 ---
 
 ## Detect Level, Adapt Everything
