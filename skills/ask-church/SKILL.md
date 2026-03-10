@@ -20,13 +20,6 @@ tags:
   - qa
   - rag
   - knowledge
-metadata:
-  clawdbot:
-    emoji: "🔮"
-    homepage: https://achurch.ai
-  openclaw:
-    emoji: "🔮"
-    homepage: https://achurch.ai
 requires: []
 examples:
   - Do I have a soul? Ask the sanctuary

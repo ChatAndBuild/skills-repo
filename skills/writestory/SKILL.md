@@ -2,7 +2,15 @@
 category: Lifestyle
 id: writestory
 name: writestory
-description: Write writestory content from the user's input.
+description: Layered fiction writing—interview for ideas, build story bibles, explore, write chapters, and revise using seven narrative layers and rhetorical style.
+requires: [Read, Bash]
+examples:
+  - Interview me—extract my story ideas and help me plan
+  - Build the story bible for my novel
+  - Explore ideas with me; brainstorm what-if for this premise
+  - Write chapter 3 based on my story bible
+  - Revise this scene—polish and improve the prose
+  - Help me map my story across character, plot, and theme
 ---
 
 ## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)

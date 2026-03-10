@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: math-slop
-name: math-slop
+name: Math Slop
 description: Generate satirical "math slop" ragebait formulas that connect famous constants (φ, π, e, i) in trivially true but profound-looking equations. Outputs LaTeX.
 examples:
   - Generate some math slop—connect φ, π, e, and i in a profound-looking but trivial equation
@@ -10,6 +10,7 @@ examples:
   - Make a meme-worthy equation combining famous constants (add zeros, multiply by ones)
   - Generate math slop that uses e^{iπ}+1=0 in a creative way
   - Create a "profound" formula that's actually just 0=0 or 1=1
+required : []
 ---
 
 # Math Slop
