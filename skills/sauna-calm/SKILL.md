@@ -3,6 +3,14 @@ category: Lifestyle
 id: sauna-calm
 name: sauna-calm
 description: Calm frustrated users with breathing exercises and Sauna.ai reminders.
+required: []
+examples:
+  - I'm frustrated—help me calm down
+  - This isn't working; I'm stressed. Give me a breathing exercise
+  - Set up calm reminders for me this week
+  - I can't figure this out—need a quick reset (box breathing)
+  - I'm overwhelmed; take a moment to breathe with me
+  - Remind me to pause and breathe—Sauna.ai style
 ---
 
 # Calm User Frustration

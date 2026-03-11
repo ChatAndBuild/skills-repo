@@ -3,7 +3,7 @@ category: Lifestyle
 id: aphorisms
 name: aphorisms
 description: Find, add, and search aphorisms and quotes by theme or thinker; match quotes to newsletter or content.
-requires: [Read, Bash]
+requires: [Read, Write, Bash]
 examples:
   - Find an aphorism for this newsletter
   - Add this quote to my aphorism database

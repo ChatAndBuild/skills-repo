@@ -3,18 +3,14 @@ category: Lifestyle
 id: isabelle-hol-interface
 name: isabelle-hol-interface
 description: Interface with Isabelle/HOL for classical mathematics formalization.
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-metadata:
-  specialization: mathematics
-  domain: science
-  category: theorem-proving
-  phase: 6
+required: []
+examples:
+  - Formalize this theorem in Isabelle/HOL
+  - Use Sledgehammer to find a proof for this goal
+  - Write an Isar proof for this statement
+  - Search the Archive of Formal Proofs for a similar development
+  - Set up locales for this algebraic structure in Isabelle
+  - Generate code from this Isabelle theory to Haskell
 ---
 
 # Isabelle/HOL Interface

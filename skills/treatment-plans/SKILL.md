@@ -3,12 +3,19 @@ category: Lifestyle
 id: treatment-plans
 name: treatment-plans
 description: Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Supports general medical treatment, rehabilitation therapy, mental health care, chronic disease management, perioperative care, and pain management. Includes SMART goal frameworks, evidence-based interventions with minimal text citations, regulatory compliance (HIPAA), and professional formatting. Prioritizes brevity and clinical actionability.
-allowed-tools: [Read, Write, Edit, Bash]
+requires: [Read, Write, Bash]
+examples:
+  - Create a 3–4 page treatment plan for this patient (chronic disease management)
+  - Generate a rehabilitation treatment plan with SMART goals
+  - Draft a mental health care plan—concise, HIPAA-compliant
+  - Treatment plan for perioperative care pathway
+  - Pain management protocol—1-page summary plus interventions
+  - PT/OT treatment plan with timeline and monitoring parameters
 ---
 
 # Treatment Plans
 
-Create concise, clinician-ready treatment plans that focus on actionable care decisions. Default to short, scannable output with SMART goals, clear interventions, timelines, and monitoring.
+Create concise, clinician-ready treatment plans that focus on actionable care decisions. Before drafting, confirm diagnosis, key problems, and any constraints (specialty, length preference) with the user if not provided. Default to short, scannable output with SMART goals, clear interventions, timelines, and monitoring.
 
 ## When to Use
 
@@ -67,13 +74,19 @@ Include **one simple schematic** when it improves clarity (flowchart, timeline, 
 \\section*{Patient Info}
 % De-identified demographics and diagnosis
 
+\\section*{Assessment / Problem List}
+% Problem list and assessment
+
 \\section*{Goals (SMART)}
 % Short-term and long-term goals
 
 \\section*{Interventions}
 % Medications, therapies, procedures
 
-\\section*{Monitoring \\& Follow-up}
+\\section*{Timeline \\& Follow-up}
+% When and how often to follow up
+
+\\section*{Monitoring Parameters}
 % What to track and when
 
 \\section*{Risks \\& Safety}
@@ -81,5 +94,8 @@ Include **one simple schematic** when it improves clarity (flowchart, timeline, 
 
 \\section*{Expected Outcomes}
 % Benchmarks and timelines
+
+\\section*{Patient Education}
+% Key points to share with patient
 \\end{document}
 ```

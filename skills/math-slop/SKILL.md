@@ -10,7 +10,7 @@ examples:
   - Make a meme-worthy equation combining famous constants (add zeros, multiply by ones)
   - Generate math slop that uses e^{iπ}+1=0 in a creative way
   - Create a "profound" formula that's actually just 0=0 or 1=1
-required : []
+requires: []
 ---
 
 # Math Slop

@@ -2,10 +2,18 @@
 category: Lifestyle
 id: my-skill
 name: my-skill
-description: Short description of what this skill does and when to use it.
+description: PaperDebugger project—build the Office add-in, run dev server, and use bun/npm for webapp and office.
+requires: []
+examples:
+  - How do I build the PaperDebugger Office add-in?
+  - Start the office add-in dev server and load in Word
+  - What's the build command for the latest office add-in?
+  - Use bun vs npm for webapp vs office—what goes where?
 ---
 
 # PaperDebugger Developer Skill
+
+**What this is:** Developer notes for the PaperDebugger project—webapp (bun) and Office add-in (npm). Use when working on this codebase.
 
 Detailed instructions for the agent.
 

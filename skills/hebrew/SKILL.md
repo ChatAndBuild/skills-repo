@@ -3,7 +3,7 @@ category: Lifestyle
 id: hebrew
 name: hebrew
 description: Write Hebrew that sounds human. Not formal, not robotic, not AI-generated.
-required : []
+requires: []
 examples :
 - 
 ---
