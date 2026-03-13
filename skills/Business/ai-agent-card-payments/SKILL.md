@@ -1,8 +1,12 @@
 ---
-category: Business
 id: ai-agent-card-payments
-name: AI Agent Card Payments
-description: Virtual card payments for AI agents. Create intents, issue cards within policy, and make autonomous purchases with approvals for high-value spend.
+name: "AI Agent Card Payments"
+description: "Virtual card payments for AI agents. Create intents, issue cards within policy, and make autonomous purchases with approvals for high-value spend."
+category: Business
+requires: []
+examples:
+  - "Help me with ai agent card payments."
+  - "Use ai-agent-card-payments for this task."
 ---
 
 # AI Agent Card Payments
@@ -103,7 +107,6 @@ proxy.intents.request_approval(
   context="Above auto-approve threshold"
 )
 ```
-
 ## Best practices
 
 - Use per-agent tokens for autonomous runs; rotate on compromise.
@@ -111,3 +114,4 @@ proxy.intents.request_approval(
 - Constrain intents with expectedAmount and expectedMerchant.
 - Treat MCC/merchant allowlists as advisory unless issuer enforcement is enabled.
 - Never log PAN/CVV from proxy.cards.get_sensitive.
+

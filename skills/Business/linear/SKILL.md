@@ -1,5 +1,5 @@
 ---
-category: Business
+category: Development
 id: linear
 name: Linear
 description: Guidance and answers for linear.

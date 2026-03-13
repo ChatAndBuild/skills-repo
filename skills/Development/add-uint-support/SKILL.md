@@ -3,6 +3,10 @@ id: add-uint-support
 name: Add UInt Support
 description: Step-by-step guidance for add uint support.
 category: Development
+requires: []
+examples:
+  - "Help me add unsigned integer support."
+  - "Use add-uint-support for this task."
 ---
 
 # Add UInt Support
