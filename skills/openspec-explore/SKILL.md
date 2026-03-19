@@ -3,6 +3,14 @@ category: Lifestyle
 id: openspec-explore
 name: openspec-explore
 description: Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements.
+requires: [Read, Write, Bash]
+examples:
+  - Enter explore mode / help me explore this problem without implementing
+  - Clarify requirements and assumptions before we build
+  - Map how this fits the existing codebase (read-only exploration)
+  - Brainstorm approaches and tradeoffs—no code yet
+  - Draft an OpenSpec proposal or design from this discussion
+  - I need a thinking partner to reframe this problem
 license: MIT
 compatibility: Requires openspec CLI.
 metadata:
