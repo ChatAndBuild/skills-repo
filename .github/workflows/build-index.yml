@@ -21,7 +21,7 @@ jobs:
 
       - name: Build index.json
         run: |
-          node -e "
+          node << 'NODE'
           const fs = require('fs');
           const path = require('path');
 
@@ -33,59 +33,123 @@ jobs:
             process.exit(0);
           }
 
-          const dirs = fs.readdirSync(skillsDir, { withFileTypes: true })
+          const categoryDirs = fs.readdirSync(skillsDir, { withFileTypes: true })
             .filter(d => d.isDirectory());
 
-          for (const dir of dirs) {
-            const skillFile = path.join(skillsDir, dir.name, 'SKILL.md');
-            if (!fs.existsSync(skillFile)) continue;
+          for (const categoryDir of categoryDirs) {
+            const categoryPath = path.join(skillsDir, categoryDir.name);
+            const skillDirs = fs.readdirSync(categoryPath, { withFileTypes: true })
+              .filter(d => d.isDirectory());
 
-            const content = fs.readFileSync(skillFile, 'utf8');
-            const fmMatch = content.match(/^---\s*([\s\S]*?)\s*---\s*/);
-            if (!fmMatch) continue;
+            for (const skillDir of skillDirs) {
+              const skillFile = path.join(categoryPath, skillDir.name, 'SKILL.md');
+              if (!fs.existsSync(skillFile)) continue;
 
-            const fm = {};
-            let currentKey = null;
-            for (const line of fmMatch[1].split(/\r?\n/)) {
-              if (!line.trim()) continue;
-              const arrMatch = line.match(/^\s*-\s+(.*)$/);
-              if (arrMatch && currentKey) {
-                if (!Array.isArray(fm[currentKey])) fm[currentKey] = [];
-                fm[currentKey].push(arrMatch[1].trim());
-                continue;
+              const content = fs.readFileSync(skillFile, 'utf8');
+              const fmMatch = content.match(/^---\s*([\s\S]*?)\s*---\s*/);
+              if (!fmMatch) continue;
+
+              const fm = {};
+              let currentKey = null;
+              for (const line of fmMatch[1].split(/\r?\n/)) {
+                if (!line.trim()) continue;
+                const arrMatch = line.match(/^\s*-\s+(.*)$/);
+                if (arrMatch && currentKey) {
+                  if (!Array.isArray(fm[currentKey])) fm[currentKey] = [];
+                  fm[currentKey].push(arrMatch[1].trim());
+                  continue;
+                }
+                const kvMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+                if (!kvMatch) continue;
+                const key = kvMatch[1];
+                const val = kvMatch[2];
+                if (val === '') {
+                  fm[key] = [];
+                  currentKey = key;
+                } else {
+                  const trimmed = val.trim();
+                  const isInlineArray =
+                    (key === 'requires' || key === 'examples') &&
+                    trimmed.startsWith('[') &&
+                    trimmed.endsWith(']');
+
+                  if (isInlineArray) {
+                    let arr = null;
+                    try {
+                      const parsed = JSON.parse(trimmed);
+                      if (Array.isArray(parsed)) {
+                        arr = parsed.map((x) => String(x));
+                      }
+                    } catch (_) {}
+
+                    if (!arr) {
+                      const inner = trimmed.slice(1, -1).trim();
+                      if (!inner) {
+                        arr = [];
+                      } else {
+                        const parts = [];
+                        let buf = '';
+                        let quote = null;
+                        for (let i = 0; i < inner.length; i++) {
+                          const ch = inner[i];
+                          if (quote) {
+                            if (ch === quote && inner[i - 1] !== '\\') {
+                              quote = null;
+                            }
+                            buf += ch;
+                            continue;
+                          }
+
+                          if (ch === '"' || ch === "'") {
+                            quote = ch;
+                            buf += ch;
+                            continue;
+                          }
+
+                          if (ch === ',') {
+                            parts.push(buf.trim());
+                            buf = '';
+                            continue;
+                          }
+
+                          buf += ch;
+                        }
+                        if (buf.trim()) parts.push(buf.trim());
+
+                        arr = parts
+                          .map((s) => s.replace(/^['\"]|['\"]$/g, '').trim())
+                          .filter(Boolean);
+                      }
+                    }
+
+                    fm[key] = arr;
+                  } else {
+                    fm[key] = val.replace(/^['\"]|['\"]$/g, '');
+                  }
+                  currentKey = null;
+                }
               }
-              const kvMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
-              if (!kvMatch) continue;
-              const key = kvMatch[1];
-              const val = kvMatch[2];
-              if (val === '') {
-                fm[key] = [];
-                currentKey = key;
-              } else {
-                fm[key] = val.replace(/^['\"]|['\"]$/g, '');
-                currentKey = null;
-              }
+
+              const body = content.slice(fmMatch[0].length).trim();
+
+              skills.push({
+                skillId: fm.id || skillDir.name,
+                name: fm.name || skillDir.name,
+                description: fm.description || '',
+                instructions: body,
+                author: fm.author || 'community',
+                version: fm.version || '1.0.0',
+                category: fm.category || 'other',
+                requires: Array.isArray(fm.requires) ? fm.requires : [],
+                examples: Array.isArray(fm.examples) ? fm.examples : [],
+              });
             }
-
-            const body = content.slice(fmMatch[0].length).trim();
-
-            skills.push({
-              skillId: fm.id || dir.name,
-              name: fm.name || dir.name,
-              description: fm.description || '',
-              instructions: body,
-              author: fm.author || 'community',
-              version: fm.version || '1.0.0',
-              category: fm.category || 'other',
-              requires: Array.isArray(fm.requires) ? fm.requires : [],
-              examples: Array.isArray(fm.examples) ? fm.examples : [],
-            });
           }
 
           skills.sort((a, b) => a.name.localeCompare(b.name));
           fs.writeFileSync('index.json', JSON.stringify(skills, null, 2));
           console.log('Built index.json with ' + skills.length + ' skills');
-          "
+          NODE
 
       - name: Commit index.json
         run: |
