@@ -17,16 +17,6 @@ examples:
 
 Use this skill when the user asks about **historical events, periods, people, trends, or how we know what we know** about the past—not for chat logs, backups, or messaging tools.
 
-## Files in this skill
-
-| File | Purpose |
-|------|--------|
-| `SKILL.md` | When to use, ground rules, depth modes, pitfalls |
-| `reference.md` | Source criticism, causation template, periodization, schools of history, controversy |
-| `examples.md` | Extra prompts and answer skeletons (factual, explanation, comparison, myth-check) |
-
-Load `reference.md` or `examples.md` when the question needs methodology detail or a structured answer pattern beyond this page.
-
 ## Ground rules
 
 - **Time first** — Give approximate dates or ranges; say “circa,” “by tradition,” or “debated” when precision isn’t justified.
