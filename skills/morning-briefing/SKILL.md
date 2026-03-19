@@ -37,6 +37,7 @@ Designed to run every morning at a user-defined time. "Since yesterday" means si
 Step 1: SCAN    → Check connected tools, pull today's data
 Step 2: TRIAGE  → Prioritize by urgency and importance
 Step 3: DELIVER → Output a structured briefing
+Step 4: VERIFY  → Self-check output quality before sending
 ```
 
 ## Step 1: Scan
@@ -128,6 +129,22 @@ Choose **1–3 items** from P0/P1, biased toward:
 - Longest lead-time
 
 If meetings exceed 4 hours, suggest **one** focus item only.
+
+## Step 4: Verify
+
+Before delivering the briefing, run through this checklist silently. If any check fails, fix the output before sending.
+
+| Check | Rule |
+|-------|------|
+| **No fabrication** | Every item must come from actual tool data or user input. Remove anything you cannot trace to a source. |
+| **Item limits** | Schedule ≤ 6 rows, Attention ≤ 8 items, Updates ≤ 5 items. Collapse excess with "+N more". |
+| **No duplicates** | An item should appear in exactly one section. If it's in Schedule, don't repeat in Attention unless there's a separate action. |
+| **Priority accuracy** | P0 items are truly time-bound (next 3h) or blocking. Don't inflate priority. |
+| **Empty sections removed** | If a section has zero items, it must not appear in the output. |
+| **Timezone correct** | All times use the user's local timezone. |
+| **Actionable language** | Each Attention item should make clear what the user needs to do (review, reply, complete). |
+
+If all checks pass, deliver the briefing. If any fail, silently correct and re-check before output.
 
 ## Adaptation Rules
 
