@@ -1,13 +1,14 @@
 ---
 category: Lifestyle
 id: cat-fact
-name: cat-fact
+name: Cat Fact
 description: Random cat facts and breed information from catfact.ninja (free, no API key).
-read_when:
-  - Wanting random cat facts
-  - Looking up cat breeds
-  - Building fun bot responses
-metadata: {"clawdbot":{"emoji":"🐱","requires":{"bins":["curl"]}}}
+requires: [Read, Bash]
+examples:
+  - Tell me a random cat fact
+  - Look up cat breeds from catfact.ninja
+  - Give me a short cat fact (max 100 chars)
+  - I need a fun cat fact for my bot
 ---
 
 # Cat Fact

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: aphorisms
-name: aphorisms
+name: Aphorisms
 description: Find, add, and search aphorisms and quotes by theme or thinker; match quotes to newsletter or content.
 requires: [Read, Write, Bash]
 examples:

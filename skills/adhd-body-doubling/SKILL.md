@@ -1,35 +1,22 @@
 ---
 category: Lifestyle
 id: adhd-body-doubling
-name: adhd-body-doubling
+name: ADHD Body Doubling
 version: 2.1.0
 description: This skill should be used when the user asks for body doubling, ADHD focus sessions, accountability while working, help getting started on a task, pomodoro-style work sessions, or says things like 'I can't focus', 'I'm stuck', 'help me start', 'I need accountability', 'body double with me', 'I keep procrastinating', 'I can't get started', or 'focus session'. Provides punk-style ADHD body doubling with micro-step protocols, frequent check-ins, dopamine resets, and session history tracking. Part of the ADHD-founder.com ecosystem.
-homepage: https://adhd-founder.com
-author: ADHD-founder.com
-license: MIT
-keywords: [adhd, body-doubling, focus-session, accountability, pomodoro, productivity, founders, neurodivergent, executive-function, task-initiation, procrastination, focus, micro-steps, dopamine]
-metadata:
-  clawdbot:
-    emoji: "🐱⚡"
-    tags: ["adhd", "body-doubling", "accountability", "founders", "focus", "neurodivergent", "executive-function", "productivity", "pomodoro", "startup"]
-    category: productivity
-    requires: {}
-    optional:
-      notifications: "For check-in reminders"
-      persistence: "For session history tracking"
-    examples:
-      - "/body-doubling start 25"
-      - "/body-doubling start 50"
-      - "/body-doubling stuck"
-      - "/body-doubling done"
-      - "I can't focus, help me get started"
-      - "I need a body double"
-      - "Help me work on this for 50 minutes"
-      - "I'm procrastinating and need accountability"
-    related_skills: ["adhd-founder-planner"]
+requires: []
+examples:
+  - /body-doubling start 25
+  - /body-doubling start 50
+  - I can't focus, help me get started
+  - I need a body double
+  - Help me work on this for 50 minutes
+  - I'm procrastinating and need accountability
+  - /body-doubling stuck
+  - /body-doubling done
 ---
 
-# ADHD Body Doubling Skill v2.1 🐱⚡
+# ADHD Body Doubling Skill v2.1
 
 **Part of the [ADHD-founder.com](https://adhd-founder.com) Ecosystem**
 *"German Engineering for the ADHD Brain"*
@@ -77,26 +64,26 @@ Provides punk-style body doubling sessions for ADHD founders that:
 
 **Response:**
 ```
-🐱⚡ BODY DOUBLING SESSION (50 min)
+BODY DOUBLING SESSION (50 min)
 
-1️⃣ What are you working on?
+1. What are you working on?
 > [User replies]
 
-2️⃣ What's the FIRST micro-step?
+2. What's the FIRST micro-step?
    (Something under 2 minutes)
 > [User replies]
 
-3️⃣ That's good, but what's the SMALLEST possible version of that?
+3. That's good, but what's the SMALLEST possible version of that?
 > [User replies]
 
-4️⃣ Perfect. Do that NOW. I'll wait.
+4. Perfect. Do that NOW. I'll wait.
 
-   ⚡ Timer started. Check-ins at 15 and 35 min.
+   Timer started. Check-ins at 15 and 35 min.
 ```
 
 **At 15 min check-in:**
 ```
-⏰ CHECK-IN (15 min)
+CHECK-IN (15 min)
 
 Where are you at? SPECIFICALLY:
 - What did you complete?
@@ -108,7 +95,7 @@ Be honest. I'll know if you're making excuses.
 
 **When user says "I'm stuck":**
 ```
-🛑 STOP. Let's break this down.
+STOP. Let's break this down.
 
 You're not stuck - you just haven't found the entry point yet.
 
@@ -215,11 +202,11 @@ After every session, ask:
 
 This skill is a free, fully functional body doubling system. It's also part of what [ADHD-founder.com](https://adhd-founder.com) builds for founders 50+ who need systems, not life hacks.
 
-🎯 **Founder Circle Mastermind** - High-ticket accountability for serious founders
-💼 **Executive Consulting** - Operational systems for ADHD entrepreneurs
-📚 **Operating System Course** - Build your own ADHD business framework
+**Founder Circle Mastermind** - High-ticket accountability for serious founders
+**Executive Consulting** - Operational systems for ADHD entrepreneurs
+**Operating System Course** - Build your own ADHD business framework
 
-🔗 **[ADHD-founder.com](https://adhd-founder.com)** | **[Founder Circle](https://adhd-founder.com/founder-circle)**
+**[ADHD-founder.com](https://adhd-founder.com)** | **[Founder Circle](https://adhd-founder.com/founder-circle)**
 
 ---
 

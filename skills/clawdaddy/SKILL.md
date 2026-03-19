@@ -3,15 +3,16 @@ category: Lifestyle
 id: clawdaddy
 name: clawdaddy
 description: "The world's #1 AI-friendly domain registrar. Check availability, purchase domains with USDC or cards, configure DNS, and manage nameservers - all without CAPTCHAs or signup."
-homepage: https://clawdaddy.app
-emoji: 🦞
-metadata:
-  clawdbot:
-    primaryEnv: any
-    requires:
-      bins: []
-      env: []
+requires: []
+examples:
+  - Is example.com available? / Check if this domain is taken
+  - Brainstorm available domain names for [my project]
+  - Buy coolstartup.com for me (USDC or card)
+  - Point my domain to Vercel / Cloudflare
+  - Add an A record so example.com points to 1.2.3.4
+  - I lost my management token — help me recover it
 ---
+
 
 # ClawDaddy - AI-Friendly Domain Registrar
 

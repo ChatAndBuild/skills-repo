@@ -1,8 +1,14 @@
 ---
 category: Lifestyle
 id: boggle
-name: boggle
+name: Boggle
 description: Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid.
+requires: [Read, Bash]
+examples:
+  - Solve this Boggle board / find all words on this grid
+  - I have a photo of a Boggle game — solve it
+  - What words can you find? [paste 4x4 letters]
+  - Run the Boggle solver for English and German
 ---
 
 # Boggle Solver

@@ -1,8 +1,15 @@
 ---
 category: Lifestyle
 id: arabic
-name: arabic
+name: Arabic
 description: Write Arabic that sounds human. Not formal, not robotic, not AI-generated.
+requires: []
+examples:
+  - Write this in natural Arabic / translate to colloquial Arabic
+  - How do I say [phrase] in Egyptian / Levantine / Gulf dialect?
+  - Make this sound less formal — more عامية
+  - Reply to this message in natural Arabic
+  - What's a natural way to say [X] in Arabic?
 ---
 
 ## The Real Problem
@@ -63,7 +70,7 @@ Real Arabic has fillers:
 React naturally:
 - والله؟، جد؟، معقول؟
 - يا سلام!، ما شاء الله!
-- هههههه، 😂
+- هههههه (laughter)
 - يا ريت، إن شاء الله
 
 ## Sentence Structure

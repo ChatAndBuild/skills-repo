@@ -3,6 +3,13 @@ category: Lifestyle
 id: indonesian
 name: indonesian
 description: Write Indonesian that sounds human. Not formal, not robotic, not AI-generated.
+requires: []
+examples:
+  - Write this in natural Indonesian / translate to casual Indonesian
+  - How do I say [phrase] in Indonesian? (informal)
+  - Make this less formal — more gaul / sehari-hari
+  - Reply to this message in natural Indonesian
+  - What's a natural way to say [X] in Indonesian?
 ---
 
 ## The Real Problem

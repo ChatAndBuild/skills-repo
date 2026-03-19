@@ -3,7 +3,7 @@ category: Lifestyle
 id: isabelle-hol-interface
 name: isabelle-hol-interface
 description: Interface with Isabelle/HOL for classical mathematics formalization.
-required: []
+requires: []
 examples:
   - Formalize this theorem in Isabelle/HOL
   - Use Sledgehammer to find a proof for this goal

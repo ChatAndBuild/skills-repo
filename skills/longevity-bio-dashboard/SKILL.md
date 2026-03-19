@@ -2,14 +2,14 @@
 category: Lifestyle
 id: longevity-bio-dashboard
 name: longevity-bio-dashboard
-description: Track longevity protocols (NMN, senolytics, Yamanaka), fasting/plasma reminders, and progress. Use for daily biohacks, trial alerts, health ledger, and lifespan protocols.
+description: "Track longevity protocols (NMN, senolytics, Yamanaka), fasting/plasma reminders, and progress. Use for daily biohacks, trial alerts, health ledger, and lifespan protocols."
 requires: []
 examples:
   - Remind me when my fasting window starts today
-  - What's the latest on NMN or Yamanaka trials? Search and summarize
+  - "What's the latest on NMN or Yamanaka trials? Search and summarize"
   - Show my longevity dashboard / progress
   - Add a weekly reminder for my senolytic (D+Q) dose
-  - What's a good 2025 stack for NAD+ and senolytics?
+  - "What's a good 2025 stack for NAD+ and senolytics?"
   - Set a cron for plasma dilution check-in
 ---
 

@@ -1,8 +1,16 @@
 ---
 category: Lifestyle
 id: catholic-grounding
-name: catholic-grounding
+name: Catholic Grounding
 description: Help answer questions about Catholicism accurately and respectfully (Catechism-first). Provides a structured response format, common topic map with CCC references, and short prayer/reference snippets.
+requires: [Read, Bash]
+examples:
+  - What does the Church teach about the Eucharist?
+  - Explain confession / sacramental reconciliation with CCC citations
+  - Give me the Hail Mary (or another prayer)
+  - What's the Catholic view on marriage / divorce / annulment?
+  - Help me explain a Catholic teaching with Catechism references
+  - I need a short, accurate answer on [topic] with sources
 ---
 
 # Catholic Grounding Pack
