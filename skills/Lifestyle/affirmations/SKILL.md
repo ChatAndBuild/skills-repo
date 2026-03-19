@@ -3,7 +3,14 @@ category: Lifestyle
 id: affirmations
 name: Affirmations
 description: Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.
-metadata: {"clawdbot":{"emoji":"✨","os":["linux","darwin","win32"]}}
+requires: []
+examples:
+  - Give me 3 affirmations for confidence today
+  - Help me create a personal affirmation for self-worth
+  - I need morning affirmations—set up my practice
+  - What areas can I work on with affirmations?
+  - Send me affirmations for anxiety and calm
+  - Log which affirmations resonated with me
 ---
 
 ## Core Behavior

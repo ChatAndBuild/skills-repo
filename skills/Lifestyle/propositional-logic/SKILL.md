@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: propositional-logic
-name: Propositional Logic
+name: propositional-logic
 description: Problem-solving strategies for propositional logic in mathematical logic.
 allowed-tools: [Bash, Read]
 ---

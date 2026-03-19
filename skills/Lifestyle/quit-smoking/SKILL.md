@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: quit-smoking
-name: Quit Smoking
+name: quit-smoking
 description: Quit cigarettes with smoke-free tracking, craving support, and health recovery timeline.
 author: clawd-team
 version: 1.0.0

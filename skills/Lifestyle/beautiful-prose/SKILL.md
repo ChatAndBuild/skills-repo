@@ -3,6 +3,12 @@ category: Lifestyle
 id: beautiful-prose
 name: Beautiful Prose
 description: Hard-edged writing style contract for timeless, forceful English prose without AI tics.
+requires: [Read, Write]
+examples:
+  - Rewrite this in beautiful prose / apply the style contract
+  - Polish this passage to be more forceful and timeless
+  - Edit my draft to remove AI-sounding tics
+  - Make this prose harder-edged and more vivid
 source: "https://github.com/SHADOWPR0/beautiful_prose"
 risk: safe
 ---

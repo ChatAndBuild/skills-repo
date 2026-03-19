@@ -1,11 +1,16 @@
 ---
 category: Lifestyle
 id: yoga
-name: Yoga
+name: yoga
+requires : []
 description: Yoga instruction, pose alignment, sequencing, breathwork, and modifications for different levels.
-metadata:
-  category: fitness
-  skills: ["yoga", "flexibility", "mindfulness", "poses", "breathwork"]
+examples:
+  - Give me a 20-minute sequence for tight hamstrings with safe modifications
+  - Cue me through Downward Dog—alignment and common mistakes to avoid
+  - What's a good warm-up and cool-down for a vinyasa flow?
+  - I have wrist issues—suggest alternatives for Chaturanga and plank
+  - Explain the difference between Yin and Restorative; which is better for stress?
+  - How do I cue Warrior I so the hip squares and the knee stays safe?
 ---
 
 ## Alignment Principles

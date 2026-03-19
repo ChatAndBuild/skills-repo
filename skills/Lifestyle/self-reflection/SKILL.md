@@ -1,13 +1,20 @@
 ---
 category: Lifestyle
 id: self-reflection
-name: Self Reflection
+name: self-reflection
 description: Continuous self-improvement through structured reflection and memory.
 version: 1.1.1
-metadata: {"openclaw":{"emoji":"🪞","requires":{"bins":["jq","date"]}}}
+requires: [Bash]
+examples:
+  - Run self-reflection check—am I due for a reflection?
+  - Log a reflection: I forgot timeout on the API call, always add timeout=30
+  - Read my last 5 reflections / lessons learned
+  - Show self-reflection stats
+  - I made a mistake—log it and the fix for next time
+  - What did I learn recently? Read past reflections
 ---
 
-# 🪞 Self-Reflection
+# Self-Reflection
 
 A skill for continuous self-improvement. The agent tracks mistakes, lessons learned, and improvements over time through regular heartbeat-triggered reflections.
 

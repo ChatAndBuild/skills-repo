@@ -1,9 +1,17 @@
 ---
 category: Lifestyle
 id: transition-mcp
-name: Transition Mcp
+name: transition-mcp
 description: AI-powered multisport coaching — get personalized workouts, training plans, and performance analytics for running, cycling, swimming, and triathlon.
 homepage: https://www.transition.fun
+requires: []
+examples:
+  - Give me a workout of the day for running (45 min)
+  - What's my training plan for this week? Get my scheduled workouts
+  - Generate a bike workout for 60 minutes
+  - I'm training for a triathlon—create workouts for the next 2 weeks
+  - Get a swim workout, 30 minutes
+  - Show my workouts from the Transition app for this month
 ---
 
 # Multisport Coach API

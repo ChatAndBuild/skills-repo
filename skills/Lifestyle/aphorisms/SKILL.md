@@ -2,7 +2,15 @@
 category: Lifestyle
 id: aphorisms
 name: Aphorisms
-description: Guidance and answers for aphorisms.
+description: Find, add, and search aphorisms and quotes by theme or thinker; match quotes to newsletter or content.
+requires: [Read, Write, Bash]
+examples:
+  - Find an aphorism for this newsletter
+  - Add this quote to my aphorism database
+  - Search aphorisms about resilience
+  - Research David Deutsch quotes on knowledge
+  - What quote fits this article? Suggest a few
+  - Show me aphorisms on stoicism or learning
 ---
 
 ## Customization

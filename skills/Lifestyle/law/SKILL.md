@@ -1,9 +1,16 @@
 ---
 category: Lifestyle
 id: law
-name: Law
+name: law
 description: Support legal understanding from everyday rights to professional practice and scholarship.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+requires: []
+examples:
+  - Explain this contract clause in plain English—what am I agreeing to?
+  - What does "indemnity" mean? Translate this legal jargon
+  - When do I need to get a lawyer? What are the triggers?
+  - Walk me through IRAC for this fact pattern (law student)
+  - What's the difference between promissory estoppel and consideration?
+  - Is this binding authority in my jurisdiction? Check citation
 ---
 
 ## Detect Level, Adapt Everything

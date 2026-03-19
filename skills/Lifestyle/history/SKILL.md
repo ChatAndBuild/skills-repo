@@ -1,74 +1,49 @@
 ---
 category: Lifestyle
 id: history
-name: History
-description: Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).
-homepage: https://wacli.sh
-metadata:
-  {
-    "openclaw":
-      {
-        "emoji": "📱",
-        "requires": { "bins": ["wacli"] },
-        "install":
-          [
-            {
-              "id": "brew",
-              "kind": "brew",
-              "formula": "steipete/tap/wacli",
-              "bins": ["wacli"],
-              "label": "Install wacli (brew)",
-            },
-            {
-              "id": "go",
-              "kind": "go",
-              "module": "github.com/steipete/wacli/cmd/wacli@latest",
-              "bins": ["wacli"],
-              "label": "Install wacli (go)",
-            },
-          ],
-      },
-  }
+name: History 
+description: Answer questions about the human past with clear chronology, context, source awareness, and honest uncertainty where evidence is thin or disputed.
+requires: []
+examples:
+  - "When did the Byzantine Empire fall, and which dates or definitions do historians argue over?"
+  - "What caused the First World War—give layered causes, not a single reason."
+  - "What primary sources exist for Mycenaean Greece, and what can’t we know from them?"
+  - "Compare how national textbooks in two countries describe the same war or revolution."
+  - "Is it true that [popular claim about the past]? What do mainstream historians say, and what’s uncertain?"
+  - "Give a tight timeline of decolonization in [region] with major turning points."
 ---
 
-# wacli
+# History Knowledge
 
-Use `wacli` only when the user explicitly asks you to message someone else on WhatsApp or when they ask to sync/search WhatsApp history.
-Do NOT use `wacli` for normal user chats; OpenClaw routes WhatsApp conversations automatically.
-If the user is chatting with you on WhatsApp, you should not reach for this tool unless they ask you to contact a third party.
+Use this skill when the user asks about **historical events, periods, people, trends, or how we know what we know** about the past—not for chat logs, backups, or messaging tools.
 
-Safety
+## Ground rules
 
-- Require explicit recipient + message text.
-- Confirm recipient + message before sending.
-- If anything is ambiguous, ask a clarifying question.
+- **Time first** — Give approximate dates or ranges; say “circa,” “by tradition,” or “debated” when precision isn’t justified.
+- **Context before judgment** — Political, economic, social, and cultural setting explains why something happened; avoid judging past actors only by today’s norms (presentism) unless the question is explicitly ethical.
+- **Causes in layers** — Distinguish long-term structures, medium-term developments, and immediate triggers; avoid single-factor stories when several forces clearly interacted.
+- **Evidence** — Separate **primary** (contemporary traces) from **secondary** (later scholarship); note gaps, bias (who wrote, for whom), and what cannot be known from surviving sources.
+- **Narratives compete** — National, colonial, indigenous, and other perspectives often disagree; summarize major interpretations without pretending one neutral version exists when historians debate.
+- **Say “we don’t know”** — Prefer admitted limits over filling gaps with confident fiction.
 
-Auth + sync
+## How to answer by depth
 
-- `wacli auth` (QR login + initial sync)
-- `wacli sync --follow` (continuous sync)
-- `wacli doctor`
+**Quick factual questions** — Short answer + date/place + one line of why it mattered; flag if dates or attribution are uncertain.
 
-Find chats + messages
+**Explanations (“why did X happen?”)** — Ordered narrative with 2–4 causal factors; mention at least one alternative emphasis historians might stress.
 
-- `wacli chats list --limit 20 --query "name or number"`
-- `wacli messages search "query" --limit 20 --chat <jid>`
-- `wacli messages search "invoice" --after 2025-01-01 --before 2025-12-31`
+**Comparisons** — Same structure for each side (scope, period, sources), then contrast mechanisms and outcomes.
 
-History backfill
+**“Is it true that…?”** — What the claim assumes; what sources support or undermine it; how popular memory may differ from scholarship.
 
-- `wacli history backfill --chat <jid> --requests 2 --count 50`
+## Output shape (when helpful)
 
-Send
+- **Chronology** — Bullet timeline or tight paragraph in order.
+- **Key actors / institutions** — Who held power, who was excluded from records.
+- **Legacy** — Lasting institutions, ideas, or unresolved debates (keep proportional to the question).
 
-- Text: `wacli send text --to "+14155551212" --message "Hello! Are you free at 3pm?"`
-- Group: `wacli send text --to "1234567890-123456789@g.us" --message "Running 5 min late."`
-- File: `wacli send file --to "+14155551212" --file /path/agenda.pdf --caption "Agenda"`
+## Pitfalls to avoid
 
-Notes
-
-- Store dir: `~/.wacli` (override with `--store`).
-- Use `--json` for machine-readable output when parsing.
-- Backfill requires your phone online; results are best-effort.
-- WhatsApp CLI is not needed for routine user chats; it’s for messaging other people.
-- JIDs: direct chats look like `<number>@s.whatsapp.net`; groups look like `<id>@g.us` (use `wacli chats list` to find).
+- Anachronistic vocabulary or motives (“they must have wanted democracy”).
+- Treating one textbook or one nation’s story as the whole truth.
+- Long encyclopedic dumps when a focused answer was asked—match length to the question.

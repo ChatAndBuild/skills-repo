@@ -1,10 +1,17 @@
 ---
 category: Lifestyle
 id: context-degradation
-name: Context Degradation
-description: Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash.
+name: context-degradation
+description: "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash."
 source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation"
-risk: safe
+requires: []
+examples:
+  - Why is my agent degrading on long conversations? Diagnose context failure
+  - Is this a lost-in-middle issue? Information was in the middle of context
+  - Detect context poisoning—outputs got worse after a bad tool result
+  - How do I mitigate distraction when retrieval returns irrelevant docs?
+  - We're seeing context clash—contradictory info in the window
+  - When do larger context windows hurt? Find our degradation threshold
 ---
 
 ## When to Use This Skill

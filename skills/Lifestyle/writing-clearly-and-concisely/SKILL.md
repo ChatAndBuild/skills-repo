@@ -1,8 +1,16 @@
 ---
 category: Lifestyle
 id: writing-clearly-and-concisely
-name: Writing Clearly And Concisely
+name: writing-clearly-and-concisely
 description: Improve clarity and concision in human-facing writing.
+requires: []
+examples:
+  - Make this paragraph clearer and more concise
+  - Edit this for clarity—cut needless words and use active voice
+  - Rewrite this documentation so a human can scan it quickly
+  - Tighten this commit message / PR description
+  - Improve this error message so it's clear and direct
+  - Apply Strunk-style rules to this passage
 ---
 
 # Writing Clearly and Concisely

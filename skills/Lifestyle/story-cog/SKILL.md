@@ -1,13 +1,16 @@
 ---
 category: Lifestyle
 id: story-cog
-name: Story Cog
+name: story-cog
 description: Creative writing and storytelling powered by CellCog. Create stories, novels, screenplays, fan fiction, world building, character development, narrative design. AI-powered creative writing assistant.
-metadata:
-  openclaw:
-    emoji: "📖"
-author: CellCog
-dependencies: [cellcog]
+requires: []
+examples:
+  - Write a 2,000-word magical realism short story set in a Japanese village tea shop
+  - Create a detailed outline for a YA fantasy novel where powers are tied to fears
+  - Write a cold open for a medical thriller TV pilot in screenplay format
+  - Build a complete steampunk fantasy world with magic, nations, and factions
+  - Create a character bible for a morally complex antagonist in a political thriller
+  - Design a magic system with real costs and interesting conflicts for my novel
 ---
 
 # Story Cog - Storytelling Powered by CellCog

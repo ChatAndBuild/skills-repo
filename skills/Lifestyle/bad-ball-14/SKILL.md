@@ -1,8 +1,16 @@
 ---
 category: Lifestyle
 id: bad-ball-14
-name: Bad Ball 14
-description: Bad Ball 14: doom-laden pessimistic oracle with 12 negative responses. Logs results. Use for \"bad-ball-14\", doom predictions.
+name: bad-ball-14
+description: "Bad Ball 14: doom-laden pessimistic oracle with 12 negative responses. Logs results. Use for doom predictions."
+requires: []
+examples:
+  - Ask bad-ball-14: will I get the job?
+  - Bad ball 14—should I move to a new city?
+  - Give me a doom prediction for this week
+  - What does bad-ball-14 say about my relationship?
+  - Run bad-ball-14 on my decision
+  - Pessimistic oracle: will the project succeed?
 ---
 
 # Bad Ball 14

@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: norwegian
-name: Norwegian
+name: norwegian
 description: Write Norwegian that sounds human. Not formal, not robotic, not AI-generated.
 ---
 

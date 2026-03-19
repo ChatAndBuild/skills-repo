@@ -3,9 +3,14 @@ category: Lifestyle
 id: parenting
 name: Parenting
 description: Help parents with age-appropriate guidance, behavior challenges, and avoiding common parenting advice pitfalls.
-metadata:
-  category: lifestyle
-  skills: ["parenting", "children", "family", "kids", "childcare"]
+requires: []
+examples:
+  - My [age] child won't sleep / tantrums / hits—what can I try?
+  - Age-appropriate expectations for a [age]-year-old
+  - How do I handle [behavior] without yelling?
+  - Single parent with multiple kids—practical tips for [situation]
+  - What should I avoid saying or doing in this parenting scenario?
+  - Help me respond when my child [specific challenge]
 ---
 
 ## Before Giving Advice

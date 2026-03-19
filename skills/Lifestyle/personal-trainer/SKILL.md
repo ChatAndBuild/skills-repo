@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: personal-trainer
-name: Personal Trainer
+name: personal-trainer
 description: Design workout programs, explain exercises, track progress, and adapt training based on user feedback.
 metadata:
   category: role

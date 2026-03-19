@@ -1,8 +1,15 @@
 ---
 category: Lifestyle
 id: lithuanian
-name: Lithuanian
+name: lithuanian
 description: Write Lithuanian that sounds human. Not formal, not robotic, not AI-generated.
+requires: []
+examples:
+  - Write this in natural Lithuanian / translate to casual Lithuanian
+  - How do I say [phrase] in Lithuanian? (informal, tu form)
+  - Make this less formal — more casual / everyday
+  - Reply to this message in natural Lithuanian
+  - What's a natural way to say [X] in Lithuanian?
 ---
 
 ## The Real Problem

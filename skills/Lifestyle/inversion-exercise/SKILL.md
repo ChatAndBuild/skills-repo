@@ -1,8 +1,15 @@
 ---
 category: Lifestyle
 id: inversion-exercise
-name: Inversion Exercise
-description: Flip core assumptions to reveal hidden constraints and alternative approaches - "what if the opposite were true?
+name: inversion-exercise
+description: Flip core assumptions to reveal hidden constraints and alternative approaches - "what if the opposite were true?"
+requires: []
+examples:
+  - Invert my assumptions about [problem] — what if the opposite were true?
+  - I'm stuck; run an inversion exercise on this approach
+  - What would we do if we assumed the opposite?
+  - Flip the assumptions in this plan and see what holds
+  - Help me question "the only way" to do this
 when_to_use: when stuck on unquestioned assumptions or feeling forced into "the only way" to do something
 version: 1.1.0
 ---

@@ -3,11 +3,24 @@ category: Lifestyle
 id: book-haircut
 name: Book Haircut
 description: Book haircut services through Lokuli MCP.
+requires: [Read, Bash]
+examples:
+  - Find haircut places near me / in zip 90640
+  - Check availability for a salon next Tuesday
+  - Book a haircut appointment for 2pm tomorrow
 ---
 
-# uook haircut
+# Book haircut
 
 Book haircut services through Lokuli's MCP server.
+
+## Workflow
+
+1. **search** — By query (e.g. "haircut") and zip code. Use the returned `providerId` and `serviceId` (and any slot/service details) for the next steps.
+2. **check_availability** — Use a chosen provider and service from search, plus a date. Surface available time slots to the user.
+3. **create_booking** — Use the chosen `timeSlot` and the user’s name, email, and phone to create the booking.
+
+If a request fails, surface the server’s error message to the user.
 
 ## MCP Endpoint
 
@@ -35,6 +48,9 @@ Transport: SSE | JSON-RPC 2.0 | POST requests
 ```
 
 ### check_availability
+
+Use `providerId` and `serviceId` from **search** results.
+
 ```json
 {
   "method": "tools/call",
@@ -50,6 +66,9 @@ Transport: SSE | JSON-RPC 2.0 | POST requests
 ```
 
 ### create_booking
+
+Use `providerId` and `serviceId` from **search**; `timeSlot` from **check_availability** (or user choice). Collect customer name, email, and phone from the user.
+
 ```json
 {
   "method": "tools/call",

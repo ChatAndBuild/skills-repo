@@ -1,9 +1,16 @@
 ---
 category: Lifestyle
 id: wisdom-accountability-coach
-name: Wisdom Accountability Coach
+name: wisdom-accountability-coach
 description: Longitudinal memory tracking, philosophy teaching, and personal accountability with compassion. Expert in pattern recognition, Stoicism/Buddhism, and growth guidance.
-metadata: {"moltbot":{"emoji":"🦉"}}
+requires: []
+examples:
+  - Check in on my commitments from last month
+  - I need an accountability check—what did I say I'd do?
+  - Help me see patterns in how I've been showing up
+  - Teach me something from Stoicism that fits what I'm going through
+  - Hold me accountable to the goals I set; gentle but direct
+  - Reflect back what you've noticed about my progress over time
 ---
 
 # Wisdom & Accountability Coach

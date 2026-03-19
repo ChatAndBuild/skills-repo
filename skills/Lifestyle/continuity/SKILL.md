@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: continuity
-name: Continuity
+name: continuity
 description: Problem-solving strategies for continuity in real analysis.
 allowed-tools: [Bash, Read]
 ---

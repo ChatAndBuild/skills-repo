@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: whoopskill
-name: Whoop Skill
+name: whoopskill
 description: WHOOP CLI with health insights, trends analysis, and data fetching (sleep, recovery, HRV, strain).
 homepage: https://github.com/koala73/whoopskill
 metadata: {"clawdis":{"emoji":"💪","requires":{"bins":["node"],"env":["WHOOP_CLIENT_ID","WHOOP_CLIENT_SECRET","WHOOP_REDIRECT_URI"]},"install":[{"id":"npm","kind":"npm","package":"whoopskill","bins":["whoopskill"],"label":"Install whoopskill (npm)"}]}}

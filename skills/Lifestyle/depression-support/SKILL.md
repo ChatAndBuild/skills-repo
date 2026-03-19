@@ -1,16 +1,18 @@
 ---
 category: Lifestyle
 id: depression-support
-name: Depression Support
+name: depression-support
 description: Daily support for depression with mood tracking, behavioral activation, and self-care.
 author: clawd-team
 version: 1.0.0
-triggers:
-  - "feeling depressed"
-  - "depression help"
-  - "low mood"
-  - "can't get out of bed"
-  - "mental health check"
+requires: []
+examples:
+  - I'm feeling depressed—can we check in?
+  - Log my mood today
+  - I can't get out of bed—what's one small thing I can do?
+  - What should I do today? I have no energy
+  - I did something small—help me log it as a win
+  - Show my mood history / what patterns do you see?
 ---
 
 # Depression Support
@@ -89,7 +91,7 @@ Start with the smallest possible version. "Go for a walk" becomes "step outside.
 
 This skill is not a substitute for professional help.
 
-- **988** (Suicide & Crisis Lifeline)
-- **Text HOME to 741741** (Crisis Text Line)
+- **Singapore:** **1767** (Samaritans of Singapore, 24-hour hotline).
+- **Other countries:** Crisis helplines vary by country. If the user is not in Singapore, say: "Crisis lines differ by country. Please search 'crisis helpline [your country]' or tell me your country for local resources." Do not give numbers for other countries unless you have a reliable, current source.
 
-If you're having thoughts of harming yourself, reach out now. These services are free, confidential, and available 24/7.
+If they're having thoughts of harming themselves, encourage them to reach out now. Services are typically free, confidential, and 24/7.

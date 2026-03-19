@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: predicate-logic
-name: Predicate Logic
+name: predicate-logic
 description: Problem-solving strategies for predicate logic in mathematical logic.
 allowed-tools: [Bash, Read]
 ---

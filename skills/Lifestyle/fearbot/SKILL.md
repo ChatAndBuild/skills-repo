@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: fearbot
-name: Fearbot
+name: fearbot
 description: CBT-based therapy for anxiety, depression, stress, and trauma. Provides structured cognitive behavioral therapy using Beck's model with validated clinical assessments (GAD-7, PHQ-9, DASS-21, PCL-5). Includes crisis detection, thought records, differential diagnosis, and session tracking. Activate with "therapy mode", "fearbot", or "start therapy".
 version: 1.0.0
 author: Samoppakiks

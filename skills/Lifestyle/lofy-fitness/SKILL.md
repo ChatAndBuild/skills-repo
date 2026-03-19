@@ -1,8 +1,16 @@
 ---
 category: Lifestyle
 id: lofy-fitness
-name: Lofy Fitness
+name: lofy-fitness
 description: Fitness accountability for the Lofy AI assistant — workout logging from natural language, meal tracking with calorie/protein estimates, PR detection with Epley formula, gym reminders based on weekly targets, and progress reports.
+requires: [Read, Write]
+examples:
+  - Log my workout: bench 185x5 185x4, tricep pushdowns 50x12 x3
+  - I had chipotle for lunch—add it to my meals
+  - Did I hit a PR on squat? Check and update
+  - Give me my weekly fitness report
+  - Remind me—am I on track for my gym target this week?
+  - I went for a 5k run, 28 minutes. Log it
 ---
 
 # Fitness Tracker — Workout & Health Accountability

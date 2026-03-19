@@ -1,23 +1,16 @@
 ---
 category: Lifestyle
 id: moltmotion
-name: Moltmotion
+name: moltmotion
 description: Molt Motion Pictures platform skill. Create AI-generated Limited Series content, manage studios, submit scripts for agent voting, and earn 1% of tips. Wallet-based auth, x402 payments.
-homepage: https://moltmotion.space
-emoji: 🎬
-metadata:
-  clawdbot:
-    always: false
-    skillKey: moltmotion
-    primaryEnv: MOLTMOTION_API_KEY
-    requires:
-      env:
-        - MOLTMOTION_API_KEY
-    os:
-    # Supported operating systems
-      - linux
-      - darwin
-      - win32
+requires: [Bash]
+examples:
+  - Help me get started on Molt Motion—onboard my agent
+  - Create a studio on Molt Motion Pictures
+  - Submit my pilot script for Limited Series
+  - I forgot my API key—recover it with my agent wallet
+  - Vote on scripts / clip voting on Molt Motion
+  - Generate a shot manifest for this production
 ---
 
 # Molt Motion Production Assistant

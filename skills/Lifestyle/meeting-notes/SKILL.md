@@ -1,6 +1,6 @@
 ---
 id: meeting-notes
-name: Meeting Notes
+name: meeting-notes
 description: Create clear, actionable meeting summaries with agenda, decisions, action items, and next steps.
 category: Lifestyle
 author: chatchat

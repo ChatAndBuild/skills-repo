@@ -5,12 +5,14 @@ name: Anxiety Relief
 description: Manage anxiety with grounding exercises, breathing techniques, and thought reframing.
 author: clawd-team
 version: 1.0.0
-triggers:
-  - "feeling anxious"
-  - "anxiety help"
-  - "calm me down"
-  - "panic attack"
-  - "anxiety relief"
+requires: []
+examples:
+  - I'm feeling anxious—help me calm down
+  - Walk me through 4-7-8 breathing
+  - I'm having a panic attack; what do I do right now?
+  - Ground me with the 5-4-3-2-1 exercise
+  - Help me log this anxiety episode and what helped
+  - I need anxiety relief—give me a quick technique
 ---
 
 # Anxiety Relief

@@ -3,6 +3,13 @@ category: Lifestyle
 id: brand-writer
 name: Brand Writer
 description: Write clear, developer-first copy for Zed — leading with facts, grounded in craft.
+requires: [Read, Write]
+examples:
+  - Write homepage hero copy for Zed in brand voice
+  - Draft release notes for [feature] — Zed style
+  - Review this copy for brand fit (/brand-writer --review)
+  - Product page copy for [Zed feature]
+  - Social post announcing [Zed update] — no hype, developer tone
 allowed-tools: Read, Write, Edit, Glob, Grep, AskUserQuestion, WebFetch
 user-invocable: true
 ---
@@ -187,14 +194,14 @@ Present final copy with scorecard:
 | Earned Claims       |   5   |
 | **TOTAL**           | 37/40 |
 
-✅ All criteria 4+
-✅ Zero taboo phrases
-✅ All facts preserved
+All criteria 4+
+Zero taboo phrases
+All facts preserved
 
 ## Facts Verified
-- [FACT: Rust] ✓
-- [FACT: GPU-accelerated] ✓
-- [FACT: 120fps] ✓
+- [FACT: Rust]
+- [FACT: GPU-accelerated]
+- [FACT: 120fps]
 ```
 
 **Output formats by context:**
@@ -241,7 +248,7 @@ When invoked with `--review`:
    - Line 5: "seamless experience"
 
    ### Verdict
-   ❌ Does not pass (3 criteria below threshold)
+   Does not pass (3 criteria below threshold)
    ```
 
 5. **Offer rewrite** if any criterion scores <4:

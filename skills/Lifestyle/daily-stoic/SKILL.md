@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: daily-stoic
-name: Daily Stoic
+name: daily-stoic
 description: Send daily Stoic philosophy quotes from "The Daily Stoic" by Ryan Holiday.
 ---
 

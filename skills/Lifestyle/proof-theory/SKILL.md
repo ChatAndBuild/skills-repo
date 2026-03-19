@@ -1,10 +1,19 @@
 ---
 category: Lifestyle
 id: proof-theory
-name: Proof Theory
+name: proof-theory
 description: Problem-solving strategies for proof theory in mathematical logic.
-allowed-tools: [Bash, Read]
+requires: [Bash, Read]
+examples:
+  - Prove this formula using induction; run the base and step checks
+  - Which proof strategy should I use here—direct, contradiction, or cases?
+  - Verify each step of this proof and flag any invalid inferences
+  - Help me set up a structural induction for this definition
+  - Check soundness for this proof system / these derivation rules
+  - Eliminate cuts in this sequent proof and show the normal form
+  - Walk me through a direct proof (premises to conclusion)
 ---
+
 
 # Proof Theory
 

@@ -1,5 +1,5 @@
 ---
-category: Lifestyle
+category: Testing & Security
 id: health
 name: Healthcheck
 description: Host security hardening and risk-tolerance configuration for OpenClaw deployments.
@@ -21,6 +21,16 @@ Assess and harden the host running OpenClaw, then align it to a user-defined ris
 - If role/identity is unknown, provide recommendations only.
 - Formatting: every set of user choices must be numbered so the user can reply with a single digit.
 - System-level backups are recommended; try to verify status.
+
+## Examples
+- "Audit my OpenClaw deployment and harden the host for a home workstation."
+- "Check OpenClaw security and tell me what needs fixing before you change anything."
+- "I'm on a VPS with SSH—help me lock it down (VPS Hardened) and keep access."
+- "Run a deep security audit and give me a remediation plan; I'll run the commands myself."
+- "Assess this machine, then do the fixes step-by-step with my approval."
+- "Schedule weekly OpenClaw security audits and update checks."
+- "What's my current security posture? I want the Home/Workstation Balanced profile."
+- "Export the hardening steps as commands so I can run them later on another machine."
 
 ## Workflow (follow in order)
 

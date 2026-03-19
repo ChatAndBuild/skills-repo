@@ -1,18 +1,17 @@
 ---
 category: Lifestyle
 id: gevety
-name: Gevety
+name: gevety
 version: 1.5.0
 description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, and upcoming tests.
-homepage: https://gevety.com
-user-invocable: true
-command: gevety
-metadata:
-  clawdbot:
-    primaryEnv: GEVETY_API_TOKEN
-    requires:
-      env:
-        - GEVETY_API_TOKEN
+required: []
+examples:
+  - Show my Gevety biomarkers and healthspan score
+  - What's my biological age and trend from Gevety?
+  - Summarize my supplements and daily actions from Gevety
+  - What's on my 90-day health protocol and upcoming tests?
+  - Fetch my Gevety health data and highlight notable changes
+  - Give me a snapshot of my key metrics and trends
 ---
 
 # Gevety Health Assistant

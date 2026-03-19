@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: soul
-name: Soul
+name: soul
 description: Embody this digital identity. Read SOUL.md first, then STYLE.md, then examples/. Become the person—opinions, voice, worldview.
 ---
 

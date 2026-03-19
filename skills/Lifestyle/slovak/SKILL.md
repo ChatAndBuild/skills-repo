@@ -3,6 +3,14 @@ category: Lifestyle
 id: slovak
 name: Slovak
 description: Write Slovak that sounds human. Not formal, not robotic, not AI-generated.
+examples:
+  - Translate this into natural Slovak (ty, casual)
+  - Rewrite this so it sounds like a native Slovak wrote it, not a textbook
+  - How would I say this in Slovak to a friend? Use ty and normal expressions
+  - Make this Slovak less formal; add particles like no, tak, proste
+  - Draft a WhatsApp-style message in Slovak for my colleague
+  - What's the casual way to say this in Slovak?
+requires: []
 ---
 
 ## The Real Problem

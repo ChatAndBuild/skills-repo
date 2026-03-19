@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: formal-logic-reasoner
-name: Formal Logic Reasoner
+name: formal-logic-reasoner
 description: Skill for formal logical reasoning and argument validation.
 allowed-tools:
   - Bash

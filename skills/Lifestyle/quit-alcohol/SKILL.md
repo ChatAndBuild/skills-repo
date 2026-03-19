@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: quit-alcohol
-name: Quit Alcohol
+name: quit-alcohol
 description: Track sobriety with alcohol-free streaks, craving management, and recovery milestones.
 author: clawd-team
 version: 1.0.0

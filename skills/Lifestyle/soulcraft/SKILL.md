@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: soulcraft
-name: Soulcraft
+name: soulcraft
 description: Create or improve SOUL.md files for OpenClaw agents through guided conversation.
 metadata: {"openclaw":{"emoji":"🪞"}}
 ---

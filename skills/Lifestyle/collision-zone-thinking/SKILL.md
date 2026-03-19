@@ -1,8 +1,14 @@
 ---
 category: Lifestyle
 id: collision-zone-thinking
-name: Collision Zone Thinking
-description: Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?
+name: collision-zone-thinking
+description: Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?" Use when conventional approaches feel inadequate and you need breakthrough innovation.
+requires: []
+examples:
+  - What if we treated [X] like [Y]? Help me collide two concepts
+  - I'm stuck on this architecture / design — try collision-zone thinking
+  - Force two unrelated domains together for this problem
+  - We need a breakthrough, not incremental ideas — use metaphor mixing
 when_to_use: when conventional approaches feel inadequate and you need breakthrough innovation by forcing unrelated concepts together
 version: 1.1.0
 ---

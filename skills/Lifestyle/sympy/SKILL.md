@@ -1,8 +1,16 @@
 ---
 category: Lifestyle
 id: sympy
-name: Sympy
+name: sympy
 description: Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters.
+requires: [Read, Write, Bash]
+examples:
+  - Solve this equation symbolically (algebraic or differential)
+  - Take the derivative / integral of this expression
+  - Simplify or expand this algebraic expression
+  - Solve this system of equations with SymPy
+  - Compute eigenvalues or invert this matrix symbolically
+  - Convert this formula to Python/LaTeX / generate code from expression
 ---
 
 # SymPy - Symbolic Mathematics in Python

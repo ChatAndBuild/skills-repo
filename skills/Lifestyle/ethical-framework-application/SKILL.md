@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: ethical-framework-application
-name: Ethical Framework Application
+name: ethical-framework-application
 description: Apply multiple ethical frameworks (deontological, consequentialist, virtue ethics, care ethics) systematically to moral problems and generate reasoned recommendations.
 allowed-tools:
   - Read
