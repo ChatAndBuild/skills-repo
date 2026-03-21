@@ -36,10 +36,6 @@ This skill should be used when:
 - Extract network interaction data for pathways to enable downstream topological analysis with tools like NetworkX.
 - Execute batch ID conversion utilities to process large-scale genomic or metabolomic datasets efficiently.
 
-## Output
-- Formatted reports on gene functions, pathway memberships, and compound properties.
-- Network interaction files and metabolic maps for the queried biological entities.
-- Automated Python scripts for bulk data retrieval and identifier conversion.
 ## Core Capabilities
 
 ### 1. Protein Analysis
@@ -172,6 +168,7 @@ BioServices works well with:
 - **NetworkX**: Network analysis of pathway interactions
 - **Galaxy**: Custom tool wrappers for workflow platforms
 
-## Resources
-
-### scripts/
+## Output
+- Formatted reports on gene functions, pathway memberships, and compound properties.
+- Network interaction files and metabolic maps for the queried biological entities.
+- Automated Python scripts for bulk data retrieval and identifier conversion.
