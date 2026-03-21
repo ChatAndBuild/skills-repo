@@ -8,17 +8,6 @@ examples:
   - Validate my Conductor project artifacts for consistency.
   - Check the conductor directory for required index and product files.
 ---
-
-# Check if conductor directory exists
-ls -la conductor/
-
-# Find all track directories
-ls -la conductor/tracks/
-
-# Check for required files
-ls conductor/index.md conductor/product.md conductor/tech-stack.md conductor/workflow.md conductor/tracks.md
-
-
 ## Use this skill when
 
 - Working on check if conductor directory exists tasks or workflows
