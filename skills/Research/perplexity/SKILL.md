@@ -1,8 +1,12 @@
 ---
-category: Research
 id: perplexity
 name: Perplexity
-description: Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model's knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key.
+description: AI-powered web searches for real-time information, scientific literature discovery, and grounded answers with source citations.
+category: Research
+requires: []
+examples:
+  - Search for the latest developments in quantum computing from 2024 onwards.
+  - Find recent scientific literature on mRNA vaccines using Sonar Pro.
 ---
 
 # Perplexity Search
@@ -40,47 +44,21 @@ Use this skill when:
    - Add credits to account (minimum $5 recommended)
 
 2. **Configure environment**:
-   ```bash
-   # Set API key
-   export OPENROUTER_API_KEY='sk-or-v1-your-key-here'
-
-   # Or use setup script
-   python scripts/setup_env.py --api-key sk-or-v1-your-key-here
-   ```
 
 3. **Install dependencies**:
-   ```bash
-   uv pip install litellm
-   ```
 
 4. **Verify setup**:
-   ```bash
-   python scripts/perplexity_search.py --check-setup
-   ```
-
-See `references/openrouter_setup.md` for detailed setup instructions, troubleshooting, and security best practices.
 
 ### Basic Usage
 
 **Simple search:**
-```bash
-python scripts/perplexity_search.py "What are the latest developments in CRISPR gene editing?"
-```
 
 **Save results:**
-```bash
-python scripts/perplexity_search.py "Recent CAR-T therapy clinical trials" --output results.json
-```
 
 **Use specific model:**
-```bash
-python scripts/perplexity_search.py "Compare mRNA and viral vector vaccines" --model sonar-pro-search
-```
+
 
 **Verbose output:**
-```bash
-python scripts/perplexity_search.py "Quantum computing for drug discovery" --verbose
-```
 
 ## Available Models
 
@@ -98,8 +76,6 @@ Access models via `--model` parameter:
 - Explicit reasoning needed → `sonar-reasoning-pro`
 - Simple fact lookups → `sonar`
 - Cost-sensitive bulk queries → `sonar`
-
-See `references/model_comparison.md` for detailed comparison, use cases, pricing, and performance characteristics.
 
 ## Crafting Effective Queries
 
@@ -140,103 +116,33 @@ Break complex questions into clear components:
 **Example:**
 "What improvements does AlphaFold3 offer over AlphaFold2 for protein structure prediction, according to research published between 2023 and 2024? Include specific accuracy metrics and benchmarks."
 
-See `references/search_strategies.md` for comprehensive guidance on query design, domain-specific patterns, and advanced techniques.
-
 ## Common Use Cases
 
 ### Scientific Literature Search
 
-```bash
-python scripts/perplexity_search.py \
-  "What does recent research (2023-2024) say about the role of gut microbiome in Parkinson's disease? Focus on peer-reviewed studies and include specific bacterial species identified." \
-  --model sonar-pro
-```
-
 ### Technical Documentation
-
-```bash
-python scripts/perplexity_search.py \
-  "How to implement real-time data streaming from Kafka to PostgreSQL using Python? Include considerations for handling backpressure and ensuring exactly-once semantics." \
-  --model sonar-reasoning-pro
-```
 
 ### Comparative Analysis
 
-```bash
-python scripts/perplexity_search.py \
-  "Compare PyTorch versus TensorFlow for implementing transformer models in terms of ease of use, performance, and ecosystem support. Include benchmarks from recent studies." \
-  --model sonar-pro-search
-```
 
 ### Clinical Research
 
-```bash
-python scripts/perplexity_search.py \
-  "What is the evidence for intermittent fasting in managing type 2 diabetes in adults? Focus on randomized controlled trials and report HbA1c changes and weight loss outcomes." \
-  --model sonar-pro
-```
 
 ### Trend Analysis
 
-```bash
-python scripts/perplexity_search.py \
-  "What are the key trends in single-cell RNA sequencing technology over the past 5 years? Highlight improvements in throughput, cost, and resolution, with specific examples." \
-  --model sonar-pro
-```
 
 ## Working with Results
 
 ### Programmatic Access
 
-Use `perplexity_search.py` as a module:
-
-```python
-from scripts.perplexity_search import search_with_perplexity
-
-result = search_with_perplexity(
-    query="What are the latest CRISPR developments?",
-    model="openrouter/perplexity/sonar-pro",
-    max_tokens=4000,
-    temperature=0.2,
-    verbose=False
-)
-
-if result["success"]:
-    print(result["answer"])
-    print(f"Tokens used: {result['usage']['total_tokens']}")
-else:
-    print(f"Error: {result['error']}")
-```
 
 ### Save and Process Results
 
-```bash
-# Save to JSON
-python scripts/perplexity_search.py "query" --output results.json
-
-# Process with jq
-cat results.json | jq '.answer'
-cat results.json | jq '.usage'
-```
 
 ### Batch Processing
 
-Create a script for multiple queries:
+Create a script for multiple queries.
 
-```bash
-#!/bin/bash
-queries=(
-  "CRISPR developments 2024"
-  "mRNA vaccine technology advances"
-  "AlphaFold3 accuracy improvements"
-)
-
-for query in "${queries[@]}"; do
-  echo "Searching: $query"
-  python scripts/perplexity_search.py "$query" --output "results_$(echo $query | tr ' ' '_').json"
-  sleep 2  # Rate limiting
-done
-```
 
 ## Cost Management
 
@@ -255,47 +161,6 @@ Perplexity models have different pricing tiers:
 4. Set `--max-tokens` to limit response length
 5. Monitor usage at https://openrouter.ai/activity
 6. Set spending limits in OpenRouter dashboard
-
-## Troubleshooting
-
-### API Key Not Set
-
-**Error**: "OpenRouter API key not configured"
-
-**Solution**:
-```bash
-export OPENROUTER_API_KEY='sk-or-v1-your-key-here'
-# Or run setup script
-python scripts/setup_env.py --api-key sk-or-v1-your-key-here
-```
-
-### LiteLLM Not Installed
-
-**Error**: "LiteLLM not installed"
-
-**Solution**:
-```bash
-uv pip install litellm
-```
-
-### Rate Limiting
-
-**Error**: "Rate limit exceeded"
-
-**Solutions**:
-- Wait a few seconds before retrying
-- Increase rate limit at https://openrouter.ai/keys
-- Add delays between requests in batch processing
-
-### Insufficient Credits
-
-**Error**: "Insufficient credits"
-
-**Solution**:
-- Add credits at https://openrouter.ai/account
-- Enable auto-recharge to prevent interruptions
-
-See `references/openrouter_setup.md` for comprehensive troubleshooting guide.
 
 ## Integration with Other Skills
 
@@ -365,68 +230,6 @@ Use with `scientific-critical-thinking` skill:
 3. **Set spending limits**: Configure in OpenRouter dashboard
 4. **Monitor usage**: Watch for unexpected activity
 5. **Rotate keys**: Change keys periodically
-
-## Resources
-
-### Bundled Resources
-
-**Scripts:**
-- `scripts/perplexity_search.py`: Main search script with CLI interface
-- `scripts/setup_env.py`: Environment setup and validation helper
-
-**References:**
-- `references/search_strategies.md`: Comprehensive query design guide
-- `references/model_comparison.md`: Detailed model comparison and selection guide
-- `references/openrouter_setup.md`: Complete setup, troubleshooting, and security guide
-
-**Assets:**
-- `assets/.env.example`: Example environment file template
-
-### External Resources
-
-**OpenRouter:**
-- Dashboard: https://openrouter.ai/account
-- API Keys: https://openrouter.ai/keys
-- Perplexity Models: https://openrouter.ai/perplexity
-- Usage Monitoring: https://openrouter.ai/activity
-- Documentation: https://openrouter.ai/docs
-
-**LiteLLM:**
-- Documentation: https://docs.litellm.ai/
-- OpenRouter Provider: https://docs.litellm.ai/docs/providers/openrouter
-- GitHub: https://github.com/BerriAI/litellm
-
-**Perplexity:**
-- Official Docs: https://docs.perplexity.ai/
-
-## Dependencies
-
-### Required
-
-```bash
-# LiteLLM for API access
-uv pip install litellm
-```
-
-### Optional
-
-```bash
-# For .env file support
-uv pip install python-dotenv
-
-# For JSON processing (usually pre-installed)
-uv pip install jq
-```
-
-### Environment Variables
-
-Required:
-- `OPENROUTER_API_KEY`: Your OpenRouter API key
-
-Optional:
-- `DEFAULT_MODEL`: Default model to use (default: sonar-pro)
-- `DEFAULT_MAX_TOKENS`: Default max tokens (default: 4000)
-- `DEFAULT_TEMPERATURE`: Default temperature (default: 0.2)
 
 ## Summary
 

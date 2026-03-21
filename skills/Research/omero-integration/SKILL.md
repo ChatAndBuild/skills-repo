@@ -1,8 +1,12 @@
 ---
-category: Research
 id: omero-integration
 name: OMERO Integration
-description: Step-by-step guidance for omero integration.
+description: Access microscopy images via the OMERO Python API, manage ROIs, and perform high-content screening analysis.
+category: Research
+requires: []
+examples:
+  - How do I access microscopy images via the OMERO Python API?
+  - Help me manage ROIs and annotations for my microscopy datasets in OMERO.
 ---
 
 # OMERO Integration
@@ -28,7 +32,6 @@ This skill should be used when:
 This skill covers eight major capability areas. Each is documented in detail in the references/ directory:
 
 ### 1. Connection & Session Management
-**File**: `references/connection.md`
 
 Establish secure connections to OMERO servers, manage sessions, handle authentication, and work with group contexts. Use this for initial setup and connection patterns.
 
@@ -39,7 +42,6 @@ Establish secure connections to OMERO servers, manage sessions, handle authentic
 - Manage connection lifecycle with context managers
 
 ### 2. Data Access & Retrieval
-**File**: `references/data_access.md`
 
 Navigate OMERO's hierarchical data structure (Projects → Datasets → Images) and screening data (Screens → Plates → Wells). Retrieve objects, query by attributes, and access metadata.
 
@@ -50,7 +52,6 @@ Navigate OMERO's hierarchical data structure (Projects → Datasets → Images) 
 - Query objects with filters
 
 ### 3. Metadata & Annotations
-**File**: `references/metadata.md`
 
 Create and manage annotations including tags, key-value pairs, file attachments, and comments. Link annotations to images, datasets, or other objects.
 
@@ -61,7 +62,6 @@ Create and manage annotations including tags, key-value pairs, file attachments,
 - Query annotations by namespace
 
 ### 4. Image Processing & Rendering
-**File**: `references/image_processing.md`
 
 Access raw pixel data as NumPy arrays, manipulate rendering settings, create derived images, and manage physical dimensions.
 
@@ -72,7 +72,6 @@ Access raw pixel data as NumPy arrays, manipulate rendering settings, create der
 - Modify channel rendering settings
 
 ### 5. Regions of Interest (ROIs)
-**File**: `references/rois.md`
 
 Create, retrieve, and analyze ROIs with various shapes (rectangles, ellipses, polygons, masks, points, lines). Extract intensity statistics from ROI regions.
 
@@ -83,7 +82,6 @@ Create, retrieve, and analyze ROIs with various shapes (rectangles, ellipses, po
 - Export ROI coordinates
 
 ### 6. OMERO Tables
-**File**: `references/tables.md`
 
 Store and query structured tabular data associated with OMERO objects. Useful for analysis results, measurements, and metadata.
 
@@ -94,7 +92,6 @@ Store and query structured tabular data associated with OMERO objects. Useful fo
 - Link tables to specific images or datasets
 
 ### 7. Scripts & Batch Operations
-**File**: `references/scripts.md`
 
 Create OMERO.scripts that run server-side for batch processing, automated workflows, and integration with OMERO clients.
 
@@ -105,7 +102,6 @@ Create OMERO.scripts that run server-side for batch processing, automated workfl
 - Export data in custom formats
 
 ### 8. Advanced Features
-**File**: `references/advanced.md`
 
 Covers permissions, filesets, cross-group queries, delete operations, and other advanced functionality.
 
@@ -115,89 +111,24 @@ Covers permissions, filesets, cross-group queries, delete operations, and other 
 - Perform cross-group queries
 - Delete objects with callbacks
 
-## Installation
-
-```bash
-uv pip install omero-py
-```
-
-**Requirements:**
-- Python 3.7+
-- Zeroc Ice 3.6+
-- Access to an OMERO server (host, port, credentials)
-
-## Quick Start
-
-Basic connection pattern:
-
-```python
-from omero.gateway import BlitzGateway
-
-# Connect to OMERO server
-conn = BlitzGateway(username, password, host=host, port=port)
-connected = conn.connect()
-
-if connected:
-    # Perform operations
-    for project in conn.listProjects():
-        print(project.getName())
-
-    # Always close connection
-    conn.close()
-else:
-    print("Connection failed")
-```
-
-**Recommended pattern with context manager:**
-
-```python
-from omero.gateway import BlitzGateway
-
-with BlitzGateway(username, password, host=host, port=port) as conn:
-    # Connection automatically managed
-    for project in conn.listProjects():
-        print(project.getName())
-    # Automatically closed on exit
-```
-
-## Selecting the Right Capability
-
-**For data exploration:**
-- Start with `references/connection.md` to establish connection
-- Use `references/data_access.md` to navigate hierarchy
-- Check `references/metadata.md` for annotation details
-
-**For image analysis:**
-- Use `references/image_processing.md` for pixel data access
-- Use `references/rois.md` for region-based analysis
-- Use `references/tables.md` to store results
-
-**For automation:**
-- Use `references/scripts.md` for server-side processing
-- Use `references/data_access.md` for batch data retrieval
-
-**For advanced operations:**
-- Use `references/advanced.md` for permissions and deletion
-- Check `references/connection.md` for cross-group queries
-
 ## Common Workflows
 
 ### Workflow 1: Retrieve and Analyze Images
 
-1. Connect to OMERO server (`references/connection.md`)
-2. Navigate to dataset (`references/data_access.md`)
-3. Retrieve images from dataset (`references/data_access.md`)
-4. Access pixel data as NumPy array (`references/image_processing.md`)
+1. Connect to OMERO server 
+2. Navigate to dataset 
+3. Retrieve images from dataset 
+4. Access pixel data as NumPy array 
 5. Perform analysis
-6. Store results as table or file annotation (`references/tables.md` or `references/metadata.md`)
+6. Store results as table or file annotation 
 
 ### Workflow 2: Batch ROI Analysis
 
 1. Connect to OMERO server
-2. Retrieve images with existing ROIs (`references/rois.md`)
+2. Retrieve images with existing ROIs 
 3. For each image, get ROI shapes
-4. Extract pixel intensities within ROIs (`references/rois.md`)
-5. Store measurements in OMERO table (`references/tables.md`)
+4. Extract pixel intensities within ROIs 
+5. Store measurements in OMERO table 
 
 ### Workflow 3: Create Analysis Script
 
@@ -210,32 +141,6 @@ with BlitzGateway(username, password, host=host, port=port) as conn:
 ## Error Handling
 
 Always wrap OMERO operations in try-except blocks and ensure connections are properly closed:
-
-```python
-from omero.gateway import BlitzGateway
-import traceback
-
-try:
-    conn = BlitzGateway(username, password, host=host, port=port)
-    if not conn.connect():
-        raise Exception("Connection failed")
-
-    # Perform operations
-
-except Exception as e:
-    print(f"Error: {e}")
-    traceback.print_exc()
-finally:
-    if conn:
-        conn.close()
-```
-
-## Additional Resources
-
-- **Official Documentation**: https://omero.readthedocs.io/en/stable/developers/Python.html
-- **BlitzGateway API**: https://omero.readthedocs.io/en/stable/developers/Python.html#omero-blitzgateway
-- **OMERO Model**: https://omero.readthedocs.io/en/stable/developers/Model.html
-- **Community Forum**: https://forum.image.sc/tag/omero
 
 ## Notes
 

@@ -1,8 +1,12 @@
 ---
-category: Research
 id: neuropixels-analysis
 name: Neuropixels Analysis
-description: Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology.
+description: Neuropixels neural recording analysis including data loading, preprocessing, motion correction, and Kilosort4 spike sorting.
+category: Research
+requires: []
+examples:
+  - Preprocess a SpikeGLX recording including filtering and common average referencing.
+  - Run Kilosort4 spike sorting on my Neuropixels 2.0 data and compute quality metrics.
 ---
 
 # Neuropixels Data Analysis
@@ -24,6 +28,20 @@ This skill should be used when:
 - Creating visualizations of neural data
 - Exporting results to Phy or NWB
 
+## Instruction
+- Load raw Neuropixels data from SpikeGLX or Open Ephys formats, ensuring the binary (.bin) and metadata (.meta) files are paired.
+- Implement preprocessing steps including high-pass filtering, common average referencing (CAR), and bad channel detection.
+- Perform motion correction and drift estimation to align neural signals across the duration of the recording.
+- Execute automated spike sorting using Kilosort4 or specialized sorters like SpykingCircus2, selecting the appropriate GPU resources.
+- Compute unit quality metrics such as SNR (Signal-to-Noise Ratio), ISI violations, and presence ratio for each sorted cluster.
+- Apply AI-driven or manual curation based on Allen Institute or IBL criteria to label units as "Good," "Noise," or "MUA".
+- Export curated results to Phy for manual inspection or NWB for standardized long-term data storage.
+
+## Output
+- Preprocessed recording files and motion correction/drift reports.
+- Spike sorting results containing identified units, spike times, and waveforms.
+- Quality metric summaries and final curation labels for all neural units.
+
 ## Supported Hardware & Formats
 
 | Probe | Electrodes | Channels | Notes |
@@ -38,172 +56,32 @@ This skill should be used when:
 | Open Ephys | `.continuous`, `.oebin` | `si.read_openephys()` |
 | NWB | `.nwb` | `si.read_nwb()` |
 
-## Quick Start
 
-### Basic Import and Setup
 
-```python
-import spikeinterface.full as si
-import neuropixels_analysis as npa
-
-# Configure parallel processing
-job_kwargs = dict(n_jobs=-1, chunk_duration='1s', progress_bar=True)
-```
-
-### Loading Data
-
-```python
-# SpikeGLX (most common)
-recording = si.read_spikeglx('/path/to/data', stream_id='imec0.ap')
-
-# Open Ephys (common for many labs)
-recording = si.read_openephys('/path/to/Record_Node_101/')
-
-# Check available streams
-streams, ids = si.get_neo_streams('spikeglx', '/path/to/data')
-print(streams)  # ['imec0.ap', 'imec0.lf', 'nidq']
-
-# For testing with subset of data
-recording = recording.frame_slice(0, int(60 * recording.get_sampling_frequency()))
-```
-
-### Complete Pipeline (One Command)
-
-```python
-# Run full analysis pipeline
-results = npa.run_pipeline(
-    recording,
-    output_dir='output/',
-    sorter='kilosort4',
-    curation_method='allen',
-)
-
-# Access results
-sorting = results['sorting']
-metrics = results['metrics']
-labels = results['labels']
-```
 
 ## Standard Analysis Workflow
 
 ### 1. Preprocessing
 
-```python
-# Recommended preprocessing chain
-rec = si.highpass_filter(recording, freq_min=400)
-rec = si.phase_shift(rec)  # Required for Neuropixels 1.0
-bad_ids, _ = si.detect_bad_channels(rec)
-rec = rec.remove_channels(bad_ids)
-rec = si.common_reference(rec, operator='median')
-
-# Or use our wrapper
-rec = npa.preprocess(recording)
-```
 
 ### 2. Check and Correct Drift
 
-```python
-# Check for drift (always do this!)
-motion_info = npa.estimate_motion(rec, preset='kilosort_like')
-npa.plot_drift(rec, motion_info, output='drift_map.png')
-
-# Apply correction if needed
-if motion_info['motion'].max() > 10:  # microns
-    rec = npa.correct_motion(rec, preset='nonrigid_accurate')
-```
-
 ### 3. Spike Sorting
-
-```python
-# Kilosort4 (recommended, requires GPU)
-sorting = si.run_sorter('kilosort4', rec, folder='ks4_output')
-
-# CPU alternatives
-sorting = si.run_sorter('tridesclous2', rec, folder='tdc2_output')
-sorting = si.run_sorter('spykingcircus2', rec, folder='sc2_output')
-sorting = si.run_sorter('mountainsort5', rec, folder='ms5_output')
-
-# Check available sorters
-print(si.installed_sorters())
-```
 
 ### 4. Postprocessing
 
-```python
-# Create analyzer and compute all extensions
-analyzer = si.create_sorting_analyzer(sorting, rec, sparse=True)
-
-analyzer.compute('random_spikes', max_spikes_per_unit=500)
-analyzer.compute('waveforms', ms_before=1.0, ms_after=2.0)
-analyzer.compute('templates', operators=['average', 'std'])
-analyzer.compute('spike_amplitudes')
-analyzer.compute('correlograms', window_ms=50.0, bin_ms=1.0)
-analyzer.compute('unit_locations', method='monopolar_triangulation')
-analyzer.compute('quality_metrics')
-
-metrics = analyzer.get_extension('quality_metrics').get_data()
-```
 
 ### 5. Curation
 
-```python
-# Allen Institute criteria (conservative)
-good_units = metrics.query("""
-    presence_ratio > 0.9 and
-    isi_violations_ratio < 0.5 and
-    amplitude_cutoff < 0.1
-""").index.tolist()
-
-# Or use automated curation
-labels = npa.curate(metrics, method='allen')  # 'allen', 'ibl', 'strict'
-```
 
 ### 6. AI-Assisted Curation (For Uncertain Units)
 
-When using this skill with Claude Code, Claude can directly analyze waveform plots and provide expert curation decisions. For programmatic API access:
-
-```python
-from anthropic import Anthropic
-
-# Setup API client
-client = Anthropic()
-
-# Analyze uncertain units visually
-uncertain = metrics.query('snr > 3 and snr < 8').index.tolist()
-
-for unit_id in uncertain:
-    result = npa.analyze_unit_visually(analyzer, unit_id, api_client=client)
-    print(f"Unit {unit_id}: {result['classification']}")
-    print(f"  Reasoning: {result['reasoning'][:100]}...")
-```
-
-**Claude Code Integration**: When running within Claude Code, ask Claude to examine waveform/correlogram plots directly - no API setup required.
 
 ### 7. Generate Analysis Report
 
-```python
-# Generate comprehensive HTML report with visualizations
-report_dir = npa.generate_analysis_report(results, 'output/')
-# Opens report.html with summary stats, figures, and unit table
-
-# Print formatted summary to console
-npa.print_analysis_summary(results)
-```
 
 ### 8. Export Results
 
-```python
-# Export to Phy for manual review
-si.export_to_phy(analyzer, output_folder='phy_export/',
-                 compute_pc_features=True, compute_amplitudes=True)
-
-# Export to NWB
-from spikeinterface.exporters import export_to_nwb
-export_to_nwb(rec, sorting, 'output.nwb')
-
-# Save quality metrics
-metrics.to_csv('quality_metrics.csv')
-```
 
 ## Common Pitfalls and Best Practices
 
@@ -235,84 +113,6 @@ metrics.to_csv('quality_metrics.csv')
 - `isi_violations_ratio`: Refractory violations (0.01-0.5)
 - `presence_ratio`: Recording coverage (0.5-0.95)
 
-## Bundled Resources
-
-### scripts/preprocess_recording.py
-Automated preprocessing script:
-```bash
-python scripts/preprocess_recording.py /path/to/data --output preprocessed/
-```
-
-### scripts/run_sorting.py
-Run spike sorting:
-```bash
-python scripts/run_sorting.py preprocessed/ --sorter kilosort4 --output sorting/
-```
-
-### scripts/compute_metrics.py
-Compute quality metrics and apply curation:
-```bash
-python scripts/compute_metrics.py sorting/ preprocessed/ --output metrics/ --curation allen
-```
-
-### scripts/export_to_phy.py
-Export to Phy for manual curation:
-```bash
-python scripts/export_to_phy.py metrics/analyzer --output phy_export/
-```
-
-### assets/analysis_template.py
-Complete analysis template. Copy and customize:
-```bash
-cp assets/analysis_template.py my_analysis.py
-# Edit parameters and run
-python my_analysis.py
-```
-
-### reference/standard_workflow.md
-Detailed step-by-step workflow with explanations for each stage.
-
-### reference/api_reference.md
-Quick function reference organized by module.
-
-### reference/plotting_guide.md
-Comprehensive visualization guide for publication-quality figures.
-
-## Detailed Reference Guides
-
-| Topic | Reference |
-|-------|-----------|
-| Full workflow | [reference/standard_workflow.md](reference/standard_workflow.md) |
-| API reference | [reference/api_reference.md](reference/api_reference.md) |
-| Plotting guide | [reference/plotting_guide.md](reference/plotting_guide.md) |
-| Preprocessing | [PREPROCESSING.md](PREPROCESSING.md) |
-| Spike sorting | [SPIKE_SORTING.md](SPIKE_SORTING.md) |
-| Motion correction | [MOTION_CORRECTION.md](MOTION_CORRECTION.md) |
-| Quality metrics | [QUALITY_METRICS.md](QUALITY_METRICS.md) |
-| Automated curation | [AUTOMATED_CURATION.md](AUTOMATED_CURATION.md) |
-| AI-assisted curation | [AI_CURATION.md](AI_CURATION.md) |
-| Waveform analysis | [ANALYSIS.md](ANALYSIS.md) |
-
-## Installation
-
-```bash
-# Core packages
-pip install spikeinterface[full] probeinterface neo
-
-# Spike sorters
-pip install kilosort          # Kilosort4 (GPU required)
-pip install spykingcircus     # SpykingCircus2 (CPU)
-pip install mountainsort5     # Mountainsort5 (CPU)
-
-# Our toolkit
-pip install neuropixels-analysis
-
-# Optional: AI curation
-pip install anthropic
-
-# Optional: IBL tools
-pip install ibl-neuropixel ibllib
-```
 
 ## Project Structure
 
@@ -334,13 +134,3 @@ project/
     ├── curation_labels.json
     └── output.nwb
 ```
-
-## Additional Resources
-
-- **SpikeInterface Docs**: https://spikeinterface.readthedocs.io/
-- **Neuropixels Tutorial**: https://spikeinterface.readthedocs.io/en/stable/how_to/analyze_neuropixels.html
-- **Kilosort4 GitHub**: https://github.com/MouseLand/Kilosort
-- **IBL Neuropixel Tools**: https://github.com/int-brain-lab/ibl-neuropixel
-- **Allen Institute ecephys**: https://github.com/AllenInstitute/ecephys_spike_sorting
-- **Bombcell (Automated QC)**: https://github.com/Julie-Fabre/bombcell
-- **SpikeAgent (AI Curation)**: https://github.com/SpikeAgent/SpikeAgent

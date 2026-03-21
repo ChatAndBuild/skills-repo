@@ -1,8 +1,12 @@
 ---
-category: Research
 id: opentargets-database
 name: Opentargets Database
-description: Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification.
+description: Query Open Targets Platform for target-disease associations, drug discovery, and tractability/safety data.
+category: Research
+requires: []
+examples:
+  - Search for target-disease associations and evidence scores in Open Targets.
+  - Evaluate the tractability and safety of a specific gene target for drug discovery.
 ---
 
 # Open Targets Database
@@ -41,51 +45,12 @@ This skill should be used when:
 
 Start by finding the identifiers for targets, diseases, or drugs of interest.
 
-**For targets (genes):**
-```python
-from scripts.query_opentargets import search_entities
-
-# Search by gene symbol or name
-results = search_entities("BRCA1", entity_types=["target"])
-# Returns: [{"id": "ENSG00000012048", "name": "BRCA1", ...}]
-```
-
-**For diseases:**
-```python
-# Search by disease name
-results = search_entities("alzheimer", entity_types=["disease"])
-# Returns: [{"id": "EFO_0000249", "name": "Alzheimer disease", ...}]
-```
-
-**For drugs:**
-```python
-# Search by drug name
-results = search_entities("aspirin", entity_types=["drug"])
-# Returns: [{"id": "CHEMBL25", "name": "ASPIRIN", ...}]
-```
-
-**Identifiers used:**
-- Targets: Ensembl gene IDs (e.g., `ENSG00000157764`)
-- Diseases: EFO (Experimental Factor Ontology) IDs (e.g., `EFO_0000249`)
-- Drugs: ChEMBL IDs (e.g., `CHEMBL25`)
 
 ### 2. Query Target Information
 
 Retrieve comprehensive target annotations to assess druggability and biology.
 
-```python
-from scripts.query_opentargets import get_target_info
 
-target_info = get_target_info("ENSG00000157764", include_diseases=True)
-
-# Access key fields:
-# - approvedSymbol: HGNC gene symbol
-# - approvedName: Full gene name
-# - tractability: Druggability assessments across modalities
-# - safetyLiabilities: Known safety concerns
-# - geneticConstraint: Constraint scores from gnomAD
-# - associatedDiseases: Top disease associations with scores
-```
 
 **Key annotations to review:**
 - **Tractability:** Small molecule, antibody, PROTAC druggability predictions
@@ -93,51 +58,14 @@ target_info = get_target_info("ENSG00000157764", include_diseases=True)
 - **Genetic constraint:** pLI and LOEUF scores indicating essentiality
 - **Disease associations:** Diseases linked to the target with evidence scores
 
-Refer to `references/target_annotations.md` for detailed information about all target features.
-
 ### 3. Query Disease Information
 
 Get disease details and associated targets/drugs.
-
-```python
-from scripts.query_opentargets import get_disease_info
-
-disease_info = get_disease_info("EFO_0000249", include_targets=True)
-
-# Access fields:
-# - name: Disease name
-# - description: Disease description
-# - therapeuticAreas: High-level disease categories
-# - associatedTargets: Top targets with association scores
-```
 
 ### 4. Retrieve Target-Disease Evidence
 
 Get detailed evidence supporting a target-disease association.
 
-```python
-from scripts.query_opentargets import get_target_disease_evidence
-
-# Get all evidence
-evidence = get_target_disease_evidence(
-    ensembl_id="ENSG00000157764",
-    efo_id="EFO_0000249"
-)
-
-# Filter by evidence type
-genetic_evidence = get_target_disease_evidence(
-    ensembl_id="ENSG00000157764",
-    efo_id="EFO_0000249",
-    data_types=["genetic_association"]
-)
-
-# Each evidence record contains:
-# - datasourceId: Specific data source (e.g., "gwas_catalog", "chembl")
-# - datatypeId: Evidence category (e.g., "genetic_association", "known_drug")
-# - score: Evidence strength (0-1)
-# - studyId: Original study identifier
-# - literature: Associated publications
-```
 
 **Major evidence types:**
 1. **genetic_association:** GWAS, rare variants, ClinVar, gene burden
@@ -154,21 +82,6 @@ Refer to `references/evidence_types.md` for detailed descriptions of all evidenc
 
 Identify drugs used for a disease and their targets.
 
-```python
-from scripts.query_opentargets import get_known_drugs_for_disease
-
-drugs = get_known_drugs_for_disease("EFO_0000249")
-
-# drugs contains:
-# - uniqueDrugs: Total number of unique drugs
-# - uniqueTargets: Total number of unique targets
-# - rows: List of drug-target-indication records with:
-#   - drug: {name, drugType, maximumClinicalTrialPhase}
-#   - targets: Genes targeted by the drug
-#   - phase: Clinical trial phase for this indication
-#   - status: Trial status (active, completed, etc.)
-#   - mechanismOfAction: How drug works
-```
 
 **Clinical phases:**
 - Phase 4: Approved drug
@@ -180,38 +93,10 @@ drugs = get_known_drugs_for_disease("EFO_0000249")
 
 Retrieve detailed drug information including mechanisms and indications.
 
-```python
-from scripts.query_opentargets import get_drug_info
-
-drug_info = get_drug_info("CHEMBL25")
-
-# Access:
-# - name, synonyms: Drug identifiers
-# - drugType: Small molecule, antibody, etc.
-# - maximumClinicalTrialPhase: Development stage
-# - mechanismsOfAction: Target and action type
-# - indications: Diseases with trial phases
-# - withdrawnNotice: If withdrawn, reasons and countries
-```
-
 ### 7. Get All Associations for a Target
 
 Find all diseases associated with a target, optionally filtering by score.
 
-```python
-from scripts.query_opentargets import get_target_associations
-
-# Get associations with score >= 0.5
-associations = get_target_associations(
-    ensembl_id="ENSG00000157764",
-    min_score=0.5
-)
-
-# Each association contains:
-# - disease: {id, name}
-# - score: Overall association score (0-1)
-# - datatypeScores: Breakdown by evidence type
-```
 
 **Association scores:**
 - Range: 0-1 (higher = stronger evidence)
@@ -219,22 +104,6 @@ associations = get_target_associations(
 - NOT confidence scores but relative ranking metrics
 - Under-studied diseases may have lower scores despite good evidence
 
-## GraphQL API Details
-
-**For custom queries beyond the provided helper functions**, use the GraphQL API directly or modify `scripts/query_opentargets.py`.
-
-Key information:
-- **Endpoint:** `https://api.platform.opentargets.org/api/v4/graphql`
-- **Interactive browser:** `https://api.platform.opentargets.org/api/v4/graphql/browser`
-- **No authentication required**
-- **Request only needed fields** to minimize response size
-- **Use pagination** for large result sets: `page: {size: N, index: M}`
-
-Refer to `references/api_reference.md` for:
-- Complete endpoint documentation
-- Example queries for all entity types
-- Error handling patterns
-- Best practices for API usage
 
 ## Best Practices
 

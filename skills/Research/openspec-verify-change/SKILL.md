@@ -1,14 +1,14 @@
 ---
-category: Research
 id: openspec-verify-change
 name: OpenSpec Verify Change
-description: Verify implementation matches change artifacts.
-license: MIT
-compatibility: Requires openspec CLI.
-metadata:
-  author: openspec
-  version: "1.0"
-  generatedBy: "1.1.1"
+description: Verify that an implementation matches the change artifacts (specs, tasks, design) using OpenSpec heuristics.
+category: Research
+author: openspec
+version: "1.0"
+requires: []
+examples:
+  - Verify that my implementation matches the OpenSpec change artifacts.
+  - Check for critical issues in my specs and tasks before archiving.
 ---
 
 Verify that an implementation matches the change artifacts (specs, tasks, design).
