@@ -42,10 +42,7 @@ This skill should be used when:
 - Execute the docking inference while adjusting sampling density and steps to balance accuracy and performance.
 - Analyze and rank the generated confidence scores (High > 0, Moderate -1.5 to 0, Low < -1.5) to identify the most likely poses.
 - Interpret the results by distinguishing between structural confidence and actual binding affinity.
-- Suggest integration with rescoring tools like GNINA or MM/GBSA for more accurate affinity assessment.## Output
-- A ranked set of predicted binding poses in SDF format with associated confidence scores.
-- A summary analysis of docking performance across the provided complexes.
-- Recommended next steps for affinity scoring and structural validation of the top poses.
+- Suggest integration with rescoring tools like GNINA or MM/GBSA for more accurate affinity assessment.
 
 ## Output
 - A ranked set of predicted binding poses in SDF format with associated confidence scores.
