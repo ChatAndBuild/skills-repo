@@ -1,8 +1,12 @@
 ---
-category: Research
 id: hmdb-database
 name: HMDB Database
-description: Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.
+description: Access Human Metabolome Database (220K+ metabolites) for identification, properties, biomarker data, and metabolic pathways.
+category: Research
+requires: []
+examples:
+  - Find the chemical properties of glucose in the HMDB database.
+  - What are the biomarker associations for metabolite HMDB0000122?
 ---
 
 # HMDB Database
@@ -32,7 +36,7 @@ HMDB version 5.0 (current as of 2025) contains:
 
 ### 1. Web-Based Metabolite Searches
 
-Access HMDB through the web interface at https://www.hmdb.ca/ for:
+Access HMDB through the web interface for:
 
 **Text Searches:**
 - Search by metabolite name, synonym, or identifier (HMDB ID)
@@ -85,7 +89,7 @@ When retrieving metabolite data, HMDB provides:
 
 ### 3. Downloadable Datasets
 
-HMDB offers bulk data downloads at https://www.hmdb.ca/downloads in multiple formats:
+HMDB offers bulk data downloads in multiple formats:
 
 **Available Formats:**
 - **XML**: Complete metabolite, protein, and spectra data
@@ -186,7 +190,3 @@ These databases share similar structure and identifiers, enabling integrated que
 - For large-scale analysis, download complete datasets rather than repeated web queries
 - Use appropriate file formats (XML for comprehensive data, CSV for tabular analysis)
 - Consider local caching of frequently accessed metabolite information
-
-## Reference Documentation
-
-See `references/hmdb_data_fields.md` for detailed information about available data fields and their meanings.

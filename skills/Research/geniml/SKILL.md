@@ -1,8 +1,12 @@
 ---
-category: Research
 id: geniml
 name: GeniML
-description: Step-by-step guidance for geniml.
+description: Machine learning on genomic interval data. Train region embeddings (Region2Vec), joint embeddings (BEDspace), and analyze scATAC-seq data.
+category: Research
+requires: []
+examples:
+  - Train a Region2Vec model on my collection of BED files.
+  - How do I perform joint region and metadata embedding using BEDspace?
 ---
 
 # Geniml: Genomic Interval Machine Learning
@@ -11,25 +15,21 @@ description: Step-by-step guidance for geniml.
 
 Geniml is a Python package for building machine learning models on genomic interval data from BED files. It provides unsupervised methods for learning embeddings of genomic regions, single cells, and metadata labels, enabling similarity searches, clustering, and downstream ML tasks.
 
+## Instruction
+- Tokenize BED files using a universe reference to convert genomic regions into a discrete vocabulary for machine learning.
+- Train unsupervised Region2Vec models to learn low-dimensional embeddings of genomic intervals for similarity analysis.
+- Utilize BEDspace to create joint embeddings of genomic regions and metadata labels for cross-modal searching.
+- Implement scEmbed workflows for scATAC-seq data to perform cell clustering, type annotation, and dimensionality reduction.
+- Build consensus peak sets (universes) from BED file collections using statistical methods like Maximum Likelihood (ML) or HMM.
+- Evaluate the quality of learned embeddings using metrics such as silhouette scores or Davies-Bouldin indices.
+- Use utilities like BBClient for efficient caching and BEDshift for genomic context-preserving randomization.
+
+## Output
+- Trained Region2Vec or BEDspace models and associated high-dimensional embedding vectors.
+- Clustered single-cell ATAC-seq data visualizations (UMAP/Leiden) and cell-type annotations.
+- Statistically rigorous consensus peak sets (universes) formatted as BED files.
+
 ## Installation
-
-Install geniml using uv:
-
-```bash
-uv uv pip install geniml
-```
-
-For ML dependencies (PyTorch, etc.):
-
-```bash
-uv uv pip install 'geniml[ml]'
-```
-
-Development version from GitHub:
-
-```bash
-uv uv pip install git+https://github.com/databio/geniml.git
-```
 
 ## Core Capabilities
 
@@ -46,8 +46,6 @@ Train unsupervised embeddings of genomic regions using word2vec-style learning.
 2. Train Region2Vec model on tokens
 3. Generate embeddings for regions
 
-**Reference:** See `references/region2vec.md` for detailed workflow, parameters, and examples.
-
 ### 2. BEDspace: Joint Region and Metadata Embeddings
 
 Train shared embeddings for region sets and metadata labels using StarSpace.
@@ -59,8 +57,6 @@ Train shared embeddings for region sets and metadata labels using StarSpace.
 2. Train BEDspace model
 3. Compute distances
 4. Query across regions and labels
-
-**Reference:** See `references/bedspace.md` for detailed workflow, search types, and examples.
 
 ### 3. scEmbed: Single-Cell Chromatin Accessibility Embeddings
 
@@ -74,8 +70,6 @@ Train Region2Vec models on single-cell ATAC-seq data for cell-level embeddings.
 3. Train scEmbed model
 4. Generate cell embeddings
 5. Cluster and visualize with scanpy
-
-**Reference:** See `references/scembed.md` for detailed workflow, parameters, and examples.
 
 ### 4. Consensus Peaks: Universe Building
 
@@ -94,8 +88,6 @@ Build reference peak sets (universes) from BED file collections using multiple s
 - **ML (Maximum Likelihood)**: Probabilistic modeling of positions
 - **HMM (Hidden Markov Model)**: Complex state modeling
 
-**Reference:** See `references/consensus_peaks.md` for method comparison, parameters, and examples.
-
 ### 5. Utilities: Supporting Tools
 
 Additional tools for caching, randomization, evaluation, and search.
@@ -109,114 +101,6 @@ Additional tools for caching, randomization, evaluation, and search.
 
 **Reference:** See `references/utilities.md` for detailed usage of each utility.
 
-## Common Workflows
-
-### Basic Region Embedding Pipeline
-
-```python
-from geniml.tokenization import hard_tokenization
-from geniml.region2vec import region2vec
-from geniml.evaluation import evaluate_embeddings
-
-# Step 1: Tokenize BED files
-hard_tokenization(
-    src_folder='bed_files/',
-    dst_folder='tokens/',
-    universe_file='universe.bed',
-    p_value_threshold=1e-9
-)
-
-# Step 2: Train Region2Vec
-region2vec(
-    token_folder='tokens/',
-    save_dir='model/',
-    num_shufflings=1000,
-    embedding_dim=100
-)
-
-# Step 3: Evaluate
-metrics = evaluate_embeddings(
-    embeddings_file='model/embeddings.npy',
-    labels_file='metadata.csv'
-)
-```
-
-### scATAC-seq Analysis Pipeline
-
-```python
-import scanpy as sc
-from geniml.scembed import ScEmbed
-from geniml.io import tokenize_cells
-
-# Step 1: Load data
-adata = sc.read_h5ad('scatac_data.h5ad')
-
-# Step 2: Tokenize cells
-tokenize_cells(
-    adata='scatac_data.h5ad',
-    universe_file='universe.bed',
-    output='tokens.parquet'
-)
-
-# Step 3: Train scEmbed
-model = ScEmbed(embedding_dim=100)
-model.train(dataset='tokens.parquet', epochs=100)
-
-# Step 4: Generate embeddings
-embeddings = model.encode(adata)
-adata.obsm['scembed_X'] = embeddings
-
-# Step 5: Cluster with scanpy
-sc.pp.neighbors(adata, use_rep='scembed_X')
-sc.tl.leiden(adata)
-sc.tl.umap(adata)
-```
-
-### Universe Building and Evaluation
-
-```bash
-# Generate coverage
-cat bed_files/*.bed > combined.bed
-uniwig -m 25 combined.bed chrom.sizes coverage/
-
-# Build universe with coverage cutoff
-geniml universe build cc \
-  --coverage-folder coverage/ \
-  --output-file universe.bed \
-  --cutoff 5 \
-  --merge 100 \
-  --filter-size 50
-
-# Evaluate universe quality
-geniml universe evaluate \
-  --universe universe.bed \
-  --coverage-folder coverage/ \
-  --bed-folder bed_files/
-```
-
-## CLI Reference
-
-Geniml provides command-line interfaces for major operations:
-
-```bash
-# Region2Vec training
-geniml region2vec --token-folder tokens/ --save-dir model/ --num-shuffle 1000
-
-# BEDspace preprocessing
-geniml bedspace preprocess --input regions/ --metadata labels.csv --universe universe.bed
-
-# BEDspace training
-geniml bedspace train --input preprocessed.txt --output model/ --dim 100
-
-# BEDspace search
-geniml bedspace search -t r2l -d distances.pkl -q query.bed -n 10
-
-# Universe building
-geniml universe build cc --coverage-folder coverage/ --output universe.bed --cutoff 5
-
-# BEDshift randomization
-geniml bedshift --input peaks.bed --genome hg38 --preserve-chrom --iterations 100
-```
 
 ## When to Use Which Tool
 
@@ -283,13 +167,6 @@ Geniml is part of the BEDbase ecosystem:
 - **Gtars**: Genomic tools and utilities
 - **BBClient**: Client for BEDbase repositories
 
-## Additional Resources
-
-- **Documentation**: https://docs.bedbase.org/geniml/
-- **GitHub**: https://github.com/databio/geniml
-- **Pre-trained models**: Available on Hugging Face (databio organization)
-- **Publications**: Cited in documentation for methodological details
-
 ## Troubleshooting
 
 **"Tokenization coverage too low":**
@@ -306,9 +183,3 @@ Geniml is part of the BEDbase ecosystem:
 - Reduce batch size for scEmbed
 - Process data in chunks
 - Use pre-tokenization for single-cell data
-
-**"StarSpace not found" (BEDspace):**
-- Install StarSpace separately: https://github.com/facebookresearch/StarSpace
-- Set `--path-to-starspace` parameter correctly
-
-For detailed troubleshooting and method-specific issues, consult the appropriate reference file.
