@@ -8,6 +8,10 @@ examples:
   - Review and address all unresolved comments in the current PR.
   - Summarize the feedback from trusted collaborators on my branch.
 ---
+# PR Fix: Comments
+
+Read all unresolved GitHub PR comments from trusted authors and address or resolve them appropriately.
+
 ## Instruction
 - Determine the target Pull Request using provided arguments or by fetching context from the current branch.
 - Use the GitHub GraphQL API to fetch all unresolved review threads and identify the first comment's author.
@@ -29,10 +33,6 @@ examples:
 - Automatically modified and linted source code addressing reviewer feedback.
 - Resolved GitHub review threads with explicit citations of product principles in the discussion.
 - A comprehensive PR overview comment summarizing resolution status, confidence metrics, and potential rule improvements.
-
-# PR Fix: Comments
-
-Read all unresolved GitHub PR comments from trusted authors and address or resolve them appropriately.
 
 ## Arguments
 
