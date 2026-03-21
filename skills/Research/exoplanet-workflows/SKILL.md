@@ -11,7 +11,7 @@ examples:
 
 # Exoplanet Workflows
 
-Support exoplanet workflows workflows with clear steps and best practices.
+Support exoplanet workflows with clear steps and best practices.
 
 ## Instruction
 - Analyze transit photometry data by processing light curves to identify periodic dips in stellar brightness.
