@@ -38,9 +38,6 @@ Use biomni for:
 
 ### 1. Agent Initialization
 
-The A1 class is the primary interface for biomni:
-
-
 **Supported LLM Providers:**
 - Anthropic Claude (recommended): `claude-sonnet-4-20250514`, `claude-opus-4-20250514`
 - OpenAI: `gpt-4`, `gpt-4-turbo`
@@ -51,20 +48,7 @@ The A1 class is the primary interface for biomni:
 
 ### 2. Task Execution Workflow
 
-Biomni follows an autonomous agent workflow:
-
 ### 3. Common Task Patterns
-
-#### CRISPR Screening Design
-
-
-#### Single-Cell RNA-seq Analysis
-
-
-#### Drug ADMET Prediction
-
-
-#### GWAS Variant Interpretation
 
 ### 4. Data Integration
 
@@ -79,11 +63,7 @@ Data is automatically downloaded to the specified `path` on first use.
 
 ### 5. MCP Server Integration
 
-Extend biomni with external tools via Model Context Protocol:
-
 ### 6. Evaluation Framework
-
-Benchmark agent performance on biomedical tasks:
 
 ## Best Practices
 
