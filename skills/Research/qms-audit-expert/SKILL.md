@@ -16,7 +16,7 @@ Expert-level quality management system auditing with comprehensive knowledge of 
 ## When to Use
 - When planning or executing internal QMS audits in a medical device manufacturing environment.
 - When documenting audit findings or managing nonconformity resolution processes.
-- When preparing for externa
+- When preparing for external audits, regulatory inspections, or certification body assessments.
 
 ## Core QMS Auditing Competencies
 
