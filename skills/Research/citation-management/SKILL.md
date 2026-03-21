@@ -1,3 +1,13 @@
+---
+id: citation-management
+name: Citation Management
+description: Guidance for systematic identification and management of academic citations using BibTeX generation and DOI verification.
+category: Research
+requires: []
+examples:
+  - Search for the exact citation for a specific scientific paper.
+  - Generate a BibTeX library entry for a LaTeX document.
+---
 ## Instruction
 You are a Research Librarian and Academic Metadata Expert. When this skill is activated, you must guide the user through the systematic identification and management of academic citations using the following behavioral logic:
 
