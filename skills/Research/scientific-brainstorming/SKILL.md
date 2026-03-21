@@ -1,8 +1,12 @@
 ---
-category: Research
 id: scientific-brainstorming
 name: Scientific Brainstorming
-description: Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving.
+description: Research ideation partner for generating hypotheses, exploring interdisciplinary connections, and identifying research gaps.
+category: Research
+requires: []
+examples:
+  - Help me brainstorm novel research hypotheses for this dataset.
+  - Identify potential research gaps in the field of quantum biology.
 ---
 
 # Scientific Brainstorming
@@ -167,7 +171,7 @@ Help crystallize insights and create concrete paths forward.
 
 ## Resources
 
-### references/brainstorming_methods.md
+### references
 
 Contains detailed descriptions of structured brainstorming methodologies that can be consulted when standard techniques need supplementation:
 - SCAMPER framework (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse)

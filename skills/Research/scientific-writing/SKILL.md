@@ -1,16 +1,14 @@
 ---
-category: Research
 id: scientific-writing
 name: Scientific Writing
-description: Academic research assistant for literature reviews, paper analysis, and scholarly writing.
-  Academic research assistant for literature reviews, paper analysis, and scholarly writing.
-  Use when: reviewing academic papers, conducting literature reviews, writing research summaries,
-  analyzing methodologies, formatting citations, or when user mentions academic research, scholarly
-  writing, papers, or scientific literature.
-license: MIT
-metadata:
-  author: awesome-llm-apps
-  version: "1.0.0"
+description: Academic research assistant for literature reviews, paper analysis, and structuring scholarly writing.
+category: Research
+author: awesome-llm-apps
+version: 1.0.0
+requires: []
+examples:
+  - Help me structure the introduction section of my research paper.
+  - Format my citations in APA style for this literature review.
 ---
 
 # Academic Researcher

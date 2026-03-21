@@ -1,9 +1,12 @@
 ---
-category: Research
 id: setting-up-experiment-tracking
 name: Setting Up Experiment Tracking
-description: This skill automates the setup of machine learning experiment tracking using tools like MLflow or Weights & Biases (W&B). It is triggered when the user requests to "track experiments", "setup experiment tracking", "initialize MLflow", or "integrate W&B". The skill configures the necessary environment, initializes the tracking server (if needed), and provides code snippets for logging experiment parameters, metrics, and artifacts. It helps ensure reproducibility and simplifies the comparison of different model runs.
-  This skill automates the setup of machine learning experiment tracking using tools like MLflow or Weights & Biases (W&B). It is triggered when the user requests to "track experiments", "setup experiment tracking", "initialize MLflow", or "integrate W&B". The skill configures the necessary environment, initializes the tracking server (if needed), and provides code snippets for logging experiment parameters, metrics, and artifacts. It helps ensure reproducibility and simplifies the comparison of different model runs.
+description: Automate machine learning experiment tracking setup using tools like MLflow or Weights & Biases (W&B) for reproducibility.
+category: Research
+requires: []
+examples:
+  - Setup experiment tracking with MLflow for my current project.
+  - How do I integrate Weights & Biases into my PyTorch training loop?
 ---
 
 ## Overview
@@ -24,6 +27,11 @@ This skill activates when you need to:
 - Integrate experiment tracking into an existing ML project.
 - Quickly set up MLflow or Weights & Biases for experiment management.
 - Automate the process of logging parameters, metrics, and artifacts.
+
+## Output
+- Environment setup logs and confirmation of the initialized tracking tool.
+- Reusable Python code templates for logging experiment parameters, metrics, and models.
+- A summarized tracking plan with recommendations for consistent metadata and artifact management.
 
 ## Examples
 

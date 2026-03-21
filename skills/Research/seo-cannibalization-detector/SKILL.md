@@ -1,12 +1,12 @@
 ---
-category: Research
 id: seo-cannibalization-detector
 name: SEO Cannibalization Detector
-description: Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.
-  potential cannibalization issues. Suggests differentiation strategies. Use
-  PROACTIVELY when reviewing similar content.
-metadata:
-  model: haiku
+description: Identify keyword overlap and potential cannibalization issues across multiple pages to suggest differentiation and consolidation strategies.
+category: Research
+requires: []
+examples:
+  - Check if these three URLs are competing for the same keywords.
+  - Analyze these pages for SEO cannibalization and suggest a resolution strategy.
 ---
 
 ## Use this skill when

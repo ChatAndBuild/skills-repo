@@ -1,15 +1,12 @@
 ---
 id: scope-logic-analyzer
 name: Scope Logic Analyzer
-description: Test equipment integration for signal analysis (oscilloscope and logic analyzer).
+description: Test equipment integration for automated measurements and protocol decoding using oscilloscopes and logic analyzers.
 category: Research
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
+requires: []
+examples:
+  - Automate a rise time measurement for CH1 on my oscilloscope.
+  - How do I set up an I2C protocol decoder on my logic analyzer?
 ---
 
 # Oscilloscope/Logic Analyzer Skill
@@ -17,6 +14,24 @@ allowed-tools:
 ## Overview
 
 This skill provides test equipment integration for signal analysis, enabling automated measurements, protocol decoding, and timing verification using oscilloscopes and logic analyzers.
+
+## Instruction
+- Configure oscilloscope parameters including channel scaling, trigger levels, and time-base settings via automated SCPI commands.
+- Execute automated signal integrity measurements such as rise/fall times, jitter analysis, and eye diagram generation.
+- Set up logic analyzer captures, defining sample rates, capture depths, and trigger conditions for digital bus analysis.
+- Implement protocol decoding for standard interfaces including I2C, SPI, UART, and CAN/LIN.
+- Perform timing validation for hardware bring-up, focusing on setup/hold time verification and propagation delays.
+- Export waveform data and capture logs for documentation and remote debugging of hardware issues.
+
+## When to Use
+- When automating repetitive signal measurements during hardware validation or EMI pre-compliance testing.
+- When debugging complex serial communication protocols or verifying real-time timing performance in embedded systems.
+- When needing to correlate analog waveforms with digital logic states during system-level troubleshooting.
+
+## Output
+- Automated measurement reports including signal timing and amplitude statistics.
+- Decoded protocol logs and timing diagrams highlighting bus events or errors.
+- Technical advice on equipment configuration and optimal probe placement for high-fidelity signal capture.
 
 ## Capabilities
 
@@ -77,9 +92,9 @@ This skill provides test equipment integration for signal analysis, enabling aut
 
 ## Target Processes
 
-- `signal-integrity-testing.js` - Signal quality validation
-- `hardware-bring-up.js` - Initial signal verification
-- `real-time-performance-validation.js` - Timing validation
+Signal quality validation
+Initial signal verification
+Timing validation
 
 ## Dependencies
 
@@ -97,39 +112,3 @@ This skill is invoked when tasks require:
 - Hardware validation
 - EMI pre-compliance testing
 
-## Measurement Examples
-
-### Rise Time Measurement
-```python
-scope.channel[1].enabled = True
-scope.channel[1].scale = 1.0  # V/div
-scope.trigger.source = "CH1"
-scope.trigger.level = 1.65  # V
-scope.trigger.slope = "RISE"
-
-measurement = scope.measure.rise_time("CH1")
-print(f"Rise time: {measurement * 1e9:.2f} ns")
-```
-
-### Logic Analyzer Capture
-```python
-analyzer.set_sample_rate(24e6)  # 24 MHz
-analyzer.set_capture_depth(10e6)  # 10M samples
-analyzer.add_decoder("i2c", sda=0, scl=1)
-analyzer.trigger.add_condition("i2c_start")
-analyzer.start_capture()
-```
-
-## Configuration
-
-```yaml
-equipment:
-  oscilloscope:
-    type: keysight | tektronix | rigol
-    connection: visa | usb | ethernet
-    address: "TCPIP::192.168.1.100::INSTR"
-  logic_analyzer:
-    type: saleae | sigrok
-    sample_rate: 24MHz
-    channels: 8
-```
