@@ -1,16 +1,35 @@
 ---
-category: Research
 id: geo-fundamentals
 name: Geo Fundamentals
-description: Step-by-step guidance for geo fundamentals.
-allowed-tools: Read, Glob, Grep
+description: Optimization for AI-powered search engines (Generative Engine Optimization) to enhance citation rates and authority signals.
+category: Research
+requires: []
+examples:
+  - What is Generative Engine Optimization and how does it differ from SEO?
+  - How can I optimize my content to be cited by AI engines like Perplexity or Claude?
 ---
 
 # GEO Fundamentals
 
 > Optimization for AI-powered search engines.
 
----
+## Instruction
+- Prioritize the creation of content that gets cited, such as original statistics, expert quotes, and comparison tables.
+- Implement a GEO checklist: include question-based titles, TL;DR summaries at the top, and clear definitions.
+- Use Schema markup (Article, Person, FAQPage) to enhance semantic recognition and authority signals for AI crawlers.
+- Monitor AI crawler access via User-Agents like `GPTBot` or `PerplexityBot` and decide on access strategies based on citation goals.
+- Build entities through Google Knowledge Panels and industry mentions to consolidate brand authority in RAG retrieval models.
+- Track performance metrics such as AI citation rate and "According to [Brand]" mentions using manual monitoring or UTM parameters.
+
+## When to Use
+- When optimizing digital content to be retrieved and cited by generative AI engines like ChatGPT, Claude, and Perplexity.
+- When the goal is to enhance brand authority and "mindshare" within AI-generated responses rather than traditional search rankings.
+- When developing a content strategy that focuses on structured data and entity recognition for RAG-based systems.
+
+## Output
+- A GEO audit report evaluating the "citation readiness" of specific content or projects.
+- A roadmap for content optimization including recommended FAQ sections and schema updates.
+- Comparative analysis of AI citation share against competitors in a specific industry.
 
 ## 1. What is GEO?
 
