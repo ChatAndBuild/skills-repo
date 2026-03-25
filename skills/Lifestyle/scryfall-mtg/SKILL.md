@@ -3,6 +3,16 @@ category: Lifestyle
 id: scryfall-mtg
 name: scryfall-mtg
 description: "Search and retrieve Magic: The Gathering card data using the Scryfall API. Use this skill when the user asks about MTG cards, wants to search for cards by name, type, color, mana cost, oracle text, set, or any other card attribute. Also use for getting card images, prices, rulings, legality information, or random cards. Triggers include mentions of MTG, Magic, Magic: The Gathering, card names, deck building questions, or requests for card information."
+requires:
+  - A card name, Scryfall-style query, or intent (e.g. search, exact named lookup, random card, autocomplete)
+  - Optional filters (set, format legality, colors, type, CMC, oracle text) when refining results
+examples:
+  - Search Scryfall for red creatures with power 3
+  - Look up Lightning Bolt—oracle text, image, and USD price
+  - Random legendary Merfolk
+  - Is Sol Ring legal in Commander?
+  - Fuzzy match "jac bele" and show the correct Jace card
+  - python3 scripts/scryfall_search.py search "t:dragon c:green"
 ---
 
 # Scryfall MTG Card Search

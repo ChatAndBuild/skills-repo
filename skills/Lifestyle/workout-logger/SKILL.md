@@ -1,8 +1,18 @@
 ---
 category: Lifestyle
 id: workout-logger
-name: workout-logger
+name: Workout Logger
 description: Log workouts, track progress, get exercise suggestions and PR tracking.
+requires:
+  - To log a session: exercise name and details (weight/reps/sets, or distance/time/pace, or duration and activity type)
+  - For PRs, progress, history, or suggestions: name the lift or muscle group and optionally a time range (e.g. this week, last month)
+examples:
+  - Bench press 185lbs 3x8
+  - Ran 5k in 24 minutes
+  - What's my bench PR?
+  - Show deadlift progress this month
+  - What should I do for back today?
+  - Last chest workout
 author: clawd-team
 version: 1.0.0
 triggers:

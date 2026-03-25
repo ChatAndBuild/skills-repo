@@ -3,6 +3,12 @@ category: Lifestyle
 id: soulstamp
 name: soulstamp
 description: The stamp doesn't lie. It tells a different truth. Instead of rules, forge your AI a past — a coherent history that makes its behaviors intrinsic, not imposed. Based on Brandon Sanderson's The Emperor's Soul.
+requires: []
+examples:
+  - Help me soulstamp my agent—walk me through forging a coherent alternate history
+  - Turn these rules into intrinsic identity (character, not compliance)
+  - Review my SOUL.md draft for plausibility and weak spots in the forged past
+  - I want behaviors X and Y to feel natural, not like instructions—help me write the stamp
 ---
 
 # Soulstamp Skill

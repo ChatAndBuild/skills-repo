@@ -1,8 +1,16 @@
 ---
 category: Lifestyle
 id: thought-experiment-design
-name: thought-experiment-design
+name: Thought Experiment Design
 description: Construct, analyze, and evaluate philosophical thought experiments to test intuitions, reveal conceptual commitments, and probe theoretical implications.
+requires:
+  - A philosophical topic, theory, or intuition you want to probe—or an existing thought experiment to analyze or refine
+  - Optional: domain (e.g. ethics, mind, metaphysics), intended audience, or competing theories to compare
+examples:
+  - Design a minimal thought experiment that tests intuitions about personal identity
+  - Critique this scenario—what are the confounds and how would you tighten it?
+  - Help me build a trolley-style case that isolates utilitarian vs deontological commitments
+  - Evaluate whether this thought experiment fairly represents the view it targets
 allowed-tools:
   - Read
   - Write

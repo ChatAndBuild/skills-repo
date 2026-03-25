@@ -1,10 +1,16 @@
 ---
 id: parking-finder
-name: parking-finder
+name: Parking Finder
 description: Locate parking garages, lots, and street parking near your destination using Camino AI's location intelligence with AI-powered ranking.
 category: Lifestyle
-metadata:
-  {"clawdbot":{"emoji":"🅿️","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
+requires:
+  - A destination or area (place name, address, landmark, or venue)—optional lat/lon and search radius if you have them
+  - CAMINO_API_KEY set in the environment for API/script calls (see Setup)
+examples:
+  - Find parking near Madison Square Garden
+  - Parking garages within 500m of these coordinates (40.7505, -73.9934)
+  - Street parking options near Union Square San Francisco
+  - Run parking-finder.sh with query "parking near SFO" and limit 10
 ---
 
 # Parking Finder

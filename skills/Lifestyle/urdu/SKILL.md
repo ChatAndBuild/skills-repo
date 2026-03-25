@@ -3,6 +3,15 @@ category: Lifestyle
 id: urdu
 name: urdu
 description: Write Urdu that sounds human. Not formal, not robotic, not AI-generated.
+requires:
+  - Text to write, translate, or rewrite—or a clear question about register (formal vs casual) or آپ / تم / تو
+  - Optional: audience (peer, elder, online), and Nastaliq script vs Roman Urdu for casual digital use
+examples:
+  - Rewrite this in natural casual Urdu—it sounds too ادبی
+  - Translate this to Urdu for a text to a close friend
+  - Should I use آپ or تم in this message?
+  - Write a short Urdu reply in Roman Urdu
+  - Make this sound like a native speaker, not AI-generated
 ---
 
 ## The Real Problem

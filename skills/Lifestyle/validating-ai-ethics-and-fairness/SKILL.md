@@ -1,7 +1,7 @@
 ---
 category: Lifestyle
 id: validating-ai-ethics-and-fairness
-name: validating-ai-ethics-and-fairness
+name: Validating AI Ethics And Fairness
 description: Validate AI/ML models and datasets for bias, fairness, and ethical concerns; audit AI systems for ethical compliance and bias detection.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*)
 version: 1.0.0

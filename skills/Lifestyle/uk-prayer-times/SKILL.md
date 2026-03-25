@@ -4,6 +4,18 @@ id: uk-prayer-times
 name: uk-prayer-times
 version: 1.0.0
 description: Get instant, accurate Islamic prayer times for any UK location. Auto-detects your city or accepts any UK location name (cities, towns, boroughs). Handles typos with smart fuzzy search. Shows Fajr, Sunrise, Dhuhr, Asr, Maghrib, and Isha times in 12-hour format. Uses ISNA calculation method (UK standard) via Aladhan API. Perfect for UK Muslims checking daily salah times.
+requires:
+  - Nothing required for auto-detect (IP-based UK location)
+  - Optional UK place name (city, town, borough, or multi-word area) for a specific location
+  - Optional single prayer (Fajr, Dhuhr, Asr, Maghrib, Isha, etc.) together with the place if you only want one time
+examples:
+  - prayer times
+  - prayer times Birmingham
+  - prayer times Tower Hamlets
+  - Asr in Leicester
+  - Maghrib in Woolwich
+  - python uk_prayer_times.py
+  - python uk_prayer_times.py Woolwich
 ---
 
 # UK Prayer Times
@@ -36,12 +48,12 @@ Works with typos: "Leicestr", "Bimringham" - fuzzy search finds it!
 
 ## Features
 
-✅ Auto-detects your location (via IP)
-✅ Works for ANY UK city, town, or area
-✅ Handles typos and misspellings
-✅ Shows location clearly at top of results
-✅ 12-hour format (AM/PM)
-✅ Uses ISNA calculation method (UK standard)
+- Auto-detects your location (via IP)
+- Works for any UK city, town, or area
+- Handles typos and misspellings
+- Shows location clearly at top of results
+- 12-hour format (AM/PM)
+- Uses ISNA calculation method (UK standard)
 
 ## Examples
 ```bash
@@ -71,8 +83,8 @@ python uk_prayer_times.py "Tower Hamlets"
 ## Output Format
 ```
 ==================================================
-🕌 PRAYER TIMES - BIRMINGHAM
-📅 08 Feb 2026
+PRAYER TIMES - BIRMINGHAM
+08 Feb 2026
 ==================================================
 
 Fajr:    06:02 AM

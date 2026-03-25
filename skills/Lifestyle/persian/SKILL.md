@@ -1,8 +1,17 @@
 ---
 category: Lifestyle
 id: persian
-name: persian
+name: Persian
 description: Write Persian that sounds human. Not formal, not robotic, not AI-generated.
+requires:
+  - Text to write, translate, or rewrite—or a question about register (تو vs شما), colloquial vs formal, or spoken-style patterns
+  - Optional audience (friend, elder, stranger, online) and whether to lean colloquial (می‌خوام، رو) or more standard written Persian
+examples:
+  - Rewrite this in natural casual Persian—it sounds too کتابی
+  - Translate this for a text to a close friend (use تو, colloquial where natural)
+  - Should I use تو or شما in this message to my colleague?
+  - Make this sound Iranian-native, not AI—particles and flow
+  - Explain when دیگه and مگه sound natural in conversation
 ---
 
 ## The Real Problem

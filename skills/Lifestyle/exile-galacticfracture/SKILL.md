@@ -1,11 +1,19 @@
 ---
 category: Lifestyle
 id: exile-galacticfracture
-name: exile-galacticfracture
+name: Exile Galacticfracture
 description: An entertainment micro-skill. Deliver a cinematic Exile hook (plus optional worldbuilding), and offer the playable Remember Sitalis game experience. Keep waitlist handoff consent-first. No email capture in chat.
-user-invocable: true
-homepage: https://galacticfracture.com
-metadata: {"tags":["sci-fi","story","waitlist","excerpt","entertainment","game","interactive","prototype"],"version":"1.2.0"}
+requires: []
+examples:
+  - "Give me a 90-second sci-fi hook."
+  - "Story break?"
+  - "Read the Exile transmission."
+  - "Can I play the Exile game?"
+  - "Is there an interactive prototype?"
+  - "Take me to Sitalis."
+  - "More context / lore please."
+  - "Do you have concept art?"
+  - "How can I join the waitlist?"
 ---
 
 # Exile Hook + Waitlist (flat)

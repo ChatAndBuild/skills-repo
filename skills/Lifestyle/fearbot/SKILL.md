@@ -5,17 +5,25 @@ name: fearbot
 description: CBT-based therapy for anxiety, depression, stress, and trauma. Provides structured cognitive behavioral therapy using Beck's model with validated clinical assessments (GAD-7, PHQ-9, DASS-21, PCL-5). Includes crisis detection, thought records, differential diagnosis, and session tracking. Activate with "therapy mode", "fearbot", or "start therapy".
 version: 1.0.0
 author: Samoppakiks
-homepage: https://clawhub.ai/Samoppakiks/fearbot
-tags: [therapy, cbt, mental-health, anxiety, depression, ptsd, wellness, psychology]
+requires: []
+examples:
+  - "therapy mode"
+  - "start therapy"
+  - "fearbot"
+  - "let's do therapy"
+  - "I'm anxious"
+  - "feeling anxious"
+  - "thought record"
+  - "log this anxiety"
 ---
 
-# FearBot 🧠
+# FearBot
 
 > **CBT-based therapy for anxiety, depression, stress & trauma**
 
 A comprehensive Cognitive Behavioral Therapy skill that turns your OpenClaw agent into a structured therapy companion. Handles the full spectrum of common mental health concerns using evidence-based techniques.
 
-## ⚠️ Important Disclaimers
+## Important Disclaimers
 
 **THIS IS NOT A REPLACEMENT FOR PROFESSIONAL MENTAL HEALTH CARE.**
 
@@ -142,4 +150,4 @@ MIT — Use freely, modify freely, help people freely.
 
 ---
 
-*Built by someone with anxiety, for people with anxiety.* 🧠
+

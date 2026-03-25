@@ -2,11 +2,13 @@
 category: Lifestyle
 id: gita-sotd
 name: gita-sotd
-description: Guidance and answers for gita sotd.
-  Get the Bhagavad Gita Slok of the Day (SOTD) or fetch specific verses.
-  Use when the user asks for a Gita verse, slok, daily wisdom from the Gita,
-  Hindu scripture quotes, or anything related to the Bhagavad Gita text.
-  Supports Sanskrit text, transliteration, and translations from multiple scholars.
+description: >-
+  Fetch Bhagavad Gita verses via the vedicscriptures API: deterministic Slok of
+  the Day, a specific chapter and verse, or a random verse—with Sanskrit,
+  transliteration, and translations from multiple scholars (Prabhupada, Sivananda,
+  Chinmayananda, and others). Use for daily Gita wisdom, slok quotes, and scripture study.
+requires: []
+examples: []
 ---
 
 # Bhagavad Gita Slok of the Day

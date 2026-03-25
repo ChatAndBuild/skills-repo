@@ -3,6 +3,15 @@ category: Lifestyle
 id: norwegian
 name: norwegian
 description: Write Norwegian that sounds human. Not formal, not robotic, not AI-generated.
+requires:
+  - Text to write, translate, or rewrite—or a question about Norwegian (particles, dialect, bokmål vs nynorsk, register)
+  - Optional written standard (bokmål or nynorsk—do not mix), and casual vs formal tone
+examples:
+  - Rewrite this in casual Norwegian—it reads like textbook bokmål
+  - Translate this to Norwegian for a text to a friend
+  - Bokmål or nynorsk for this piece? Keep one standard throughout
+  - When should I use jo, da, vel, and nok in a sentence?
+  - Make this sound like a native, not AI—more particles and fillers
 ---
 
 ## The Real Problem

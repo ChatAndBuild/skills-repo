@@ -1,10 +1,18 @@
 ---
 category: Lifestyle
 id: council
-name: council
+name: Council
 description: Guidance and answers for council.
 implements: Science
 science_cycle_time: meso
+requires:
+  - A topic, decision, or question for the council to debate
+  - Optional preference for full DEBATE (3 rounds) vs QUICK (1 round), or extra domains (e.g. security)
+examples:
+  - "Council: Should we use WebSockets or SSE?"
+  - "Quick council check: Is this API design reasonable?"
+  - "Council with security: Evaluate this auth approach"
+  - "Run a 3-round council on whether to migrate our database"
 ---
 
 ## Customization
@@ -15,7 +23,7 @@ science_cycle_time: meso
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
 
-## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
+## MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
 
 **You MUST send this notification BEFORE doing anything else when this skill is invoked.**
 
