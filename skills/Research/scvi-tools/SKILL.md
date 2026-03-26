@@ -1,8 +1,12 @@
 ---
-category: Research
 id: scvi-tools
 name: scvi-tools
-description: Step-by-step guidance for scvi-tools.
+description: Variational inference framework for probabilistic modeling of single-cell genomics data modalities.
+category: Research
+requires: []
+examples:
+  - Perform batch correction on my single-cell RNA-seq data using scVI.
+  - Annotate cell types in my dataset using a semi-supervised scANVI model.
 ---
 
 # scvi-tools
@@ -22,6 +26,19 @@ Use this skill when:
 - Conducting cell type annotation or transfer learning tasks
 - Working with specialized single-cell modalities (methylation, cytometry, RNA velocity)
 - Building custom probabilistic models for single-cell analysis
+
+## Instruction
+- Register the single-cell dataset using `setup_anndata`, ensuring all relevant covariates (batch, donor, cell-cycle) are correctly identified.
+- Initialize and train probabilistic models such as scVI for batch correction and integration of single-cell RNA-seq data.
+- Utilize semi-supervised models like scANVI for automated cell type annotation and transfer learning across datasets.
+- Perform multimodal analysis using models like TotalVI for combined RNA and surface protein (CITE-seq) data.
+- Execute differential expression analysis using the model's posterior distributions for robust, uncertainty-aware statistical testing.
+- Optimize training performance by enabling GPU acceleration and monitoring convergence via training history logs.
+
+## Output
+- Trained scvi-tools models and associated latent representations (embeddings).
+- Summarized integration reports highlighting batch correction success and identified cell clusters.
+- Actionable differential expression results and cell-type annotation labels with confidence scores.
 
 ## Core Capabilities
 
@@ -65,41 +82,19 @@ Additional specialized analysis tools. See `references/models-specialized.md` fo
 
 All scvi-tools models follow a consistent API pattern:
 
-```python
-# 1. Load and preprocess data (AnnData format)
-import scvi
-import scanpy as sc
 
-adata = scvi.data.heart_cell_atlas_subsampled()
-sc.pp.filter_genes(adata, min_counts=3)
-sc.pp.highly_variable_genes(adata, n_top_genes=1200)
+1. Load and preprocess data (AnnData format)
 
-# 2. Register data with model (specify layers, covariates)
-scvi.model.SCVI.setup_anndata(
-    adata,
-    layer="counts",  # Use raw counts, not log-normalized
-    batch_key="batch",
-    categorical_covariate_keys=["donor"],
-    continuous_covariate_keys=["percent_mito"]
-)
+2. Register data with model (specify layers, covariates)
 
-# 3. Create and train model
-model = scvi.model.SCVI(adata)
-model.train()
+3. Create and train model
 
-# 4. Extract latent representations and normalized values
-latent = model.get_latent_representation()
-normalized = model.get_normalized_expression(library_size=1e4)
+4. Extract latent representations and normalized values
 
-# 5. Store in AnnData for downstream analysis
-adata.obsm["X_scVI"] = latent
-adata.layers["scvi_normalized"] = normalized
+5. Store in AnnData for downstream analysis
 
-# 6. Downstream analysis with scanpy
-sc.pp.neighbors(adata, use_rep="X_scVI")
-sc.tl.umap(adata)
-sc.tl.leiden(adata)
-```
+6. Downstream analysis with scanpy
+
 
 **Key Design Principles:**
 - **Raw counts required**: Models expect unnormalized count data for optimal performance
@@ -111,43 +106,14 @@ sc.tl.leiden(adata)
 ## Common Analysis Tasks
 
 ### Differential Expression
-Probabilistic DE analysis using the learned generative models:
-
-```python
-de_results = model.differential_expression(
-    groupby="cell_type",
-    group1="TypeA",
-    group2="TypeB",
-    mode="change",  # Use composite hypothesis testing
-    delta=0.25      # Minimum effect size threshold
-)
-```
-
-See `references/differential-expression.md` for detailed methodology and interpretation.
+Probabilistic DE analysis using the learned generative models
 
 ### Model Persistence
-Save and load trained models:
+Save and load trained models
 
-```python
-# Save model
-model.save("./model_directory", overwrite=True)
-
-# Load model
-model = scvi.model.SCVI.load("./model_directory", adata=adata)
-```
 
 ### Batch Correction and Integration
 Integrate datasets across batches or studies:
-
-```python
-# Register batch information
-scvi.model.SCVI.setup_anndata(adata, batch_key="study")
-
-# Model automatically learns batch-corrected representations
-model = scvi.model.SCVI(adata)
-model.train()
-latent = model.get_latent_representation()  # Batch-corrected
-```
 
 ## Theoretical Foundations
 
@@ -157,23 +123,6 @@ scvi-tools is built on:
 - **Amortized inference**: Shared neural networks for efficient learning across cells
 - **Probabilistic modeling**: Principled uncertainty quantification and statistical testing
 
-See `references/theoretical-foundations.md` for detailed background on the mathematical framework.
-
-## Additional Resources
-
-- **Workflows**: `references/workflows.md` contains common workflows, best practices, hyperparameter tuning, and GPU optimization
-- **Model References**: Detailed documentation for each model category in the `references/` directory
-- **Official Documentation**: https://docs.scvi-tools.org/en/stable/
-- **Tutorials**: https://docs.scvi-tools.org/en/stable/tutorials/index.html
-- **API Reference**: https://docs.scvi-tools.org/en/stable/api/index.html
-
-## Installation
-
-```bash
-uv pip install scvi-tools
-# For GPU support
-uv pip install scvi-tools[cuda]
-```
 
 ## Best Practices
 

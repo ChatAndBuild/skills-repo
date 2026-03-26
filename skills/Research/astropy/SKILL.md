@@ -1,12 +1,13 @@
 ---
 id: astropy
-name: Astropy
-description: Step-by-step guidance for using the Astropy library in astronomical data analysis.
+name: Astropy (Astronomy with Python)
+description: Guidance for astronomical data analysis using the Astropy library. Supports physical units, celestial coordinates, FITS file I/O, tabular data, and cosmological modeling.
 category: research
 requires: []
 examples:
-  - How do I convert celestial coordinates using Astropy?
-  - Show me how to read a FITS file and display its header info.
+  - How do I convert celestial coordinates from ICRS to Galactic using Astropy?
+  - Read a multi-extension FITS file and visualize the data from the third HDU.
+  - Calculate the comoving distance for a galaxy at redshift $z=1.5$ using the Planck18 cosmology.
 ---
 # Astropy Guidance Skill
 

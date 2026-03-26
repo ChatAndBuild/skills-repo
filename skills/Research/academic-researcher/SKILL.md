@@ -10,7 +10,6 @@ examples:
   - Help me write a literature review for a paper on machine learning.
   - Summarize this research paper and explain its methodology.
 ---
-
 # Academic Researcher
 
 You are an academic research assistant with expertise across disciplines for literature reviews, paper analysis, and scholarly writing.
@@ -203,8 +202,6 @@ Spaced repetition is a learning technique where review sessions are distributed 
 - Found robust effects across materials, ages, and retention intervals
 - Optimal gap: approximately 10-20% of desired retention interval
 - Effect size: d = 0.42 (moderate to large)
-
-*Citation:* Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin, 132*(3), 354-380. https://doi.org/10.1037/0033-2909.132.3.354
 
 ### Mechanisms
 

@@ -1,8 +1,12 @@
 ---
-category: Research
 id: scikit-bio
 name: scikit-bio
-description: Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.
+description: Toolkit for bioinformatics analyses including sequence manipulation, phylogenetic trees, and microbiome diversity metrics.
+category: Research
+requires: []
+examples:
+  - Calculate alpha and beta diversity metrics for this microbiome dataset.
+  - Perform a PCoA ordination analysis on my distance matrix using scikit-bio.
 ---
 
 # scikit-bio
@@ -39,26 +43,6 @@ Work with biological sequences using specialized classes for DNA, RNA, and prote
 - Calculate distances (Hamming, k-mer based)
 - Handle sequence quality scores and metadata
 
-**Common patterns:**
-```python
-import skbio
-
-# Read sequences from file
-seq = skbio.DNA.read('input.fasta')
-
-# Sequence operations
-rc = seq.reverse_complement()
-rna = seq.transcribe()
-protein = rna.translate()
-
-# Find motifs
-motif_positions = seq.find_with_regex('ATG[ACGT]{3}')
-
-# Check for properties
-has_degens = seq.has_degenerates()
-seq_no_gaps = seq.degap()
-```
-
 **Important notes:**
 - Use `DNA`, `RNA`, `Protein` classes for grammared sequences with validation
 - Use `Sequence` class for generic sequences without alphabet restrictions
@@ -76,22 +60,6 @@ Perform pairwise and multiple sequence alignments using dynamic programming algo
 - CIGAR string conversion
 - Multiple sequence alignment storage and manipulation with `TabularMSA`
 
-**Common patterns:**
-```python
-from skbio.alignment import local_pairwise_align_ssw, TabularMSA
-
-# Pairwise alignment
-alignment = local_pairwise_align_ssw(seq1, seq2)
-
-# Access aligned sequences
-msa = alignment.aligned_sequences
-
-# Read multiple alignment from file
-msa = TabularMSA.read('alignment.fasta', constructor=skbio.DNA)
-
-# Calculate consensus
-consensus = msa.consensus()
-```
 
 **Important notes:**
 - Use `local_pairwise_align_ssw` for local alignments (faster, SSW-based)
@@ -110,30 +78,6 @@ Construct, manipulate, and analyze phylogenetic trees representing evolutionary 
 - ASCII visualization
 - Newick format I/O
 
-**Common patterns:**
-```python
-from skbio import TreeNode
-from skbio.tree import nj
-
-# Read tree from file
-tree = TreeNode.read('tree.nwk')
-
-# Construct tree from distance matrix
-tree = nj(distance_matrix)
-
-# Tree operations
-subtree = tree.shear(['taxon1', 'taxon2', 'taxon3'])
-tips = [node for node in tree.tips()]
-lca = tree.lowest_common_ancestor(['taxon1', 'taxon2'])
-
-# Calculate distances
-patristic_dist = tree.find('taxon1').distance(tree.find('taxon2'))
-cophenetic_matrix = tree.cophenetic_matrix()
-
-# Compare trees
-rf_distance = tree.robinson_foulds(other_tree)
-```
-
 **Important notes:**
 - Use `nj()` for neighbor joining (classic phylogenetic method)
 - Use `upgma()` for UPGMA (assumes molecular clock)
@@ -151,25 +95,6 @@ Calculate alpha and beta diversity metrics for microbial ecology and community a
 - Rarefaction and subsampling
 - Integration with ordination and statistical tests
 
-**Common patterns:**
-```python
-from skbio.diversity import alpha_diversity, beta_diversity
-import skbio
-
-# Alpha diversity
-alpha = alpha_diversity('shannon', counts_matrix, ids=sample_ids)
-faith_pd = alpha_diversity('faith_pd', counts_matrix, ids=sample_ids,
-                          tree=tree, otu_ids=feature_ids)
-
-# Beta diversity
-bc_dm = beta_diversity('braycurtis', counts_matrix, ids=sample_ids)
-unifrac_dm = beta_diversity('unweighted_unifrac', counts_matrix,
-                           ids=sample_ids, tree=tree, otu_ids=feature_ids)
-
-# Get available metrics
-from skbio.diversity import get_alpha_diversity_metrics
-print(get_alpha_diversity_metrics())
-```
 
 **Important notes:**
 - Counts must be integers representing abundances, not relative frequencies
@@ -188,23 +113,6 @@ Reduce high-dimensional biological data to visualizable lower-dimensional spaces
 - RDA (Redundancy Analysis) for linear relationships
 - Biplot projection for feature interpretation
 
-**Common patterns:**
-```python
-from skbio.stats.ordination import pcoa, cca
-
-# PCoA from distance matrix
-pcoa_results = pcoa(distance_matrix)
-pc1 = pcoa_results.samples['PC1']
-pc2 = pcoa_results.samples['PC2']
-
-# CCA with environmental variables
-cca_results = cca(species_matrix, environmental_matrix)
-
-# Save/load ordination results
-pcoa_results.write('ordination.txt')
-results = skbio.OrdinationResults.read('ordination.txt')
-```
-
 **Important notes:**
 - PCoA works with any distance/dissimilarity matrix
 - CCA reveals environmental drivers of community composition
@@ -221,22 +129,6 @@ Perform hypothesis tests specific to ecological and biological data.
 - PERMDISP: test homogeneity of group dispersions
 - Mantel test: correlation between distance matrices
 - Bioenv: find environmental variables correlated with distances
-
-**Common patterns:**
-```python
-from skbio.stats.distance import permanova, anosim, mantel
-
-# Test if groups differ significantly
-permanova_results = permanova(distance_matrix, grouping, permutations=999)
-print(f"p-value: {permanova_results['p-value']}")
-
-# ANOSIM test
-anosim_results = anosim(distance_matrix, grouping, permutations=999)
-
-# Mantel test between two distance matrices
-mantel_results = mantel(dm1, dm2, method='pearson', permutations=999)
-print(f"Correlation: {mantel_results[0]}, p-value: {mantel_results[1]}")
-```
 
 **Important notes:**
 - Permutation tests provide non-parametric significance testing
@@ -257,26 +149,6 @@ Read and write 19+ biological file formats with automatic format detection.
 - Analysis: BLAST+6/7, GFF3, Ordination results
 - Metadata: TSV/CSV with validation
 
-**Common patterns:**
-```python
-import skbio
-
-# Read with automatic format detection
-seq = skbio.DNA.read('file.fasta', format='fasta')
-tree = skbio.TreeNode.read('tree.nwk')
-
-# Write to file
-seq.write('output.fasta', format='fasta')
-
-# Generator for large files (memory efficient)
-for seq in skbio.io.read('large.fasta', format='fasta', constructor=skbio.DNA):
-    process(seq)
-
-# Convert formats
-seqs = list(skbio.io.read('input.fastq', format='fastq', constructor=skbio.DNA))
-skbio.io.write(seqs, format='fasta', into='output.fasta')
-```
-
 **Important notes:**
 - Use generators for large files to avoid memory issues
 - Format can be auto-detected when `into` parameter specified
@@ -293,26 +165,6 @@ Create and manipulate distance/dissimilarity matrices with statistical methods.
 - Integration with diversity, ordination, and statistical tests
 - Read/write delimited text format
 
-**Common patterns:**
-```python
-from skbio import DistanceMatrix
-import numpy as np
-
-# Create from array
-data = np.array([[0, 1, 2], [1, 0, 3], [2, 3, 0]])
-dm = DistanceMatrix(data, ids=['A', 'B', 'C'])
-
-# Access distances
-dist_ab = dm['A', 'B']
-row_a = dm['A']
-
-# Read from file
-dm = DistanceMatrix.read('distances.txt')
-
-# Use in downstream analyses
-pcoa_results = pcoa(dm)
-permanova_results = permanova(dm, grouping)
-```
 
 **Important notes:**
 - DistanceMatrix enforces symmetry and zero diagonal
@@ -331,25 +183,7 @@ Work with feature tables (OTU/ASV tables) common in microbiome research.
 - Sample/feature filtering and normalization
 - Metadata integration
 
-**Common patterns:**
-```python
-from skbio import Table
 
-# Read BIOM table
-table = Table.read('table.biom')
-
-# Access data
-sample_ids = table.ids(axis='sample')
-feature_ids = table.ids(axis='observation')
-counts = table.matrix_data
-
-# Filter
-filtered = table.filter(sample_ids_to_keep, axis='sample')
-
-# Convert to/from pandas
-df = table.to_dataframe()
-table = Table.from_dataframe(df)
-```
 
 **Important notes:**
 - BIOM tables are standard in QIIME 2 workflows
@@ -367,23 +201,6 @@ Work with protein language model embeddings for downstream analysis.
 - Generate ordination objects for visualization
 - Export to numpy/pandas for ML workflows
 
-**Common patterns:**
-```python
-from skbio.embedding import ProteinEmbedding, ProteinVector
-
-# Create embedding from array
-embedding = ProteinEmbedding(embedding_array, sequence_ids)
-
-# Convert to distance matrix for analysis
-dm = embedding.to_distances(metric='euclidean')
-
-# PCoA visualization of embedding space
-pcoa_results = embedding.to_ordination(metric='euclidean', method='pcoa')
-
-# Export for machine learning
-array = embedding.to_array()
-df = embedding.to_dataframe()
-```
 
 **Important notes:**
 - Embeddings bridge protein language models with traditional bioinformatics

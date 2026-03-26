@@ -1,14 +1,14 @@
 ---
-category: Research
 id: openspec-archive-change
 name: OpenSpec Archive Change
-description: Archive multiple completed changes at once.
-license: MIT
-compatibility: Requires openspec CLI.
-metadata:
-  author: openspec
-  version: "1.0"
-  generatedBy: "1.1.1"
+description: Batch-archive multiple completed changes and handle spec conflicts intelligently using OpenSpec CLI.
+category: Research
+author: openspec
+version: "1.0"
+requires: []
+examples:
+  - Batch archive my completed changes using the OpenSpec CLI.
+  - How do I resolve spec conflicts when archiving changes in OpenSpec?
 ---
 
 Archive multiple completed changes in a single operation.

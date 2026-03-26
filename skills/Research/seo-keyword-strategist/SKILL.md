@@ -1,12 +1,12 @@
 ---
-category: Research
 id: seo-keyword-strategist
 name: SEO Keyword Strategist
-description: Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.
-  suggests semantic variations and LSI keywords based on the topic. Prevents
-  over-optimization. Use PROACTIVELY for content optimization.
-metadata:
-  model: haiku
+description: Analyze keyword density in content and suggest semantic variations, LSI keywords, and entity mappings for topical authority.
+category: Research
+requires: []
+examples:
+  - Suggest LSI keywords and analyze density for this blog post.
+  - Map entities and related concepts to improve my content's topical authority.
 ---
 
 ## Use this skill when

@@ -1,8 +1,12 @@
 ---
-category: Research
 id: protocolsio-integration
 name: protocols.io Integration
-description: Guidance and answers for protocols.io integration.
+description: Programmatic access to protocols.io for discovering, managing, and sharing scientific protocols and experiment procedures.
+category: Research
+requires: []
+examples:
+  - Search protocols.io for a standard CRISPR-Cas9 protocol.
+  - How do I create a new step-by-step procedure on protocols.io via API?
 ---
 
 # Protocols.io Integration
@@ -40,7 +44,6 @@ Manage API authentication using access tokens and OAuth flows. Includes both cli
 - Refresh expired tokens
 - Manage rate limits and permissions
 
-**Reference:** Read `references/authentication.md` for detailed authentication procedures, OAuth implementation, and security best practices.
 
 ### 2. Protocol Operations
 
@@ -57,7 +60,6 @@ Complete protocol lifecycle management from creation to publication.
 - Bookmark protocols for quick access
 - Generate protocol PDFs
 
-**Reference:** Read `references/protocols_api.md` for comprehensive protocol management guidance, including API endpoints, parameters, common workflows, and examples.
 
 ### 3. Discussions & Collaboration
 
@@ -69,8 +71,6 @@ Enable community engagement through comments and discussions.
 - Edit or delete your own comments
 - Analyze discussion patterns and feedback
 - Respond to user questions and issues
-
-**Reference:** Read `references/discussions.md` for discussion management, comment threading, and collaboration workflows.
 
 ### 4. Workspace Management
 
@@ -84,7 +84,6 @@ Organize protocols within team workspaces with role-based permissions.
 - Create protocols within workspaces
 - Manage workspace permissions and collaboration
 
-**Reference:** Read `references/workspaces.md` for workspace organization, permission management, and team collaboration patterns.
 
 ### 5. File Operations
 
@@ -99,8 +98,6 @@ Upload, organize, and manage files associated with protocols.
 - Delete and restore files
 - Manage storage and organization
 
-**Reference:** Read `references/file_manager.md` for file upload procedures, organization strategies, and storage management.
-
 ### 6. Additional Features
 
 Supplementary functionality including profiles, notifications, and exports.
@@ -111,8 +108,6 @@ Supplementary functionality including profiles, notifications, and exports.
 - Create and track experiment records
 - Receive and manage notifications
 - Export organization data for archival
-
-**Reference:** Read `references/additional_features.md` for profile management, publication discovery, experiment tracking, and data export.
 
 ## Getting Started
 
@@ -127,13 +122,7 @@ Before using any protocols.io API functionality:
 
 ### Step 2: Identify Your Use Case
 
-Determine which capability area addresses your needs:
-
-- **Working with protocols?** → Read `references/protocols_api.md`
-- **Managing team protocols?** → Read `references/workspaces.md`
-- **Handling comments/feedback?** → Read `references/discussions.md`
-- **Uploading files/data?** → Read `references/file_manager.md`
-- **Tracking experiments or profiles?** → Read `references/additional_features.md`
+Determine which capability area addresses your needs.
 
 ### Step 3: Implement Integration
 
@@ -189,8 +178,6 @@ To analyze an existing protocol from protocols.io:
 4. **Review discussions**: Check `GET /protocols/{id}/comments` for user feedback
 5. **Export**: Generate PDF if needed for offline reference
 
-**Reference files**: `protocols_api.md`, `discussions.md`
-
 ### Workflow 2: Create and Publish Protocol
 
 To create a new protocol and publish with DOI:
@@ -201,8 +188,6 @@ To create a new protocol and publish with DOI:
 4. **Add materials**: Document reagents in step components
 5. **Review**: Verify all content is complete and accurate
 6. **Publish**: Issue DOI with `POST /protocols/{id}/publish`
-
-**Reference files**: `protocols_api.md`, `authentication.md`
 
 ### Workflow 3: Collaborative Lab Workspace
 
@@ -215,8 +200,6 @@ To set up team protocol management:
 5. **Enable discussions**: Team members can comment and provide feedback
 6. **Track experiments**: Document protocol executions with experiment records
 
-**Reference files**: `workspaces.md`, `file_manager.md`, `protocols_api.md`, `discussions.md`, `additional_features.md`
-
 ### Workflow 4: Experiment Documentation
 
 To track protocol executions and results:
@@ -227,8 +210,6 @@ To track protocol executions and results:
 4. **Link files**: Reference uploaded data files in experiment record
 5. **Note modifications**: Document any protocol deviations or optimizations
 6. **Analyze**: Review multiple runs for reproducibility assessment
-
-**Reference files**: `additional_features.md`, `file_manager.md`, `protocols_api.md`
 
 ### Workflow 5: Protocol Discovery and Citation
 
@@ -241,136 +222,6 @@ To find and cite protocols in research:
 5. **Cite**: Use protocol DOI in publications (proper attribution)
 6. **Export PDF**: Generate formatted PDF for offline reference
 
-**Reference files**: `protocols_api.md`, `additional_features.md`
-
-## Python Request Examples
-
-### Basic Protocol Search
-
-```python
-import requests
-
-token = "YOUR_ACCESS_TOKEN"
-headers = {"Authorization": f"Bearer {token}"}
-
-# Search for CRISPR protocols
-response = requests.get(
-    "https://protocols.io/api/v3/protocols",
-    headers=headers,
-    params={
-        "filter": "public",
-        "key": "CRISPR",
-        "page_size": 10,
-        "content_format": "html"
-    }
-)
-
-protocols = response.json()
-for protocol in protocols["items"]:
-    print(f"{protocol['title']} - {protocol['doi']}")
-```
-
-### Create New Protocol
-
-```python
-import requests
-
-token = "YOUR_ACCESS_TOKEN"
-headers = {
-    "Authorization": f"Bearer {token}",
-    "Content-Type": "application/json"
-}
-
-# Create protocol
-data = {
-    "title": "CRISPR-Cas9 Gene Editing Protocol",
-    "description": "Comprehensive protocol for CRISPR gene editing",
-    "tags": ["CRISPR", "gene editing", "molecular biology"]
-}
-
-response = requests.post(
-    "https://protocols.io/api/v3/protocols",
-    headers=headers,
-    json=data
-)
-
-protocol_id = response.json()["item"]["id"]
-print(f"Created protocol: {protocol_id}")
-```
-
-### Upload File to Workspace
-
-```python
-import requests
-
-token = "YOUR_ACCESS_TOKEN"
-headers = {"Authorization": f"Bearer {token}"}
-
-# Upload file
-with open("data.csv", "rb") as f:
-    files = {"file": f}
-    data = {
-        "folder_id": "root",
-        "description": "Experimental results",
-        "tags": "experiment,data,2025"
-    }
-
-    response = requests.post(
-        "https://protocols.io/api/v3/workspaces/12345/files/upload",
-        headers=headers,
-        files=files,
-        data=data
-    )
-
-file_id = response.json()["item"]["id"]
-print(f"Uploaded file: {file_id}")
-```
-
-## Error Handling
-
-Implement robust error handling for API requests:
-
-```python
-import requests
-import time
-
-def make_request_with_retry(url, headers, max_retries=3):
-    for attempt in range(max_retries):
-        try:
-            response = requests.get(url, headers=headers)
-
-            if response.status_code == 200:
-                return response.json()
-            elif response.status_code == 429:  # Rate limit
-                retry_after = int(response.headers.get('Retry-After', 60))
-                time.sleep(retry_after)
-                continue
-            elif response.status_code >= 500:  # Server error
-                time.sleep(2 ** attempt)  # Exponential backoff
-                continue
-            else:
-                response.raise_for_status()
-
-        except requests.exceptions.RequestException as e:
-            if attempt == max_retries - 1:
-                raise
-            time.sleep(2 ** attempt)
-
-    raise Exception("Max retries exceeded")
-```
-
-## Reference Files
-
-Load the appropriate reference file based on your task:
-
-- **`authentication.md`**: OAuth flows, token management, rate limiting
-- **`protocols_api.md`**: Protocol CRUD, steps, materials, publishing, PDFs
-- **`discussions.md`**: Comments, replies, collaboration
-- **`workspaces.md`**: Team workspaces, permissions, organization
-- **`file_manager.md`**: File upload, folders, storage management
-- **`additional_features.md`**: Profiles, publications, experiments, notifications
-
-To load a reference file, read the file from the `references/` directory when needed for specific functionality.
 
 ## Best Practices
 
@@ -384,13 +235,6 @@ To load a reference file, read the file from the `references/` directory when ne
 8. **Versioning**: Track protocol versions when making updates
 9. **Attribution**: Properly cite protocols using DOIs
 10. **Backup**: Regularly export important protocols and workspace data
-
-## Additional Resources
-
-- **Official API Documentation**: https://apidoc.protocols.io/
-- **Protocols.io Platform**: https://www.protocols.io/
-- **Support**: Contact protocols.io support for API access and technical issues
-- **Community**: Engage with protocols.io community for best practices
 
 ## Troubleshooting
 

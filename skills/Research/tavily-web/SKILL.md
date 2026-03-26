@@ -1,8 +1,12 @@
 ---
-category: Research
 id: tavily-web
 name: Tavily Web
-description: Web search, content extraction, crawling, and research capabilities using Tavily API.
+description: Web search, content extraction, crawling, and real-time research capabilities using the Tavily API.
+category: Research
+requires: []
+examples:
+  - Search the web for recent research papers on room-temperature superconductors.
+  - Crawl this URL and extract the main content as structured markdown.
 ---
 
 # tavily-web
@@ -15,10 +19,7 @@ Web search, content extraction, crawling, and research capabilities using Tavily
 - When extracting content from URLs
 - When crawling websites
 
-## Installation
-```bash
-npx skills add -g BenedictKing/tavily-web
-```
+
 
 ## Step-by-Step Guide
 1. Install the skill using the command above

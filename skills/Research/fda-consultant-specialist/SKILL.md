@@ -1,13 +1,22 @@
 ---
-category: Research
 id: fda-consultant-specialist
 name: Fda Consultant Specialist
-description: Senior FDA consultant and specialist for medical device companies including HIPAA compliance and requirement management. Provides FDA pathway expertise, QSR compliance, cybersecurity guidance, and regulatory submission support. Use for FDA submission planning, QSR compliance assessments, HIPAA evaluations, and FDA regulatory strategy development.
+description: Senior FDA consultant providing expertise in medical device pathways, QSR compliance, cybersecurity, and regulatory submissions.
+category: Research
+requires: []
+examples:
+  - Recommend the best FDA regulatory pathway for a Class II diagnostic device.
+  - Conduct a gap analysis for my company's current QSR compliance documentation.
 ---
 
 # Senior FDA Consultant and Specialist
 
 Expert-level FDA regulatory consulting with comprehensive knowledge of medical device regulations, Quality System Regulation (QSR), HIPAA compliance, cybersecurity requirements, and FDA submission pathways.
+
+## When to Use
+- When recommending regulatory pathways for medical devices or conducting gap analyses for QSR compliance documentation.
+- When navigating HIPAA compliance for healthcare data protection in medical device software or cloud integrations.
+- When preparing for FDA inspections or managing responses to regulatory enforcement actions like warning letters.
 
 ## Core FDA Regulatory Competencies
 
@@ -224,24 +233,3 @@ Develop comprehensive market access strategies optimizing FDA regulatory pathway
 - **Competitive Intelligence**: Regulatory landscape analysis and positioning
 - **Timeline Optimization**: Regulatory milestone planning and resource allocation
 - **Commercial Integration**: Regulatory strategy and business objective alignment
-
-## Resources
-
-### scripts/
-- `fda-submission-tracker.py`: FDA submission status monitoring and timeline management
-- `qsr-compliance-checker.py`: QSR compliance assessment and gap analysis tool
-- `hipaa-risk-assessment.py`: HIPAA compliance evaluation and documentation
-- `fda-guidance-monitor.py`: FDA guidance and policy change monitoring
-
-### references/
-- `fda-submission-guide.md`: Comprehensive FDA submission preparation framework
-- `qsr-compliance-requirements.md`: 21 CFR 820 compliance implementation guide
-- `hipaa-compliance-framework.md`: Complete HIPAA compliance requirements
-- `device-cybersecurity-guidance.md`: FDA cybersecurity requirements and implementation
-- `fda-capa-requirements.md`: FDA CAPA system requirements and best practices
-
-### assets/
-- `fda-templates/`: FDA submission templates, forms, and checklists
-- `qsr-documentation/`: QSR compliance documentation templates
-- `hipaa-tools/`: HIPAA compliance assessment and documentation tools
-- `inspection-materials/`: FDA inspection preparation and response materials

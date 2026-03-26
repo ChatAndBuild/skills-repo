@@ -1,25 +1,13 @@
 ---
-category: Research
 id: hil-test-automation
 name: HIL Test Automation
-description: Hardware-in-the-loop test development and automation expertise.
-allowed-tools:
-  - Read
-  - Write
-  - Glob
-  - Grep
-  - Edit
-  - WebFetch
-  - WebSearch
-  - Bash
-metadata:
-  version: "1.0"
-  category: automotive-engineering
-  tags:
-    - testing
-    - hil
-    - automation
-    - validation
+description: Hardware-in-the-loop test development and automation expertise for ECU validation and regression testing.
+category: Research
+version: "1.0"
+requires: []
+examples:
+  - Help me develop an automated HIL test case for a new ECU.
+  - How do I integrate a plant model into my dSPACE HIL simulation?
 ---
 
 # HIL Test Automation Skill
@@ -54,3 +42,8 @@ Provide hardware-in-the-loop test development and automation expertise for compr
 - TVL-002: Hardware-in-the-Loop Testing
 - ADA-004: Simulation and Virtual Validation
 - SAF-001: Functional Safety Development (ISO 26262)
+
+## Output
+- Detailed test procedures and acceptance criteria mapped to technical requirements.
+- Automated HIL test scripts and simulation configuration files.
+- Comprehensive test reports summarizing results, fault injection outcomes, and pass/fail status.

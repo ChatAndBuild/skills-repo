@@ -8,7 +8,7 @@ examples:
   - Store this coding pattern in my long-term memory for future use.
   - Search my memory for previous solutions to Python memory errors.
 ---
-# Memory Management Skill
+# AgentDB Memory Management Skill
 
 ## Purpose
 Guide the agent to manage a persistent memory system for pattern storage and semantic lookup using vector search principles.

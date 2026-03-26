@@ -1,8 +1,12 @@
 ---
-category: Research
 id: pause-detector
 name: Pause Detector
-description: Detect pauses and silence in audio using local dynamic thresholds.
+description: Detect pauses and silence in audio using local dynamic thresholds to identify natural breaks in speech or recordings.
+category: Research
+requires: []
+examples:
+  - Detect natural pauses in this lecture audio file using local thresholds.
+  - Find segments of silence in my audio recording to identify section breaks.
 ---
 
 # Pause Detector

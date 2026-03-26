@@ -41,8 +41,8 @@ For each issue identified, provide:
 - **Impact Level**: Critical / Serious / Moderate.
 - **Problem Description**: What is wrong and who does it affect?
 - **Code Remediation**: 
-  - **Before (❌)**: The inaccessible code snippet.
-  - **After (✅)**: The fixed, accessible code snippet.
+  - **Before (cross)**: The inaccessible code snippet.
+  - **After (tick)**: The fixed, accessible code snippet.
 
 ### 3. Verification Checklist
 - **Automated Test**: Command or tool to use (e.g., `npx lighthouse`).
@@ -71,8 +71,6 @@ For each issue identified, provide:
 | Headings list | VO + U, then arrows | H / Shift + H |
 | Links list | VO + U | K / Shift + K |
 
----
-
 ## Common issues by impact
 
 ### Critical (fix immediately)
@@ -96,9 +94,3 @@ For each issue identified, provide:
 4. Timing without controls
 5. Missing landmark regions
 
-## References
-
-- [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
-- [WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/)
-- [Deque axe Rules](https://dequeuniversity.com/rules/axe/)
-- [Web Quality Audit](../web-quality-audit/SKILL.md)

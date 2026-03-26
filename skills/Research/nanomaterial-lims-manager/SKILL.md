@@ -1,23 +1,12 @@
 ---
-category: Research
 id: nanomaterial-lims-manager
 name: Nanomaterial LIMS Manager
-description: Laboratory Information Management System skill for nanomaterial sample tracking and data management.
-allowed-tools:
-  - Read
-  - Write
-  - Glob
-  - Grep
-  - Bash
-metadata:
-  specialization: nanotechnology
-  domain: science
-  category: infrastructure-quality
-  priority: high
-  phase: 6
-  tools-libraries:
-    - LIMS systems
-    - ELN platforms
+description: Laboratory Information Management System skill for nanomaterial sample tracking, synthesis parameter logging, and data management.
+category: Research
+requires: []
+examples:
+  - Register a new nanoparticle sample and log its synthesis parameters.
+  - Track the chain of custody and storage location for sample ID NP-2026.
 ---
 
 # Nanomaterial LIMS Manager
