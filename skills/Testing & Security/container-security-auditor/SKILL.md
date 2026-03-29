@@ -1,43 +1,44 @@
 ---
 id: container-security-auditor
 name: Container Security Auditor
-description: Container security auditor for Security Advanced. Triggers on container security auditor patterns and best practices.
+description: Audit container build and runtime setups for image hygiene, privilege boundaries, secrets exposure, and supply-chain risk.
 category: Testing & Security
 requires: []
 examples:
-  - "Help me with container security auditing"
-  - "Set up container security auditor"
-version: 1.0.0
-author: Jeremy Longshore <jeremy@intentsolutions.io>
+  - "Help me audit this container setup for security issues."
+  - "What should I check in this Dockerfile and runtime config?"
+  - "Review this container deployment for privilege and secret risks."
+author: "Jeremy Longshore <jeremy@intentsolutions.io>"
+version: "1.0.0"
 ---
 
 # Container Security Auditor
 
-## Purpose
+Use this skill to review container images, Dockerfiles, and runtime configurations for practical security risk.
 
-This skill provides automated assistance for container security auditor tasks within the Security Advanced domain.
+## Audit Areas
+- Base image trust and update posture.
+- Build-stage versus runtime-stage separation.
+- Privilege level, user identity, and Linux capabilities.
+- Filesystem writes, mounted volumes, and secret exposure.
+- Network surface, package footprint, and supply-chain risk.
 
-## When to Use
+## Review Method
+- Check what the image contains and why it needs to be there.
+- Look for ways the container can do more than the workload requires.
+- Review how secrets, credentials, and tokens enter the container.
+- Separate image-hardening issues from orchestration/runtime issues.
+- Highlight which findings are build-time, runtime, or operational.
 
-This skill activates automatically when you:
-- Mention "container security auditor" in your request
-- Ask about container security auditor patterns or best practices
-- Need help with advanced security skills covering penetration testing, compliance frameworks, threat modeling, and enterprise security.
+## Good Output
+- Highest-risk findings first.
+- Concrete hardening priorities.
+- Questions about missing runtime context when needed.
+- Verification ideas for image contents, privilege model, and secret handling.
 
-## Capabilities
-
-- Provides step-by-step guidance for container security auditor
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
-
-## Example Triggers
-
-- "Help me with container security auditor"
-- "Set up container security auditor"
-- "How do I implement container security auditor?"
-
-## Related Skills
-
-Part of the **Security Advanced** skill category.
-Tags: pentesting, compliance, soc2, gdpr, threat-modeling
+## Common Findings
+- Running as root without justification.
+- Oversized images with unnecessary packages or tools.
+- Secrets baked into images or passed insecurely.
+- Writable filesystems or broad mounts without need.
+- Missing distinction between development convenience and production safety.

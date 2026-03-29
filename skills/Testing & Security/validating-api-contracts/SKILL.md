@@ -1,55 +1,45 @@
 ---
 id: validating-api-contracts
 name: Validating API Contracts
-description: Validates API contracts using consumer-driven testing and OpenAPI validation. Leverages Pact for contract testing and OpenAPI for specification compliance. Use when generating contract tests, validating API responses, or checking backward compatibility.
+description: Validate API contracts for compatibility, schema correctness, and breaking changes using specification-aware review principles.
 category: Testing & Security
 requires: []
 examples:
-  - "Generate Pact contract tests for my API"
-  - "Validate this API against its OpenAPI spec"
+  - "Validate this API against its OpenAPI spec."
+  - "Check whether this API change is backward compatible."
+  - "Help me review this contract change between consumer and provider."
 ---
 
-## Overview
+# Validating API Contracts
 
-This skill enables Claude to generate and validate API contracts, ensuring compatibility between API providers and consumers. It uses Pact for consumer-driven contract testing and OpenAPI validation for specification compliance.
+Use this skill to review whether an API contract is clear, compatible, and safely evolving.
 
-## How It Works
+## What To Compare
+- Declared request and response schemas.
+- Required versus optional fields.
+- Status codes and error shapes.
+- Enum, format, and nullability changes.
+- Authentication, headers, and versioning expectations.
 
-1. **Generating Contract Tests**: Claude creates Pact consumer tests based on API usage, generating provider verification tests and building OpenAPI contract validators.
-2. **Validating Contracts**: The skill verifies if API responses match the defined contracts.
-3. **Checking Compatibility**: It checks for backward compatibility to identify breaking changes in the API.
+## Review Questions
+- Would an existing consumer break because of this change?
+- Are the documented types and the real behavior aligned?
+- Are there hidden assumptions around defaults, ordering, or missing fields?
+- Does the error contract remain consistent enough for callers to handle safely?
+- Is the compatibility story explicit for both consumers and providers?
 
-## When to Use This Skill
+## Good Output
+- Breaking versus non-breaking changes.
+- Ambiguities or undocumented behavior.
+- Gaps between implementation intent and documented contract.
+- Suggested compatibility strategy or rollout notes.
 
-This skill activates when you need to:
-- Generate contract tests for an API.
-- Validate API responses against existing contracts.
-- Identify breaking changes in an API.
+## Common Breaking Changes
+- Making a previously optional field required.
+- Changing data types or enum meanings.
+- Removing status codes or changing error payload shape.
+- Returning looser or stricter data than consumers rely on.
 
-## Examples
-
-### Example 1: Generating Pact Contracts
-
-User request: "Generate contract tests for my API using Pact."
-
-The skill will:
-1. Analyze the API and generate Pact consumer contracts.
-2. Create provider verification tests based on the contracts.
-
-### Example 2: Validating an OpenAPI Specification
-
-User request: "Validate my API against the OpenAPI specification."
-
-The skill will:
-1. Validate the API against the provided OpenAPI specification.
-2. Report any discrepancies or violations of the specification.
-
-## Best Practices
-
-- **Clarity**: Be specific when requesting contract generation or validation, providing relevant API details.
-- **Completeness**: Ensure that your OpenAPI specifications are up-to-date for accurate validation.
-- **Context**: Provide context about the consumer and provider roles when using Pact.
-
-## Integration
-
-This skill can be integrated with other testing and deployment tools in the Claude Code ecosystem to automate contract verification as part of a CI/CD pipeline.
+## Boundaries
+- Do not pretend to generate or run contract tests automatically.
+- Focus on compatibility reasoning, schema review, and rollout guidance.

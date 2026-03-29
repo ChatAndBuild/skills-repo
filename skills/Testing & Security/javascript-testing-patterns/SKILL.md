@@ -1,20 +1,41 @@
 ---
 id: javascript-testing-patterns
-name: Javascript Testing Patterns
-description: Step-by-step guidance for javascript testing patterns.
+name: JavaScript Testing Patterns
+description: Apply JavaScript-specific testing patterns for async behavior, timers, module boundaries, mocks, and browser-like environments.
 category: Testing & Security
+requires: []
+examples:
+  - "What testing patterns fit this JavaScript module?"
+  - "Help me test this async JavaScript behavior."
+  - "Review these JS tests for brittle mocks and timer issues."
 ---
 
-# Javascript Testing Patterns
+# JavaScript Testing Patterns
 
-Support javascript testing patterns workflows with clear steps and best practices.
+Use this skill when JavaScript-specific behavior makes generic unit-test advice too shallow.
 
-## When to Use
+## Focus Areas
+- Async flows, promises, retries, and race conditions.
+- Timers, scheduling, and event-loop behavior.
+- Module boundaries, imports, and side effects.
+- Browser-like globals, DOM-adjacent behavior, or runtime assumptions.
+- Mocking choices and how they affect trust in the test.
 
-- You need help with javascript testing patterns.
-- You want a clear, actionable next step.
+## Useful Patterns
+- Control time explicitly when timers or retries matter.
+- Test observable behavior of async code, not incidental ordering details.
+- Isolate side effects at module boundaries.
+- Be cautious with mocks that rewrite too much of the runtime contract.
+- Prefer patterns that keep tests readable under refactoring.
 
-## Output
+## Good Output
+- JavaScript-specific test scenarios worth adding.
+- Warnings about timers, globals, mocks, or async flakiness.
+- Suggestions for cleaner seams around side effects.
+- Notes on what should be tested synchronously versus with async orchestration.
 
-- Brief plan or checklist
-- Key recommendations and caveats
+## Common Mistakes
+- Letting fake timers or microtask behavior hide real bugs.
+- Over-mocking modules until the test no longer reflects runtime behavior.
+- Ignoring race conditions in code that awaits or schedules work.
+- Treating DOM-like globals as harmless implicit state.
