@@ -1,20 +1,41 @@
 ---
 id: meilisearch
 name: Meilisearch
-description: Step-by-step guidance for meilisearch.
+description: Design Meilisearch indexing and search behavior with ranking, filters, updates, and operational simplicity in mind.
 category: Databases
+requires: []
+examples:
+  - "Help me plan this Meilisearch setup."
+  - "What should I consider for Meilisearch ranking and filters?"
+  - "Review this Meilisearch search design for tradeoffs."
 ---
 
 # Meilisearch
 
-Support meilisearch workflows with clear steps and best practices.
+Use this skill to evaluate or design a Meilisearch-based search workflow.
 
-## When to Use
+## Clarify First
+- What is being searched and how users judge success.
+- Whether filters, facets, or strict sorting matter.
+- Update frequency and indexing pipeline constraints.
+- Expected scale and operational simplicity goals.
+- How this search experience differs from plain database queries.
 
-- You need help with meilisearch.
-- You want a clear, actionable next step.
+## Guidance Areas
+- Index and document shape.
+- Ranking and relevance expectations.
+- Filterability and searchable attribute choices.
+- Sync/update workflow and operational burden.
+- Where Meilisearch fits well and where it may not.
 
 ## Output
+- Search design recommendations.
+- Ranking and filter tradeoffs.
+- Update and operational considerations.
+- Questions to validate before committing.
 
-- Brief plan or checklist
-- Key recommendations and caveats
+## Common Mistakes
+- Treating search relevance as only a configuration problem.
+- Indexing fields that should be filters or vice versa.
+- Ignoring update and sync behavior during design.
+- Expecting one ranking setup to satisfy every search mode.
