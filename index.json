@@ -339,17 +339,6 @@
     ]
   },
   {
-    "skillId": "agent-authentication",
-    "name": "Agent Authentication",
-    "description": "Step-by-step guidance for agent authentication.",
-    "instructions": "# Agent Authentication\n\nSupport agent authentication workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with agent authentication.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "agent-base-template-generator",
     "name": "Agent Base Template Generator",
     "description": "Generate a reusable base template for new agents, including instruction scaffolding, tool contracts, and safety defaults.",
@@ -945,13 +934,17 @@
   {
     "skillId": "api-security-best-practices",
     "name": "API Security Best Practices",
-    "description": "Step-by-step guidance for API security best practices.",
-    "instructions": "# API Security Best Practices\n\nSupport api security best practices workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with api security best practices.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Review API designs for authentication, authorization, validation, rate limiting, error handling, and data exposure risks.",
+    "instructions": "# API Security Best Practices\n\nUse this skill to review API designs and implementations for common security weaknesses before they become incidents.\n\n## Start By Clarifying\n- Who can call the API and from where.\n- Which authentication and authorization model is in play.\n- What data is sensitive or business-critical.\n- Which endpoints are public, internal, privileged, or high-volume.\n- What abuse scenarios are realistic for the system.\n\n## Security Review Areas\n- Authentication strength and token handling.\n- Authorization checks tied to business rules.\n- Input validation, payload size limits, and schema enforcement.\n- Rate limiting, abuse resistance, and resource protection.\n- Error handling that stays useful without leaking internals.\n- Response shaping that avoids accidental data exposure.\n\n## Good Output\n- API-specific risks by severity.\n- Missing controls or assumptions that need to be explicit.\n- Safer default patterns for auth, validation, and responses.\n- Verification ideas such as abuse-case tests or authorization checks.\n\n## Common Mistakes\n- Validating syntax but not ownership or permissions.\n- Treating internal APIs as automatically trusted.\n- Returning more data than the caller actually needs.\n- Weak or inconsistent error semantics around auth and validation.\n- Missing rate limits on endpoints that are easy to abuse.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Review this API design for security gaps.\"",
+      "\"What API security best practices matter for this endpoint?\"",
+      "\"Help me harden this public API surface.\""
+    ]
   },
   {
     "skillId": "apollo-prod-checklist",
@@ -1420,15 +1413,16 @@
   {
     "skillId": "backend-security-coder",
     "name": "Backend Security Coder",
-    "description": "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.",
-    "instructions": "## Use this skill when\n\n- Working on backend security coder tasks or workflows\n- Needing guidance, best practices, or checklists for backend security coder\n\n## Do not use this skill when\n\n- The task is unrelated to backend security coder\n- You need a different domain or tool outside this scope\n\n## Instructions\n\n- Clarify goals, constraints, and required inputs.\n- Apply relevant best practices and validate outcomes.\n- Provide actionable steps and verification.\n- If detailed examples are required, open `resources/implementation-playbook.md`.\n\nYou are a backend security coding expert specializing in secure development practices, vulnerability prevention, and secure architecture implementation.\n\n## Purpose\nExpert backend security developer with comprehensive knowledge of secure coding practices, vulnerability prevention, and defensive programming techniques. Masters input validation, authentication systems, API security, database protection, and secure error handling. Specializes in building security-first backend applications that resist common attack vectors.\n\n## When to Use vs Security Auditor\n- **Use this agent for**: Hands-on backend security coding, API security implementation, database security configuration, authentication system coding, vulnerability fixes\n- **Use security-auditor for**: High-level security audits, compliance assessments, DevSecOps pipeline design, threat modeling, security architecture reviews, penetration testing planning\n- **Key difference**: This agent focuses on writing secure backend code, while security-auditor focuses on auditing and assessing security posture\n\n## Capabilities\n\n### General Secure Coding Practices\n- **Input validation and sanitization**: Comprehensive input validation frameworks, allowlist approaches, data type enforcement\n- **Injection attack prevention**: SQL injection, NoSQL injection, LDAP injection, command injection prevention techniques\n- **Error handling security**: Secure error messages, logging without information leakage, graceful degradation\n- **Sensitive data protection**: Data classification, secure storage patterns, encryption at rest and in transit\n- **Secret management**: Secure credential storage, environment variable best practices, secret rotation strategies\n- **Output encoding**: Context-aware encoding, preventing injection in templates and APIs\n\n### HTTP Security Headers and Cookies\n- **Content Security Policy (CSP)**: CSP implementation, nonce and hash strategies, report-only mode\n- **Security headers**: HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy implementation\n- **Cookie security**: HttpOnly, Secure, SameSite attributes, cookie scoping and domain restrictions\n- **CORS configuration**: Strict CORS policies, preflight request handling, credential-aware CORS\n- **Session management**: Secure session handling, session fixation prevention, timeout management\n\n### CSRF Protection\n- **Anti-CSRF tokens**: Token generation, validation, and refresh strategies for cookie-based authentication\n- **Header validation**: Origin and Referer header validation for non-GET requests\n- **Double-submit cookies**: CSRF token implementation in cookies and headers\n- **SameSite cookie enforcement**: Leveraging SameSite attributes for CSRF protection\n- **State-changing operation protection**: Authentication requirements for sensitive actions\n\n### Output Rendering Security\n- **Context-aware encoding**: HTML, JavaScript, CSS, URL encoding based on output context\n- **Template security**: Secure templating practices, auto-escaping configuration\n- **JSON response security**: Preventing JSON hijacking, secure API response formatting\n- **XML security**: XML external entity (XXE) prevention, secure XML parsing\n- **File serving security**: Secure file download, content-type validation, path traversal prevention\n\n### Database Security\n- **Parameterized queries**: Prepared statements, ORM security configuration, query parameterization\n- **Database authentication**: Connection security, credential management, connection pooling security\n- **Data encryption**: Field-level encryption, transparent data encryption, key management\n- **Access control**: Database user privilege separation, role-based access control\n- **Audit logging**: Database activity monitoring, change tracking, compliance logging\n- **Backup security**: Secure backup procedures, encryption of backups, access control for backup files\n\n### API Security\n- **Authentication mechanisms**: JWT security, OAuth 2.0/2.1 implementation, API key management\n- **Authorization patterns**: RBAC, ABAC, scope-based access control, fine-grained permissions\n- **Input validation**: API request validation, payload size limits, content-type validation\n- **Rate limiting**: Request throttling, burst protection, user-based and IP-based limiting\n- **API versioning security**: Secure version management, backward compatibility security\n- **Error handling**: Consistent error responses, security-aware error messages, logging strategies\n\n### External Requests Security\n- **Allowlist management**: Destination allowlisting, URL validation, domain restriction\n- **Request validation**: URL sanitization, protocol restrictions, parameter validation\n- **SSRF prevention**: Server-side request forgery protection, internal network isolation\n- **Timeout and limits**: Request timeout configuration, response size limits, resource protection\n- **Certificate validation**: SSL/TLS certificate pinning, certificate authority validation\n- **Proxy security**: Secure proxy configuration, header forwarding restrictions\n\n### Authentication and Authorization\n- **Multi-factor authentication**: TOTP, hardware tokens, biometric integration, backup codes\n- **Password security**: Hashing algorithms (bcrypt, Argon2), salt generation, password policies\n- **Session security**: Secure session tokens, session invalidation, concurrent session management\n- **JWT implementation**: Secure JWT handling, signature verification, token expiration\n- **OAuth security**: Secure OAuth flows, PKCE implementation, scope validation\n\n### Logging and Monitoring\n- **Security logging**: Authentication events, authorization failures, suspicious activity tracking\n- **Log sanitization**: Preventing log injection, sensitive data exclusion from logs\n- **Audit trails**: Comprehensive activity logging, tamper-evident logging, log integrity\n- **Monitoring integration**: SIEM integration, alerting on security events, anomaly detection\n- **Compliance logging**: Regulatory requirement compliance, retention policies, log encryption\n\n### Cloud and Infrastructure Security\n- **Environment configuration**: Secure environment variable management, configuration encryption\n- **Container security**: Secure Docker practices, image scanning, runtime security\n- **Secrets management**: Integration with HashiCorp Vault, AWS Secrets Manager, Azure Key Vault\n- **Network security**: VPC configuration, security groups, network segmentation\n- **Identity and access management**: IAM roles, service account security, principle of least privilege\n\n## Behavioral Traits\n- Validates and sanitizes all user inputs using allowlist approaches\n- Implements defense-in-depth with multiple security layers\n- Uses parameterized queries and prepared statements exclusively\n- Never exposes sensitive information in error messages or logs\n- Applies principle of least privilege to all access controls\n- Implements comprehensive audit logging for security events\n- Uses secure defaults and fails securely in error conditions\n- Regularly updates dependencies and monitors for vulnerabilities\n- Considers security implications in every design decision\n- Maintains separation of concerns between security layers\n\n## Knowledge Base\n- OWASP Top 10 and secure coding guidelines\n- Common vulnerability patterns and prevention techniques\n- Authentication and authorization best practices\n- Database security and query parameterization\n- HTTP security headers and cookie security\n- Input validation and output encoding techniques\n- Secure error handling and logging practices\n- API security and rate limiting strategies\n- CSRF and SSRF prevention mechanisms\n- Secret management and encryption practices\n\n## Response Approach\n1. **Assess security requirements** including threat model and compliance needs\n2. **Implement input validation** with comprehensive sanitization and allowlist approaches\n3. **Configure secure authentication** with multi-factor authentication and session management\n4. **Apply database security** with parameterized queries and access controls\n5. **Set security headers** and implement CSRF protection for web applications\n6. **Implement secure API design** with proper authentication and rate limiting\n7. **Configure secure external requests** with allowlists and validation\n8. **Set up security logging** and monitoring for threat detection\n9. **Review and test security controls** with both automated and manual testing\n\n## Example Interactions\n- \"Implement secure user authentication with JWT and refresh token rotation\"\n- \"Review this API endpoint for injection vulnerabilities and implement proper validation\"\n- \"Configure CSRF protection for cookie-based authentication system\"\n- \"Implement secure database queries with parameterization and access controls\"\n- \"Set up comprehensive security headers and CSP for web application\"\n- \"Create secure error handling that doesn't leak sensitive information\"\n- \"Implement rate limiting and DDoS protection for public API endpoints\"\n- \"Design secure external service integration with allowlist validation\"",
+    "description": "Design and review secure backend code with practical guidance on input validation, authentication, authorization, secret handling, and API safety.",
+    "instructions": "# Backend Security Coder\n\nUse this skill when building or reviewing backend logic that touches authentication, authorization, input validation, secrets, or high-risk data flows.\n\n## Start By Clarifying\n- What is the endpoint, service, or workflow supposed to do?\n- Which inputs are untrusted?\n- Which roles, identities, or permissions matter?\n- What sensitive data or side effects are involved?\n- What failure modes would be dangerous?\n\n## Secure Backend Priorities\n- Validate and constrain untrusted input.\n- Enforce authentication and authorization separately and explicitly.\n- Use safe query and storage patterns for sensitive data.\n- Fail securely without leaking secrets or internals.\n- Keep dangerous operations observable and reviewable.\n\n## Implementation Lenses\n- Input validation and allowlisting.\n- Injection prevention for SQL, commands, templates, or downstream services.\n- Authentication flow safety, session or token handling, and replay concerns.\n- Authorization checks tied to business rules, not only route placement.\n- Secret management, logging hygiene, rate limits, and abuse resistance.\n\n## Good Output\n- Security risks relevant to the specific backend path.\n- Secure implementation or refactoring guidance.\n- Verification ideas such as abuse-case tests or authorization checks.\n- Gaps where more context is needed before recommending a pattern.\n\n## Common Mistakes\n- Treating authentication as authorization.\n- Validating shape but not meaning or ownership.\n- Logging secrets, tokens, or sensitive payloads.\n- Trusting upstream systems too broadly.\n- Returning detailed error information that helps attackers.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
     "examples": [
-      "\"Implement secure authentication for my API\"",
-      "\"Review this backend code for security vulnerabilities\""
+      "\"Help me implement secure authentication for this API.\"",
+      "\"Review this backend code for security vulnerabilities.\"",
+      "\"What secure coding patterns should this backend endpoint use?\""
     ]
   },
   {
@@ -1543,17 +1537,6 @@
       "Explain how to automate a container transfer in Benchling Inventory.",
       "How can I link an experimental result to a specific notebook entry via the API?"
     ]
-  },
-  {
-    "skillId": "better-auth-best-practices",
-    "name": "Better Auth Best Practices",
-    "description": "Step-by-step guidance for better auth best practices.",
-    "instructions": "# Better Auth Best Practices\n\nSupport better auth best practices workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with better auth best practices.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "binance",
@@ -1835,13 +1818,17 @@
   {
     "skillId": "broken-authentication-testing",
     "name": "Broken Authentication Testing",
-    "description": "Step-by-step guidance for broken authentication testing.",
-    "instructions": "# Broken Authentication Testing\n\nSupport broken authentication testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with broken authentication testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Test authentication and session flows for common weaknesses such as bypasses, fixation, weak recovery, and token misuse.",
+    "instructions": "# Broken Authentication Testing\n\nUse this skill to design security tests for login, session, token, and account-recovery flows.\n\n## What To Clarify\n- Which auth flows exist: login, logout, refresh, reset, MFA, invitation, device trust, or session revocation.\n- Which credentials or tokens are used and where they are stored.\n- What permissions or account transitions happen after authentication.\n- Which threat model matters most: account takeover, token theft, session abuse, or privilege escalation.\n\n## High-Value Test Areas\n- Authentication bypass or inconsistent enforcement.\n- Session fixation, stale-session reuse, or weak logout invalidation.\n- Password reset and recovery flow abuse.\n- MFA downgrade, bypass, or weak recovery paths.\n- Token rotation, expiration, replay, and storage assumptions.\n\n## Good Output\n- Abuse-case scenarios to test.\n- Priority vulnerabilities by impact.\n- Specific flow gaps or state-transition weaknesses.\n- Safer design or verification recommendations.\n\n## Common Mistakes\n- Testing only happy-path login success.\n- Assuming logout truly invalidates all relevant sessions.\n- Treating password reset as less sensitive than login.\n- Forgetting old tokens, shared devices, or privilege changes after authentication.\n\n## Boundaries\n- Do not pretend to run penetration tests automatically.\n- Focus on test design, abuse scenarios, and review logic.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"How should I test this auth flow for weaknesses?\"",
+      "\"What broken-authentication cases should I check?\"",
+      "\"Review this login and session design for security test coverage.\""
+    ]
   },
   {
     "skillId": "browser-extension-developer",
@@ -1938,17 +1925,6 @@
     ]
   },
   {
-    "skillId": "cpp-coding-standards",
-    "name": "C++ Coding Standards",
-    "description": "Step-by-step guidance for c++ coding standards.",
-    "instructions": "# C++ Coding Standards\n\nSupport c++ coding standards workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with c++ coding standards tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "cpp-pro",
     "name": "C++ Pro",
     "description": "Implement and review modern C++ code with strong performance, memory safety practices, and maintainable architecture.",
@@ -1969,13 +1945,17 @@
   {
     "skillId": "cpp-testing",
     "name": "C++ Testing",
-    "description": "Step-by-step guidance for c++ testing.",
-    "instructions": "# C++ Testing\n\nSupport c++ testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with c++ testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design C++ tests with attention to ownership, lifetimes, undefined behavior risks, seams for isolation, and deterministic behavior.",
+    "instructions": "# C++ Testing\n\nUse this skill to design tests for C++ code where memory ownership, lifetime, undefined behavior, and boundary conditions matter.\n\n## Clarify First\n- What level is under test: function, class, module, or integration seam.\n- Which ownership and lifetime assumptions the code relies on.\n- Whether concurrency, exceptions, or resource cleanup are involved.\n- Which inputs or states are most likely to trigger subtle bugs.\n\n## C++ Testing Priorities\n- Cover boundary conditions and invalid states deliberately.\n- Make ownership and resource expectations visible in the tests.\n- Prefer seams that isolate behavior without hiding lifetime issues.\n- Treat nondeterminism, time, and thread scheduling carefully.\n- Use tests to expose invariants around construction, mutation, and cleanup.\n\n## Good Output\n- A scenario-based C++ test plan.\n- Edge cases around ownership, cleanup, and invalid state.\n- Suggestions for making code more testable without obscuring correctness risks.\n- Warnings about brittle or UB-sensitive test approaches.\n\n## Common Mistakes\n- Ignoring object lifetime and cleanup behavior.\n- Testing only happy-path values in code with risky ownership semantics.\n- Mocking away the exact resource behavior that matters.\n- Letting undefined behavior slip through because the test passed once.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write tests for this C++ class.\"",
+      "\"What C++ edge cases should these tests cover?\"",
+      "\"Review this C++ test plan for lifetime and ownership risks.\""
+    ]
   },
   {
     "skillId": "cabin-sol",
@@ -2335,17 +2315,6 @@
     ]
   },
   {
-    "skillId": "checking-changes",
-    "name": "Checking Changes",
-    "description": "Step-by-step guidance for checking changes.",
-    "instructions": "# Checking Changes\n\nSupport checking changes workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with checking changes tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "checkout-management",
     "name": "Checkout Management",
     "description": "Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management.",
@@ -2442,17 +2411,6 @@
       "Search for the exact citation for a specific scientific paper.",
       "Generate a BibTeX library entry for a LaTeX document."
     ]
-  },
-  {
-    "skillId": "claims",
-    "name": "Claims",
-    "description": "Step-by-step guidance for claims.",
-    "instructions": "# Claims\n\nSupport claims workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with claims.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "claude-ally-health",
@@ -2591,17 +2549,6 @@
       "Create a new step-by-step lithography protocol for the cleanroom.",
       "Track equipment qualification and maintenance schedules for the etch system."
     ]
-  },
-  {
-    "skillId": "clerk-auth",
-    "name": "Clerk Auth",
-    "description": "Step-by-step guidance for clerk auth.",
-    "instructions": "# Clerk Auth\n\nSupport clerk auth workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with clerk auth.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "clerk-prod-checklist",
@@ -3138,17 +3085,6 @@
     "examples": []
   },
   {
-    "skillId": "component-refactoring",
-    "name": "Component Refactoring",
-    "description": "Step-by-step guidance for component refactoring.",
-    "instructions": "# Component Refactoring\n\nSupport component refactoring workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with component refactoring tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "composio",
     "name": "Composio",
     "description": "Practical guidance for implementing app integrations with Composio.",
@@ -3235,28 +3171,18 @@
     ]
   },
   {
-    "skillId": "confidence-check",
-    "name": "Confidence Check",
-    "description": "Step-by-step guidance for confidence check.",
-    "instructions": "# Confidence Check\n\nSupport confidence check workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with confidence check.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "container-security-auditor",
     "name": "Container Security Auditor",
-    "description": "Container security auditor for Security Advanced. Triggers on container security auditor patterns and best practices.",
-    "instructions": "# Container Security Auditor\n\n## Purpose\n\nThis skill provides automated assistance for container security auditor tasks within the Security Advanced domain.\n\n## When to Use\n\nThis skill activates automatically when you:\n- Mention \"container security auditor\" in your request\n- Ask about container security auditor patterns or best practices\n- Need help with advanced security skills covering penetration testing, compliance frameworks, threat modeling, and enterprise security.\n\n## Capabilities\n\n- Provides step-by-step guidance for container security auditor\n- Follows industry best practices and patterns\n- Generates production-ready code and configurations\n- Validates outputs against common standards\n\n## Example Triggers\n\n- \"Help me with container security auditor\"\n- \"Set up container security auditor\"\n- \"How do I implement container security auditor?\"\n\n## Related Skills\n\nPart of the **Security Advanced** skill category.\nTags: pentesting, compliance, soc2, gdpr, threat-modeling",
+    "description": "Audit container build and runtime setups for image hygiene, privilege boundaries, secrets exposure, and supply-chain risk.",
+    "instructions": "# Container Security Auditor\n\nUse this skill to review container images, Dockerfiles, and runtime configurations for practical security risk.\n\n## Audit Areas\n- Base image trust and update posture.\n- Build-stage versus runtime-stage separation.\n- Privilege level, user identity, and Linux capabilities.\n- Filesystem writes, mounted volumes, and secret exposure.\n- Network surface, package footprint, and supply-chain risk.\n\n## Review Method\n- Check what the image contains and why it needs to be there.\n- Look for ways the container can do more than the workload requires.\n- Review how secrets, credentials, and tokens enter the container.\n- Separate image-hardening issues from orchestration/runtime issues.\n- Highlight which findings are build-time, runtime, or operational.\n\n## Good Output\n- Highest-risk findings first.\n- Concrete hardening priorities.\n- Questions about missing runtime context when needed.\n- Verification ideas for image contents, privilege model, and secret handling.\n\n## Common Findings\n- Running as root without justification.\n- Oversized images with unnecessary packages or tools.\n- Secrets baked into images or passed insecurely.\n- Writable filesystems or broad mounts without need.\n- Missing distinction between development convenience and production safety.",
     "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
     "examples": [
-      "\"Help me with container security auditing\"",
-      "\"Set up container security auditor\""
+      "\"Help me audit this container setup for security issues.\"",
+      "\"What should I check in this Dockerfile and runtime config?\"",
+      "\"Review this container deployment for privilege and secret risks.\""
     ]
   },
   {
@@ -4482,17 +4408,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Tools",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "developing-with-fortify",
-    "name": "Developing With Fortify",
-    "description": "Step-by-step guidance for developing with fortify.",
-    "instructions": "# Developing With Fortify\n\nSupport developing with fortify workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with developing with fortify.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
     "requires": [],
     "examples": []
   },
@@ -5868,17 +5783,6 @@
     "examples": []
   },
   {
-    "skillId": "feature-flags",
-    "name": "Feature Flags",
-    "description": "Step-by-step guidance for feature flags.",
-    "instructions": "# Feature Flags\n\nSupport feature flags workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with feature flags.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "feishu-doc",
     "name": "Feishu Doc",
     "description": "Feishu doc read/write operations via the feishu_doc tool (read, write, append, create, and block APIs).",
@@ -6148,17 +6052,6 @@
     ]
   },
   {
-    "skillId": "flow",
-    "name": "Flow",
-    "description": "Step-by-step guidance for flow.",
-    "instructions": "# Flow\n\nSupport flow workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with flow tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "flowglad-checkout",
     "name": "Flowglad Checkout",
     "description": "Implement checkout sessions for purchasing subscriptions and products with Flowglad. Use this skill when creating upgrade buttons, purchase flows, or redirecting users to hosted checkout pages.",
@@ -6341,13 +6234,17 @@
   {
     "skillId": "frontend-code-review",
     "name": "Frontend Code Review",
-    "description": "Step-by-step guidance for frontend code review.",
-    "instructions": "# Frontend Code Review\n\nSupport frontend code review workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with frontend code review tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Review frontend code for regressions, accessibility, interaction quality, state handling, and testability risks.",
+    "instructions": "# Frontend Code Review\n\nUse this skill to review frontend changes with attention to user-visible regressions, accessibility, interaction quality, and testability.\n\n## Review Priorities\n- User-visible behavior and state transitions.\n- Accessibility semantics, focus handling, and keyboard support.\n- Error, loading, and empty-state behavior.\n- State management clarity and unintended coupling.\n- Testability and regression risk of the changed code.\n\n## Review Questions\n- What can break visually or behaviorally for users?\n- Are important states and transitions represented clearly?\n- Do labels, roles, focus order, and interaction patterns stay accessible?\n- Is state flow understandable enough to test and maintain?\n- Does the change introduce brittle selectors, implicit contracts, or hidden side effects?\n\n## Good Output\n- Highest-risk review findings first.\n- Notes on regressions, accessibility, and state-handling concerns.\n- Suggestions for tests that would reduce uncertainty.\n- Concrete cleanup or simplification opportunities.\n\n## Common Mistakes\n- Reviewing only styling and missing behavioral regressions.\n- Treating accessibility as optional polish.\n- Ignoring loading and failure states.\n- Approving complex state wiring that is hard to reason about or test.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Review this frontend change for quality risks.\"",
+      "\"What should I look for in this UI code review?\"",
+      "\"Check this component change for accessibility and regression issues.\""
+    ]
   },
   {
     "skillId": "frontend-design",
@@ -6402,13 +6299,17 @@
   {
     "skillId": "frontend-testing",
     "name": "Frontend Testing",
-    "description": "Step-by-step guidance for frontend testing.",
-    "instructions": "# Frontend Testing\n\nSupport frontend testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with frontend testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Plan frontend tests across components, interactions, accessibility, rendering states, and browser-facing regressions.",
+    "instructions": "# Frontend Testing\n\nUse this skill to design frontend tests that balance component behavior, interaction quality, accessibility, and browser-facing regressions.\n\n## Clarify First\n- What kind of frontend surface is involved: component, page, flow, form, or design-system primitive.\n- Which behavior matters most: rendering, interaction, accessibility, state transitions, or integration with data.\n- What should be tested at unit, component, integration, or browser level.\n- Which regressions would matter most to users.\n\n## Good Frontend Test Areas\n- Rendering of important states and error conditions.\n- User interactions and event handling.\n- Accessibility semantics, focus behavior, and labels.\n- Loading, empty, error, and success states.\n- Cross-component behavior when state or routing matters.\n\n## Testing Principles\n- Prefer testing visible behavior over internals.\n- Use accessible queries and user-facing outcomes whenever possible.\n- Keep browser-level tests for workflows and regression-prone UI behavior.\n- Avoid snapshot-heavy suites that are hard to interpret.\n\n## Good Output\n- Suggested test layers by feature risk.\n- Missing scenarios or state transitions.\n- Accessibility and interaction checks worth adding.\n- Warnings about brittle selectors or implementation-heavy assertions.\n\n## Common Mistakes\n- Overusing snapshots instead of asserting meaningful behavior.\n- Testing props and state plumbing rather than user-visible outcomes.\n- Ignoring empty, loading, and error states.\n- Treating accessibility as separate from normal frontend behavior.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me test this frontend feature.\"",
+      "\"What frontend tests are missing for this component?\"",
+      "\"Review this browser and interaction test plan.\""
+    ]
   },
   {
     "skillId": "frontend-to-backend-requirements",
@@ -6610,17 +6511,6 @@
       "\"Help me plan a small vegetable garden.\"",
       "\"What should I plant this season?\""
     ]
-  },
-  {
-    "skillId": "gdpr-data-handling",
-    "name": "GDPR Data Handling",
-    "description": "Step-by-step guidance for gdpr data handling.",
-    "instructions": "# GDPR Data Handling\n\nSupport gdpr data handling workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with gdpr data handling.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "gdpr-dsgvo-expert",
@@ -6925,17 +6815,6 @@
       "Refactor a Go service to use context-aware concurrency with worker pools and cancellation.",
       "Improve Go package boundaries and interface usage to simplify testing and reduce coupling."
     ]
-  },
-  {
-    "skillId": "golang-testing",
-    "name": "Golang Testing",
-    "description": "Step-by-step guidance for golang testing.",
-    "instructions": "# Golang Testing\n\nSupport golang testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with golang testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "goldenseed",
@@ -7966,17 +7845,6 @@
     ]
   },
   {
-    "skillId": "isms-audit-expert",
-    "name": "Isms Audit Expert",
-    "description": "Step-by-step guidance for isms audit expert.",
-    "instructions": "# Isms Audit Expert\n\nSupport isms audit expert workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with isms audit expert.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "iso-13485-certification",
     "name": "Iso 13485 Certification",
     "description": "ISO 13485 Quality Management System specialist for medical device companies. Provides QMS implementation, maintenance, process optimization, and compliance expertise. Use for QMS design, documentation control, management review, internal auditing, corrective actions, and ISO 13485 certification activities.",
@@ -8060,14 +7928,18 @@
   },
   {
     "skillId": "javascript-testing-patterns",
-    "name": "Javascript Testing Patterns",
-    "description": "Step-by-step guidance for javascript testing patterns.",
-    "instructions": "# Javascript Testing Patterns\n\nSupport javascript testing patterns workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with javascript testing patterns.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "name": "JavaScript Testing Patterns",
+    "description": "Apply JavaScript-specific testing patterns for async behavior, timers, module boundaries, mocks, and browser-like environments.",
+    "instructions": "# JavaScript Testing Patterns\n\nUse this skill when JavaScript-specific behavior makes generic unit-test advice too shallow.\n\n## Focus Areas\n- Async flows, promises, retries, and race conditions.\n- Timers, scheduling, and event-loop behavior.\n- Module boundaries, imports, and side effects.\n- Browser-like globals, DOM-adjacent behavior, or runtime assumptions.\n- Mocking choices and how they affect trust in the test.\n\n## Useful Patterns\n- Control time explicitly when timers or retries matter.\n- Test observable behavior of async code, not incidental ordering details.\n- Isolate side effects at module boundaries.\n- Be cautious with mocks that rewrite too much of the runtime contract.\n- Prefer patterns that keep tests readable under refactoring.\n\n## Good Output\n- JavaScript-specific test scenarios worth adding.\n- Warnings about timers, globals, mocks, or async flakiness.\n- Suggestions for cleaner seams around side effects.\n- Notes on what should be tested synchronously versus with async orchestration.\n\n## Common Mistakes\n- Letting fake timers or microtask behavior hide real bugs.\n- Over-mocking modules until the test no longer reflects runtime behavior.\n- Ignoring race conditions in code that awaits or schedules work.\n- Treating DOM-like globals as harmless implicit state.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"What testing patterns fit this JavaScript module?\"",
+      "\"Help me test this async JavaScript behavior.\"",
+      "\"Review these JS tests for brittle mocks and timer issues.\""
+    ]
   },
   {
     "skillId": "jb-pay-hook",
@@ -8411,15 +8283,16 @@
   {
     "skillId": "libafl",
     "name": "LibAFL",
-    "description": "LibAFL is a modular fuzzing library for building custom fuzzers. Use for advanced fuzzing needs, custom mutators, or non-standard fuzzing targets.",
-    "instructions": "# LibAFL\n\nLibAFL is a modular fuzzing library for building custom fuzzers. Use for advanced fuzzing needs, custom mutators, or non-standard fuzzing targets.\n\n## When to Use\n\n- You need help with libafl.\n- You want a clear, actionable next step.\n\n## Output\n\n- Summary of goals and plan\n- Key tips and precautions",
+    "description": "Guide advanced fuzzing design with LibAFL concepts such as harnesses, mutators, corpora, oracles, and execution strategy.",
+    "instructions": "# LibAFL\n\nUse this skill for advanced fuzzing problems where the user needs design help beyond generic test generation.\n\n## Focus Areas\n- Harness design and target isolation.\n- Corpus strategy and seed quality.\n- Mutator choice and feedback signals.\n- Crash or bug oracles.\n- Determinism, reproducibility, and execution throughput.\n\n## Design Questions\n- What kind of target is being fuzzed: parser, protocol, VM, stateful service, or something else?\n- What input shape and validity constraints matter?\n- What signals indicate progress: coverage, comparison feedback, crashes, semantic failures?\n- How expensive is one execution, and what is making it unstable?\n\n## Good Output\n- Suggested harness structure.\n- Corpus and mutator guidance.\n- Likely bottlenecks in throughput or signal quality.\n- Ways to make failures reproducible and useful.\n\n## Common Mistakes\n- Fuzzing through too much unstable environment at once.\n- Weak oracles that only detect crashes and miss logical failures.\n- Poor seed variety that limits exploration.\n- Ignoring determinism and then chasing flaky results.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
     "examples": [
-      "\"Help me build a custom fuzzer with LibAFL\"",
-      "\"Create a custom mutator for LibAFL\""
+      "\"Help me design a custom fuzzer with LibAFL.\"",
+      "\"What should this LibAFL harness look like?\"",
+      "\"How do I think about mutators and corpora for this target?\""
     ]
   },
   {
@@ -9731,17 +9604,6 @@
     ]
   },
   {
-    "skillId": "mtls-configuration",
-    "name": "mTLS Configuration",
-    "description": "Step-by-step guidance for mtls configuration.",
-    "instructions": "# mTLS Configuration\n\nSupport mtls configuration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with mtls configuration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "mui",
     "name": "Mui",
     "description": "Concrete workflow for mui with specific inputs, execution steps, and deliverables.",
@@ -10972,15 +10834,16 @@
   {
     "skillId": "performing-security-audits",
     "name": "Performing Security Audits",
-    "description": "Thorough code review with focus on security, performance, and best practices. Use when reviewing code, performing security audits, checking code quality, or reviewing pull requests.",
-    "instructions": "# Code Reviewer\n\nYou are an expert code reviewer who identifies security vulnerabilities, performance issues, and code quality problems.\n\n## When to Apply\n\nUse this skill when:\n- Reviewing pull requests\n- Performing security audits\n- Checking code quality\n- Identifying performance bottlenecks\n- Ensuring best practices\n- Pre-deployment code review\n\n## How to Use This Skill\n\nThis skill contains **detailed rules** in the `rules/` directory, organized by category and priority.\n\n### Quick Start\n\n1. **Review [AGENTS.md](AGENTS.md)** for a complete compilation of all rules with examples\n2. **Reference specific rules** from `rules/` directory for deep dives\n3. **Follow priority order**: Security → Performance → Correctness → Maintainability\n\n### Available Rules\n\n**Security (CRITICAL)**\n- [SQL Injection Prevention](rules/security-sql-injection.md)\n- [XSS Prevention](rules/security-xss-prevention.md)\n\n**Performance (HIGH)**\n- [Avoid N+1 Query Problem](rules/performance-n-plus-one.md)\n\n**Correctness (HIGH)**\n- [Proper Error Handling](rules/correctness-error-handling.md)\n\n**Maintainability (MEDIUM)**\n- [Use Meaningful Variable Names](rules/maintainability-naming.md)\n- [Add Type Hints](rules/maintainability-type-hints.md)\n\n## Review Process\n\n### 1. **Security First** (CRITICAL)\nLook for vulnerabilities that could lead to data breaches or unauthorized access:\n- SQL injection\n- XSS (Cross-Site Scripting)\n- Authentication/authorization bypasses\n- Hardcoded secrets\n- Insecure dependencies\n\n### 2. **Performance** (HIGH)\nIdentify code that will cause slow performance at scale:\n- N+1 database queries\n- Missing indexes\n- Inefficient algorithms\n- Memory leaks\n- Unnecessary API calls\n\n### 3. **Correctness** (HIGH)\nFind bugs and edge cases:\n- Error handling gaps\n- Race conditions\n- Off-by-one errors\n- Null/undefined handling\n- Input validation\n\n### 4. **Maintainability** (MEDIUM)\nImprove code quality for long-term health:\n- Clear naming\n- Type safety\n- DRY principle\n- Single responsibility\n- Documentation\n\n### 5. **Testing**\nVerify adequate coverage:\n- Unit tests for new code\n- Edge case testing\n- Error path testing\n- Integration tests where needed\n\n## Review Output Format\n\nStructure your reviews as:\n\n```markdown\nThis function retrieves user data but has critical security and reliability issues.\n\n## Critical Issues 🔴\n\n1. **SQL Injection Vulnerability** (Line 2)\n   - **Problem:** User input directly interpolated into SQL query\n   - **Impact:** Attackers can execute arbitrary SQL commands\n   - **Fix:** Use parameterized queries\n   ```python\n   query = \"SELECT * FROM users WHERE id = ?\"\n   result = db.execute(query, (user_id,))\n   ```\n\n## High Priority 🟠\n\n1. **No Error Handling** (Line 3-4)\n   - **Problem:** Assumes result always has data\n   - **Impact:** IndexError if user doesn't exist\n   - **Fix:** Check result before accessing\n   ```python\n   if not result:\n       return None\n   return result[0]\n   ```\n\n2. **Missing Type Hints** (Line 1)\n   - **Problem:** No type annotations\n   - **Impact:** Reduces code clarity and IDE support\n   - **Fix:** Add type hints\n   ```python\n   def get_user(user_id: int) -> Optional[Dict[str, Any]]:\n   ```\n\n## Recommendations\n- Add logging for debugging\n- Consider using an ORM to prevent SQL injection\n- Add input validation for user_id",
+    "description": "Perform security-focused code and design audits with clear severity, exploitability, and remediation guidance.",
+    "instructions": "# Performing Security Audits\n\nUse this skill to review code, configuration, or architecture from a security-first perspective.\n\n## Audit Priorities\n- Attack surface and trust boundaries.\n- Authentication, authorization, and session handling.\n- Input validation, output encoding, and injection risks.\n- Secrets, credentials, and sensitive data exposure.\n- Dependency, configuration, and deployment risks.\n\n## Review Method\n1. Clarify what changed and what is exposed to users, services, or the internet.\n2. Identify the most likely abuse paths before listing general best practices.\n3. Separate critical exploitable issues from lower-risk hygiene concerns.\n4. Explain why each finding matters, not just what rule it breaks.\n5. Suggest the smallest effective remediation or mitigation.\n\n## High-Value Audit Lenses\n- Can an untrusted actor reach this path?\n- What input crosses trust boundaries?\n- What permissions or secrets are involved?\n- What happens when assumptions fail or inputs are malicious?\n- Would logs, errors, or defaults leak more than intended?\n\n## Output Format\n- Critical findings first.\n- Each finding should include problem, impact, and suggested fix.\n- Note assumptions and missing context when confidence is limited.\n- Mention testing or verification steps if they would reduce uncertainty.\n\n## Common Security Findings\n- Injection and unsafe interpolation.\n- Missing authorization checks.\n- Overly broad trust in external input or upstream services.\n- Secrets or tokens handled insecurely.\n- Risky defaults, missing rate limits, or weak validation.\n\n## Boundaries\n- Do not pretend to run scanners or penetration tests.\n- Prefer concrete findings, abuse scenarios, and remediation guidance over generic checklists.",
     "author": "awesome-llm-apps",
     "version": "2.0.0",
     "category": "Testing & Security",
     "requires": [],
     "examples": [
-      "\"Review this code for security vulnerabilities\"",
-      "\"Perform a security audit on this pull request\""
+      "\"Review this code for security vulnerabilities.\"",
+      "\"Perform a security audit on this pull request.\"",
+      "\"What are the highest-risk security issues in this change?\""
     ]
   },
   {
@@ -11039,17 +10902,6 @@
       "\"How should I adjust this workout plan?\"",
       "\"Explain how to do this exercise safely.\""
     ]
-  },
-  {
-    "skillId": "pest-testing",
-    "name": "Pest Testing",
-    "description": "Step-by-step guidance for pest testing.",
-    "instructions": "# Pest Testing\n\nSupport pest testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with pest testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "pgvector-semantic-search",
@@ -11697,15 +11549,16 @@
   {
     "skillId": "property-based-testing",
     "name": "Property Based Testing",
-    "description": "Expert-level JavaScript testing skill focused on writing high-quality tests that find bugs, serve as documentation, and prevent regressions. Advocates for property-based testing with fast-check and protects against indeterministic code in tests. Does not cover black-box e2e testing.",
-    "instructions": "> **⚠️ Scope:** Testing functions and components, not black-box e2e.\n\n**🏅 Main objectives:** use tests as a way to...\n\n1. uncover hard to detect bugs\n2. document how to use the code\n3. avoid regressions\n4. challenge the code\n\n**🔧 Recommended tooling:** `vitest`, `fast-check`, `@fast-check/vitest`, `@testing-library/*`, `@vitest/browser-playwright`, `msw` installed as devDependencies.  \n**✅ Do** try to install missing and relevant tooling, only recommend for `@fast-check/vitest` and browser testing.  \n**✅ Do** highly recommend user to install missing and relevant tooling.  \n**✅ Do** adapt yourself to missing tools.\n\n## File and code layout\n\n**✅ Do** mimic the existing test structure of the project when adding new tests\n\n**✅ Do** use one test file per code file\n\n**👍 Prefer** using `.spec.ts` extension (e.g., `fileName.ts` → `fileName.spec.ts`) and colocated with the source file if no existing test structure is present\n\n**✅ Do** put `it` within `describe`, when using `it`\n\n**👍 Prefer** `it` over `test`\n\n**✅ Do** name the `describe` with the name of the function being tested\n\n**✅ Do** use a dedicated `describe` for each function being tested\n\n**✅ Do** start naming `it` with \"should\" and considers that the name should be clear, as consise as possible and could be read as a sentence implicitly prefixed by \"it\"\n\n**✅ Do** start with simple and documenting tests\n\n**✅ Do** continue with advanced tests looking for edge-cases\n\n**❌ Don't** delimitate explicitely simple from advanced tests, just but them in the right order\n\n**✅ Do** put helper functions specific to the file after all the `describe`s just below a comment `// Helpers` stating the beginning of the helpers tailored for this file\n\n## Core guidelines\n\n**✅ Do** follow the AAA pattern and make it visible in the test\n\n```ts\nit('should...', () => {\n  // Arrange\n  code;\n\n  // Act\n  code;\n\n  // Assert\n  code;\n});\n```\n\n**✅ Do** keep tests focused, try to assert on one precise aspect\n\n**✅ Do** keep tests simple\n\n**👎 Avoid** complex logic in tests or its helpers\n\n**❌ Don't** test internal details\n\n**👍 Prefer** stubs over mocks, the first one provides an alternate implementation, the second one helps to assert on calls being done or not  \nWhy? Often, asserting the number of calls is not something critical for the user of the function but purely an internal detail\n\n**❌ Don't** rely on network call, stub it with `msw`\n\n**✅ Do** reset globals and mocks in `beforeEach` if any `it` plays with mocks or spies or alter globals  \nAlternatively, when using vitest you could check if flags `mockReset`, `unstubEnvs` and `unstubGlobals` have been enabled in the configuration, in such case resetting globals is done by default\n\n**👍 Prefer** realistic data for documentation-like tests  \nEg.: use real names if you have to build instances of users\n\n**❌ Don't** overuse snapshot tests; only snapshot things when the \"what is expected to be seen in the snapshot\" is clear  \nWhy? Snapshots tests tend to capture too many details in the snapshot, making them hard to update given future reader is lost on what was the real thing being tested\n\n**👍 Prefer** snapshots when shape and structure are important (component hierarchy, attributes, non-regression on output structure)\n\n**👍 Prefer** screenshots when final render is important (visual styling, layout)\n\n**✅ Do** warn developer when the code under tests requires too many parameters and/or too many mocks/stubs to be forged (more than 10)  \nWhy? Code being hardly testable is often a code smell pinpointing an API having to be changed. Code is harder to evolve, harder to reason about and often handling too many responsibilities. Recommend the single-responsibility principle (SRP)\n\n**✅ Do** try to make tests shorter and faster to read by factorizing recurrent logics into helper functions\n\n**✅ Do** group shared logics under a function having a clear and explicit name, follow SRP for these helpers  \nEg.: avoid functions with lots of optional parameters, doing several things\n\n**❌ Don't** write a big `prepare` function re-used by all tests in their act part, but make the name clearer and eventually split it into multiple functions\n\n**✅ Do** make sure your test breaks if you drop the thing supposed to make it pass  \nEg.: When your test says \"should do X when Y\" makes sure that if you don't have Y it fails before keeping it.\n\n**👎 Avoid** writing tests with entities specifying hardcoded values on unused fields\n\nExample of test content\n\n```ts\nconst user: User = {\n  name: 'Paul', // unused\n  birthday: '2010-02-03',\n};\nconst age = computeAge(user);\n//...\n```\n\n**👍 Prefer** leveraging `@fast-check/vitest`, if installed\n\n```ts\nimport { describe } from 'vitest';\nimport { it, fc } from '@fast-check/vitest';\n\ndescribe('computeAge', () => {\n  it('should compute a positive age', ({ g }) => {\n    // Arrange\n    const user: User = {\n      name: g(fc.string), // unused\n      birthday: '2010-02-03',\n    };\n\n    // Act\n    const age = computeAge(user);\n\n    // Assert\n    expect(age).toBeGreaterThan(0);\n  });\n});\n```\n\n**👍 Prefer** leveraging `fast-check`, if installed but not `@fast-check/vitest`\n\n**👎 Avoid** writing tests depending on unstable values  \nEg.: in the example above `computeAge` depends on the current date  \nRemark: same for locales and plenty other platform dependent values\n\n**👍 Prefer** stubbing today using `vi.setSystemTime`\n\n**👍 Prefer** controlling today using `@fast-check/vitest`  \nWhy? Contrary to `vi.setSystemTime` alone you check the code against one new today at each run, but if it happens to fail one day you will be reported with the exact date causing the problem\n\n```ts\n// Arrange\nvi.setSystemTime(g(fc.date, { min: new Date('2010-02-04'), noInvalidDate: true }));\nconst user: User = {\n  name: g(fc.string), // unused\n  birthday: '2010-02-03',\n};\n```\n\n**👎 Avoid** writing tests depending on random values or entities\n\n**👍 Prefer** controlling randomly generated values by relying on `@fast-check/vitest` if installed, or `fast-check` otherwise\n\n**✅ Do** use property based tests for any test with a notion of always or never  \nEg.: name being \"should always do x when y\" or \"should never do x when y\"  \nRemark: consider these tests as advanced and put them after the documentation tests and not with them\n\n**👍 Prefer** using property based testing for edge case detection instead of writing all cases one by one\n\n**❌ Don't** try to test 100% of the algorithm cases using property-based testing\nWhy? Property-based testing and example-based testing are complementary. Property-based tests are excellent for uncovering edge cases and validating general properties, while example-based tests provide clear documentation and cover specific important scenarios. Use both approaches together for comprehensive test coverage.\n\n```ts\n// for all a, b, c strings\n// b is a substring of a + b + c\nit.prop([fc.string(), fc.string(), fc.string()])('should detect the substring', (a, b, c) => {\n  // Arrange\n  const text = a + b + c;\n  const pattern = b;\n\n  // Act\n  const result = isSubstring(text, pattern);\n\n  // Assert\n  expect(result).toBe(true);\n});\n```\n\n**✅ Do** extract complex logic from components into dedicated and testable functions\n\n**❌ Don't** test trivial component logic that has zero complexity\n\n**👍 Prefer** testing the DOM structure and user interactions when using testing-library\n\n**👍 Prefer** testing the visual display and user interactions when using browser testing\n\n**👍 Prefer** querying by accessible attributes and user-visible text by relying on `getByRole`, `getByLabelText`, `getByText` over `getByTestId` whenever possible for testing-library and browser testing\n\n**✅ Do** ensure non visual regression of Design System components and more generally visual components by leveraging screenshot tests in browser when available  \n**✅ Do** fallback to snapshot tests capturing the DOM structure if screenshot tests cannot be ran\n\n## Guidelines for properties\n\nAll this section considers that we are in the context of property based tests!\n\n**⚠️ Important:** When using `g` from `@fast-check/vitest`, pass the arbitrary **function** (e.g., `fc.string`, `fc.date`) along with its arguments as separate parameters to `g`, not the result of calling it.  \nCorrect: `g(fc.string)`, `g(fc.date, { min: new Date('2010-01-01') })`  \nIncorrect: `g(fc.string())`, `g(fc.date({ min: new Date('2010-01-01') }))`\n\n**❌ Don't** generate inputs directly  \nThe risk being that you may end up rewriting the code being tested in the test\n\n**✅ Do** construct values to build some inputs where you know the expected outcome\n\n**❌ Don't** expect the returned value in details, in many cases you won't have enough details to be able to assert the full value\n\n**✅ Do** expect some aspects and characteristics of the returned value\n\n**❌ NEVER** specify any `maxLength` on an arbitrary if it is a not a requirement of the algorithm  \n**👍 Prefer** specifying a `size: '-1'` if you feel that the algorithm will take very long on large inputs (by default fast-check generates up to 10 items, so only use `size` when clearly required)  \nEg.: No `fc.string({maxLength: 5})` or `fc.array(arb, {maxLength: 8})` except being a string requirement\n\n**❌ NEVER** specify any constraint on an arbitrary if it is not a requirement of the arbitrary, use defaults as much as possible  \nEg.: if the algorithm should accept any integer just ask an integer without specifying any min and max\n\n**👎 Avoid** overusing `.filter` and `fc.pre`  \nWhy? They slow down the generation of values by dropping some generated ones\n\n**👍 Prefer** using options provided by arbitraries to directly generate valid values  \nEg.: use `fc.string({ minLength: 2 })` instead of `fc.string().filter(s => s.length >= 2)`  \nEg.: use `fc.integer({ min: 1 })` instead of `fc.integer().filter(n => n >= 1)`, or use `fc.nat()` instead of `fc.integer().filter(n => n >= 0)`\n\n**👍 Prefer** using `map` over `filter` when a `map` trick can avoid filtering  \nEg.: use `fc.nat().map(n => n * 2)` for even numbers  \nEg.: use `fc.tuple(fc.string(), fc.string()).map(([start, end]) => start + 'A' + end)` for strings always having an 'A' character\n\n**👍 Prefer** bigint type over number type for integer computations used within predicates when there is a risk of overflow (eg.: when running pow, multiply.. on generated values)\n\nSome classical properties:\n\n1. Characteristics independent of the inputs. _Eg.: for any floating point number d, Math.floor(d) is an integer. for any integer n, Math.abs(n) ≥ 0_\n2. Characteristics derived from the inputs. _Eg.: for any a and b integers, the average of a and b is between a and b. for any n, the product of all numbers in the prime factor decomposition of n equals n. for any array of data, sorted(data) and data contains the same elements. for any n1, n2 integers such that n1 != n2, romanString(n1) != romanString(n2). for any floating point number d, Math.floor(d) is an integer such as d-1 ≤ Math.floor(d) ≤ d_\n3. Restricted set of inputs with useful characteristics. _Eg.: for any array data with no duplicates, the result of removing duplicates from data is data itself. for any a, b and c strings, the concatenation of a, b and c always contains b. for any prime number p, its decomposition into prime factors is itself_\n4. Characteristics on combination of functions. _Eg.: zipping then unzipping a file should result in the original file. lcm(a,b) times gcd(a,b) must be equal to a times b_\n5. Comparison with a simpler implementation. _Eg.: c is contained inside sorted array data for binary search is equivalent to c is contained inside data for linear search_\n\n## Guidelines for race conditions\n\n**✅ Do** write tests checking for race conditions and playing with resolution order — _automatically handled by `fast-check`_ — when an algorithm accepts asynchronous functions as input\n\n**✅ Do** leverage `fast-check` and its `fc.scheduler()` arbitrary to test asynchronous code depending on asynchronous functions\n\nTurn:\n\n```ts\nit('should resolve in call order', async () => {\n  // Arrange\n  const seenAnswers = [];\n  const call = vi.fn().mockImplementation((v) => Promise.resolve(v));\n\n  // Act\n  const queued = queue(call);\n  await Promise.all([queued(1).then((v) => seenAnswers.push(v)), queued(2).then((v) => seenAnswers.push(v))]);\n\n  // Assert\n  expect(seenAnswers).toEqual([1, 2]);\n});\n```\n\nInto:\n\n```ts\nit('should resolve in call order', async () => {\n  await fc.assert(\n    fc.asyncProperty(fc.scheduler(), async (s) => {\n      // Arrange\n      const seenAnswers = [];\n      const call = vi.fn().mockImplementation((v) => Promise.resolve(v));\n\n      // Act\n      const queued = queue(s.scheduleFunction(call));\n      await s.waitFor(\n        Promise.all([queued(1).then((v) => seenAnswers.push(v)), queued(2).then((v) => seenAnswers.push(v))]),\n      );\n\n      // Assert\n      expect(seenAnswers).toEqual([1, 2]);\n    }),\n  );\n});\n```\n\n## Recommendation for faker users\n\nIf using `faker` to fake data, we recommend wiring any fake data generation within `fast-check` by leveraging this code snippet:\n\n```ts\n// Source: https://fast-check.dev/blog/2024/07/18/integrating-faker-with-fast-check/\nimport { Faker, Randomizer, base } from '@faker-js/faker';\nimport fc from 'fast-check';\n\nclass FakerBuilder<TValue> extends fc.Arbitrary<TValue> {\n  constructor(private readonly generator: (faker: Faker) => TValue) {\n    super();\n  }\n  generate(mrng: fc.Random, biasFactor: number | undefined): fc.Value<TValue> {\n    const randomizer: Randomizer = {\n      next: (): number => mrng.nextDouble(),\n      seed: () => {}, // no-op, no support for updates of the seed, could even throw\n    };\n    const customFaker = new Faker({ locale: base, randomizer });\n    return new fc.Value(this.generator(customFaker), undefined);\n  }\n  canShrinkWithoutContext(value: unknown): value is TValue {\n    return false;\n  }\n  shrink(value: TValue, context: unknown): fc.Stream<fc.Value<TValue>> {\n    return fc.Stream.nil();\n  }\n}\n\nfunction fakerToArb<TValue>(generator: (faker: Faker) => TValue): fc.Arbitrary<TValue> {\n  return new FakerBuilder(generator);\n}\n```\n\nExample of usage\n\n```ts\nfc.assert(\n  fc.property(\n    fakerToArb((faker) => faker.person.firstName),\n    fakerToArb((faker) => faker.person.lastName),\n    (firstName, lastName) => {\n      // code\n    },\n  ),\n);\n```\n\n## Equivalence `fast-check` and `@fast-check/vitest`\n\nExample 1.\n\n```ts\n// with @fast-check/vitest\nimport { it, fc } from '@fast-check/vitest';\nit('...', ({ g }) => {\n  //...\n});\n\n// with fast-check\nimport { it } from 'vitest';\nimport fc from 'fast-check';\nit('...', () => {\n  fc.assert(\n    fc.property(fc.gen(), (g) => {\n      //...\n    }),\n  );\n});\n```\n\nExample 2.\n\n```ts\n// with @fast-check/vitest\nimport { it, fc } from '@fast-check/vitest';\nit.prop([...arbitraries])('...', (...values) => {\n  //...\n});\n\n// with fast-check\nimport { it } from 'vitest';\nimport fc from 'fast-check';\nit('...', () => {\n  fc.assert(\n    fc.property(...arbitraries, (...values) => {\n      //...\n    }),\n  );\n});\n```\n\nExample 3. If the predicate of `it` or `it.prop` is asynchronous, when using only `fast-check` the property has to be instantiated via `asyncProperty` and `assert` has to be awaited.\n\n```ts\n// with @fast-check/vitest\nimport { it, fc } from '@fast-check/vitest';\nit.prop([...arbitraries])('...', async (...values) => {\n  //...\n});\n\n// with fast-check\nimport { it } from 'vitest';\nimport fc from 'fast-check';\nit('...', async () => {\n  await fc.assert(\n    fc.asyncProperty(...arbitraries, async (...values) => {\n      //...\n    }),\n  );\n});\n```",
+    "description": "Use property-based testing to find edge cases, challenge invariants, and strengthen test suites without overfitting examples.",
+    "instructions": "# Property Based Testing\n\nUse this skill to design tests around invariants, generated inputs, and edge-case discovery rather than hand-picking every case one by one.\n\n## When It Fits Best\n- The behavior should always or never hold.\n- The code accepts many valid inputs or combinations.\n- Edge cases are hard to enumerate manually.\n- Example tests already exist, but they are not enough to challenge the implementation.\n\n## Start By Clarifying\n- What the unit under test guarantees.\n- Which inputs are valid, invalid, or constrained by business rules.\n- What would count as a real failure versus an irrelevant oddity.\n- Whether the code depends on time, randomness, ordering, or async behavior.\n\n## Good Property Design\n- Test stable invariants, not implementation details.\n- Combine property-based tests with example-based tests.\n- Prefer properties that explain behavior clearly enough for future readers.\n- Use generated data to challenge the code, not to rewrite the production algorithm inside the test.\n\n## Common Property Patterns\n- Output always satisfies a validity condition.\n- Transformations preserve key structure or meaning.\n- Two implementations agree on the same input.\n- Doing an operation and then its inverse gets back to the original result.\n- Reordering or combining inputs preserves a known property.\n\n## Failure Prevention\n- Control unstable inputs like time, randomness, locale, and async scheduling when they would make failures noisy.\n- Keep generators as broad as the real requirements allow.\n- Avoid over-constraining inputs just to make tests pass more easily.\n- Treat shrinking and reproducibility as part of the debugging workflow.\n\n## Good Output\n- Candidate properties worth testing.\n- Suggested input strategy and constraints.\n- Warnings about unstable dependencies or false confidence.\n- A balanced test plan that mixes properties with concrete examples.\n\n## Common Mistakes\n- Using property tests where a few examples would explain the behavior better.\n- Writing properties so vague they pass without testing much.\n- Filtering generated inputs heavily instead of modeling valid inputs directly.\n- Confusing exhaustive testing with property-based testing.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
     "examples": [
-      "\"Help me write property-based tests with fast-check\"",
-      "\"Convert this unit test to a property-based test\""
+      "\"Help me find good properties for this function.\"",
+      "\"Convert this example-based test into a property-based test.\"",
+      "\"What invariants should I test for this algorithm?\""
     ]
   },
   {
@@ -11891,17 +11744,6 @@
     ]
   },
   {
-    "skillId": "pyrefly-type-coverage",
-    "name": "Pyrefly Type Coverage",
-    "description": "Step-by-step guidance for pyrefly type coverage.",
-    "instructions": "# Pyrefly Type Coverage\n\nSupport pyrefly type coverage workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with pyrefly type coverage tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "pysam",
     "name": "pysam",
     "description": "Python interface for htslib to read, manipulate, and write SAM/BAM/CRAM alignments, VCF/BCF variants, and FASTA/FASTQ sequences.",
@@ -11942,17 +11784,6 @@
       "Set up a particle collision simulation in Pythia.",
       "What are the best practices for generating event catalogs?"
     ]
-  },
-  {
-    "skillId": "python-anti-patterns",
-    "name": "Python Anti Patterns",
-    "description": "Step-by-step guidance for python anti patterns.",
-    "instructions": "# Python Anti Patterns\n\nSupport python anti patterns workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with python anti patterns tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "python-code-style",
@@ -12166,13 +11997,17 @@
   {
     "skillId": "python-testing",
     "name": "Python Testing",
-    "description": "Step-by-step guidance for python testing.",
-    "instructions": "# Python Testing\n\nSupport python testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with python testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design Python tests with attention to fixtures, parametrization, side effects, exceptions, and stateful runtime behavior.",
+    "instructions": "# Python Testing\n\nUse this skill to design Python tests that are clear, maintainable, and sensitive to Python-specific failure patterns.\n\n## Clarify First\n- What is under test and what external state it touches.\n- Which exceptions, side effects, or mutable state transitions matter.\n- Whether fixtures, parametrization, or patching are helping or hiding problems.\n- What behavior should remain explicit even if helper abstractions exist.\n\n## Python Testing Priorities\n- Make fixtures serve readability, not hide setup complexity.\n- Use parametrization where it clarifies input variation.\n- Be explicit about exceptions, warnings, and failure semantics.\n- Control filesystem, environment, network, and time when they affect behavior.\n- Watch for mutable shared state and order-dependent tests.\n\n## Good Output\n- Scenario-based Python test plan.\n- Fixture or parametrization suggestions.\n- Warnings about hidden state, monkeypatching, or brittle assertions.\n- Missing failure or edge cases worth covering.\n\n## Common Mistakes\n- Fixtures that hide more than they help.\n- Overusing patching so the test stops reflecting real behavior.\n- Missing assertions around exceptions or warnings.\n- State leakage between tests through globals, caches, or mutable defaults.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write tests for this Python module.\"",
+      "\"What Python test cases are missing here?\"",
+      "\"Review this pytest-style test plan for fixture and state issues.\""
+    ]
   },
   {
     "skillId": "python-type-safety",
@@ -12683,17 +12518,6 @@
     ]
   },
   {
-    "skillId": "realphonevalidation-automation",
-    "name": "Real Phone Validation Automation",
-    "description": "Step-by-step guidance for real phone validation automation.",
-    "instructions": "# Real Phone Validation Automation\n\nSupport real phone validation automation workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with real phone validation automation tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "reasoningbank-intelligence",
     "name": "Reasoningbank Intelligence",
     "description": "Concrete workflow for reasoningbank intelligence with specific inputs, execution steps, and deliverables.",
@@ -12728,17 +12552,6 @@
       "Help me plan and implement reasoningbank with agentdb for this repository, including key decisions and checkpoints.",
       "Create a concise reasoningbank with agentdb workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "receiving-code-review",
-    "name": "Receiving Code Review",
-    "description": "Step-by-step guidance for receiving code review.",
-    "instructions": "# Receiving Code Review\n\nSupport receiving code review workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with receiving code review tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "recent-data",
@@ -12960,17 +12773,6 @@
       "\"Critique this democratic formalism idea.\"",
       "\"Adapt these principles into an FAQ or implementation note.\""
     ]
-  },
-  {
-    "skillId": "requesting-code-review",
-    "name": "Requesting Code Review",
-    "description": "Step-by-step guidance for requesting code review.",
-    "instructions": "# Requesting Code Review\n\nSupport requesting code review workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with requesting code review tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "research-engineer",
@@ -13726,28 +13528,6 @@
     ]
   },
   {
-    "skillId": "security-audit",
-    "name": "Security Audit",
-    "description": "Step-by-step guidance for security audit.",
-    "instructions": "# Security Audit\n\nSupport security audit workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with security audit.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "security-best-practices",
-    "name": "Security Best Practices",
-    "description": "Step-by-step guidance for security best practices.",
-    "instructions": "# Security Best Practices\n\nSupport security best practices workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with security best practices.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "security-review",
     "name": "Security Review",
     "description": "Step-by-step guidance for security review.",
@@ -13891,28 +13671,6 @@
     ]
   },
   {
-    "skillId": "senior-secops",
-    "name": "Senior Secops",
-    "description": "Step-by-step guidance for senior secops.",
-    "instructions": "# Senior Secops\n\nSupport senior secops workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with senior secops.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "senior-security",
-    "name": "Senior Security",
-    "description": "Step-by-step guidance for senior security.",
-    "instructions": "# Senior Security\n\nSupport senior security workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with senior security.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "seo-audit",
     "name": "SEO Audit",
     "description": "Step-by-step guidance for seo audit.",
@@ -14053,17 +13811,6 @@
       "Help me plan and implement setup for this repository, including key decisions and checkpoints.",
       "Create a concise setup workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "setup-web-tests",
-    "name": "Setup Web Tests",
-    "description": "Step-by-step guidance for setup web tests.",
-    "instructions": "# Setup Web Tests\n\nSupport setup web tests workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with setup web tests.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "shap",
@@ -15133,17 +14880,6 @@
     ]
   },
   {
-    "skillId": "swift-protocol-di-testing",
-    "name": "Swift Protocol Di Testing",
-    "description": "Step-by-step guidance for swift protocol di testing.",
-    "instructions": "# Swift Protocol Di Testing\n\nSupport swift protocol di testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with swift protocol di testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "swiftui-expert-skill",
     "name": "Swiftui Expert Skill",
     "description": "Concrete workflow for swiftui expert skill with specific inputs, execution steps, and deliverables.",
@@ -15260,17 +14996,6 @@
       "Help me plan and implement syncable entity integration for this repository, including key decisions and checkpoints.",
       "Create a concise syncable entity integration workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "syncable-entity-testing",
-    "name": "Syncable Entity Testing",
-    "description": "Step-by-step guidance for syncable entity testing.",
-    "instructions": "# Syncable Entity Testing\n\nSupport syncable entity testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with syncable entity testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "syncable-entity-types-and-constants",
@@ -15514,17 +15239,6 @@
     ]
   },
   {
-    "skillId": "temporal-python-testing",
-    "name": "Temporal Python Testing",
-    "description": "Step-by-step guidance for temporal python testing.",
-    "instructions": "# Temporal Python Testing\n\nSupport temporal python testing workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with temporal python testing.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "tensorboard",
     "name": "TensorBoard",
     "description": "Practical guidance for tensorboard workflows.",
@@ -15557,28 +15271,6 @@
       "Help me plan and implement tensorrt llm for this repository, including key decisions and checkpoints.",
       "Create a concise tensorrt llm workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "test-driven-development",
-    "name": "Test Driven Development",
-    "description": "Step-by-step guidance for test driven development.",
-    "instructions": "# Test Driven Development\n\nSupport test driven development workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with test driven development tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "test-writer",
-    "name": "Test Writer",
-    "description": "Step-by-step guidance for test writer.",
-    "instructions": "# Test Writer\n\nSupport test writer workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with test writer.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "testing-handbook-generator",
@@ -15670,17 +15362,6 @@
       "Help me plan and implement threejs skills for this repository, including key decisions and checkpoints.",
       "Create a concise threejs skills workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "tidb-test-guidelines",
-    "name": "TiDB Test Guidelines",
-    "description": "Step-by-step guidance for tidb test guidelines.",
-    "instructions": "# TiDB Test Guidelines\n\nSupport tidb test guidelines workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with tidb test guidelines.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "tides",
@@ -16104,17 +15785,6 @@
     "examples": []
   },
   {
-    "skillId": "ui-review",
-    "name": "UI Review",
-    "description": "Step-by-step guidance for UI review.",
-    "instructions": "# UI Review\n\nSupport ui review workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with ui review tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "ui-ux-designer",
     "name": "UI/UX Designer",
     "description": "Step-by-step guidance for UI/UX designer. user research, accessibility standards, and modern design tools. Specializes in design tokens, component libraries, and inclusive design. Use PROACTIVELY for design systems, user flows, or interface optimization.",
@@ -16416,15 +16086,16 @@
   {
     "skillId": "validating-api-contracts",
     "name": "Validating API Contracts",
-    "description": "Validates API contracts using consumer-driven testing and OpenAPI validation. Leverages Pact for contract testing and OpenAPI for specification compliance. Use when generating contract tests, validating API responses, or checking backward compatibility.",
-    "instructions": "## Overview\n\nThis skill enables Claude to generate and validate API contracts, ensuring compatibility between API providers and consumers. It uses Pact for consumer-driven contract testing and OpenAPI validation for specification compliance.\n\n## How It Works\n\n1. **Generating Contract Tests**: Claude creates Pact consumer tests based on API usage, generating provider verification tests and building OpenAPI contract validators.\n2. **Validating Contracts**: The skill verifies if API responses match the defined contracts.\n3. **Checking Compatibility**: It checks for backward compatibility to identify breaking changes in the API.\n\n## When to Use This Skill\n\nThis skill activates when you need to:\n- Generate contract tests for an API.\n- Validate API responses against existing contracts.\n- Identify breaking changes in an API.\n\n## Examples\n\n### Example 1: Generating Pact Contracts\n\nUser request: \"Generate contract tests for my API using Pact.\"\n\nThe skill will:\n1. Analyze the API and generate Pact consumer contracts.\n2. Create provider verification tests based on the contracts.\n\n### Example 2: Validating an OpenAPI Specification\n\nUser request: \"Validate my API against the OpenAPI specification.\"\n\nThe skill will:\n1. Validate the API against the provided OpenAPI specification.\n2. Report any discrepancies or violations of the specification.\n\n## Best Practices\n\n- **Clarity**: Be specific when requesting contract generation or validation, providing relevant API details.\n- **Completeness**: Ensure that your OpenAPI specifications are up-to-date for accurate validation.\n- **Context**: Provide context about the consumer and provider roles when using Pact.\n\n## Integration\n\nThis skill can be integrated with other testing and deployment tools in the Claude Code ecosystem to automate contract verification as part of a CI/CD pipeline.",
+    "description": "Validate API contracts for compatibility, schema correctness, and breaking changes using specification-aware review principles.",
+    "instructions": "# Validating API Contracts\n\nUse this skill to review whether an API contract is clear, compatible, and safely evolving.\n\n## What To Compare\n- Declared request and response schemas.\n- Required versus optional fields.\n- Status codes and error shapes.\n- Enum, format, and nullability changes.\n- Authentication, headers, and versioning expectations.\n\n## Review Questions\n- Would an existing consumer break because of this change?\n- Are the documented types and the real behavior aligned?\n- Are there hidden assumptions around defaults, ordering, or missing fields?\n- Does the error contract remain consistent enough for callers to handle safely?\n- Is the compatibility story explicit for both consumers and providers?\n\n## Good Output\n- Breaking versus non-breaking changes.\n- Ambiguities or undocumented behavior.\n- Gaps between implementation intent and documented contract.\n- Suggested compatibility strategy or rollout notes.\n\n## Common Breaking Changes\n- Making a previously optional field required.\n- Changing data types or enum meanings.\n- Removing status codes or changing error payload shape.\n- Returning looser or stricter data than consumers rely on.\n\n## Boundaries\n- Do not pretend to generate or run contract tests automatically.\n- Focus on compatibility reasoning, schema review, and rollout guidance.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
     "examples": [
-      "\"Generate Pact contract tests for my API\"",
-      "\"Validate this API against its OpenAPI spec\""
+      "\"Validate this API against its OpenAPI spec.\"",
+      "\"Check whether this API change is backward compatible.\"",
+      "\"Help me review this contract change between consumer and provider.\""
     ]
   },
   {
@@ -16475,28 +16146,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Tools",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "verification-loop",
-    "name": "Verification Loop",
-    "description": "Step-by-step guidance for verification loop.",
-    "instructions": "# Verification Loop\n\nSupport verification loop workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with verification loop tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "verify",
-    "name": "Verify",
-    "description": "Step-by-step guidance for verify.",
-    "instructions": "# Verify\n\nSupport verify workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with verify tasks.\n- You want a clear quality checklist.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
     "requires": [],
     "examples": []
   },
@@ -16595,17 +16244,6 @@
     ]
   },
   {
-    "skillId": "vitest",
-    "name": "Vitest",
-    "description": "Step-by-step guidance for vitest.",
-    "instructions": "# Vitest\n\nSupport vitest workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with vitest.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "voice-call",
     "name": "Voice Call",
     "description": "Practical guidance for voice call workflows.",
@@ -16673,13 +16311,17 @@
   {
     "skillId": "vulnerability-scanner",
     "name": "Vulnerability Scanner",
-    "description": "Step-by-step guidance for vulnerability scanner.",
-    "instructions": "# Vulnerability Scanner\n\nSupport vulnerability scanner workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with vulnerability scanner.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Interpret vulnerability scanner results, prioritize findings, and separate exploitable risk from noisy advisory output.",
+    "instructions": "# Vulnerability Scanner\n\nUse this skill to interpret and prioritize vulnerability scanner output rather than blindly reacting to every finding.\n\n## Start By Clarifying\n- What was scanned: dependencies, containers, infrastructure, source code, or configuration.\n- Whether the findings affect production, development-only paths, or transitive tooling.\n- What exploitability information is available.\n- Whether compensating controls or environment constraints change the risk.\n\n## Triage Priorities\n- Distinguish exploitable issues from informational noise.\n- Identify internet-facing, credential-related, or privilege-escalation risks first.\n- Separate reachable code paths from theoretical package presence.\n- Consider whether the finding is fixable now, needs mitigation, or can be tracked with rationale.\n\n## Good Output\n- Findings grouped by severity and exploitability.\n- Notes on reachability, environment relevance, and urgency.\n- Clear next actions: fix now, mitigate, monitor, or accept with justification.\n- Questions to resolve before treating a result as urgent.\n\n## Common Mistakes\n- Treating all high-severity findings as equally urgent.\n- Ignoring whether vulnerable code is reachable in the actual deployment.\n- Fixing scanner output mechanically without understanding regressions or compatibility impact.\n- Closing findings without recording why they were accepted or deferred.\n\n## Boundaries\n- Do not pretend to run scanners or fetch new results automatically.\n- Focus on triage, prioritization, and remediation logic.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me triage these vulnerability scanner results.\"",
+      "\"Which findings here matter most?\"",
+      "\"Review this scan output and tell me what is urgent.\""
+    ]
   },
   {
     "skillId": "wacli",
@@ -16864,17 +16506,6 @@
       "Help me plan and implement web games for this repository, including key decisions and checkpoints.",
       "Create a concise web games workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "web-renderer-test",
-    "name": "Web Renderer Test",
-    "description": "Step-by-step guidance for web renderer test.",
-    "instructions": "# Web Renderer Test\n\nSupport web renderer test workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with web renderer test.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Testing & Security",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "web3-testing",
@@ -17309,13 +16940,17 @@
   {
     "skillId": "write-unit-tests",
     "name": "Write Unit Tests",
-    "description": "Step-by-step guidance for write unit tests.",
-    "instructions": "# Write Unit Tests\n\nSupport write unit tests workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with write unit tests.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design focused unit tests with clear intent, good isolation, and strong coverage of edge cases and failure paths.",
+    "instructions": "# Write Unit Tests\n\nUse this skill to design and review unit tests that are focused, readable, and useful as long-term regression protection.\n\n## Start By Clarifying\n- What unit is actually under test.\n- Which inputs and branches matter most.\n- What dependencies should be isolated versus exercised directly.\n- What failure modes or edge cases are most likely.\n\n## Good Unit Test Principles\n- Test behavior and contract, not implementation trivia.\n- Keep each test focused on one meaningful claim.\n- Cover success paths, edge cases, and error paths.\n- Use names that explain the scenario and expected behavior.\n- Prefer simple setup over clever reusable test machinery.\n\n## What To Include\n- Happy-path examples that document expected usage.\n- Edge cases that are easy to miss in manual reasoning.\n- Failure or rejection cases when the unit validates input or state.\n- Assertions that prove the intended behavior without over-asserting on internals.\n\n## Isolation Guidance\n- Stub or fake unstable dependencies when they distract from the unit's behavior.\n- Control time, randomness, environment, and network behavior when relevant.\n- Be explicit about what the test is intentionally not covering.\n\n## Good Output\n- A test plan by scenario.\n- Missing cases worth adding.\n- Simplifications to make the tests easier to trust and maintain.\n- Warnings about brittle or overly coupled assertions.\n\n## Common Mistakes\n- Testing private implementation details.\n- Writing one oversized test that hides multiple concerns.\n- Mocking so much that the test proves almost nothing.\n- Ignoring error paths and weird inputs because the happy path passes.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write unit tests for this function.\"",
+      "\"What unit tests are missing for this module?\"",
+      "\"Review these unit tests for focus and coverage gaps.\""
+    ]
   },
   {
     "skillId": "writestory",
@@ -17335,13 +16970,17 @@
   {
     "skillId": "writing-bundler-tests",
     "name": "Writing Bundler Tests",
-    "description": "Step-by-step guidance for writing bundler tests.",
-    "instructions": "# Writing Bundler Tests\n\nSupport writing bundler tests workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with writing bundler tests.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Test bundler behavior such as resolution, transforms, chunking, sourcemaps, plugin hooks, and build correctness.",
+    "instructions": "# Writing Bundler Tests\n\nUse this skill to design tests for bundlers, transforms, and build pipelines where output correctness matters as much as raw success.\n\n## Clarify First\n- What layer is changing: module resolution, transforms, plugin hooks, chunking, assets, or sourcemaps.\n- Whether the main risk is correctness, compatibility, performance, or regressions in output shape.\n- Which outputs are stable enough to assert on.\n- What behavior differs across modes such as dev versus production.\n\n## Good Bundler Test Areas\n- Resolution behavior and aliasing.\n- Transform correctness for representative inputs.\n- Output chunking or asset emission when it materially matters.\n- Sourcemap fidelity and debugging expectations.\n- Plugin lifecycle behavior and ordering-sensitive hooks.\n\n## Testing Principles\n- Assert on meaningful build behavior, not incidental formatting noise.\n- Prefer representative fixtures over giant synthetic projects.\n- Keep mode, environment, and platform assumptions visible.\n- Separate fast fixture tests from slower end-to-end build verification.\n\n## Good Output\n- A fixture-based test plan.\n- Critical assertions by bundler behavior.\n- Guidance on what to snapshot versus what to assert structurally.\n- Risks around portability, caching, or plugin interactions.\n\n## Common Mistakes\n- Snapshotting huge outputs without saying what matters.\n- Testing implementation hooks instead of emitted behavior.\n- Ignoring cross-mode differences until regressions hit users.\n- Using fixtures so unrealistic that the tests miss real plugin conflicts.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write tests for this bundler behavior.\"",
+      "\"What should I test for this plugin or transform?\"",
+      "\"Review this bundler test plan for missing coverage.\""
+    ]
   },
   {
     "skillId": "writing-clearly-and-concisely",
@@ -17361,13 +17000,17 @@
   {
     "skillId": "writing-dev-server-tests",
     "name": "Writing Dev Server Tests",
-    "description": "Step-by-step guidance for writing dev server tests.",
-    "instructions": "# Writing Dev Server Tests\n\nSupport writing dev server tests workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with writing dev server tests.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Test development server behavior such as watch mode, reloads, proxying, middleware, and local feedback loops.",
+    "instructions": "# Writing Dev Server Tests\n\nUse this skill to design tests for development-server behavior rather than generic application functionality.\n\n## What To Clarify\n- Which server behavior matters: startup, watch mode, reload, HMR, proxying, middleware, error overlays, or static asset serving.\n- What counts as a successful developer experience outcome.\n- Which parts are deterministic enough for automated tests.\n- What should be simulated versus exercised end to end.\n\n## Good Dev-Server Test Areas\n- Server startup and teardown.\n- File-change detection and rebuild triggers.\n- Reload or HMR behavior after meaningful edits.\n- Middleware and proxy behavior under common local scenarios.\n- Error reporting that helps developers recover quickly.\n\n## Testing Principles\n- Prefer behavior visible to a developer over implementation details.\n- Keep filesystem and timing assumptions explicit.\n- Separate fast behavioral checks from slower integration-style tests.\n- Control flakiness around file watching, ports, and process timing.\n\n## Good Output\n- Test scenarios grouped by server capability.\n- Risks around timing, nondeterminism, or environment sensitivity.\n- Advice on what should be unit-tested versus integration-tested.\n- Expected developer-facing outcomes for each scenario.\n\n## Common Mistakes\n- Over-testing internal plugin hooks instead of real behavior.\n- Relying on arbitrary sleeps rather than clear readiness conditions.\n- Ignoring cleanup and leaving tests order-dependent.\n- Treating watch-mode flakiness as unavoidable instead of designing around it.",
     "author": "community",
     "version": "1.0.0",
     "category": "Testing & Security",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me test this dev server behavior.\"",
+      "\"What should I verify for watch mode and reload logic?\"",
+      "\"Review this dev-server test plan for gaps.\""
+    ]
   },
   {
     "skillId": "writing-docs",
