@@ -1,20 +1,40 @@
 ---
 id: vector-database-engineer
 name: Vector Database Engineer
-description: Step-by-step guidance for vector database engineer.
+description: Design and tune vector retrieval systems by balancing latency, recall, filtering needs, and update behavior.
 category: Databases
+requires: []
+examples:
+  - "Help me tune this vector index."
+  - "Why is my vector search fast but low quality?"
+  - "What tradeoffs matter when tuning vector retrieval?"
 ---
 
 # Vector Database Engineer
 
-Support vector database engineer workflows with clear steps and best practices.
+Use this skill to reason about vector index tuning rather than blindly chasing lower latency.
 
-## When to Use
+## What To Clarify
+- Current retrieval quality problems versus pure speed problems.
+- Corpus size and update frequency.
+- Filtering requirements and metadata selectivity.
+- Query volume and tail-latency tolerance.
+- How recall or usefulness is being measured.
 
-- You need help with vector database engineer.
-- You want a clear, actionable next step.
+## Tuning Principles
+- Recall, latency, memory, and update cost trade off against each other.
+- Filtering can dominate retrieval behavior even when the vector index looks healthy.
+- Benchmarks should use representative queries and relevance judgments.
+- The best index setting depends on product expectations, not benchmark vanity.
 
 ## Output
+- Likely bottleneck category.
+- Parameters or strategy areas worth tuning.
+- Evaluation plan for quality versus speed.
+- Risks of overtuning for one metric.
 
-- Brief plan or checklist
-- Key recommendations and caveats
+## Common Mistakes
+- Optimizing latency while relevance quietly degrades.
+- Ignoring update costs or rebuild behavior.
+- Evaluating on too few or too-clean queries.
+- Blaming the index when embeddings or chunking are the larger problem.

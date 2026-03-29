@@ -1,20 +1,41 @@
 ---
 id: managing-database-replication
 name: Managing Database Replication
-description: Step-by-step guidance for managing database replication.
+description: Plan and review database replication strategies with lag awareness, failover tradeoffs, and read-consistency concerns.
 category: Databases
+requires: []
+examples:
+  - "Help me think through database replication."
+  - "What should I watch for in a replicated database setup?"
+  - "Review this replication plan for lag and failover risks."
 ---
 
 # Managing Database Replication
 
-Support managing database replication workflows with clear steps and best practices.
+Use this skill to reason about replication architecture, operational tradeoffs, and application behavior under lag or failover.
 
-## When to Use
+## Clarify First
+- Primary-replica versus multi-region versus logical replication use case.
+- Read scaling, disaster recovery, or analytics goals.
+- Tolerance for replication lag.
+- Expected failover behavior and operational ownership.
+- Which workloads can safely read from replicas.
 
-- You need help with managing database replication.
-- You want a clear, actionable next step.
+## Key Concerns
+- Read-after-write consistency.
+- Replication lag and its user-facing consequences.
+- Failover timing and split-brain avoidance.
+- Schema change coordination across replicated nodes.
+- Backup and restore interactions with replication topology.
 
 ## Output
+- Recommended replication stance and tradeoffs.
+- Risks around lag, stale reads, or failover.
+- Safe workload placement guidance.
+- Monitoring and validation priorities.
 
-- Brief plan or checklist
-- Key recommendations and caveats
+## Common Mistakes
+- Sending freshness-sensitive reads to replicas.
+- Ignoring lag during deployments or backfills.
+- Treating failover as instant without rehearsing it.
+- Forgetting that replication does not replace backups.

@@ -663,13 +663,17 @@
   {
     "skillId": "algolia-search",
     "name": "Algolia Search",
-    "description": "Step-by-step guidance for algolia search.",
-    "instructions": "# Algolia Search\n\nSupport algolia search workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with algolia search.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design Algolia search experiences with ranking, faceting, indexing, and relevance tradeoffs in mind.",
+    "instructions": "# Algolia Search\n\nUse this skill to plan Algolia indexing and ranking decisions without assuming direct dashboard or API access.\n\n## Clarify First\n- Search use case such as ecommerce, docs, directory, or support content.\n- Main ranking goals and fallback behavior.\n- Facets, filters, and sorting needs.\n- How often data changes and how indexing is triggered.\n- What relevance complaints users already have.\n\n## Review Focus\n- Index shape and searchable attributes.\n- Ranking strategy and business boosts.\n- Faceting and filtering tradeoffs.\n- Synonyms, typo tolerance, and query rules.\n- Operational concerns around indexing frequency and consistency.\n\n## Output\n- Recommended index and attribute strategy.\n- Relevance and ranking guidance.\n- Filter and facet considerations.\n- Risks, tradeoffs, and validation ideas.\n\n## Common Mistakes\n- Overloading one index with incompatible search goals.\n- Boosting business rules until relevance becomes confusing.\n- Creating too many facets without a user need.\n- Shipping search changes without a query-quality review set.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me structure this search experience in Algolia.\"",
+      "\"What indexing and ranking choices matter for Algolia?\"",
+      "\"Review this Algolia search design for relevance and filter tradeoffs.\""
+    ]
   },
   {
     "skillId": "algorithmic-art",
@@ -952,17 +956,6 @@
     "examples": []
   },
   {
-    "skillId": "apollo-migration-deep-dive",
-    "name": "Apollo Migration Deep Dive",
-    "description": "Step-by-step guidance for apollo migration deep dive.",
-    "instructions": "# Apollo Migration Deep Dive\n\nSupport apollo migration deep dive workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with apollo migration deep dive.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "apollo-prod-checklist",
     "name": "Apollo Prod Checklist",
     "description": "Prepare Apollo.io integrations for production with a structured readiness checklist covering security, reliability, observability, and go-live controls.",
@@ -975,17 +968,6 @@
       "\"Create a production readiness checklist for our Apollo integration launch.\"",
       "\"Review this Apollo go-live plan and flag missing controls.\""
     ]
-  },
-  {
-    "skillId": "apollo-upgrade-migration",
-    "name": "Apollo Upgrade Migration",
-    "description": "Step-by-step guidance for apollo upgrade migration.",
-    "instructions": "# Apollo Upgrade Migration\n\nSupport apollo upgrade migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with apollo upgrade migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "app-builder",
@@ -1911,17 +1893,6 @@
     "examples": []
   },
   {
-    "skillId": "bullmq-specialist",
-    "name": "BullMQ Specialist",
-    "description": "Step-by-step guidance for bullmq specialist.",
-    "instructions": "# BullMQ Specialist\n\nSupport bullmq specialist workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with bullmq specialist.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "bun-development",
     "name": "Bun Development",
     "description": "Build and optimize JavaScript/TypeScript services and tooling workflows using Bun runtime and package manager.",
@@ -2044,17 +2015,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Tools",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "cache-expert",
-    "name": "Cache Expert",
-    "description": "Step-by-step guidance for cache expert.",
-    "instructions": "# Cache Expert\n\nSupport cache expert workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with cache expert.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
     "requires": [],
     "examples": []
   },
@@ -3130,13 +3090,17 @@
   {
     "skillId": "comparing-database-schemas",
     "name": "Comparing Database Schemas",
-    "description": "Step-by-step guidance for comparing database schemas.",
-    "instructions": "# Comparing Database Schemas\n\nSupport comparing database schemas workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with comparing database schemas.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Compare two database schemas and surface structural differences, compatibility risks, and migration implications.",
+    "instructions": "# Comparing Database Schemas\n\nUse this skill to analyze how two schemas differ and what those differences mean operationally.\n\n## Compare At These Levels\n- Tables, columns, and data types.\n- Nullability, defaults, and constraints.\n- Indexes, keys, and unique guarantees.\n- Views, triggers, and generated behavior if provided.\n- Naming or semantic drift between versions.\n\n## What To Surface\n- Additive versus breaking changes.\n- Differences likely to affect application compatibility.\n- Index or constraint gaps that may alter behavior.\n- Migration sequencing concerns.\n- Changes that look accidental rather than intentional.\n\n## Good Output\n- Clear diff summary by object type.\n- Breaking-risk assessment.\n- Migration or rollout implications.\n- Questions to ask before promoting the change.\n\n## Watch For\n- Same column name with different semantics.\n- Default or nullability changes that alter write behavior.\n- Missing indexes in one environment causing performance drift.\n- Silent removal of uniqueness or referential constraints.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Compare these two schemas for differences.\"",
+      "\"What changed between these database versions?\"",
+      "\"Help me review schema drift between environments.\""
+    ]
   },
   {
     "skillId": "competitive-ads-extractor",
@@ -3655,24 +3619,17 @@
   {
     "skillId": "create-database-migration",
     "name": "Create Database Migration",
-    "description": "Step-by-step guidance for create database migration.",
-    "instructions": "# Create Database Migration\n\nSupport create database migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with create database migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Draft database migration changes with attention to compatibility, data safety, backfills, and verification.",
+    "instructions": "# Create Database Migration\n\nUse this skill when the user is authoring a migration artifact or deciding how a migration should be structured.\n\n## Clarify First\n- What schema or data change is actually needed.\n- Whether the migration is additive, destructive, or transitional.\n- Which application versions must coexist during rollout.\n- Whether existing rows need backfill, transformation, or cleanup.\n- How large the affected tables are and whether locking matters.\n\n## What A Good Migration Should Do\n- Express one coherent change, not a grab bag of unrelated edits.\n- Preserve compatibility where old and new code may overlap.\n- Make risky operations explicit instead of hiding them in a giant script.\n- Keep verification and fallback thinking close to the migration design.\n\n## Drafting Guidance\n- Prefer additive steps before removals or renames.\n- Split schema changes, backfills, and cleanup phases when they have different risk profiles.\n- Include defaults, nullability, and constraint changes only after thinking through existing data.\n- Treat indexes, foreign keys, and uniqueness as behavior changes, not just syntax.\n- If a change is irreversible, say so clearly.\n\n## What To Surface\n- Proposed migration steps in order.\n- Compatibility concerns for old and new code.\n- Backfill or data-cleanup needs.\n- Validation checks after the change.\n- Rollback or forward-fix considerations.\n\n## Common Failure Modes\n- Writing a migration that only works if deployed instantly with matching code.\n- Renaming or dropping columns before all readers are updated.\n- Backfilling inside a risky schema step without considering runtime impact.\n- Adding constraints before proving the existing data satisfies them.\n\n## Boundaries\n- Do not present examples as already executed changes.\n- Prefer reviewable migration structure, checklist logic, and safety notes over assuming direct database access.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "create-migration",
-    "name": "Create Migration",
-    "description": "Step-by-step guidance for create migration.",
-    "instructions": "# Create Migration\n\nSupport create migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with create migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me draft a migration for this schema change.\"",
+      "\"What should this database migration include?\"",
+      "\"Review this migration draft for compatibility and rollback risk.\""
+    ]
   },
   {
     "skillId": "create-plan",
@@ -3847,17 +3804,6 @@
     ]
   },
   {
-    "skillId": "culture-index",
-    "name": "Culture Index",
-    "description": "Step-by-step guidance for culture index.",
-    "instructions": "# Culture Index\n\nSupport culture index workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with culture index.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "cursor-common-errors",
     "name": "Cursor Common Errors",
     "description": "Step-by-step guidance for cursor common errors.",
@@ -3890,17 +3836,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Tools",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "cursor-upgrade-migration",
-    "name": "Cursor Upgrade Migration",
-    "description": "Step-by-step guidance for cursor upgrade migration.",
-    "instructions": "# Cursor Upgrade Migration\n\nSupport cursor upgrade migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with cursor upgrade migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
     "requires": [],
     "examples": []
   },
@@ -4059,35 +3994,47 @@
   {
     "skillId": "database-architect",
     "name": "Database Architect",
-    "description": "Step-by-step guidance for database architect.",
-    "instructions": "# Database Architect\n\nSupport database architect workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with database architect.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design database architecture at the system level, including service boundaries, tenancy, topology, consistency, and scaling tradeoffs.",
+    "instructions": "# Database Architect\n\nUse this skill for higher-level database architecture decisions that go beyond individual tables or schemas.\n\n## Start By Clarifying\n- System shape: monolith, modular service, or multi-service platform.\n- Workload mix: transactional, analytical, search-heavy, event-driven, or realtime.\n- Expected scale, growth rate, and regional footprint.\n- Isolation needs across teams, customers, or tenants.\n- Consistency, latency, compliance, and recovery requirements.\n\n## Architecture Questions\n- One database or several?\n- Shared schema, separate schemas, or separate databases for tenants?\n- OLTP only, or a split between transactional and analytical workloads?\n- Read replicas, partitioning, sharding, or none yet?\n- Which data must remain strongly consistent, and where is eventual consistency acceptable?\n\n## Design Priorities\n- Keep boundaries aligned with ownership and operational reality.\n- Favor simpler topologies until real scale or risk justifies added complexity.\n- Separate workloads when they conflict in performance, retention, or access patterns.\n- Treat tenancy and compliance decisions as architectural, not cosmetic.\n- Design for recoverability and observability, not just happy-path throughput.\n\n## Good Output\n- Recommended architecture shape and why it fits.\n- Key tradeoffs around consistency, scale, tenancy, and operations.\n- Likely pressure points as the system grows.\n- Questions that must be answered before committing to a topology.\n- A phased path if the right answer changes over time.\n\n## Common Failure Modes\n- Sharding or splitting too early without a real bottleneck.\n- Forcing all workloads through one store despite conflicting needs.\n- Mixing tenant isolation strategies inconsistently.\n- Designing only for throughput and ignoring recovery, migrations, and ownership.\n- Letting product boundaries and data boundaries drift apart.\n\n## Boundaries\n- Do not pretend to inspect production architecture unless the user provides concrete details.\n- Prefer architecture guidance, tradeoff analysis, and decision frameworks over pretending there is one universal best topology.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me think through the database architecture for this system.\"",
+      "\"Should this platform use one database or several?\"",
+      "\"Review these tenancy and scaling tradeoffs from a database architecture perspective.\""
+    ]
   },
   {
     "skillId": "database-design",
     "name": "Database Design",
-    "description": "Step-by-step guidance for database design.",
-    "instructions": "# Database Design\n\nSupport database design workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with database design.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design relational data models with clear entities, constraints, normalization tradeoffs, and query-aware schema choices.",
+    "instructions": "# Database Design\n\nUse this skill to turn product requirements into a practical relational schema.\n\n## Start By Clarifying\n- Core entities and the business events that change them.\n- Read-heavy versus write-heavy paths.\n- Required consistency guarantees.\n- Expected scale, retention, and audit needs.\n- Which queries matter most on day one.\n\n## Design Priorities\n- Model facts and relationships before optimizing edge cases.\n- Keep naming consistent and easy to reason about.\n- Use constraints to protect invariants instead of relying on application code alone.\n- Normalize first, then denormalize only when a real access pattern justifies it.\n- Be explicit about ownership, lifecycle, and deletion behavior.\n\n## Good Output\n- Proposed tables or collections.\n- Key columns, identifiers, and constraints.\n- Relationship choices and why they fit.\n- Expected hot queries and indexing implications.\n- Tradeoffs, risks, and what to revisit later.\n\n## Common Failure Modes\n- Modeling screens instead of durable business concepts.\n- Mixing unrelated concerns in the same table.\n- Missing uniqueness, foreign keys, or state constraints.\n- Premature denormalization without a clear query problem.\n- Hiding many-to-many relationships in ad hoc JSON blobs.\n\n## Boundaries\n- Do not pretend to inspect a live database unless the user provides the schema.\n- Prefer guidance, examples, and review criteria over assuming direct database access.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me design the schema for this app.\"",
+      "\"What tables and relationships should this system have?\"",
+      "\"Review this data model for normalization and query tradeoffs.\""
+    ]
   },
   {
     "skillId": "database-migrations",
     "name": "Database Migrations",
-    "description": "Step-by-step guidance for database migrations.",
-    "instructions": "# Database Migrations\n\nSupport database migrations workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with database migrations.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Plan database schema migrations with rollout safety, data backfills, compatibility checks, and rollback awareness.",
+    "instructions": "# Database Migrations\n\nUse this skill to plan safe schema and data migrations without assuming direct execution access.\n\n## Clarify First\n- What is changing in schema or data.\n- Whether the change is additive, destructive, or both.\n- Which services depend on the affected objects.\n- Expected table size, write volume, and downtime tolerance.\n- Whether a backfill or dual-read/dual-write phase is needed.\n\n## Migration Safety Principles\n- Prefer additive changes before destructive ones.\n- Separate schema changes from data backfills when possible.\n- Keep old and new application versions compatible during rollout.\n- Define validation checks before making the change.\n- Know the blast radius, fallback path, and stop conditions.\n\n## Good Migration Plan\n- Prechecks and assumptions.\n- Ordered rollout steps.\n- Compatibility strategy between old and new code.\n- Backfill approach and verification points.\n- Rollback or forward-fix strategy.\n\n## Watch For\n- Long locks on large tables.\n- Backfills that overwhelm production traffic.\n- Renames that break older code paths.\n- Nullability or default changes that rewrite large datasets.\n- Dropping columns or indexes before proving they are unused.\n\n## Boundaries\n- Do not present example steps as commands already executed.\n- Emphasize review, staging validation, backups, and observability for risky changes.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me plan a safe schema migration.\"",
+      "\"What rollout steps should I use for this database change?\"",
+      "\"Review this migration plan for risk and rollback gaps.\""
+    ]
   },
   {
     "skillId": "database-migrations-migration-observability",
@@ -4104,26 +4051,19 @@
     ]
   },
   {
-    "skillId": "database-migrations-sql-migrations",
-    "name": "Database Migrations SQL Migrations",
-    "description": "Step-by-step guidance for database migrations SQL migrations.",
-    "instructions": "# Database Migrations SQL Migrations\n\nSupport database migrations sql migrations workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with database migrations sql migrations.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "database-optimizer",
     "name": "Database Optimizer",
-    "description": "Step-by-step guidance for database optimizer.",
-    "instructions": "# Database Optimizer\n\nSupport database optimizer workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with database optimizer.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Diagnose and improve database performance by reviewing query patterns, indexing, schema choices, and operational bottlenecks.",
+    "instructions": "# Database Optimizer\n\nUse this skill to diagnose database bottlenecks and propose the highest-value optimization path.\n\n## Clarify First\n- Is the problem query latency, throughput, lock contention, replication lag, connection pressure, or cost?\n- Which queries, tables, or workloads are hottest?\n- Is the system read-heavy, write-heavy, or mixed?\n- What changed recently: schema, traffic, queries, indexes, deployment shape, or data volume?\n\n## Optimization Priorities\n- Find the real bottleneck before recommending fixes.\n- Separate query, schema, index, workload, and infrastructure problems.\n- Prefer the smallest high-leverage improvement over speculative broad rewrites.\n- Consider operational cost and write amplification when suggesting new indexes or denormalization.\n- Optimize for the business-critical path, not vanity metrics.\n\n## Good Output\n- Likely bottleneck categories.\n- Highest-priority investigations or fixes.\n- Tradeoffs of each optimization direction.\n- Metrics or evidence needed before committing.\n- Risks of making the wrong optimization first.\n\n## Common Failure Modes\n- Adding indexes without understanding the workload.\n- Blaming the database for application-level inefficiencies.\n- Chasing one slow query while system-wide contention is elsewhere.\n- Treating optimization as purely SQL tuning when topology or workload design is the issue.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me diagnose this database performance issue.\"",
+      "\"What should I optimize first in this database workload?\"",
+      "\"Review this schema and query pattern for bottlenecks.\""
+    ]
   },
   {
     "skillId": "database-schema-designer",
@@ -4138,28 +4078,6 @@
       "\"Design a schema for event tracking and ML feature generation.\"",
       "\"How should I index and partition this schema for scale?\""
     ]
-  },
-  {
-    "skillId": "databases",
-    "name": "Databases",
-    "description": "Step-by-step guidance for databases.",
-    "instructions": "# Databases\n\nSupport databases workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with databases.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "databricks-migration-deep-dive",
-    "name": "Databricks Migration Deep Dive",
-    "description": "Step-by-step guidance for databricks migration deep dive.",
-    "instructions": "# Databricks Migration Deep Dive\n\nSupport databricks migration deep dive workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with databricks migration deep dive.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "databricks-prod-checklist",
@@ -4188,17 +4106,6 @@
       "Standardize these SMILES strings using the Datamol library.",
       "Generate 3D conformers for this molecule using Datamol."
     ]
-  },
-  {
-    "skillId": "db-migrations-and-schema-changes",
-    "name": "Db Migrations And Schema Changes",
-    "description": "Step-by-step guidance for db migrations and schema changes.",
-    "instructions": "# Db Migrations And Schema Changes\n\nSupport db migrations and schema changes workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with db migrations and schema changes.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "dbt-transformation-patterns",
@@ -4349,17 +4256,6 @@
       "\"Help me with deepgram prod checklist.\"",
       "\"Use deepgram-prod-checklist for this task.\""
     ]
-  },
-  {
-    "skillId": "deepgram-upgrade-migration",
-    "name": "Deepgram Upgrade Migration",
-    "description": "Step-by-step guidance for deepgram upgrade migration.",
-    "instructions": "# Deepgram Upgrade Migration\n\nSupport deepgram upgrade migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with deepgram upgrade migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "deeptools",
@@ -5097,17 +4993,6 @@
     ]
   },
   {
-    "skillId": "dsql",
-    "name": "DSQL",
-    "description": "Step-by-step guidance for dsql.",
-    "instructions": "# DSQL\n\nSupport dsql workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with dsql.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "dtek-light-check",
     "name": "Dtek Light Check",
     "description": "Step-by-step guidance for dtek light check.",
@@ -5167,13 +5052,17 @@
   {
     "skillId": "dynamodb",
     "name": "DynamoDB",
-    "description": "Step-by-step guidance for dynamodb.",
-    "instructions": "# DynamoDB\n\nSupport dynamodb workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with dynamodb.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design DynamoDB access patterns, partition keys, indexes, and item models around predictable query needs.",
+    "instructions": "# DynamoDB\n\nUse this skill for DynamoDB-specific data modeling and access-pattern decisions.\n\n## Start With Access Patterns\n- What queries must be fast and frequent.\n- Which entities are read together.\n- Expected write distribution and burst patterns.\n- Whether global secondary indexes are truly needed.\n- Retention, TTL, and item-size constraints.\n\n## Design Principles\n- Model for access patterns first, not for relational elegance.\n- Partition-key quality is central to scale and cost.\n- Composite keys should reflect real retrieval needs.\n- Secondary indexes are powerful but not free.\n- Single-table design should simplify reads, not become a puzzle nobody can maintain.\n\n## What To Surface\n- Candidate partition and sort key designs.\n- Hot-partition or uneven-distribution risks.\n- Index tradeoffs and cost implications.\n- Where denormalization helps or hurts.\n- Questions that must be answered before locking the model.\n\n## Common Mistakes\n- Leading with entity modeling instead of query modeling.\n- Creating GSIs for every imagined future query.\n- Ignoring write hotspots.\n- Forcing relational patterns into DynamoDB without adaptation.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me model this in DynamoDB.\"",
+      "\"What partition key should I use for this access pattern?\"",
+      "\"Review this DynamoDB schema for hot-partition risk.\""
+    ]
   },
   {
     "skillId": "e2e-testing-patterns",
@@ -5206,17 +5095,6 @@
     ]
   },
   {
-    "skillId": "efficient-list-building",
-    "name": "Efficient List Building",
-    "description": "Step-by-step guidance for efficient list building.",
-    "instructions": "# Efficient List Building\n\nSupport efficient list building workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with efficient list building.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "eightctl",
     "name": "Eightctl",
     "description": "Step-by-step guidance for eightctl.",
@@ -5224,28 +5102,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Tools",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "elastic",
-    "name": "Elastic",
-    "description": "Step-by-step guidance for elastic.",
-    "instructions": "# Elastic\n\nSupport elastic workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with elastic.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "elasticsearch-index-manager",
-    "name": "Elasticsearch Index Manager",
-    "description": "Step-by-step guidance for elasticsearch index manager.",
-    "instructions": "# Elasticsearch Index Manager\n\nSupport elasticsearch index manager workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with elasticsearch index manager.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
     "requires": [],
     "examples": []
   },
@@ -5338,17 +5194,6 @@
     ]
   },
   {
-    "skillId": "embeddings",
-    "name": "Embeddings",
-    "description": "Step-by-step guidance for embeddings.",
-    "instructions": "# Embeddings\n\nSupport embeddings workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with embeddings.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "emblem-ai-agent-wallet",
     "name": "Emblem AI Agent Wallet",
     "description": "Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. Supports Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin.",
@@ -5439,17 +5284,6 @@
       "Help me set up environment variables for local, staging, and production safely.",
       "Create an env variable validation checklist before deploying this service."
     ]
-  },
-  {
-    "skillId": "epic-caching",
-    "name": "Epic Caching",
-    "description": "Step-by-step guidance for epic caching.",
-    "instructions": "# Epic Caching\n\nSupport epic caching workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with epic caching.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "epics-control-system",
@@ -6766,17 +6600,6 @@
     "examples": []
   },
   {
-    "skillId": "generate-migration",
-    "name": "Generate Migration",
-    "description": "Step-by-step guidance for generate migration.",
-    "instructions": "# Generate Migration\n\nSupport generate migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with generate migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "generate-sparkle-appcast",
     "name": "Generate Sparkle Appcast",
     "description": "Generate and validate Sparkle appcast metadata for macOS auto-updates with proper signatures, versions, and release notes.",
@@ -7181,17 +7004,6 @@
       "Build a service health dashboard with latency, error rate, and saturation panels by environment.",
       "Refactor a noisy dashboard into a focused incident view with drill-down links and annotations."
     ]
-  },
-  {
-    "skillId": "granola-upgrade-migration",
-    "name": "Granola Upgrade Migration",
-    "description": "Step-by-step guidance for granola upgrade migration.",
-    "instructions": "# Granola Upgrade Migration\n\nSupport granola upgrade migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with granola upgrade migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "graphql",
@@ -7895,17 +7707,6 @@
     ]
   },
   {
-    "skillId": "index-at-creation",
-    "name": "Index At Creation",
-    "description": "Step-by-step guidance for index at creation.",
-    "instructions": "# Index At Creation\n\nSupport index at creation workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with index at creation.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "index-knowledge",
     "name": "Index Knowledge",
     "description": "Step-by-step guidance for index knowledge.",
@@ -7913,17 +7714,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Documentation",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "index-suggester",
-    "name": "Index Suggester",
-    "description": "Step-by-step guidance for index suggester.",
-    "instructions": "# Index Suggester\n\nSupport index suggester workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with index suggester.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
     "requires": [],
     "examples": []
   },
@@ -7984,13 +7774,17 @@
   {
     "skillId": "instantdb",
     "name": "InstantDB",
-    "description": "Step-by-step guidance for instantdb.",
-    "instructions": "# InstantDB\n\nSupport instantdb workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with instantdb.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Evaluate InstantDB-style local-first and realtime data models with schema, sync, and client-consistency tradeoffs.",
+    "instructions": "# InstantDB\n\nUse this skill to reason about InstantDB-style realtime or local-first database choices and their tradeoffs.\n\n## Clarify First\n- Is the main goal offline support, realtime sync, reduced backend code, or prototyping speed?\n- What consistency guarantees matter across clients?\n- Which data must remain authoritative or server-controlled?\n- What conflict scenarios are likely?\n\n## Review Focus\n- Data ownership and authority boundaries.\n- Sync and conflict expectations.\n- Schema flexibility versus enforceable invariants.\n- Authentication and access-control implications.\n- Operational and migration constraints as the app grows.\n\n## Output\n- Where this approach fits well.\n- Consistency and conflict risks.\n- Schema or ownership recommendations.\n- Questions to answer before committing long term.\n\n## Common Mistakes\n- Assuming local-first removes the need for domain rules.\n- Ignoring conflict resolution until users collide.\n- Overestimating how far prototype ergonomics scale unchanged.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me think through using InstantDB.\"",
+      "\"What schema and sync tradeoffs matter with InstantDB?\"",
+      "\"Review this InstantDB approach for client and server consistency.\""
+    ]
   },
   {
     "skillId": "instrument-data-to-allotrope",
@@ -8349,28 +8143,6 @@
     ]
   },
   {
-    "skillId": "js-set-map-lookups",
-    "name": "Js Set Map Lookups",
-    "description": "Step-by-step guidance for JS set map lookups.",
-    "instructions": "# Js Set Map Lookups\n\nSupport js set map lookups workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with js set map lookups.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "juicebox-migration-deep-dive",
-    "name": "Juicebox Migration Deep Dive",
-    "description": "Step-by-step guidance for juicebox migration deep dive.",
-    "instructions": "# Juicebox Migration Deep Dive\n\nSupport juicebox migration deep dive workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with juicebox migration deep dive.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "juicebox-observability",
     "name": "Juicebox Observability",
     "description": "Implement monitoring, logging, and tracing for Juicebox integrations, including Prometheus metrics and dashboards.",
@@ -8675,17 +8447,6 @@
     ]
   },
   {
-    "skillId": "lindy-upgrade-migration",
-    "name": "Lindy Upgrade Migration",
-    "description": "Step-by-step guidance for lindy upgrade migration.",
-    "instructions": "# Lindy Upgrade Migration\n\nSupport lindy upgrade migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with lindy upgrade migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "linear-issue",
     "name": "Linear Issue",
     "description": "Step-by-step guidance for linear issue.",
@@ -8871,17 +8632,6 @@
     "examples": []
   },
   {
-    "skillId": "lokalise-local-dev-loop",
-    "name": "Lokalise Local Dev Loop",
-    "description": "Step-by-step guidance for lokalise local dev loop.",
-    "instructions": "# Lokalise Local Dev Loop\n\nSupport lokalise local dev loop workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with lokalise local dev loop.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "loki-mode",
     "name": "Loki Mode",
     "description": "Investigate logs in Grafana Loki with fast, repeatable queries and issue-focused triage steps. Use when debugging production incidents, validating deployments, or tracing request failures.",
@@ -9057,37 +8807,34 @@
     "examples": []
   },
   {
-    "skillId": "managing-database-migrations",
-    "name": "Managing Database Migrations",
-    "description": "Step-by-step guidance for managing database migrations.",
-    "instructions": "# Managing Database Migrations\n\nSupport managing database migrations workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with managing database migrations.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "managing-database-recovery",
     "name": "Managing Database Recovery",
-    "description": "Step-by-step guidance for managing database recovery.",
-    "instructions": "# Managing Database Recovery\n\nSupport managing database recovery workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with managing database recovery.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Plan database recovery with backup validation, recovery objectives, incident triage, and controlled restore procedures.",
+    "instructions": "# Managing Database Recovery\n\nUse this skill to design or review recovery plans for data loss, corruption, or operational incidents.\n\n## Clarify First\n- Likely incident type such as accidental deletion, corruption, outage, or region loss.\n- Recovery time objective and recovery point objective.\n- Backup types available and how recently they were validated.\n- Whether the system can tolerate partial read-only or degraded modes.\n- Which teams and systems depend on the restore sequence.\n\n## Recovery Principles\n- Backups are only useful if restores are tested.\n- Restoration order matters for dependent services.\n- Snapshot age and data-loss tolerance must be explicit.\n- A rushed restore without validation can compound the incident.\n- Communication and decision points belong in the plan, not only technical steps.\n\n## Good Output\n- Incident triage checklist.\n- Restore decision tree.\n- Validation steps before reopening traffic.\n- Risks, assumptions, and fallback options.\n- Questions to resolve before an actual incident.\n\n## Common Gaps\n- No tested restore path.\n- No clarity on point-in-time recovery capabilities.\n- No post-restore verification plan.\n- Confusing replication with recoverability.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me plan database recovery steps.\"",
+      "\"What should a database restore plan include?\"",
+      "\"Review this recovery strategy for gaps and risk.\""
+    ]
   },
   {
     "skillId": "managing-database-replication",
     "name": "Managing Database Replication",
-    "description": "Step-by-step guidance for managing database replication.",
-    "instructions": "# Managing Database Replication\n\nSupport managing database replication workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with managing database replication.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Plan and review database replication strategies with lag awareness, failover tradeoffs, and read-consistency concerns.",
+    "instructions": "# Managing Database Replication\n\nUse this skill to reason about replication architecture, operational tradeoffs, and application behavior under lag or failover.\n\n## Clarify First\n- Primary-replica versus multi-region versus logical replication use case.\n- Read scaling, disaster recovery, or analytics goals.\n- Tolerance for replication lag.\n- Expected failover behavior and operational ownership.\n- Which workloads can safely read from replicas.\n\n## Key Concerns\n- Read-after-write consistency.\n- Replication lag and its user-facing consequences.\n- Failover timing and split-brain avoidance.\n- Schema change coordination across replicated nodes.\n- Backup and restore interactions with replication topology.\n\n## Output\n- Recommended replication stance and tradeoffs.\n- Risks around lag, stale reads, or failover.\n- Safe workload placement guidance.\n- Monitoring and validation priorities.\n\n## Common Mistakes\n- Sending freshness-sensitive reads to replicas.\n- Ignoring lag during deployments or backfills.\n- Treating failover as instant without rehearsing it.\n- Forgetting that replication does not replace backups.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me think through database replication.\"",
+      "\"What should I watch for in a replicated database setup?\"",
+      "\"Review this replication plan for lag and failover risks.\""
+    ]
   },
   {
     "skillId": "manim",
@@ -9312,35 +9059,17 @@
   {
     "skillId": "meilisearch",
     "name": "Meilisearch",
-    "description": "Step-by-step guidance for meilisearch.",
-    "instructions": "# Meilisearch\n\nSupport meilisearch workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with meilisearch.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design Meilisearch indexing and search behavior with ranking, filters, updates, and operational simplicity in mind.",
+    "instructions": "# Meilisearch\n\nUse this skill to evaluate or design a Meilisearch-based search workflow.\n\n## Clarify First\n- What is being searched and how users judge success.\n- Whether filters, facets, or strict sorting matter.\n- Update frequency and indexing pipeline constraints.\n- Expected scale and operational simplicity goals.\n- How this search experience differs from plain database queries.\n\n## Guidance Areas\n- Index and document shape.\n- Ranking and relevance expectations.\n- Filterability and searchable attribute choices.\n- Sync/update workflow and operational burden.\n- Where Meilisearch fits well and where it may not.\n\n## Output\n- Search design recommendations.\n- Ranking and filter tradeoffs.\n- Update and operational considerations.\n- Questions to validate before committing.\n\n## Common Mistakes\n- Treating search relevance as only a configuration problem.\n- Indexing fields that should be filters or vice versa.\n- Ignoring update and sync behavior during design.\n- Expecting one ranking setup to satisfy every search mode.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "meilisearch-admin",
-    "name": "Meilisearch Admin",
-    "description": "Step-by-step guidance for meilisearch admin.",
-    "instructions": "# Meilisearch Admin\n\nSupport meilisearch admin workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with meilisearch admin.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "mem",
-    "name": "Mem",
-    "description": "Step-by-step guidance for mem.",
-    "instructions": "# Mem\n\nSupport mem workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with mem.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me plan this Meilisearch setup.\"",
+      "\"What should I consider for Meilisearch ranking and filters?\"",
+      "\"Review this Meilisearch search design for tradeoffs.\""
+    ]
   },
   {
     "skillId": "memory",
@@ -10821,13 +10550,17 @@
   {
     "skillId": "optimizing-database-connection-pool",
     "name": "Optimizing Database Connection Pool",
-    "description": "Step-by-step guidance for optimizing database connection pool.",
-    "instructions": "# Optimizing Database Connection Pool\n\nSupport optimizing database connection pool workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with optimizing database connection pool.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Tune database connection pooling with workload-aware sizing, timeout choices, and failure-mode analysis.",
+    "instructions": "# Optimizing Database Connection Pool\n\nUse this skill to reason about connection-pool sizing and behavior before changing configuration blindly.\n\n## Clarify First\n- Application concurrency and request shape.\n- Database connection limits and competing clients.\n- Typical query latency and long-running outliers.\n- Whether the workload is bursty, steady, or background-heavy.\n- Current symptoms such as queueing, timeouts, saturation, or idle waste.\n\n## Tuning Principles\n- Pool size should reflect concurrent useful work, not peak thread count.\n- Long-running queries often matter more than raw pool size.\n- Timeouts should fail noisy callers before the whole system backs up.\n- Shared databases need headroom for maintenance and non-app traffic.\n- Fixing query quality can outperform raising connection counts.\n\n## Review Output\n- Likely bottleneck explanation.\n- Pool sizing guidance with assumptions.\n- Timeout or backpressure suggestions.\n- Query-pattern or workload issues worth investigating.\n- Risks of over-allocating connections.\n\n## Common Mistakes\n- Setting pool size equal to server worker count by habit.\n- Ignoring background jobs and admin traffic.\n- Treating connection exhaustion as purely a config problem.\n- Hiding slow queries with ever-larger pools.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me tune my database connection pool.\"",
+      "\"Why is this app saturating its DB connections?\"",
+      "\"Review this connection-pooling setup for bottlenecks.\""
+    ]
   },
   {
     "skillId": "oracle",
@@ -11234,17 +10967,6 @@
     ]
   },
   {
-    "skillId": "perplexity-migration-deep-dive",
-    "name": "Perplexity Migration Deep Dive",
-    "description": "Step-by-step guidance for perplexity migration deep dive.",
-    "instructions": "# Perplexity Migration Deep Dive\n\nSupport perplexity migration deep dive workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with perplexity migration deep dive.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "perplexity-search",
     "name": "Perplexity Search",
     "description": "Conduct web-grounded searches for current information and academic research using Perplexity models via OpenRouter.",
@@ -11305,13 +11027,17 @@
   {
     "skillId": "pgvector-semantic-search",
     "name": "pgvector Semantic Search",
-    "description": "Step-by-step guidance for pgvector semantic search.",
-    "instructions": "# pgvector Semantic Search\n\nSupport pgvector semantic search workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with pgvector semantic search.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design semantic search on PostgreSQL with pgvector using embedding quality, filtering, indexing, and recall tradeoffs.",
+    "instructions": "# pgvector Semantic Search\n\nUse this skill to design semantic search on PostgreSQL with pgvector in a way that balances relevance, filtering, and operational simplicity.\n\n## Clarify First\n- What is being embedded and searched.\n- Whether semantic search stands alone or augments keyword search.\n- Metadata filters, freshness needs, and expected corpus size.\n- Latency and recall expectations.\n- How results will be evaluated.\n\n## Design Priorities\n- Retrieval quality starts with chunking and embedding choices, not just index tuning.\n- Metadata filtering often matters as much as vector similarity.\n- Hybrid retrieval may outperform pure semantic search.\n- Evaluate precision and failure modes with real queries.\n- Keep update and re-embedding workflows in view.\n\n## Output\n- Recommended retrieval strategy.\n- Schema shape for vectors and metadata.\n- Indexing and filtering considerations.\n- Evaluation and quality-check suggestions.\n- Tradeoffs around scale, cost, and operational complexity.\n\n## Common Mistakes\n- Assuming better embeddings fix weak chunking.\n- Ignoring metadata filters or freshness.\n- Measuring only latency and not result quality.\n- Treating vector search as a drop-in substitute for every search problem.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me design semantic search with pgvector.\"",
+      "\"What should I consider for pgvector indexing and filtering?\"",
+      "\"Review this PostgreSQL vector search approach.\""
+    ]
   },
   {
     "skillId": "philosophical-writing-argumentation",
@@ -11566,24 +11292,32 @@
   {
     "skillId": "postgres-schema-design",
     "name": "Postgres Schema Design",
-    "description": "Step-by-step guidance for postgres schema design.",
-    "instructions": "# Postgres Schema Design\n\nSupport postgres schema design workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with postgres schema design.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design PostgreSQL schemas with strong constraints, sensible data types, indexing strategy, and operational awareness.",
+    "instructions": "# Postgres Schema Design\n\nUse this skill for PostgreSQL-specific schema choices when generic database advice is not enough.\n\n## Focus Areas\n- Data type choices that match real semantics.\n- Constraints that protect invariants.\n- Indexes driven by actual query patterns.\n- Partitioning or archival only when scale justifies it.\n- Operational effects of defaults, updates, and large tables.\n\n## PostgreSQL Heuristics\n- Prefer explicit types over vague text columns when the domain is structured.\n- Use `uuid`, `timestamptz`, numeric types, and enums carefully based on interoperability and change cost.\n- Keep nullable columns intentional rather than accidental.\n- Use partial or composite indexes only for known access patterns.\n- Treat JSONB as a flexible escape hatch, not the default data model.\n\n## Review Output\n- Recommended schema shape.\n- Column and constraint suggestions.\n- Indexing notes tied to expected queries.\n- Risks around growth, updates, and migrations.\n- Tradeoffs that may change later.\n\n## Common Mistakes\n- Overusing JSONB for relational data.\n- Missing uniqueness or foreign-key guarantees.\n- Adding too many indexes without query evidence.\n- Designing without considering update frequency or table bloat.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me design this Postgres schema.\"",
+      "\"Which Postgres types and constraints fit this model?\"",
+      "\"Review this PostgreSQL schema for performance and integrity.\""
+    ]
   },
   {
     "skillId": "postgresql-table-design",
     "name": "PostgreSQL Table Design",
-    "description": "Step-by-step guidance for postgresql table design.",
-    "instructions": "# PostgreSQL Table Design\n\nSupport postgresql table design workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with postgresql table design.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design PostgreSQL tables with clear keys, constraints, column choices, and query-aware indexing.",
+    "instructions": "# PostgreSQL Table Design\n\nUse this skill to reason about individual PostgreSQL tables and their immediate neighbors.\n\n## Key Questions\n- What does one row represent?\n- What makes a row unique?\n- Which columns are required at creation time versus later?\n- Which queries will hit this table most often?\n- What relationships or lifecycle events affect it?\n\n## Design Rules\n- Choose a primary key strategy that fits the system and debugging needs.\n- Keep columns atomic when the data is queried independently.\n- Use check constraints for simple invariants close to the data.\n- Design indexes around read paths, not theoretical completeness.\n- Include timestamps and status fields only when they serve a real lifecycle purpose.\n\n## Output\n- Suggested columns and types.\n- Primary key and uniqueness decisions.\n- Foreign keys and delete/update behavior.\n- Recommended indexes and caveats.\n- Notes on future migration pressure.\n\n## Common Errors\n- Tables that mix metadata, state, and unrelated aggregates.\n- Surrogate keys without any business uniqueness protection.\n- Too many nullable columns hiding multiple record types in one table.\n- Indexing every column instead of the actual access paths.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Design this PostgreSQL table for me.\"",
+      "\"How should this Postgres table be structured?\"",
+      "\"Review this table definition for keys, constraints, and indexes.\""
+    ]
   },
   {
     "skillId": "postmortem-writing",
@@ -12756,17 +12490,6 @@
     ]
   },
   {
-    "skillId": "ratelimit-ts",
-    "name": "Ratelimit Ts",
-    "description": "Step-by-step guidance for ratelimit TS.",
-    "instructions": "# Ratelimit Ts\n\nSupport ratelimit ts workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with ratelimit ts.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "raw-app",
     "name": "Raw App",
     "description": "Concrete workflow for raw app with specific inputs, execution steps, and deliverables.",
@@ -13153,17 +12876,6 @@
     ]
   },
   {
-    "skillId": "replit-deploy-integration",
-    "name": "Replit Deploy Integration",
-    "description": "Step-by-step guidance for replit deploy integration.",
-    "instructions": "# Replit Deploy Integration\n\nSupport replit deploy integration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with replit deploy integration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "reply-automation",
     "name": "Reply Automation",
     "description": "Concrete workflow for reply automation with specific inputs, execution steps, and deliverables.",
@@ -13246,17 +12958,6 @@
     ]
   },
   {
-    "skillId": "reset-netalertx-database",
-    "name": "Reset Netalertx Database",
-    "description": "Step-by-step guidance for reset netalertx database.",
-    "instructions": "# Reset Netalertx Database\n\nSupport reset netalertx database workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with reset netalertx database.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "resource-curator",
     "name": "Resource Curator",
     "description": "Step-by-step guidance for resource curator.",
@@ -13307,17 +13008,6 @@
     "author": "community",
     "version": "1.0.0",
     "category": "Tools",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "retellai-upgrade-migration",
-    "name": "Retellai Upgrade Migration",
-    "description": "Step-by-step guidance for retellai upgrade migration.",
-    "instructions": "# Retellai Upgrade Migration\n\nSupport retellai upgrade migration workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with retellai upgrade migration.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
     "requires": [],
     "examples": []
   },
@@ -14931,13 +14621,17 @@
   {
     "skillId": "sql-pro",
     "name": "SQL Pro",
-    "description": "Step-by-step guidance for SQL pro.",
-    "instructions": "# SQL Pro\n\nSupport sql pro workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with sql pro.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Write and review SQL with stronger correctness, readability, portability, and performance awareness across database engines.",
+    "instructions": "# SQL Pro\n\nUse this skill for general SQL authoring and review across engines when the problem is broader than one database dialect.\n\n## Focus Areas\n- Query correctness and edge cases.\n- Readability and maintainability.\n- Performance awareness without premature micro-optimization.\n- Portability concerns when SQL may run on different engines.\n- Safe handling of joins, filters, aggregation, and null semantics.\n\n## Review Heuristics\n- Make the intent of the query easy to see.\n- Use naming, CTEs, or structure to clarify logic when they genuinely help.\n- Watch for accidental fan-out, duplicate rows, and null-related surprises.\n- Separate business logic mistakes from engine-specific syntax issues.\n- Prefer explicitness when the query is part of a long-lived codebase.\n\n## Good Output\n- Revised SQL or a structured critique.\n- Explanation of correctness or readability risks.\n- Performance concerns worth checking.\n- Engine-specific caveats if portability is not guaranteed.\n\n## Common Mistakes\n- Correct-looking joins that silently duplicate data.\n- Filters in the wrong place for outer joins.\n- Dense SQL that hides intent.\n- Performance advice detached from the real data shape or workload.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me improve this SQL query.\"",
+      "\"Review this SQL for correctness and readability.\"",
+      "\"What would make this SQL easier to maintain?\""
+    ]
   },
   {
     "skillId": "srs-support",
@@ -15126,17 +14820,6 @@
       "Help me plan and implement stitch ui design for this repository, including key decisions and checkpoints.",
       "Create a concise stitch ui design workflow with concrete steps, risks, and final deliverables for my project."
     ]
-  },
-  {
-    "skillId": "storage-format",
-    "name": "Storage Format",
-    "description": "Step-by-step guidance for storage format.",
-    "instructions": "# Storage Format\n\nSupport storage format workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with storage format.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "store-module-architecture",
@@ -15504,17 +15187,6 @@
     ]
   },
   {
-    "skillId": "syncable-entity-runner-and-actions",
-    "name": "Syncable Entity Runner And Actions",
-    "description": "Step-by-step guidance for syncable entity runner and actions.",
-    "instructions": "# Syncable Entity Runner And Actions\n\nSupport syncable entity runner and actions workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with syncable entity runner and actions.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "syncable-entity-testing",
     "name": "Syncable Entity Testing",
     "description": "Step-by-step guidance for syncable entity testing.",
@@ -15778,28 +15450,6 @@
     "examples": []
   },
   {
-    "skillId": "tencent-cos",
-    "name": "Tencent Cos",
-    "description": "Step-by-step guidance for tencent cos.",
-    "instructions": "# Tencent Cos\n\nSupport tencent cos workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with tencent cos.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "tencentcloud-cos-skill",
-    "name": "Tencentcloud Cos Skill",
-    "description": "Step-by-step guidance for tencentcloud cos skill.",
-    "instructions": "# Tencentcloud Cos Skill\n\nSupport tencentcloud cos skill workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with tencentcloud cos skill.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "tensorboard",
     "name": "TensorBoard",
     "description": "Practical guidance for tensorboard workflows.",
@@ -15966,13 +15616,17 @@
   {
     "skillId": "timescaledb",
     "name": "TimescaleDB",
-    "description": "Step-by-step guidance for timescaledb.",
-    "instructions": "# TimescaleDB\n\nSupport timescaledb workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with timescaledb.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design and review TimescaleDB time-series schemas, hypertables, retention policies, and query patterns.",
+    "instructions": "# TimescaleDB\n\nUse this skill for PostgreSQL time-series workloads where TimescaleDB-specific design choices matter.\n\n## Focus Areas\n- Event shape, timestamp semantics, and cardinality.\n- Hypertable partitioning strategy.\n- Retention and compression needs.\n- Query windows, rollups, and aggregation patterns.\n- Write rate, late-arriving data, and backfill behavior.\n\n## Good Design Heuristics\n- Make time semantics explicit and consistent.\n- Partition for operational scale, not for novelty.\n- Plan retention and downsampling together.\n- Keep hot-path queries simple and index-aware.\n- Think about late data and reprocessing before it becomes urgent.\n\n## Output\n- Suggested hypertable and dimension strategy.\n- Retention or compression guidance.\n- Query and indexing considerations.\n- Risks around cardinality, chunking, or backfills.\n\n## Common Mistakes\n- Too many high-cardinality dimensions.\n- No retention strategy for ever-growing data.\n- Treating all historical data as equally hot.\n- Ignoring rollups until dashboards become slow.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me model time-series data in TimescaleDB.\"",
+      "\"What should I consider when using hypertables?\"",
+      "\"Review this TimescaleDB design for retention and query tradeoffs.\""
+    ]
   },
   {
     "skillId": "tmux",
@@ -16106,17 +15760,6 @@
     ]
   },
   {
-    "skillId": "trail-sense-database-persistence",
-    "name": "Trail Sense Database Persistence",
-    "description": "Step-by-step guidance for trail sense database persistence.",
-    "instructions": "# Trail Sense Database Persistence\n\nSupport trail sense database persistence workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with trail sense database persistence.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "train-rl",
     "name": "Train RL",
     "description": "Step-by-step guidance for train rl.",
@@ -16144,13 +15787,17 @@
   {
     "skillId": "transaction-correctness",
     "name": "Transaction Correctness",
-    "description": "Step-by-step guidance for transaction correctness.",
-    "instructions": "# Transaction Correctness\n\nSupport transaction correctness workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with transaction correctness.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Review transactional workflows for atomicity, isolation, idempotency, and failure-safe state changes.",
+    "instructions": "# Transaction Correctness\n\nUse this skill to review whether a workflow remains correct under retries, concurrency, partial failure, and race conditions.\n\n## What To Inspect\n- Which writes must succeed or fail together.\n- What happens if the same request is retried.\n- Which reads need freshness or locking.\n- Whether side effects occur inside or outside the transaction boundary.\n- How state can be corrupted by concurrent actors.\n\n## Correctness Checks\n- Atomicity of related changes.\n- Isolation level assumptions.\n- Idempotency for retries and duplicate delivery.\n- Ordering guarantees for dependent updates.\n- Recovery behavior after partial failure.\n\n## Good Output\n- Transaction boundary recommendation.\n- Concurrency or race-condition risks.\n- Idempotency gaps.\n- Safer sequencing or locking suggestions.\n- Invariants that must always hold.\n\n## Common Failure Modes\n- Read-modify-write flows without protection.\n- External side effects that cannot be rolled back.\n- Assuming default isolation solves business-level races.\n- Missing uniqueness or state guards for retries.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Check this workflow for transaction bugs.\"",
+      "\"What can go wrong with this database transaction design?\"",
+      "\"Help me reason about isolation and idempotency here.\""
+    ]
   },
   {
     "skillId": "transformer-lens-interpretability",
@@ -16609,13 +16256,17 @@
   {
     "skillId": "using-neon",
     "name": "Using Neon",
-    "description": "Step-by-step guidance for using neon.",
-    "instructions": "# Using Neon\n\nSupport using neon workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with using neon.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Evaluate and use Neon for PostgreSQL workflows with branching, environment strategy, and operational tradeoffs in mind.",
+    "instructions": "# Using Neon\n\nUse this skill to think through whether Neon fits a PostgreSQL workflow and how to structure environments safely.\n\n## Questions To Ask\n- Why use Neon here: branching, environment isolation, cost, developer workflow, or scale?\n- Which environments exist and who owns them?\n- How sensitive is the workload to latency, connection behavior, or operational controls?\n- What branching or preview workflow is actually needed?\n\n## Guidance Areas\n- Environment and branch strategy.\n- Migration and schema-change workflow.\n- Connection and pooling considerations.\n- Production versus preview usage boundaries.\n- Risks around data divergence, stale branches, or confusing environment sprawl.\n\n## Output\n- Recommendation for where Neon fits.\n- Safe branching and environment conventions.\n- Migration and validation suggestions.\n- Tradeoffs or concerns to watch.\n\n## Common Mistakes\n- Treating branches as permanent environments without ownership.\n- Letting schema drift build up across preview branches.\n- Ignoring connection-management implications.\n- Assuming a developer-friendly workflow automatically maps to production safety.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Should I use Neon for this Postgres workflow?\"",
+      "\"Help me think through Neon branches and environments.\"",
+      "\"What are the tradeoffs of using Neon here?\""
+    ]
   },
   {
     "skillId": "using-superpowers",
@@ -16715,24 +16366,17 @@
   {
     "skillId": "vector-database-engineer",
     "name": "Vector Database Engineer",
-    "description": "Step-by-step guidance for vector database engineer.",
-    "instructions": "# Vector Database Engineer\n\nSupport vector database engineer workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with vector database engineer.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Design and tune vector retrieval systems by balancing latency, recall, filtering needs, and update behavior.",
+    "instructions": "# Vector Database Engineer\n\nUse this skill to reason about vector index tuning rather than blindly chasing lower latency.\n\n## What To Clarify\n- Current retrieval quality problems versus pure speed problems.\n- Corpus size and update frequency.\n- Filtering requirements and metadata selectivity.\n- Query volume and tail-latency tolerance.\n- How recall or usefulness is being measured.\n\n## Tuning Principles\n- Recall, latency, memory, and update cost trade off against each other.\n- Filtering can dominate retrieval behavior even when the vector index looks healthy.\n- Benchmarks should use representative queries and relevance judgments.\n- The best index setting depends on product expectations, not benchmark vanity.\n\n## Output\n- Likely bottleneck category.\n- Parameters or strategy areas worth tuning.\n- Evaluation plan for quality versus speed.\n- Risks of overtuning for one metric.\n\n## Common Mistakes\n- Optimizing latency while relevance quietly degrades.\n- Ignoring update costs or rebuild behavior.\n- Evaluating on too few or too-clean queries.\n- Blaming the index when embeddings or chunking are the larger problem.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
-  },
-  {
-    "skillId": "vector-index-tuning",
-    "name": "Vector Index Tuning",
-    "description": "Step-by-step guidance for vector index tuning.",
-    "instructions": "# Vector Index Tuning\n\nSupport vector index tuning workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with vector index tuning.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me tune this vector index.\"",
+      "\"Why is my vector search fast but low quality?\"",
+      "\"What tradeoffs matter when tuning vector retrieval?\""
+    ]
   },
   {
     "skillId": "venue-templates",
@@ -17267,17 +16911,6 @@
     ]
   },
   {
-    "skillId": "whodb",
-    "name": "Whodb",
-    "description": "Step-by-step guidance for whodb.",
-    "instructions": "# Whodb\n\nSupport whodb workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with whodb.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
-  },
-  {
     "skillId": "whoopskill",
     "name": "Whoop Skill",
     "description": "WHOOP CLI with health insights, trends analysis, and data fetching (sleep, recovery, HRV, strain).",
@@ -17312,17 +16945,6 @@
       "\"How do I create an MSIX package with winapp?\"",
       "\"Initialize a Windows app project with winapp\""
     ]
-  },
-  {
-    "skillId": "windsurf-refactoring-large",
-    "name": "Windsurf Refactoring Large",
-    "description": "Step-by-step guidance for windsurf refactoring large.",
-    "instructions": "# Windsurf Refactoring Large\n\nSupport windsurf refactoring large workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with windsurf refactoring large.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
-    "author": "community",
-    "version": "1.0.0",
-    "category": "Databases",
-    "requires": [],
-    "examples": []
   },
   {
     "skillId": "wiring",
@@ -17514,13 +17136,17 @@
   {
     "skillId": "write-script-duckdb",
     "name": "Write Script DuckDB",
-    "description": "Step-by-step guidance for write script duckdb.",
-    "instructions": "# Write Script DuckDB\n\nSupport write script duckdb workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with write script duckdb.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Draft DuckDB SQL scripts for analysis, transformation, and reproducible local workflows with clear assumptions and output intent.",
+    "instructions": "# Write Script DuckDB\n\nUse this skill to draft or review DuckDB SQL scripts for local analytics, transformation, and reproducible data work.\n\n## Clarify First\n- Is the script exploratory, repeatable, or meant for a production-style batch workflow?\n- What data sources are involved and what assumptions exist about shape or size?\n- Is readability, speed, or reproducibility the main priority?\n- Should the output be a table, a report-ready dataset, or a one-off analysis?\n\n## DuckDB Guidance\n- Keep data-loading assumptions explicit.\n- Favor scripts that are easy to rerun and easy to inspect.\n- Separate staging, transformation, and final output steps when that improves clarity.\n- Think about memory and data-volume expectations even in local workflows.\n\n## Good Output\n- Query structure with clear stages.\n- Notes on assumptions about inputs and outputs.\n- Suggestions for making the script easier to rerun or validate.\n- Risks around hidden state, temporary objects, or unclear transformations.\n\n## Common Mistakes\n- Writing a dense one-shot query that is hard to debug.\n- Hiding assumptions about input files or schemas.\n- Mixing exploration and reusable transformation logic without distinction.\n- Treating local analysis code as self-explanatory when it is not.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write a DuckDB SQL script for this analysis.\"",
+      "\"Review this DuckDB script for clarity and correctness.\"",
+      "\"How should I structure this DuckDB query workflow?\""
+    ]
   },
   {
     "skillId": "write-script-graphql",
@@ -17543,35 +17169,47 @@
   {
     "skillId": "write-script-mssql",
     "name": "Write Script MSSQL",
-    "description": "Step-by-step guidance for write script mssql.",
-    "instructions": "# Write Script MSSQL\n\nSupport write script mssql workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with write script mssql.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Draft SQL Server scripts with attention to transactional safety, deployment sequencing, and SQL Server-specific behavior.",
+    "instructions": "# Write Script MSSQL\n\nUse this skill to draft or review SQL Server scripts with clear sequencing, assumptions, and safety notes.\n\n## Clarify First\n- Is this for schema change, data correction, reporting, or operational maintenance?\n- Will the script run interactively, in CI/CD, or as part of a deployment package?\n- What transactional guarantees and downtime constraints matter?\n- Are there dependencies on stored procedures, jobs, views, or application versions?\n\n## SQL Server Guidance\n- Make transaction scope and error-handling intent explicit.\n- Think about locking, blocking, and deployment ordering.\n- Keep idempotency in mind when scripts may be rerun.\n- Be careful with destructive changes, large updates, and dependent objects.\n\n## Good Output\n- Ordered script structure.\n- Notes on SQL Server-specific deployment concerns.\n- Validation checks and assumptions.\n- Risks around reruns, locking, or object dependencies.\n\n## Common Mistakes\n- Assuming the script is safe to rerun when it is not.\n- Bundling unrelated changes together.\n- Ignoring dependency order between objects.\n- Making data and schema changes without considering blocking or rollback.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write a SQL Server script for this change.\"",
+      "\"Review this MSSQL script for deployment safety.\"",
+      "\"How should I structure this SQL Server migration script?\""
+    ]
   },
   {
     "skillId": "write-script-mysql",
     "name": "Write Script MySQL",
-    "description": "Step-by-step guidance for write script mysql.",
-    "instructions": "# Write Script MySQL\n\nSupport write script mysql workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with write script mysql.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Draft MySQL SQL scripts with attention to engine behavior, locking risk, compatibility, and safe rollout sequencing.",
+    "instructions": "# Write Script MySQL\n\nUse this skill to draft or review MySQL SQL scripts in a way that makes engine behavior and rollout risk visible.\n\n## Clarify First\n- Is the script changing schema, data, indexes, or permissions?\n- Which MySQL version or managed environment matters here?\n- How big are the affected tables and what write traffic is expected?\n- Does the script need to remain compatible with older application behavior during rollout?\n\n## MySQL-Aware Guidance\n- Be explicit about operations that may lock or rebuild tables.\n- Think about engine and version differences before recommending syntax casually.\n- Separate high-risk structural changes from data correction or cleanup work.\n- Keep assumptions around defaults, collations, and character sets visible.\n\n## Good Output\n- A reviewable sequence of SQL steps.\n- Notes on compatibility and operational risk.\n- Suggested validation checks before and after the change.\n- Questions the user should answer before trusting the script in production.\n\n## Common Mistakes\n- Assuming all DDL behaves the same across versions.\n- Hiding long-running changes inside a single script with no checkpoints.\n- Ignoring charset, collation, or engine-specific behavior.\n- Treating rollback as obvious when it is not.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write a MySQL script for this change.\"",
+      "\"Review this MySQL SQL script for safety and rollback issues.\"",
+      "\"What should this MySQL script include?\""
+    ]
   },
   {
     "skillId": "write-script-postgresql",
     "name": "Write Script PostgreSQL",
-    "description": "Step-by-step guidance for write script postgresql.",
-    "instructions": "# Write Script PostgreSQL\n\nSupport write script postgresql workflows with clear steps and best practices.\n\n## When to Use\n\n- You need help with write script postgresql.\n- You want a clear, actionable next step.\n\n## Output\n\n- Brief plan or checklist\n- Key recommendations and caveats",
+    "description": "Draft PostgreSQL SQL scripts with safe sequencing, PostgreSQL-aware syntax choices, and reviewable migration logic.",
+    "instructions": "# Write Script PostgreSQL\n\nUse this skill to draft or review PostgreSQL SQL scripts without pretending to run them.\n\n## Clarify First\n- Is the script for schema change, data cleanup, reporting, or operational maintenance?\n- Will it run once, repeatedly, or as part of a deployment?\n- How large are the affected tables and how sensitive is locking?\n- Does the script need to be safe across multiple environments or versions?\n\n## PostgreSQL-Specific Guidance\n- Be explicit about transaction boundaries when the script mixes risky operations.\n- Think about locks, index creation strategy, and long-running updates.\n- Use PostgreSQL features because they help, not because they are available.\n- Treat defaults, nullability, constraints, and generated values as behavior changes.\n\n## Good Output\n- Ordered SQL structure or pseudocode outline.\n- Notes on assumptions, prechecks, and rollback concerns.\n- PostgreSQL-specific caveats such as locks, rewrites, or version compatibility.\n- Validation queries or checks the user should run afterward.\n\n## Common Mistakes\n- Writing one huge script without checkpoints or review boundaries.\n- Ignoring table rewrite or lock implications.\n- Depending on environment-specific objects without stating assumptions.\n- Mixing schema change, backfill, and cleanup logic without sequencing.",
     "author": "community",
     "version": "1.0.0",
     "category": "Databases",
     "requires": [],
-    "examples": []
+    "examples": [
+      "\"Help me write a PostgreSQL script for this change.\"",
+      "\"Review this Postgres SQL script for safety and correctness.\"",
+      "\"How should I structure this PostgreSQL migration script?\""
+    ]
   },
   {
     "skillId": "write-script-snowflake",

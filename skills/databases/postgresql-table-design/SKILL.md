@@ -1,20 +1,42 @@
 ---
 id: postgresql-table-design
 name: PostgreSQL Table Design
-description: Step-by-step guidance for postgresql table design.
+description: Design PostgreSQL tables with clear keys, constraints, column choices, and query-aware indexing.
 category: Databases
+requires: []
+examples:
+  - "Design this PostgreSQL table for me."
+  - "How should this Postgres table be structured?"
+  - "Review this table definition for keys, constraints, and indexes."
 ---
 
 # PostgreSQL Table Design
 
-Support postgresql table design workflows with clear steps and best practices.
+Use this skill to reason about individual PostgreSQL tables and their immediate neighbors.
 
-## When to Use
+## Key Questions
+- What does one row represent?
+- What makes a row unique?
+- Which columns are required at creation time versus later?
+- Which queries will hit this table most often?
+- What relationships or lifecycle events affect it?
 
-- You need help with postgresql table design.
-- You want a clear, actionable next step.
+## Design Rules
+- Choose a primary key strategy that fits the system and debugging needs.
+- Keep columns atomic when the data is queried independently.
+- Use check constraints for simple invariants close to the data.
+- Design indexes around read paths, not theoretical completeness.
+- Include timestamps and status fields only when they serve a real lifecycle purpose.
 
 ## Output
+- Suggested columns and types.
+- Primary key and uniqueness decisions.
+- Foreign keys and delete/update behavior.
+- Recommended indexes and caveats.
+- Notes on future migration pressure.
 
-- Brief plan or checklist
-- Key recommendations and caveats
+## Common Errors
+- Tables that mix metadata, state, and unrelated aggregates.
+- Surrogate keys without any business uniqueness protection.
+- Too many nullable columns hiding multiple record types in one table.
+- Indexing every column instead of the actual access paths.
