@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: fallacy-detection-analysis
 name: Fallacy Detection Analysis
 description: Identify formal and informal logical fallacies in arguments, classify fallacy types, and explain precisely why reasoning fails with reference to logical principles.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Find the logical fallacies in this argument."
+  - "Explain why this reasoning fails."
+  - "Classify the fallacies in this debate."
 ---
 
 # Fallacy Detection and Analysis Skill

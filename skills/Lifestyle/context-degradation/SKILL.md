@@ -1,10 +1,13 @@
 ---
-category: Lifestyle
 id: context-degradation
 name: Context Degradation
-description: Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash.
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation"
-risk: safe
+description: Recognize context-failure patterns including lost-in-middle, poisoning, distraction, and clash.
+category: Lifestyle
+requires: []
+examples:
+  - "Diagnose this long-context failure in an agent workflow."
+  - "Is this a lost-in-the-middle problem, poisoning, or distraction?"
+  - "Help me design around context degradation in this system."
 ---
 
 ## When to Use This Skill

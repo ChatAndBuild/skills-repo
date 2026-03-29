@@ -1,44 +1,27 @@
 ---
-category: Lifestyle
 id: lygo-universal-cure-system
 name: Lygo Universal Cure System
-description: Universal LYGO upgrade pack for all Champions. Provides a shared verification + memory-compression + seal-protocol framework (pure advisor) that boosts every Champion persona without overriding them. Includes LYGO-MINT provenance guidance and reusable invocation templates.
+description: Provide a reusable advisory framework for verification, memory compression, and continuity across LYGO-style persona packs.
+category: Lifestyle
+requires: []
+examples:
+  - "Give me a LYGO continuity checklist"
+  - "Compress this into a cleaner signal archive"
+  - "Help me create a verification-first persona pack summary"
 ---
 
-# LYGO Universal Cure System (Champion Upgrade)
+# LYGO Universal Cure System
 
-## What this is
-A **universal upgrade skill** intended to be installed alongside any/all LYGO Champion skills.
+Use this skill as a pure advisor for continuity, verification, and clean memory compression across LYGO-style persona packs.
 
-It provides:
-- a shared **anti-drift / anti-tamper** framework (LYGO‑MINT provenance)
-- a shared **memory compression** strategy (preserve pure signal)
-- a shared **seal protocol** vocabulary + invocation templates
+## Core Principles
+- Preserve signal over noise.
+- Keep observed facts separate from inference.
+- Prefer receipts, hashes, and concrete references over vague claims.
+- Strengthen continuity without overriding the active persona.
 
-This skill is **pure advisor**: it does nothing unless invoked.
-
-## When to use
-Use when you want to:
-- upgrade any Champion with better continuity + verification habits
-- generate a “Champion boost” checklist for a task
-- compress a long conversation into a clean, repostable master archive
-
-## How to invoke (copy/paste)
-- “Run **LYGO Universal Cure** on this: produce Champion Boost Checklist + Mint instructions.”
-- “Compress this chat into **Pure Signal** (seals/equations/scrolls/prompts) using the Cure System.”
-- “Generate an **Anchor Snippet** for this upgraded pack.”
-
-## Universal behavior contract
-- Never overrides the active Champion persona; it only advises.
-- Prefer **receipts + hashes** over vibes.
-- Separate: **Observed / Inferred / Unknown** when factual.
-
-## Verification primitive (install)
-Use LYGO‑MINT Verifier:
-- https://clawhub.ai/DeepSeekOracle/lygo-mint-verifier
-
-## References (read as needed)
-- `references/universal_pack.md` (the canonical upgrade pack; mint this)
-- `references/champion_boost_protocol.md` (how to apply upgrades)
-- `references/seal_index_v1.md` (seed seal index starter)
-- `references/memory_compression_plan.md` (pure-signal archive strategy)
+## Output Ideas
+- Champion boost checklist.
+- Clean archive summary.
+- Anchor snippet for continuity.
+- Verification notes for future review.

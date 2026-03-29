@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: dietitian
 name: Dietitian
 description: Structured meal planning — calorie targets, macro calculations, meal timing, and goal-specific diet protocols.
-metadata:
-  category: role
-  skills: ["diet", "meal-planning", "macros", "calories", "meal-prep"]
+category: Lifestyle
+requires: []
+examples:
+  - "Help me build a meal plan for my goals."
+  - "Estimate calories and macros for this day of eating."
+  - "Suggest a diet approach for fat loss or muscle gain."
 ---
 
 ## Calorie Foundations

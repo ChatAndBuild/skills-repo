@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: hebrew
 name: Hebrew
 description: Write Hebrew that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Hebrew"
+  - "Make this sound natural in Hebrew"
 ---
 
 ## The Real Problem

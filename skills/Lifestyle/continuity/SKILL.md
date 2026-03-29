@@ -1,54 +1,31 @@
 ---
-category: Lifestyle
 id: continuity
 name: Continuity
 description: Problem-solving strategies for continuity in real analysis.
-allowed-tools: [Bash, Read]
+category: Lifestyle
+requires: []
+examples:
+  - "Help me solve this continuity problem step by step."
+  - "Explain continuity intuitively for this function."
+  - "Work through this epsilon-delta continuity proof."
 ---
 
 # Continuity
 
-## When to Use
+Use this skill to solve or explain continuity problems in real analysis.
 
-Use this skill when working on continuity problems in real analysis.
+## Core checks
+- Verify that the function is defined at the point.
+- Check whether the relevant limit exists.
+- Compare the limit with the function value.
 
-## Decision Tree
+## Common approaches
+- Use direct substitution for continuous building blocks.
+- For piecewise functions, compare left and right behavior carefully.
+- When the problem asks for proof, state the epsilon-delta structure explicitly.
+- Name the type of discontinuity when one exists: removable, jump, infinite, or oscillatory.
 
-
-1. **Check Definition**
-   - f(a) exists (function defined at point)
-   - lim_{x->a} f(x) exists
-   - lim_{x->a} f(x) = f(a)
-
-2. **Use SymPy for Limit Check**
-   - `sympy_compute.py limit "f(x)" --var x --at a`
-   - Compare with f(a)
-
-3. **Piecewise Functions**
-   - Check left and right limits separately
-   - `sympy_compute.py limit "f(x)" --var x --at a --dir left`
-
-4. **Verify with Z3**
-   - `z3_solve.py prove "limit_exists implies continuous"`
-
-
-## Tool Commands
-
-### Sympy_Limit
-```bash
-uv run python -m runtime.harness scripts/sympy_compute.py limit "f(x)" --var x --at a
-```
-
-### Sympy_Limit_Left
-```bash
-uv run python -m runtime.harness scripts/sympy_compute.py limit "f(x)" --var x --at a --dir left
-```
-
-### Z3_Prove
-```bash
-uv run python -m runtime.harness scripts/z3_solve.py prove "continuous_at_a"
-```
-
-## Cognitive Tools Reference
-
-See `.claude/skills/math-mode/SKILL.md` for full tool documentation.
+## Good responses
+- State the criterion you are using.
+- Show the key step cleanly.
+- End with a clear conclusion about continuity and why.

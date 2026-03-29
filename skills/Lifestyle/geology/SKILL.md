@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: geology
 name: Geology
 description: Explain Earth's rocks, processes, and history from field trips to research.
-metadata: {"clawdbot":{"emoji":"🪨","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Explain the rocks I found on this hike."
+  - "Help me understand this geologic formation."
+  - "What processes formed this landscape?"
 ---
 
 ## Detect Level, Adapt Everything

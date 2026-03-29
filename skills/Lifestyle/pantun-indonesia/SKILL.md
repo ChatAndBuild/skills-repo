@@ -3,6 +3,10 @@ id: pantun-indonesia
 name: Pantun Indonesia
 description: Generate Indonesian pantun in a traditional structure.
 category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Pantun Indonesia"
+  - "Make this sound natural in Pantun Indonesia"
 ---
 
 # Pantun Indonesia

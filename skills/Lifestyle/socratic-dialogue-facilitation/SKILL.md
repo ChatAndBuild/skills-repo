@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: socratic-dialogue-facilitation
 name: Socratic Dialogue Facilitation
 description: Lead philosophical inquiry through structured questioning, elicit assumptions, expose contradictions, and guide interlocutors toward deeper understanding.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Lead me through this question Socratically."
+  - "Ask me questions that expose my assumptions."
+  - "Help me reason this through without answering too early."
 ---
 
 # Socratic Dialogue Facilitation Skill

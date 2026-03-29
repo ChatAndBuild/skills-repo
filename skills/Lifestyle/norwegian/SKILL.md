@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: norwegian
 name: Norwegian
 description: Write Norwegian that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Norwegian"
+  - "Make this sound natural in Norwegian"
 ---
 
 ## The Real Problem

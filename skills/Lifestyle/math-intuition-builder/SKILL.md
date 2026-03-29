@@ -1,8 +1,13 @@
 ---
-category: Lifestyle
 id: math-intuition-builder
 name: Math Intuition Builder
 description: Develops mathematical understanding through examples, visualization, and analogy.
+category: Lifestyle
+requires: []
+examples:
+  - "Explain this math idea intuitively before the proof."
+  - "Give me an analogy for this concept."
+  - "Help me build intuition for why this result is true."
 ---
 
 # Math Intuition Builder

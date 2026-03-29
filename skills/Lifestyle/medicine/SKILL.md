@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: medicine
 name: Medicine
 description: Support medical understanding from patient education to clinical practice and research.
-metadata: {"clawdbot":{"emoji":"⚕️","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Explain this medical topic clearly."
+  - "Help me understand the general treatment options for this condition."
+  - "Summarize this condition for a non-specialist."
 ---
 
 ## Detect Level, Adapt Everything

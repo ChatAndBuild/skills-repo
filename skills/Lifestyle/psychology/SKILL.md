@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: psychology
 name: Psychology
 description: Navigate the mind from curiosity about behavior to clinical research.
-metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Explain this behavior using psychology."
+  - "What does psychology say about this pattern?"
+  - "Help me understand this phenomenon at a research level."
 ---
 
 ## Detect Level, Adapt Everything

@@ -1,76 +1,67 @@
 ---
-category: Lifestyle
 id: workout-logger
 name: Workout Logger
-description: Log workouts, track progress, get exercise suggestions and PR tracking.
-author: clawd-team
-version: 1.0.0
-triggers:
-  - "log workout"
-  - "track exercise"
-  - "gym session"
-  - "what's my PR"
-  - "workout history"
+description: Structure workout logs, compare progress from user-provided entries, suggest next sessions, and highlight likely PRs or trends.
+category: Lifestyle
+requires: []
+examples:
+  - "Help me log today's workout clearly"
+  - "Compare these two workout sessions"
+  - "Suggest a simple workout based on my goal"
+author: "clawd-team"
+version: "1.0.0"
 ---
 
 # Workout Logger
 
-Track your fitness through conversation. Log workouts, hit PRs, see progress over time.
+Use this skill to turn messy workout information into clear logs, compare user-provided sessions, surface trends, and suggest realistic next steps.
 
-## What it does
+## Main Jobs
+- Clean up workout notes so the user can see what they actually did.
+- Ask for missing details when load, reps, sets, distance, time, pace, or effort are unclear.
+- Compare sessions the user provides and point out meaningful changes in volume, intensity, pace, duration, or consistency.
+- Suggest next-session ideas that match the user's goal, schedule, experience, and available equipment.
+- Call out likely PRs or improvements when the user has given enough information to support that conclusion.
 
-Records workouts in natural language, tracks personal records, shows progress charts, and suggests exercises based on your history. Your AI gym buddy that remembers everything.
+## Intake Questions
+- What kind of training was this: strength, cardio, mixed, class, sport, or mobility?
+- Is the user trying to log a single session, compare sessions, or plan the next one?
+- What is the goal: strength, muscle gain, fat loss, endurance, general fitness, or maintenance?
+- Are there time limits, equipment limits, or injury constraints?
 
-## Usage
+## Logging Formats
+- Strength: exercise, sets, reps, load, RPE or effort, and notable form notes.
+- Cardio: modality, distance, time, pace, intervals, heart-rate context if provided, and perceived effort.
+- Circuits or classes: movements, rounds, work-rest structure, and overall difficulty.
+- Mobility or recovery: duration, focus area, intensity, and how the body responded.
 
-**Log workouts:**
-```
-"Bench press 185lbs 3x8"
-"Ran 5k in 24 minutes"
-"Did 30 min yoga"
-"Leg day: squats 225x5, lunges 3x12, leg press 400x10"
-```
+## Progress Review
+- Compare only the sessions or summaries the user shares in the conversation.
+- For strength work, look at load, reps, total volume, rep quality, and consistency.
+- For cardio, look at pace, distance, duration, splits, interval quality, and recovery comments.
+- For mixed training, separate objective changes from subjective ones such as energy, soreness, or confidence.
+- Distinguish likely progress from noisy one-off sessions.
 
-**Check progress:**
-```
-"What's my bench PR?"
-"Show deadlift progress"
-"How many times did I work out this month?"
-```
+## PR And Trend Logic
+- Treat a PR as something the user can reasonably support from the entries they provided.
+- Strength PRs may be based on top set, rep PR, volume PR, or a clearly better performance at similar effort.
+- Cardio PRs may be based on faster pace, longer distance, better interval execution, or stronger effort control.
+- If the comparison is incomplete, say it looks improved rather than claiming a confirmed PR.
 
-**Get suggestions:**
-```
-"What should I do for back today?"
-"I have 20 minutes, suggest a workout"
-"What haven't I trained this week?"
-```
+## Next-Session Suggestions
+- Keep suggestions close to the user's stated goal and recent workload.
+- Offer one primary recommendation and one lighter fallback when recovery or motivation is uncertain.
+- Build on what the user already did instead of inventing a totally unrelated plan.
+- If the user sounds sore, overreached, or injured, bias toward recovery, technique work, or reduced volume.
 
-**View history:**
-```
-"Last chest workout"
-"Running history this month"
-"Volume for legs last week"
-```
+## Useful Output Shapes
+- Clean session log.
+- Comparison between two sessions or weeks.
+- Brief progress summary with wins, watch-outs, and next step.
+- Simple template the user can reuse for future workout notes.
 
-## Exercise Types
-
-- Strength (weight x reps x sets)
-- Cardio (distance, time, pace)
-- Flexibility (duration, type)
-- Sports (activity, duration)
-
-## PR Tracking
-
-Automatic detection for:
-- 1RM (estimated from rep maxes)
-- Volume PRs
-- Distance/time records
-- Streak achievements
-
-## Tips
-
-- Be consistent with exercise names for accurate tracking
-- Say "same as last time" to repeat a previous workout
-- Ask "recovery status" for suggested rest days
-- Use "bodyweight" for exercises without weights
-- Export to CSV anytime
+## Boundaries
+- Do not claim to maintain hidden workout history, automatic streaks, or exported files.
+- Do not pretend to know loads, times, or past sessions the user did not provide.
+- Avoid medical advice.
+- Encourage rest and professional support when pain, injury, or alarming symptoms are involved.

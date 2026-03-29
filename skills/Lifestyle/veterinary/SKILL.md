@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: veterinary
 name: Veterinary
 description: Support veterinary understanding from pet care to clinical practice and research.
-metadata: {"clawdbot":{"emoji":"🐾","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Help me think through this pet health issue."
+  - "What veterinary questions should I ask next?"
+  - "Give me general guidance for this animal care concern."
 ---
 
 ## Detect Level, Adapt Everything

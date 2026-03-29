@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: ethics
 name: Ethics
 description: Navigate moral reasoning from personal dilemmas to academic philosophy.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Help me think through this moral dilemma."
+  - "Explain the ethical tradeoffs in this case."
+  - "Compare two ethical positions on this issue."
 ---
 
 ## Detect Level, Adapt Everything

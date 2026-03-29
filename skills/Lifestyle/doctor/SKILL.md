@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: doctor
 name: Doctor
 description: Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.
-metadata: {"clawdbot":{"emoji":"🩺","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Help me organize these symptoms before I talk to a doctor."
+  - "What red flags stand out in this health situation?"
+  - "Give me general medical guidance with clear boundaries."
 ---
 
 # Medical Assistance Rules

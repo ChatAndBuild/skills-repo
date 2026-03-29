@@ -1,8 +1,13 @@
 ---
-category: Lifestyle
 id: writing-clearly-and-concisely
 name: Writing Clearly And Concisely
 description: Improve clarity and concision in human-facing writing.
+category: Lifestyle
+requires: []
+examples:
+  - "Rewrite this to be clearer and shorter."
+  - "Cut the fluff from this paragraph."
+  - "Make this explanation easier to read."
 ---
 
 # Writing Clearly and Concisely

@@ -1,10 +1,14 @@
 ---
-category: Lifestyle
 id: collision-zone-thinking
 name: Collision Zone Thinking
-description: Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?
-when_to_use: when conventional approaches feel inadequate and you need breakthrough innovation by forcing unrelated concepts together
-version: 1.1.0
+description: Force unrelated concepts together to surface new analogies, failure modes, and design ideas.
+category: Lifestyle
+requires: []
+examples:
+  - "Force these two unrelated ideas together and see what emerges."
+  - "What happens if we treat this system like a game?"
+  - "Use collision-zone thinking to generate unusual design ideas."
+version: "1.1.0"
 ---
 
 # Collision-Zone Thinking

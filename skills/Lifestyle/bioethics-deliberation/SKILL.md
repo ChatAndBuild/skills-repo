@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: bioethics-deliberation
 name: Bioethics Deliberation
 description: Apply bioethical principles (autonomy, beneficence, non-maleficence, justice) and case-based reasoning to healthcare decisions, research protocols, and clinical dilemmas.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Analyze this clinical dilemma using core bioethics principles."
+  - "Help me weigh autonomy, beneficence, and harm in this case."
+  - "Give me a structured bioethics review of this research proposal."
 ---
 
 # Bioethics Deliberation Skill

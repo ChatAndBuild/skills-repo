@@ -1,67 +1,45 @@
 ---
-category: Lifestyle
 id: daily-motivation
 name: Daily Motivation
-description: Get daily motivation with personalized encouragement, goal reminders, and momentum tracking.
-author: clawd-team
-version: 1.0.0
-triggers:
-  - "motivate me"
-  - "need motivation"
-  - "daily motivation"
-  - "inspire me"
-  - "feeling unmotivated"
+description: Get daily motivation with personalized encouragement, goal reminders, and momentum resets that point to a concrete next step.
+category: Lifestyle
+requires: []
+examples:
+  - "Motivate me to get started"
+  - "Remind me why this goal matters"
+  - "Give me a focused push for today"
+author: "clawd-team"
+version: "1.0.0"
 ---
 
 # Daily Motivation
 
-Fuel for your ambition. Get personalized encouragement, track progress, and stay accountable.
+Use this skill to reconnect the user with a goal, a reason, and one concrete next action.
 
-## What it does
+## How To Help
+- Ask what the user is trying to do and what feels hardest right now.
+- Tie motivation to a real goal, value, or deadline.
+- Offer a short reset: encouragement, perspective, and one immediate next step.
+- Match the tone to the user's energy level. Low-energy users usually need calm clarity more than hype.
 
-- **Personalized motivation** - Tailored encouragement based on your goals and past wins
-- **Goal reminders** - Contextual nudges that connect daily actions to bigger objectives
-- **Win recalls** - Celebrate past achievements to build momentum
-- **Momentum tracking** - Visual progress markers and streak counters
+## Motivation Modes
+- Starting mode: help the user begin when inertia is the main problem.
+- Mid-project mode: reconnect effort to meaning when the work feels repetitive.
+- After-setback mode: reduce shame and identify the next recoverable move.
+- Deadline mode: focus attention and cut nonessential decisions.
 
-## Usage
+## Good Output Shape
+- A one-line reminder of why it matters.
+- A one-line reframe.
+- One next action that can start immediately.
 
-**Get motivated**
-- "motivate me" → receive personalized encouragement
-- "inspire me" → get a powerful quote aligned to your goals
+## Questions That Improve The Output
+- What are you avoiding specifically?
+- What would count as progress in the next 10-30 minutes?
+- Are you tired, discouraged, distracted, or overwhelmed?
+- Do you need energy, clarity, permission, or structure?
 
-**Remind me why**
-- "remind me of my goals" → see your top 3 active goals
-- "why does this matter?" → context linking today's action to long-term vision
-
-**Recall wins**
-- "what have I accomplished?" → list recent wins and milestones
-- "show me my streak" → view consistency tracking across habits
-
-**Set intentions**
-- "set today's intention" → frame the day around one key goal
-- "what should I focus on?" → priority suggestion based on your goals
-
-**Check momentum**
-- "how's my progress?" → snapshot of current streaks, completions, trends
-- "what's next?" → next actionable milestone
-
-## Motivation Types
-
-**Goal-based** - Anchor daily motivation to specific objectives you've set
-
-**Quote-based** - Contextual, curated quotes matched to your current goals or mood
-
-**Win-recall** - Pull from your achievement history to rebuild confidence
-
-**Future visualization** - Paint a picture of what success looks like 30/90 days out
-
-**Accountability** - Public or private commitment statements to strengthen resolve
-
-## Tips
-
-- Link motivation to real goals, not generic affirmations—specificity builds belief
-- Use win-recalls before tackling hard tasks—momentum is real
-- Set intentions daily, check momentum weekly—rhythm matters
-- Connect daily micro-actions to 90-day outcomes—this makes motivation stick
-- All data stays local on your machine
+## Avoid
+- Empty inspirational fluff.
+- Fake streaks, dashboards, or hidden tracking claims.
+- Pressure that increases shame.

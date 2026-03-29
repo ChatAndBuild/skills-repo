@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: law
 name: Law
 description: Support legal understanding from everyday rights to professional practice and scholarship.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Help me understand the legal issues in this situation."
+  - "Explain this legal concept clearly."
+  - "What questions should I ask a lawyer about this?"
 ---
 
 ## Detect Level, Adapt Everything

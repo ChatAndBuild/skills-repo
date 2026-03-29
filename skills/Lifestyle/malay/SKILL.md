@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: malay
 name: Malay
 description: Write Malay that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Malay"
+  - "Make this sound natural in Malay"
 ---
 
 ## The Real Problem

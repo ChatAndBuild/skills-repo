@@ -1,20 +1,13 @@
 ---
-category: Lifestyle
 id: isabelle-hol-interface
 name: Isabelle HOL Interface
 description: Interface with Isabelle/HOL for classical mathematics formalization.
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-metadata:
-  specialization: mathematics
-  domain: science
-  category: theorem-proving
-  phase: 6
+category: Lifestyle
+requires: []
+examples:
+  - "Help me formalize this theorem in Isabelle/HOL."
+  - "Show how to structure this proof in Isabelle."
+  - "Translate this statement into Isabelle syntax."
 ---
 
 # Isabelle/HOL Interface

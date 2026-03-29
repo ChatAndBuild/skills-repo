@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: urdu
 name: Urdu
 description: Write Urdu that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Urdu"
+  - "Make this sound natural in Urdu"
 ---
 
 ## The Real Problem

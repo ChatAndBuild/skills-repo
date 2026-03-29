@@ -1,130 +1,45 @@
 ---
-category: Lifestyle
 id: affirmations
 name: Affirmations
 description: Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.
-metadata: {"clawdbot":{"emoji":"✨","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Give me three affirmations for self-worth"
+  - "Help me write affirmations that actually feel believable"
+  - "I need calming affirmations before a stressful event"
 ---
 
-## Core Behavior
-- Deliver affirmations based on user's needs
-- Help create personalized affirmations
-- Track practice and what resonates
-- Create `~/affirmations/` as workspace
+# Affirmations
 
-## File Structure
-```
-~/affirmations/
-├── my-affirmations.md    # Personal, custom
-├── favorites.md          # Ones that resonate
-├── practice.md           # Preferences
-└── log/
-```
+Use this skill to create affirmations that feel personal, grounded, and realistic.
 
-## Setup
-Ask:
-- "What areas do you want to work on?" (confidence, anxiety, self-worth, abundance, health, relationships)
-- "When do you want affirmations?" (morning, evening, on-demand)
-- "Prefer I send them or you ask?"
+## Approach
+- Ask what area the user wants support with: confidence, calm, self-worth, work, relationships, or something else.
+- Ask what tone fits best: gentle, direct, practical, spiritual, or neutral.
+- Write 3-5 affirmations in present tense using language the user can actually believe.
+- If one feels fake or forced, rewrite it instead of insisting on it.
 
-## Practice Preferences
-```markdown
-# practice.md
-## Focus Areas
-- Self-worth
-- Anxiety/calm
-- Career confidence
+## Good Modes
+- Stabilizing affirmations for anxiety, shame, or overwhelm.
+- Action-oriented affirmations before a difficult task.
+- Identity affirmations for confidence, worth, or discipline.
+- Self-compassion affirmations after a setback.
 
-## Delivery
-- Morning: 7am, 3 affirmations
-- Style: gentle / bold / spiritual
+## Good Affirmation Patterns
+- "I am learning to trust myself."
+- "I can handle this moment one step at a time."
+- "I do not need to be perfect to be worthy."
+- "I can be kind to myself while I grow."
 
-## Rotation
-- Mix of favorites + new
-```
+## Make Them Believable
+- Prefer language the user could actually say out loud.
+- If a strong claim feels false, soften it into a growth statement.
+- Match the user's vocabulary rather than sounding mystical by default.
+- If the user wants a daily practice, suggest a short repeatable ritual such as morning, pre-event, or end-of-day use.
 
-## Personal Affirmations
-Help user create their own:
-```markdown
-# my-affirmations.md
-## Self-Worth
-- I am enough exactly as I am
-- I deserve good things
-
-## Career
-- I bring unique value to my work
-- I handle challenges with confidence
-
-## Calm
-- I release what I cannot control
-- I am safe in this moment
-```
-
-## Creating Custom Affirmations
-When user wants personalized:
-- Ask what they're struggling with
-- Reframe the negative belief → positive present tense
-- "I am..." or "I choose..." or "I trust..."
-- Test: does it resonate or feel forced?
-
-## Delivery Styles
-Adapt to preference:
-- **Gentle:** "You are worthy of love and belonging"
-- **Bold:** "I am unstoppable. I create my reality."
-- **Spiritual:** "The universe supports my highest good"
-- **Practical:** "I have the skills to handle today's challenges"
-
-## Daily Practice
-Morning delivery:
-```
-Good morning. Your affirmations today:
-
-• I am capable of achieving my goals
-• I choose peace over worry
-• I am worthy of success and happiness
-
-Have a powerful day.
-```
-
-## What To Track
-```markdown
-# log/2024-02.md
-## Practice
-- Days practiced: 18/28
-- Streak: 5 days
-
-## Resonated
-- "I release what I cannot control" — saved to favorites
-
-## Didn't Land
-- Abundance affirmations feel forced right now
-```
-
-## Favorites
-```markdown
-# favorites.md
-Affirmations that deeply resonate:
-
-- I am enough exactly as I am
-- I trust the timing of my life
-- I choose progress over perfection
-```
-
-## What To Surface
-- Morning affirmations (if configured)
-- "This one resonated last week"
-- "You've practiced 10 days straight"
-- "Want to add new focus area?"
-
-## Situational Affirmations
-When user shares struggle:
-- Anxious: calming, grounding affirmations
-- Self-doubt: worth and capability affirmations
-- Before event: confidence and preparation affirmations
-- After setback: resilience and self-compassion
-
-## What NOT To Do
-- Be preachy or toxic-positive
-- Ignore when something doesn't resonate
-- Push spiritual language if not their style
-- Make affirmations feel like homework
+## What To Avoid
+- Toxic positivity.
+- Preachy or one-size-fits-all advice.
+- Spiritual framing unless the user wants it.
+- Claims about hidden logs, folders, reminders, or automatic tracking.

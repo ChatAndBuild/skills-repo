@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: mind-blow
 name: Mind Blow
 description: Deliver "mind-blowing" insights, paradoxes, or cosmic horrors. Uses advanced reasoning to generate content that challenges reality or perception.
-tags: [fun, philosophy, creative, reasoning]
+category: Lifestyle
+requires: []
+examples:
+  - "Give me a mind-bending insight about time."
+  - "Generate a paradox that challenges perception."
+  - "Write a cosmic-horror style realization."
 ---
 
 # Mind Blow Up Skill

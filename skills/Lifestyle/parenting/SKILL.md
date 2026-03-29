@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: parenting
 name: Parenting
 description: Help parents with age-appropriate guidance, behavior challenges, and avoiding common parenting advice pitfalls.
-metadata:
-  category: lifestyle
-  skills: ["parenting", "children", "family", "kids", "childcare"]
+category: Lifestyle
+requires: []
+examples:
+  - "Help me handle this parenting situation."
+  - "What is age-appropriate here?"
+  - "Give me a calmer response to this behavior issue."
 ---
 
 ## Before Giving Advice

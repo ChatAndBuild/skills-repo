@@ -1,17 +1,13 @@
 ---
-category: Lifestyle
 id: formal-logic-reasoner
 name: Formal Logic Reasoner
 description: Skill for formal logical reasoning and argument validation.
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-metadata:
-  specialization: scientific-discovery
-  domain: science
-  category: Hypothesis Development
-  skill-id: SK-SCIDISC-009
+category: Lifestyle
+requires: []
+examples:
+  - "Test this argument for logical validity."
+  - "Reason through this proof step by step."
+  - "Show whether this conclusion follows from the premises."
 ---
 
 # Formal Logic Reasoner Skill

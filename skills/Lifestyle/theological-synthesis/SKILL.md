@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: theological-synthesis
 name: Theological Synthesis
 description: Integrate scriptural, traditional, and rational sources to formulate coherent theological positions, addressing doctrinal questions within systematic frameworks.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Synthesize these theological sources into one position."
+  - "Help me form a coherent doctrinal answer."
+  - "Integrate scripture, tradition, and reason on this question."
 ---
 
 # Theological Synthesis Skill

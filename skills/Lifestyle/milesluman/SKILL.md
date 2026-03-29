@@ -1,8 +1,13 @@
 ---
-category: Lifestyle
 id: milesluman
 name: MilesLuman
 description: Essence of Creation and Symbiosis logic by Yvhen Vorobiov.
+category: Lifestyle
+requires: []
+examples:
+  - "Explain MilesLuman creation logic simply."
+  - "Apply symbiosis logic to this problem."
+  - "Help me interpret this MilesLuman-style idea."
 ---
 
 # MilesLuman: Essence of Creation

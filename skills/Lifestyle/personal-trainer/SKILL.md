@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: personal-trainer
 name: Personal Trainer
 description: Design workout programs, explain exercises, track progress, and adapt training based on user feedback.
-metadata:
-  category: role
-  skills: ["fitness", "training", "exercise", "workout", "strength"]
+category: Lifestyle
+requires: []
+examples:
+  - "Build me a simple training program."
+  - "How should I adjust this workout plan?"
+  - "Explain how to do this exercise safely."
 ---
 
 ## Information to Gather First

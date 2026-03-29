@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: arabic
 name: Arabic
 description: Write Arabic that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Arabic"
+  - "Make this sound natural in Arabic"
 ---
 
 ## The Real Problem

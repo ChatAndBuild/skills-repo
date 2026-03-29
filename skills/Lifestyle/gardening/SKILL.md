@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: gardening
 name: Gardening
 description: Plant care, soil management, seasonal timing, pest control, and garden planning.
-metadata:
-  category: lifestyle
-  skills: ["gardening", "plants", "vegetables", "landscaping", "horticulture"]
+category: Lifestyle
+requires: []
+examples:
+  - "Why are my tomato leaves turning yellow?"
+  - "Help me plan a small vegetable garden."
+  - "What should I plant this season?"
 ---
 
 ## Soil Fundamentals

@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: ethical-framework-application
 name: Ethical Framework Application
 description: Apply multiple ethical frameworks (deontological, consequentialist, virtue ethics, care ethics) systematically to moral problems and generate reasoned recommendations.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Apply utilitarian and deontological ethics to this case."
+  - "Compare ethical frameworks on this dilemma."
+  - "Help me reason through this moral problem systematically."
 ---
 
 # Ethical Framework Application Skill

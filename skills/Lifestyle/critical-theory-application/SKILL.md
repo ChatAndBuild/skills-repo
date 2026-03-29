@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: critical-theory-application
 name: Critical Theory Application
 description: Apply theoretical frameworks (postcolonial, feminist, Marxist, post-structuralist) to cultural texts and phenomena.
-allowed-tools: Read, Grep, Write, Edit, Glob, WebFetch
+category: Lifestyle
+requires: []
+examples:
+  - "Apply feminist theory to this text."
+  - "Analyze this cultural object through a Marxist lens."
+  - "Use critical theory to interpret this phenomenon."
 ---
 
 # Critical Theory Application

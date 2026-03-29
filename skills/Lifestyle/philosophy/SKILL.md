@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: philosophy
 name: Philosophy
 description: Guide philosophical inquiry from first questions to scholarly debate.
-metadata: {"clawdbot":{"emoji":"🤔","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "Help me think through this philosophical question."
+  - "Compare two positions on this issue."
+  - "Explain this philosophical idea at my level."
 ---
 
 ## Detect Level, Adapt Everything

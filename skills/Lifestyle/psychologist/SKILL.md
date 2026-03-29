@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: psychologist
 name: Psychologist
 description: Provide empathetic emotional support with active listening and evidence-based techniques.
-metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
+category: Lifestyle
+requires: []
+examples:
+  - "I need someone to listen and reflect this back."
+  - "Help me work through this feeling without judging it."
+  - "Give me supportive questions for what I am dealing with."
 ---
 
 # Psychological Support Rules

@@ -1,85 +1,59 @@
 ---
-category: Lifestyle
 id: treatment-plans
 name: Treatment Plans
-description: Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Supports general medical treatment, rehabilitation therapy, mental health care, chronic disease management, perioperative care, and pain management. Includes SMART goal frameworks, evidence-based interventions with minimal text citations, regulatory compliance (HIPAA), and professional formatting. Prioritizes brevity and clinical actionability.
-allowed-tools: [Read, Write, Edit, Bash]
+description: Create concise, clinically structured treatment plans with SMART goals, interventions, monitoring, and follow-up guidance.
+category: Lifestyle
+requires: []
+examples:
+  - "Create a concise treatment plan outline for this case."
+  - "Help me structure a multidisciplinary treatment plan."
+  - "What SMART goals fit this treatment scenario?"
 ---
 
 # Treatment Plans
 
-Create concise, clinician-ready treatment plans that focus on actionable care decisions. Default to short, scannable output with SMART goals, clear interventions, timelines, and monitoring.
+Use this skill to create concise, clinically structured treatment plans in plain language unless the user asks for a specific format.
 
-## When to Use
+## First Clarify
+- Is this for patient education, a clinical draft, multidisciplinary planning, or a high-level outline?
+- What diagnosis, presenting problem, or working concern is already known?
+- Are there major constraints such as setting, resources, adherence issues, or comorbidities?
+- What level of detail does the user want?
 
-- Individualized treatment planning
-- Chronic disease management
-- Rehabilitation programs (PT/OT/cardiac rehab)
-- Mental health care plans
-- Perioperative pathways
-- Pain management protocols
+## Core Components
+- Presenting problem or condition.
+- Goals framed as specific and measurable when possible.
+- Interventions, rationale, and timing.
+- Monitoring, follow-up, and escalation criteria.
+- Risks, contraindications, and coordination needs.
 
-## Output Requirements
+## Good Plan Structure
+- Immediate priorities.
+- Short-term goals and interventions.
+- Longer-term management or rehabilitation work.
+- Monitoring and review points.
+- Escalation path if the condition worsens or the plan fails.
 
-- **Default length**: 3–4 pages; use **1-page format** when possible.
-- **First page**: Executive summary only (no TOC or long narrative).
-- **Style**: Bullets, tables, and short sections; avoid long prose.
-- **Citations**: Minimal (0–3 short in-text citations if necessary).
-- **Compliance**: De-identify patient data and follow HIPAA guidelines.
+## Goal Writing
+- Prefer goals that specify what should improve, by how much, and by when.
+- Distinguish symptom goals, function goals, and safety goals.
+- Keep goals realistic for the time frame and setting.
 
-## Required Sections
+## Intervention Guidance
+- Group interventions by medication, therapy, education, rehabilitation, lifestyle, or coordination when useful.
+- Note why the intervention is included, not just what it is.
+- Separate mandatory actions from optional supportive measures.
 
-1. **Title + Summary** (first page)
-2. **Patient Info** (de-identified)
-3. **Assessment / Problem List**
-4. **Goals** (SMART, short- and long-term)
-5. **Interventions** (medication, non-pharm, procedures)
-6. **Timeline & Follow-Up**
-7. **Monitoring Parameters**
-8. **Risks & Safety**
-9. **Expected Outcomes**
-10. **Patient Education**
+## Monitoring And Follow-Up
+- State what to monitor, how often, and what would count as improvement.
+- Identify what should trigger reassessment, escalation, or referral.
+- Include adherence and side-effect review when relevant.
 
-## Optional Sections (use as needed)
+## Output Style
+- Keep the plan action-oriented and easy to scan.
+- Separate immediate steps from longer-term management.
+- Use plain language unless the user asks for a more clinical register.
 
-- Rehabilitation plan details
-- Mental health care specifics
-- Perioperative checklist
-- Pain management strategy
-
-## Visuals (Recommended)
-
-Include **one simple schematic** when it improves clarity (flowchart, timeline, care coordination). If available, use the `scientific-schematics` skill; otherwise omit.
-
-## LaTeX Skeleton (Concise)
-
-```latex
-\\documentclass[11pt]{article}
-\\usepackage[margin=1in]{geometry}
-\\begin{document}
-\\title{Treatment Plan}
-\\date{\\today}
-\\maketitle
-
-\\section*{Executive Summary}
-% 1-page summary with key goals, interventions, and timeline
-
-\\section*{Patient Info}
-% De-identified demographics and diagnosis
-
-\\section*{Goals (SMART)}
-% Short-term and long-term goals
-
-\\section*{Interventions}
-% Medications, therapies, procedures
-
-\\section*{Monitoring \\& Follow-up}
-% What to track and when
-
-\\section*{Risks \\& Safety}
-% Safety considerations and red flags
-
-\\section*{Expected Outcomes}
-% Benchmarks and timelines
-\\end{document}
-```
+## Boundaries
+- Avoid pretending to diagnose or prescribe beyond the provided context.
+- Encourage appropriate clinical supervision when the case is complex, uncertain, or high risk.

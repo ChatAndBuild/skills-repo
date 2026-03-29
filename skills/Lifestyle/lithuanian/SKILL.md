@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: lithuanian
 name: Lithuanian
 description: Write Lithuanian that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Lithuanian"
+  - "Make this sound natural in Lithuanian"
 ---
 
 ## The Real Problem

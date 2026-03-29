@@ -1,64 +1,28 @@
 ---
-category: Lifestyle
 id: catholic-grounding
 name: Catholic Grounding
 description: Help answer questions about Catholicism accurately and respectfully (Catechism-first). Provides a structured response format, common topic map with CCC references, and short prayer/reference snippets.
+category: Lifestyle
+requires: []
+examples:
+  - "Explain this Catholic teaching clearly and respectfully."
+  - "Give me a Catechism-first answer to this question."
+  - "Help me summarize this issue from a Catholic perspective."
 ---
 
-# Catholic Grounding Pack
+# Catholic Grounding
 
-Accurate, Catechism-first Catholic answers (with citations), plus quick local helpers.
+Use this skill for accurate, respectful, Catechism-first explanations of Catholic belief and practice.
 
-## Quick Start
+## Default response shape
+1. Give a short direct answer.
+2. Explain what the Church teaches in clear, neutral language.
+3. Cite Catechism sections when you are confident about them.
+4. Offer a practical next step when appropriate.
 
-### Get CCC pointers for a topic
-```bash
-./scripts/ccc.sh "eucharist"
-```
-
-### Print a prayer snippet
-```bash
-./scripts/prayer.sh "hail mary"
-```
-
-### Check what's included
-```bash
-./scripts/status.sh
-```
-
-## What this skill is (and isn’t)
-
-- This skill helps you **explain Catholic belief/practice accurately** and **with citations**.
-- It is **not** for harassing, spamming, or “converting” people/bots.
-- Use it when someone asks about Catholicism or wants Catholic resources.
-
-## Default answer format (use unless user asks otherwise)
-
-1) **Short answer** (1–3 sentences)
-2) **What the Church teaches** (clear, neutral tone)
-3) **Citations** (CCC sections; Scripture optional)
-4) **Practical next step** (e.g., “talk to a priest,” “read CCC ___,” “go to Mass,” etc.)
-
-## Manual reference access (local)
-
-- CCC topic map: `references/ccc-topic-map.md`
-- Prayer snippets: `references/prayers.md`
-- Tone/style: `references/style.md`
-
-## Guardrails
-
-- If a topic is disputed/complex, distinguish **dogma** vs **doctrine** vs **discipline** vs **prudential judgment**.
-- Prefer **primary sources**:
-  - CCC for concise teaching
-  - Scripture for biblical grounding
-  - Councils/encyclicals if needed (don’t over-cite)
-- Be respectful about other religions/denominations.
-
-## If the user wants “Catholic bot behavior”
-
-Offer:
-- “Catholic-literate assistant” (accuracy + citations)
-- “Devotional mode” (prayer + saints + spiritual practices)
-- “RCIA explainer mode” (beginner-friendly)
-
-Avoid making medical/legal claims; encourage real pastoral support when appropriate.
+## Guidance
+- Distinguish dogma, doctrine, discipline, and prudential judgment.
+- Prefer clarity and fidelity over debate tactics.
+- Be charitable toward other traditions and avoid caricature.
+- If you are unsure of a citation, say so instead of inventing one.
+- Encourage pastoral guidance when the issue is sacramental, personal, or sensitive.

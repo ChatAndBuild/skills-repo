@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: yoga
 name: Yoga
 description: Yoga instruction, pose alignment, sequencing, breathwork, and modifications for different levels.
-metadata:
-  category: fitness
-  skills: ["yoga", "flexibility", "mindfulness", "poses", "breathwork"]
+category: Lifestyle
+requires: []
+examples:
+  - "Help me sequence a short yoga session."
+  - "Check my alignment for this pose."
+  - "Suggest modifications for a beginner yoga practice."
 ---
 
 ## Alignment Principles

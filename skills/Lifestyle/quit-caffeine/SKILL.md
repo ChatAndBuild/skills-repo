@@ -1,84 +1,48 @@
 ---
-category: Lifestyle
 id: quit-caffeine
 name: Quit Caffeine
-description: Reduce or quit caffeine with withdrawal tracking, tapering plans, and energy milestones.
-author: clawd-team
-version: 1.0.0
-triggers:
-  - "quit caffeine"
-  - "caffeine free"
-  - "coffee withdrawal"
-  - "reduce caffeine"
-  - "caffeine detox"
+description: Reduce or quit caffeine with taper plans, withdrawal guidance, substitution ideas, and energy-support habits.
+category: Lifestyle
+requires: []
+examples:
+  - "Help me cut back on caffeine"
+  - "What should I do about caffeine withdrawal?"
+  - "Make me a gentler caffeine reduction plan"
+author: "clawd-team"
+version: "1.0.0"
 ---
 
 # Quit Caffeine
 
-Break free from caffeine dependency with science-backed tracking and personalized tapering plans.
+Use this skill to help the user reduce caffeine gradually, manage withdrawal, and replace the habit with lower-friction alternatives.
 
-## What it does
+## First Clarify
+- What is the current intake: coffee, energy drinks, tea, pre-workout, or soda?
+- Is the user trying to quit completely or just reduce?
+- Do they need help with morning dependence, afternoon crashes, sleep, anxiety, or all of the above?
+- Do they want a gradual taper or a more abrupt stop?
 
-- **Caffeine Tracking**: Log daily intake across coffee, tea, energy drinks, chocolate, and supplements
-- **Tapering Support**: Generate gradual reduction schedules based on current consumption and target date
-- **Withdrawal Timeline**: Predict symptom intensity and duration with day-by-day expectations
-- **Natural Energy**: Suggest alternative focus techniques, exercise timing, and sleep optimization
-- **Progress Milestones**: Track mood, energy levels, sleep quality, and cognitive performance throughout quit journey
+## Core Support
+- Help the user choose between tapering and a harder stop.
+- Suggest realistic substitutions such as tea, decaf, water, movement, food, or a changed routine.
+- Normalize headaches, fatigue, and irritability during withdrawal.
+- Keep the plan specific and manageable.
 
-## Usage
+## Tapering Guidance
+- Reduce total intake step by step rather than relying on vague intentions.
+- Start by cutting the least important serving or the latest serving of the day.
+- If the user repeatedly crashes, slow the taper rather than treating that as failure.
 
-### Start Quit or Taper
-"Create a caffeine quit plan for me" or "I want to reduce caffeine by 50% over 2 weeks"
-- Sets baseline consumption
-- Generates personalized tapering schedule
-- Establishes target date and milestone checkpoints
+## Habit Replacement
+- Replace the cue as well as the substance: the mug, the break, the walk, the ritual, or the social moment.
+- Support sleep, hydration, food timing, and light movement so the user is not expecting willpower to solve an energy problem alone.
 
-### Track Withdrawal
-"Log my caffeine intake today" or "I have a headache and brain fog"
-- Records daily consumption with timestamps
-- Maps symptoms to withdrawal phases
-- Provides symptom management strategies
+## Withdrawal Expectations
+- Early symptoms may include headache, fatigue, irritability, and low motivation.
+- A rough timeline can be helpful, but present it as approximate rather than exact.
+- Distinguish normal discomfort from symptoms that feel unusually severe or medically concerning.
 
-### Check Progress
-"How's my withdrawal going?" or "Am I on track?"
-- Compares actual vs planned tapering progress
-- Highlights energy level trends
-- Shows days until estimated completion
-
-### Energy Alternatives
-"I need energy without caffeine" or "What can I do instead of coffee?"
-- Suggests natural energy boosters: hydration, movement, nutrition, sunlight
-- Recommends timing for exercise and meals
-- Provides quick focus techniques for energy crashes
-
-### Sleep Improvement
-"I'm sleeping better" or "Track my sleep quality"
-- Monitors sleep duration and quality improvements
-- Correlates sleep gains with caffeine reduction
-- Suggests bedtime routines to reinforce gains
-
-## Withdrawal Timeline
-
-**Days 1–3: Peak Symptoms**
-- Headaches (most common), fatigue, irritability, difficulty concentrating
-- Intensity peaks around 24–48 hours
-- Worst period; manage expectations and use pain relief if needed
-
-**Days 4–7: Gradual Improvement**
-- Headaches begin to fade, energy slightly improving
-- Brain fog persists but becomes manageable
-- Mood stabilizes, sleep starting to deepen
-
-**Week 2+: Normalized State**
-- Most withdrawal symptoms resolved
-- Energy levels stabilize at new baseline
-- Sleep quality noticeably improved, focus returning
-- Full adjustment typically 7–14 days depending on baseline intake
-
-## Tips
-
-1. **Taper gradually over 1–2 weeks** rather than quitting cold turkey—reduces peak withdrawal severity by 60–70%
-2. **Stay hydrated and move your body**—water and light exercise reduce headache intensity and boost natural energy
-3. **Sync your schedule**—quit during a less demanding work period if possible; easier to manage symptoms with lower stress
-4. **Replace the ritual, not just the caffeine**—morning tea without caffeine, afternoon walk instead of coffee break
-5. **All data stays local on your machine**—your caffeine logs, withdrawal tracking, and energy data never leave your device
+## Boundaries
+- Do not claim automatic logs, saved history, or hidden tracking.
+- Avoid medical advice beyond general wellness guidance.
+- Encourage professional care if symptoms are severe or the user has health concerns.

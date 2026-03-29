@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: hungarian
 name: Hungarian
 description: Write Hungarian that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Hungarian"
+  - "Make this sound natural in Hungarian"
 ---
 
 ## The Real Problem

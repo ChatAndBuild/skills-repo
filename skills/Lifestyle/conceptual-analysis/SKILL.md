@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: conceptual-analysis
 name: Conceptual Analysis
 description: Analyze philosophical concepts through examination of necessary and sufficient conditions, identify counterexamples, clarify conceptual boundaries, and resolve ambiguities.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Analyze the concept of justice carefully."
+  - "What are the necessary and sufficient conditions here?"
+  - "Find counterexamples to this definition."
 ---
 
 # Conceptual Analysis Skill

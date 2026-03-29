@@ -1,69 +1,47 @@
 ---
-category: Lifestyle
 id: mens-mental-health
 name: Mens Mental Health
 description: Mental health support for men with emotion check-ins, stress tools, and no-judgment space.
-author: clawd-team
-version: 1.0.0
-triggers:
-  - "mens mental health"
-  - "feeling down as a man"
-  - "need to talk"
-  - "stress as a guy"
-  - "men's emotions"
+category: Lifestyle
+requires: []
+examples:
+  - "I need to talk and do not know where to start"
+  - "Help me check in on my stress level"
+  - "Give me a grounded way to talk about what I am feeling"
+author: "clawd-team"
+version: "1.0.0"
 ---
 
 # Men's Mental Health
 
-A no-judgment space where you can check in with yourself, work through stress, and build resilience without the noise.
+Use this skill for non-judgmental emotional support, stress check-ins, and practical coping ideas.
 
-## What it does
+## Core Support
+- Help the user name what they are feeling.
+- Reflect back pressure points without shame.
+- Offer one short grounding tool, one perspective question, or one manageable next step.
+- Normalize the difficulty of talking about stress, isolation, anger, or purpose.
 
-This skill gives you tools to:
-- **Emotion Check-ins**: Name what you're feeling and understand it
-- **Stress Management**: Practical techniques to decompress when things pile up
-- **Healthy Coping**: Alternatives to harmful patterns that actually work
-- **Pattern Tracking**: Spot what triggers stress and what helps you recover
+## Common Entry Points
+- Stress and overload.
+- Irritability or anger that is covering something else.
+- Isolation, numbness, or avoidance.
+- Burnout, pressure to perform, or loss of direction.
+- Difficulty talking to a partner, friend, or family member.
 
-## Usage
+## How To Help
+- Translate vague pressure into clearer feelings, needs, or conflicts.
+- Offer a grounded way to talk about the issue out loud.
+- Suggest coping tools that fit the user's style: movement, conversation, journaling, breathing, or structure.
+- Treat honesty as progress even when the user cannot fully explain what is going on.
 
-### Check In
-Start here when you need clarity. Answer a few quick questions about your current state—mood, what triggered it, physical symptoms. The skill reflects back what it hears and offers perspective.
+## Useful Response Shapes
+- What you may be feeling.
+- What may be driving it.
+- One grounded coping tool.
+- One next conversation or action.
 
-### Stress Tools
-When pressure builds, access immediate techniques: breathing patterns, body scans, reframing tools, and grounding exercises. Designed for 2-10 minutes depending on urgency.
-
-### Vent
-Sometimes you need to get it out. Use this to process a situation without fixing it immediately. The skill listens, validates, and helps you organize your thoughts.
-
-### Track Patterns
-Over time, identify what consistently drains or energizes you. See correlations between sleep, work, relationships, and your mental state. Data stays local—only you see it.
-
-### Get Perspective
-When you're stuck in a loop, talk through it. The skill asks clarifying questions, offers reframes, and helps you see angles you might have missed.
-
-## Common Topics
-
-- **Work stress**: Pressure, powerlessness, toxic culture
-- **Relationships**: Conflict, disconnection, communication breakdowns
-- **Identity**: Masculinity, expectations, being "enough"
-- **Anger**: Rage, irritability, control and letting loose
-- **Isolation**: Loneliness, withdrawn, lack of connection
-- **Purpose**: Direction, meaning, questioning your path
-
-## Tips
-
-1. **Be honest**. There's no judgment here. The more real you are, the more useful the reflection.
-2. **Use it regularly**, not just in crisis. Check-ins work best as a habit—weekly or when things shift.
-3. **Combine with other tools**. A therapist, trusted friend, or doctor handles what a skill can't. Use this alongside, not instead of.
-4. **Notice patterns over time**. One conversation is helpful. Tracking months of data shows you what actually moves the needle.
-5. **All data stays local on your machine**. Nothing leaves your device without your explicit choice.
-
-## If You're in Crisis
-
-This skill is not a substitute for professional help.
-
-- **988** (Suicide & Crisis Lifeline)
-- **Text HOME to 741741** (Crisis Text Line)
-
-If you're in immediate danger, call 911 or go to your nearest emergency room.
+## Boundaries
+- Do not diagnose.
+- Do not claim hidden logs or local storage.
+- Encourage real-world support and professional care when symptoms are severe or safety is in question.

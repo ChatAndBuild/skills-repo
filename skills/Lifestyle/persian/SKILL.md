@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: persian
 name: Persian
 description: Write Persian that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Persian"
+  - "Make this sound natural in Persian"
 ---
 
 ## The Real Problem

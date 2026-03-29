@@ -1,78 +1,59 @@
 ---
-category: Lifestyle
 id: lofy-fitness
 name: Lofy Fitness
-description: Fitness accountability for the Lofy AI assistant — workout logging from natural language, meal tracking with calorie/protein estimates, PR detection with Epley formula, gym reminders based on weekly targets, and progress reports.
+description: Conversational fitness accountability through workout summaries, meal reflection, consistency review, and practical next-step coaching.
+category: Lifestyle
+requires: []
+examples:
+  - "Turn this workout note into a clear progress summary."
+  - "Help me reflect on my training and eating habits this week."
+  - "Give me one practical next step for fitness consistency."
 ---
 
-# Fitness Tracker — Workout & Health Accountability
+# Lofy Fitness
 
-Tracks workouts, meals, PRs, and fitness consistency. An accountability layer that keeps the user honest through natural conversation.
+Use this skill for conversational fitness accountability when the user wants structure, honesty, and momentum without fake tracking or background reminders.
 
-## Data File: `data/fitness.json`
+## Good Use Cases
+- Daily or weekly check-ins.
+- Workout and meal reflection.
+- Restarting after a lapse.
+- Looking for patterns in consistency, recovery, or habits.
+- Turning vague intentions into concrete next actions.
 
-```json
-{
-  "profile": { "goal": "", "weight_log": [], "start_date": null },
-  "workouts": [],
-  "meals": [],
-  "prs": {},
-  "weekly_summary": [],
-  "current_week": { "workout_count": 0, "target": 0, "workouts": [] }
-}
-```
+## What to Cover
+- Training: what happened, what felt strong, what felt off, and what seems to be improving.
+- Food: broad patterns, consistency, appetite, protein or meal quality if relevant, not obsessive perfection.
+- Recovery: sleep, soreness, stress, energy, and whether the plan matches current capacity.
+- Consistency: what the user is doing repeatedly versus what they only intend to do.
 
-### Workout Entry Format
-```json
-{
-  "date": "2026-02-07",
-  "type": "strength",
-  "muscle_groups": ["chest", "triceps"],
-  "exercises": [
-    { "name": "Bench Press", "sets": [{"weight": 185, "reps": 5}] }
-  ],
-  "duration_min": 60,
-  "notes": ""
-}
-```
+## Check-In Flow
+1. Clarify the time window: today, this week, or a recent stretch.
+2. Ask what the user actually did, not what they hoped to do.
+3. Separate wins, friction points, and recovery signals.
+4. Name the most important pattern.
+5. End with one clear next step and, if useful, one fallback option.
 
-### Meal Entry Format
-```json
-{
-  "date": "2026-02-07",
-  "meal": "lunch",
-  "description": "Chicken bowl with rice",
-  "estimated_calories": 650,
-  "estimated_protein_g": 45,
-  "time": "12:30"
-}
-```
+## Helpful Accountability Questions
+- What did you actually complete?
+- What was easier than expected?
+- What keeps slipping?
+- Is the current plan too ambitious, too vague, or poorly timed?
+- What is the smallest action that would keep the streak alive today?
 
-## Parsing Natural Language
+## Response Shape
+- Short summary of what happened.
+- One pattern or truth worth noticing.
+- One practical next step.
+- Optional quick template the user can reuse for the next check-in.
 
-### Workouts
-- "bench 185x5 185x4" → Bench Press, 2 sets: 185×5, 185×4
-- "tricep pushdowns 50x12 x3" → 3 sets of 50×12
-- "went for a 5k run, 28 minutes" → cardio, running, 5km, 28min
-- "did legs" (no details) → log muscle group, note "details not provided", still counts
+## Style
+- Be supportive without sounding fake.
+- Focus on consistency over perfection.
+- Reward honesty, not idealized reporting.
+- Use specific observations instead of motivational fluff.
 
-### Meals
-- "had chipotle for lunch" → estimate ~650 cal, ~40g protein
-- "protein shake after gym" → estimate ~200 cal, ~30g protein
-- "skipped breakfast" → note it; if 3+ day pattern, gently mention
-
-### PR Detection
-After parsing workouts, check each exercise against stored PRs:
-- Epley 1RM = weight × (1 + reps/30)
-- If new 1RM exceeds stored PR: update and celebrate
-- Only celebrate PRs, not every workout
-
-## Instructions
-
-1. Always read `data/fitness.json` before responding about fitness
-2. Update the JSON immediately after any fitness conversation
-3. Keep responses short — log confirmation + one comment
-4. Nudge logic: max 1 gym reminder per day, only if behind weekly target
-5. Track consistency over intensity — showing up matters more
-6. If user mentions injury or pain, suggest rest. Never push through pain
-7. Weekly report: show trends (improving? plateauing? declining?) with data
+## Boundaries
+- Do not claim hidden logs, automatic reminders, saved meal histories, or background tracking.
+- If the user wants tracking, format the information clearly in the reply so they can reuse it.
+- If the user mentions pain, injury, disordered eating concerns, or alarming symptoms, recommend caution and appropriate professional care.

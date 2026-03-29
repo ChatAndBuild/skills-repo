@@ -1,10 +1,12 @@
 ---
-category: Lifestyle
 id: hebrew-nikud
 name: Hebrew Nikud
 description: Hebrew nikud (vowel points) reference for AI agents. Correct nikud rules for verb conjugations (binyanim), dagesh, gender suffixes, homographs, and common mistakes. Use before adding nikud to Hebrew text (especially for TTS).
-tags: [hebrew, nikud, vowels, pronunciation, tts, language, reference]
-allowed-tools: []
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Hebrew Nikud"
+  - "Make this sound natural in Hebrew Nikud"
 ---
 
 # Hebrew Nikud (ניקוד) Reference

@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: slovak
 name: Slovak
 description: Write Slovak that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Slovak"
+  - "Make this sound natural in Slovak"
 ---
 
 ## The Real Problem

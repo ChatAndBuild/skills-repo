@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: thought-experiment-design
 name: Thought Experiment Design
 description: Construct, analyze, and evaluate philosophical thought experiments to test intuitions, reveal conceptual commitments, and probe theoretical implications.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Design a thought experiment for this claim."
+  - "Help me test this intuition with a thought experiment."
+  - "Evaluate whether this thought experiment proves anything."
 ---
 
 # Thought Experiment Design Skill

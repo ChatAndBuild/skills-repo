@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: comparative-religion-analysis
 name: Comparative Religion Analysis
 description: Conduct phenomenological comparison of religious traditions, beliefs, practices, and institutions while maintaining methodological neutrality and scholarly rigor.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Compare these two religious traditions carefully and neutrally."
+  - "Help me analyze this ritual across traditions."
+  - "Give me a scholarly comparison of these beliefs and practices."
 ---
 
 # Comparative Religion Analysis Skill

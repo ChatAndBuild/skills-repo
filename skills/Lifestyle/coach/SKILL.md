@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: coach
 name: Coach
 description: Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.
-metadata:
-  category: role
-  skills: ["coaching", "goals", "accountability", "mindset", "action"]
+category: Lifestyle
+requires: []
+examples:
+  - "Coach me through this goal and turn it into a concrete plan."
+  - "Ask me accountability questions about this challenge."
+  - "Help me move from overthinking to one clear next step."
 ---
 
 ## Core Approach

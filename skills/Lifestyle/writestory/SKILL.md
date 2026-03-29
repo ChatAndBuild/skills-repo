@@ -1,117 +1,51 @@
 ---
-category: Lifestyle
 id: writestory
 name: WriteStory
-description: Write writestory content from the user's input.
+description: Develop story ideas, outlines, scenes, and revisions using layered narrative guidance.
+category: Lifestyle
+requires: []
+examples:
+  - "Help me brainstorm a story idea"
+  - "Build a story outline from this premise"
+  - "Revise this scene and strengthen the character arc"
 ---
-
-## 🚨 MANDATORY: Voice Notification (REQUIRED BEFORE ANY ACTION)
-
-**You MUST send this notification BEFORE doing anything else when this skill is invoked.**
-
-1. **Send voice notification**:
-   ```bash
-   curl -s -X POST http://localhost:8888/notify \
-     -H "Content-Type: application/json" \
-     -d '{"message": "Running the WORKFLOWNAME workflow in the WriteStory skill to ACTION"}' \
-     > /dev/null 2>&1 &
-   ```
-
-2. **Output text notification**:
-   ```
-   Running the **WorkflowName** workflow in the **WriteStory** skill to ACTION...
-   ```
-
-**This is not optional. Execute this curl command immediately upon skill invocation.**
 
 # WriteStory
 
-Layered fiction writing system that constructs stories across seven simultaneous narrative dimensions, powered by Will Storr's *The Science of Storytelling* and Mark Forsyth's *The Elements of Eloquence*.
+Use this skill to help the user brainstorm, structure, draft, or revise fiction.
 
-## Customization
+## Story Layers To Keep In View
+- Theme and meaning.
+- Character desire and change.
+- Plot and cause-and-effect.
+- Mystery and information flow.
+- World and rules.
+- Relationships under pressure.
+- Prose and voice.
 
-**Before executing, check for user customizations at:**
-`~/.claude/skills/PAI/USER/SKILLCUSTOMIZATIONS/WriteStory/`
+## Workflow
+- If the user is early: explore premise, character, conflict, and stakes.
+- If the user is outlining: map turning points, escalating pressure, and character change.
+- If the user is drafting: keep scene goals, tension, and voice clear.
+- If the user is revising: identify what is flat, unclear, repetitive, or emotionally weak.
 
-If this directory exists, load and apply:
-- `PREFERENCES.md` - User preferences, default genre, aesthetic, voice
-- Additional files specific to the skill
+## What To Ask First
+- What stage is the story in right now?
+- What genre, tone, and audience are intended?
+- What is the story really about underneath the plot?
+- Where does the draft currently feel weak: premise, structure, pacing, scene work, character, or prose?
 
-## Workflow Routing
+## Useful Output Shapes
+- Premise refinement with stronger conflict and stakes.
+- Outline with turning points and escalation.
+- Scene diagnosis: goal, obstacle, shift, and emotional turn.
+- Revision notes organized by character, structure, pacing, and voice.
 
-Route to the appropriate workflow based on the request.
+## Revision Principles
+- Fix story logic before polishing sentences.
+- Strengthen character desire when scenes feel flat.
+- Use conflict and consequence to create momentum.
+- Keep suggestions specific to the user's genre, tone, and intended audience.
 
-**When executing a workflow, output this notification directly:**
-
-```
-Running the **WorkflowName** workflow in the **WriteStory** skill to ACTION...
-```
-
-| Workflow | Trigger | File |
-|----------|---------|------|
-| **Interview** | "interview me", "extract my story ideas", "help me plan a story" | `Workflows/Interview.md` |
-| **BuildBible** | "build story bible", "create story plan", "map the story" | `Workflows/BuildBible.md` |
-| **Explore** | "explore ideas", "brainstorm", "creative exploration", "what if" | `Workflows/Explore.md` |
-| **WriteChapter** | "write chapter", "write scene", "write prose", "draft" | `Workflows/WriteChapter.md` |
-| **Revise** | "revise", "edit", "improve", "polish", "rewrite" | `Workflows/Revise.md` |
-
-## The Seven Story Layers
-
-Every story in this system is constructed across seven simultaneous layers:
-
-1. **Meaning** — Theme, philosophical argument, lesson
-2. **Character Change** — Sacred flaw -> transformation arc (Storr)
-3. **Plot** — Cause-and-effect chain of events
-4. **Mystery** — Information management (reader knows vs. doesn't)
-5. **World** — Setting, politics, physical environment, rules
-6. **Relationships** — How key bonds evolve and pressure characters
-7. **Prose** — Rhetorical figures, voice, aesthetic, style
-
-## Core References
-
-| Reference | File | Purpose |
-|-----------|------|---------|
-| Layer Architecture | `StoryLayers.md` | Seven-layer system definition |
-| Storr Framework | `StorrFramework.md` | Character change, sacred flaw, mystery |
-| Rhetorical Figures | `RhetoricalFigures.md` | Comprehensive rhetorical figures catalogue |
-| Anti-Cliche System | `AntiCliche.md` | Freshness enforcement, banned patterns |
-| Story Structures | `StoryStructures.md` | Save the Cat, Dramatica, Story Grid |
-| Aesthetic Profiles | `AestheticProfiles.md` | Genre and style configuration |
-| Critic Profiles | `Critics.md` | Multi-pass review system for prose refinement |
-
-## Quick Reference
-
-- **Theoretical Foundation:** Storr (character science) + Forsyth (rhetoric) + classical rhetoric
-- **Story Bible:** PRD-based plan mapping all 7 layers start-to-finish
-- **Scale:** Short story (100s of ISC) to multi-book series (10,000s of ISC)
-- **Anti-Cliche:** Built-in freshness system bans generic AI patterns
-- **Aesthetic:** Configurable per project (Adams, Tolkien, sparse sci-fi, etc.)
-
-## Examples
-
-**Example 1: Starting from scratch**
-```
-User: "I have an idea for a fantasy novel about an elven princess raised by orcs"
-→ Invokes Interview workflow
-→ Extracts character concepts, world details, themes
-→ Maps ideas across seven story layers
-→ Produces structured input for BuildBible
-```
-
-**Example 2: Building the full story plan**
-```
-User: "Build the story bible for my novel"
-→ Invokes BuildBible workflow
-→ Creates Story Bible PRD with all layers mapped start-to-finish
-→ Identifies milestones, character transformations, mystery reveals
-→ Outputs comprehensive layered narrative plan
-```
-
-**Example 3: Writing actual prose**
-```
-User: "Write chapter 3 based on the story bible"
-→ Invokes WriteChapter workflow
-→ Reads Story Bible PRD for chapter milestones across all layers
-→ Deploys rhetorical figures for memorable dialogue
-→ Produces fresh, anti-cliche prose in configured aesthetic
-```
+## Rules
+- Do not claim to run external workflows or read hidden customization files.

@@ -1,8 +1,12 @@
 ---
-category: Lifestyle
 id: indonesian
 name: Indonesian
 description: Write Indonesian that sounds human. Not formal, not robotic, not AI-generated.
+category: Lifestyle
+requires: []
+examples:
+  - "Translate this into Indonesian"
+  - "Make this sound natural in Indonesian"
 ---
 
 ## The Real Problem

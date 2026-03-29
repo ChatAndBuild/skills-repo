@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: scholarly-literature-synthesis
 name: Scholarly Literature Synthesis
 description: Survey, analyze, and synthesize philosophical literature on topics, identify major positions, trace debates, and locate gaps in scholarly discourse.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Synthesize the literature on this topic."
+  - "What are the major positions in this debate?"
+  - "Help me identify a gap in the scholarship."
 ---
 
 # Scholarly Literature Synthesis Skill

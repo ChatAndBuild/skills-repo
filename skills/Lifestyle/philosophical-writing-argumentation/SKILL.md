@@ -1,15 +1,13 @@
 ---
-category: Lifestyle
 id: philosophical-writing-argumentation
 name: Philosophical Writing Argumentation
 description: Compose clear, rigorous philosophical prose with well-structured arguments, anticipation of objections, and proper scholarly engagement with existing literature.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
+category: Lifestyle
+requires: []
+examples:
+  - "Help me tighten this philosophical argument."
+  - "Rewrite this paragraph in clearer philosophical prose."
+  - "What objection should I address in this draft?"
 ---
 
 # Philosophical Writing and Argumentation Skill

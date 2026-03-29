@@ -1,75 +1,54 @@
 ---
-category: Lifestyle
 id: quit-smoking
 name: Quit Smoking
-description: Quit cigarettes with smoke-free tracking, craving support, and health recovery timeline.
-author: clawd-team
-version: 1.0.0
-triggers:
-  - "quit smoking"
-  - "smoke free"
-  - "cigarette craving"
-  - "smoking streak"
-  - "stop cigarettes"
+description: Quit cigarettes with craving support, trigger planning, practical replacement strategies, and recovery guidance.
+category: Lifestyle
+requires: []
+examples:
+  - "Help me quit smoking"
+  - "I have a cigarette craving right now"
+  - "What helps during the first week smoke-free?"
+author: "clawd-team"
+version: "1.0.0"
 ---
 
 # Quit Smoking
 
-Become smoke-free with persistent tracking, craving support, and a health recovery roadmap.
+Use this skill for craving support, practical replacement strategies, and smoke-free planning.
 
-## What it does
+## First Clarify
+- Is the user planning a quit date, cutting down, or dealing with a craving right now?
+- How often do they smoke, and what situations drive it?
+- Are they using nicotine replacement, medication, or other support?
+- What has worked or failed in past quit attempts?
 
-- **Quit tracking**: Start a quit date, track consecutive days smoke-free with persistent memory
-- **Craving support**: Get real-time support when cravings hit—substitutions, breathing exercises, motivation
-- **Health benefits timeline**: See the medical benefits of quitting unfold (heart rate drops in 20 min, senses improve in 48 hrs, lung function improves in months)
-- **Progress milestones**: Celebrate 1 day, 1 week, 1 month, 3 months, 6 months, 1 year smoke-free
-- **Money saved tracker**: Watch dollars add up as you quit—based on typical pack cost
+## Core Support
+- Help the user define a quit date or a next reduction step.
+- When cravings hit, offer a short replacement action: breathe, drink water, walk, delay, text someone, or change location.
+- Remind the user that cravings rise and fall rather than lasting forever.
+- Highlight health, breathing, and money benefits without sounding preachy.
 
-## Usage
+## Trigger Planning
+- Identify the hardest times of day, moods, routines, and social settings.
+- Replace the cigarette with a specific action, not just a vague intention.
+- Reduce friction by planning ahead for coffee breaks, driving, meals, alcohol, or stress.
 
-**Start your quit**
-- "I'm quitting smoking today"
-- "Set my quit date to [date]"
-- "Help me quit cigarettes"
+## First-Week Guidance
+- Expect cravings, irritability, and restlessness to come in waves.
+- Keep replacement actions visible and easy.
+- Focus on getting through the next urge, not proving permanent success all at once.
 
-**Handle cravings**
-- "I have a craving"
-- "Help me through this craving"
-- "What can I do instead of smoking?"
-- "Give me a breathing exercise"
+## Relapse Response
+- Treat slips as data, not identity.
+- Ask what cue, situation, or thought made the cigarette feel automatic.
+- Tighten the plan around that exact moment.
 
-**Track progress**
-- "How many days smoke-free?"
-- "Show my smoking streak"
-- "What's my quit milestone?"
-- "How much money have I saved?"
+## Good Questions
+- What time of day or situation is hardest?
+- What usually triggers the craving?
+- What replacement feels realistic right now?
+- What would make the next 24 hours easier?
 
-**Health gains**
-- "What health benefits do I get from quitting?"
-- "When will my lungs heal?"
-- "How long until cravings stop?"
-
-**Money saved**
-- "How much have I saved so far?"
-- "What could I buy with my saved money?"
-- "Calculate my quit savings"
-
-## Health Timeline
-
-| Milestone | Health Benefit |
-|-----------|---|
-| **20 minutes** | Heart rate and blood pressure drop |
-| **8 hours** | Oxygen levels normalize, nicotine clears from bloodstream |
-| **24 hours** | Risk of heart attack decreases |
-| **48 hours** | Taste and smell improve, nerve endings repair |
-| **2 weeks** | Circulation and lung function improve |
-| **1 month** | Skin quality improves, coughing subsides |
-| **1 year** | Risk of heart disease cut in half, lung function up 30% |
-
-## Tips
-
-- **Track your wins**: Every day smoke-free is a victory. The streak is your motivation.
-- **Replace the ritual**: Smoking is a habit. Substitute gum, water, a walk, or deep breathing when cravings hit.
-- **Tell someone**: Accountability works. Let friends or family know you're quitting—they'll support you.
-- **Ride out cravings**: Most cravings last 3-5 minutes. Use a timer, breathe, wait it out.
-- **All data stays local on your machine**: Your quit journey, cravings, and health milestones are stored only on your device—no cloud sync, no tracking, completely private.
+## Boundaries
+- Do not claim hidden tracking, saved streaks, or automatic progress logs.
+- Encourage clinical support when needed, especially if the user wants medication or structured cessation help.

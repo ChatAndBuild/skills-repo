@@ -1,9 +1,13 @@
 ---
-category: Lifestyle
 id: explicit-identity
 name: Explicit Identity
-description: Explicit Identity Across Boundaries.
-user-invocable: false
+description: Keep identity explicit across boundaries so sessions, roles, and references do not get mixed together.
+category: Lifestyle
+requires: []
+examples:
+  - "Help me keep IDs and roles explicit across this workflow."
+  - "Show me where this system is relying on implicit identity."
+  - "Rewrite this process so sessions and references stay unambiguous."
 ---
 
 # Explicit Identity Across Boundaries

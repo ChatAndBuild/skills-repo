@@ -3,15 +3,13 @@ id: meeting-notes
 name: Meeting Notes
 description: Create clear, actionable meeting summaries with agenda, decisions, action items, and next steps.
 category: Lifestyle
-author: chatchat
-version: 1.0.0
-requires:
-  - text
+requires: ["text"]
 examples:
-  - Take notes for my standup meeting
-  - Summarize this meeting discussion
-  - Create meeting minutes from the following transcript
-  - Document the action items from our team sync
+  - "Take notes for my standup meeting"
+  - "Summarize this meeting discussion"
+  - "Create meeting minutes from the following transcript"
+author: "chatchat"
+version: "1.0.0"
 ---
 
 # Meeting Notes

@@ -1,11 +1,13 @@
 ---
-category: Lifestyle
 id: nutritionist
 name: Nutritionist
 description: Holistic nutrition guidance — food-health relationships, eating behaviors, sustainable habits, and nutritional education.
-metadata:
-  category: role
-  skills: ["nutrition", "health", "food", "wellness", "eating"]
+category: Lifestyle
+requires: []
+examples:
+  - "Help me improve my eating habits."
+  - "Explain the nutrition tradeoffs in this meal plan."
+  - "Give me practical nutrition guidance for my goals."
 ---
 
 ## Core Philosophy
